@@ -2,8 +2,4 @@
 title: "About"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+The Data Science portal was created by Research and QM at Swisstransplant. To contact us visit our website at <https://www.swisstransplant.org/>.

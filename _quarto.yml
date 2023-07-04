@@ -3,16 +3,31 @@ project:
   output-dir: docs
 
 website:
-  title: "swtdata"
+  title: "Data Science"
+  search: false
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    logo: "swt.png"
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Rcookbook
+        href: https://swisstransplant.github.io/rcookbook/
+      - text: KIDMO
+        href: https://swisstransplant.shinyapps.io/KIDMO/
+      - text: EXAM
+        href: https://swisstransplant.shinyapps.io/EXAM/
+      - text: About
+        href: about.qmd
+      - icon: github
+        href: https://github.com/Swisstransplant
+  page-footer:
+    left: '© 2023 Swisstransplant'
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      - cosmo
+      - custom.scss
     css: styles.css
     toc: true
 
