@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Swisstransplant Data Science",
     "section": "",
-    "text": "Swisstransplant Data Science is an online portal by the Research and QM team to support core activities at Swisstransplant and the six transplant centers.\nTo learn more about Swisstransplant visit our website https://www.swisstransplant.org/."
+    "text": "Swisstransplant Data Science is an online portal by the Research and QM team to provide tools and software developed at Swisstransplant.\nTo learn more about Swisstransplant and to find official statistics in different languages visit our website https://www.swisstransplant.org/."
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,40 @@
     "title": "About",
     "section": "",
     "text": "The Data Science portal was created by Research and QM at Swisstransplant. To contact us visit our website at https://www.swisstransplant.org/."
+  },
+  {
+    "objectID": "tools.html",
+    "href": "tools.html",
+    "title": "Research Tools",
+    "section": "",
+    "text": "Research tools facilitate state-of-the-art data analysis at Swisstransplant."
+  },
+  {
+    "objectID": "tools.html#software-used-at-swisstransplant",
+    "href": "tools.html#software-used-at-swisstransplant",
+    "title": "Research Tools",
+    "section": "Software used at Swisstransplant",
+    "text": "Software used at Swisstransplant\n\nThe R Project for Statistical Computing https://stat.ethz.ch/CRAN/\nRstudio Desktop https://posit.co/download/rstudio-desktop/\nQuarto https://quarto.org/docs/download/"
+  },
+  {
+    "objectID": "tools.html#basic-software",
+    "href": "tools.html#basic-software",
+    "title": "Research Tools",
+    "section": "Basic software",
+    "text": "Basic software\nThe basic software to perform statistical analysis is based on three components: the R statistical software, the RStudio graphical interface, and the Quarto scientific publishing system.\n\nThe R Project for Statistical Computing https://stat.ethz.ch/CRAN/\nRstudio Desktop https://posit.co/download/rstudio-desktop/\nQuarto https://quarto.org/docs/download/\n\n\n\n\n\n\n\nNote\n\n\n\nIn Windows RStudio desktop requires administrator rights. However, it is also possible to download a zip bundle from the download page, unpack the files into a folder, for example, software, and create a shortcut with rstudio.exe on the desktop or the taskbar."
+  },
+  {
+    "objectID": "tools.html#swisstransplant-r-package",
+    "href": "tools.html#swisstransplant-r-package",
+    "title": "Research Tools",
+    "section": "Swisstransplant R package",
+    "text": "Swisstransplant R package\n\nThe Swisstransplant R package swt is the Swiss army knife for data analysis at Swisstransplant. It is under constant developed.\nStatistical Reporting:\n\nA Quarto statistical report template in the Swisstransplant in-house style\nSwisstransplant color scheme swt_colors()\nA ggplot style called swt_style() for data figures styling\nTidy functions to nicely format p-values, regression models, and descriptive statistics\n\nResearch:\n\nHLA mismatch calculator designed for the antigens format as found in SOAS\nPrognostic models for individual predictions of patients (e.g., KIDMO)\nTools to read and process data from the LifePort kidney transporter\n\nThe source code is developed on GitHub and a package manual is available. The package swt can be installed from within RStudio as follows (requires the package remotes):\nremotes::install_github(\"Swisstransplant/swt\")"
+  },
+  {
+    "objectID": "tools.html#r-cookbook",
+    "href": "tools.html#r-cookbook",
+    "title": "Research Tools",
+    "section": "R cookbook",
+    "text": "R cookbook\nThe R cookbook demonstrates the usage of the Swisstransplant R package swt to make high-quality reports and publication-ready graphics in our in-house style."
   }
 ]

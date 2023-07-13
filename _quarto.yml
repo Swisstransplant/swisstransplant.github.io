@@ -7,11 +7,11 @@ website:
   search: false
   navbar:
     logo: "swt.png"
-    right:
+    left:
       - text: Home
         href: index.qmd
-      - text: Rcookbook
-        href: https://swisstransplant.github.io/rcookbook/
+      - text: Research Tools
+        href: tools.qmd
       - text: KIDMO
         href: https://swisstransplant.shinyapps.io/KIDMO/
       - text: EXAM

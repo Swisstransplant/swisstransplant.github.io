@@ -1,0 +1,46 @@
+---
+title: "Research Tools"
+---
+
+Research tools facilitate state-of-the-art data analysis at Swisstransplant.
+
+## Basic software
+
+The basic software to perform statistical analysis is based on three components: the R statistical software, the RStudio graphical interface, and the Quarto scientific publishing system.
+
+* The R Project for Statistical Computing <https://stat.ethz.ch/CRAN/>
+* Rstudio Desktop <https://posit.co/download/rstudio-desktop/>
+* Quarto <https://quarto.org/docs/download/>
+
+::: {.callout-note}
+In Windows RStudio desktop requires administrator rights. However, it is also possible to download a zip bundle from the download page, unpack the files into a folder, for example, `software`, and create a shortcut with `rstudio.exe` on the desktop or the taskbar.
+:::
+
+## Swisstransplant R package
+
+![](images/swt_hex.png){height=2in style="float:right; padding:10px"}
+
+The Swisstransplant R package `swt` is the Swiss army knife for data analysis at Swisstransplant. It is under constant developed.
+
+Statistical Reporting:
+
+* A Quarto statistical report template in the Swisstransplant in-house style
+* Swisstransplant color scheme `swt_colors()`
+* A ggplot style called `swt_style()` for data figures styling
+* Tidy functions to nicely format *p*-values, regression models, and descriptive statistics
+
+Research:
+
+* HLA mismatch calculator designed for the antigens format as found in SOAS
+* Prognostic models for individual predictions of patients (e.g., KIDMO)
+* Tools to read and process data from the LifePort kidney transporter
+
+The [source code is developed on GitHub](https://github.com/Swisstransplant/swt) and a [package manual](https://github.com/Swisstransplant/swt/blob/main/manual/swt.pdf) is available. The package `swt` can be installed from within RStudio as follows (requires the package `remotes`):
+
+```R
+remotes::install_github("Swisstransplant/swt")
+```
+
+## R cookbook
+
+The [R cookbook](https://swisstransplant.github.io/rcookbook/) demonstrates the usage of the Swisstransplant R package `swt` to make high-quality reports and publication-ready graphics in our in-house style.
