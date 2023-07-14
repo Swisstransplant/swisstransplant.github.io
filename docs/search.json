@@ -18,21 +18,14 @@
     "href": "tools.html",
     "title": "Research Tools",
     "section": "",
-    "text": "Research tools facilitate state-of-the-art data analysis at Swisstransplant."
+    "text": "Research tools enable state-of-the-art data analysis at Swisstransplant."
   },
   {
-    "objectID": "tools.html#software-used-at-swisstransplant",
-    "href": "tools.html#software-used-at-swisstransplant",
+    "objectID": "tools.html#basic-statistics-software",
+    "href": "tools.html#basic-statistics-software",
     "title": "Research Tools",
-    "section": "Software used at Swisstransplant",
-    "text": "Software used at Swisstransplant\n\nThe R Project for Statistical Computing https://stat.ethz.ch/CRAN/\nRstudio Desktop https://posit.co/download/rstudio-desktop/\nQuarto https://quarto.org/docs/download/"
-  },
-  {
-    "objectID": "tools.html#basic-software",
-    "href": "tools.html#basic-software",
-    "title": "Research Tools",
-    "section": "Basic software",
-    "text": "Basic software\nThe basic software to perform statistical analysis is based on three components: the R statistical software, the RStudio graphical interface, and the Quarto scientific publishing system.\n\nThe R Project for Statistical Computing https://stat.ethz.ch/CRAN/\nRstudio Desktop https://posit.co/download/rstudio-desktop/\nQuarto https://quarto.org/docs/download/\n\n\n\n\n\n\n\nNote\n\n\n\nIn Windows RStudio desktop requires administrator rights. However, it is also possible to download a zip bundle from the download page, unpack the files into a folder, for example, software, and create a shortcut with rstudio.exe on the desktop or the taskbar."
+    "section": "Basic statistics software",
+    "text": "Basic statistics software\nThe basic statistics software is based on three components and can be downloaded for free in the links provided below.\n\nThe R Project for Statistical Computing https://stat.ethz.ch/CRAN/\nRstudio Desktop https://posit.co/download/rstudio-desktop/\nQuarto https://quarto.org/docs/download/\n\n\n\n\n\n\n\nNote\n\n\n\nIn Windows 10 RStudio desktop requires administrator rights. However, it is possible to download a zip bundle from the download page, unpack the files into a folder, for example, software, and create a shortcut with rstudio.exe on the desktop or the taskbar."
   },
   {
     "objectID": "tools.html#swisstransplant-r-package",
