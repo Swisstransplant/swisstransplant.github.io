@@ -4,41 +4,97 @@
     "href": "index.html",
     "title": "Swisstransplant Data Science",
     "section": "",
-    "text": "Swisstransplant Data Science is an online portal by the Research and QM team to provide tools and software developed at Swisstransplant.\nTo learn more about Swisstransplant and to find official statistics in different languages visit our website https://www.swisstransplant.org/."
+    "text": "Swisstransplant Data Science is an online portal for tools and software developed at Swisstransplant.\nTo learn more about Swisstransplant and to find official statistics in different languages visit our website https://www.swisstransplant.org/."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
+    "objectID": "about/index.html",
+    "href": "about/index.html",
     "title": "About",
     "section": "",
     "text": "The Data Science portal was created by Research and QM at Swisstransplant. To contact us visit our website at https://www.swisstransplant.org/."
   },
   {
-    "objectID": "tools.html",
-    "href": "tools.html",
+    "objectID": "tools/index.html",
+    "href": "tools/index.html",
     "title": "Research Tools",
     "section": "",
     "text": "Research tools enable state-of-the-art data analysis at Swisstransplant."
   },
   {
-    "objectID": "tools.html#basic-statistics-software",
-    "href": "tools.html#basic-statistics-software",
+    "objectID": "tools/index.html#basic-statistics-software",
+    "href": "tools/index.html#basic-statistics-software",
     "title": "Research Tools",
     "section": "Basic statistics software",
     "text": "Basic statistics software\nThe basic statistics software is based on three components and can be downloaded for free in the links provided below.\n\nThe R Project for Statistical Computing https://stat.ethz.ch/CRAN/\nRstudio Desktop https://posit.co/download/rstudio-desktop/\nQuarto https://quarto.org/docs/download/\n\n\n\n\n\n\n\nNote\n\n\n\nIn Windows 10 RStudio desktop requires administrator rights. However, it is possible to download a zip bundle from the download page, unpack the files into a folder, for example, software, and create a shortcut with rstudio.exe on the desktop or the taskbar."
   },
   {
-    "objectID": "tools.html#swisstransplant-r-package",
-    "href": "tools.html#swisstransplant-r-package",
+    "objectID": "tools/index.html#swisstransplant-r-package",
+    "href": "tools/index.html#swisstransplant-r-package",
     "title": "Research Tools",
     "section": "Swisstransplant R package",
     "text": "Swisstransplant R package\n\nThe Swisstransplant R package swt is the Swiss army knife for data analysis at Swisstransplant. It is under constant developed.\nStatistical Reporting:\n\nA Quarto statistical report template in the Swisstransplant in-house style\nSwisstransplant color scheme swt_colors()\nA ggplot style called swt_style() for data figures styling\nTidy functions to nicely format p-values, regression models, and descriptive statistics\n\nResearch:\n\nHLA mismatch calculator designed for the antigens format as found in SOAS\nPrognostic models for individual predictions of patients (e.g., KIDMO)\nTools to read and process data from the LifePort kidney transporter\n\nThe source code is developed on GitHub and a package manual is available. The package swt can be installed from within RStudio as follows (requires the package remotes):\nremotes::install_github(\"Swisstransplant/swt\")"
   },
   {
-    "objectID": "tools.html#r-cookbook",
-    "href": "tools.html#r-cookbook",
+    "objectID": "tools/index.html#r-cookbook",
+    "href": "tools/index.html#r-cookbook",
     "title": "Research Tools",
     "section": "R cookbook",
     "text": "R cookbook\nThe R cookbook demonstrates the usage of the Swisstransplant R package swt to make high-quality reports and publication-ready graphics in our in-house style."
+  },
+  {
+    "objectID": "kidmo/index.html",
+    "href": "kidmo/index.html",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "",
+    "text": "KIDMO is a prediction tool that helps clinicians and patients to see how the combination of donor, transplant and recipient clinical characteristics can affect graft survival after deceased-donor kidney transplantation."
+  },
+  {
+    "objectID": "kidmo/index.html#what-is-kidmo",
+    "href": "kidmo/index.html#what-is-kidmo",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "",
+    "text": "KIDMO is a prediction tool that helps clinicians and patients to see how the combination of donor, transplant and recipient clinical characteristics can affect graft survival after deceased-donor kidney transplantation."
+  },
+  {
+    "objectID": "kidmo/index.html#how-was-kidmo-developed",
+    "href": "kidmo/index.html#how-was-kidmo-developed",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "How was KIDMO developed?",
+    "text": "How was KIDMO developed?\nKIDMO was developed by Swisstransplant—the national organisation for organ donation and transplantation in Switzerland and all the six transplant centers.\nThe model is based on follow-up data from the Swiss Transplant Cohort Study (STCS) and information from the Swiss Organ Allocation System (SOAS) from over 2,000 kidney recipients transplanted between 2008 and 2021."
+  },
+  {
+    "objectID": "kidmo/index.html#what-can-kidmo-predict",
+    "href": "kidmo/index.html#what-can-kidmo-predict",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "What can KIDMO predict?",
+    "text": "What can KIDMO predict?\nIt is not possible to predict the exact time of organ loss in the future. However, based on all the high-quality data we collected in Switzerland, we can estimate the risk for graft loss for a specific patient conditional on some clinical characteristics.\nIn the statistical model, the primary outcome was graft survival calculated from the date of of transplantation to the date of irreversible graft failure by return to dialysis (or retransplantation).\nMore details about KIDMO can be found in the published study protocol."
+  },
+  {
+    "objectID": "kidmo/index.html#terms-of-use",
+    "href": "kidmo/index.html#terms-of-use",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "Terms of use",
+    "text": "Terms of use\nThe KIDMO is currently under development and for FOR RESEARCH PURPOSES ONLY; the program must not be used in clinical practice.\n\n\n\n\n\n\nMore information\n\n\n\n\n\nThe KIDMO risk calculator (hereinafter referred to as “program”) comes with ABSOLUTELY NO WARRANTY and LIMITATION OF LIABILITY. The program is currently under development and FOR RESEARCH PURPOSES ONLY; this program must not be used in clinical practice, including, but not limited to, clinical decision making. This program is provided WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose. In no event unless required by applicable law will any copyright holder, or any other party who uses this program be liable for damages, including any general, special, incidental or consequential damages arising out of the use or inability to use this program."
+  },
+  {
+    "objectID": "kidmo/index.html#risk-calculator",
+    "href": "kidmo/index.html#risk-calculator",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "Risk calculator",
+    "text": "Risk calculator"
+  },
+  {
+    "objectID": "kidmo/index.html#references",
+    "href": "kidmo/index.html#references",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "References",
+    "text": "References\n\nStudy protocol\nSchwab, S., Sidler, D., Haidar, F., Kuhn, C., Schaub, S., Koller, M., Mellac, K., Stürzinger, U., Tischhauser, B., Binet, I., Golshayan, D., Müller, T., Elmer, A., Franscini, N., Krügel, N., Fehr, T., Immer, F., Swisstransplant Kidney Working Group (STAN), & Swiss Transplant Cohort Study. (2023). Clinical prediction model for prognosis in kidney transplant recipients (KIDMO): study protocol. Diagnostic and Prognostic Research, 7(1), 6. doi:10.1186/s41512-022-00139-5"
+  },
+  {
+    "objectID": "kidmo/index.html#acknowledgements",
+    "href": "kidmo/index.html#acknowledgements",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nKIDMO was developed by Swisstransplant and all the Swiss transplant centers. Kidney recipients have been involved in the development of KIDMO."
   }
 ]

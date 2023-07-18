@@ -4,20 +4,22 @@ project:
 
 website:
   title: "Data Science"
+  site-url: "https://swtdata.org/"
+  description: "Tools and software developed at Swisstransplant."
   search: false
   navbar:
-    logo: "swt.png"
+    logo: "images/swt.png"
     left:
       - text: Home
         href: index.qmd
       - text: Research Tools
-        href: tools.qmd
+        href: tools/index.qmd
       - text: KIDMO
-        href: https://swisstransplant.shinyapps.io/KIDMO/
+        href: kidmo/index.qmd
       - text: EXAM
         href: https://swisstransplant.shinyapps.io/EXAM/
       - text: About
-        href: about.qmd
+        href: about/index.qmd
       - icon: github
         href: https://github.com/Swisstransplant
   page-footer:
@@ -30,6 +32,3 @@ format:
       - custom.scss
     css: styles.css
     toc: true
-
-editor: visual
-

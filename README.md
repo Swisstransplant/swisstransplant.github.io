@@ -1,3 +1,3 @@
 # swtdata
 
-Landing page for Swisstransplant Data Center.
+Landing page for Swisstransplant Data Science.

@@ -2,6 +2,6 @@
 title: "Swisstransplant Data Science"
 ---
 
-Swisstransplant Data Science is an online portal by the Research and QM team to provide tools and software developed at Swisstransplant.
+Swisstransplant Data Science is an online portal for tools and software developed at Swisstransplant.
 
 To learn more about Swisstransplant and to find official statistics in different languages visit our website <https://www.swisstransplant.org/>.

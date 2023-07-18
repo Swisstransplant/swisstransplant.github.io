@@ -18,7 +18,7 @@ In Windows 10 RStudio desktop requires administrator rights. However, it is poss
 
 ## Swisstransplant R package
 
-![](images/swt_hex.png){height="2in" style="float:right; padding:10px"}
+![](../images/swt_hex.png){height="2in" style="float:right; padding:10px"}
 
 The Swisstransplant R package `swt` is the Swiss army knife for data analysis at Swisstransplant. It is under constant developed.
 

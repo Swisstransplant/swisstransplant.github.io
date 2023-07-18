@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Swisstransplant">
+<meta name="dcterms.date" content="2023-07-18">
 
-<title>Data Science - Research Tools</title>
+<title>Data Science - KIDMO—Kidney prediction model</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,55 +22,21 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -85,7 +53,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -95,10 +63,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./swt.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/swt.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Data Science</span>
     </a>
   </div>
@@ -108,15 +76,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./tools.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../tools/index.html" rel="" target="">
  <span class="menu-text">Research Tools</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://swisstransplant.shinyapps.io/KIDMO/" rel="" target="">
+    <a class="nav-link active" href="../kidmo/index.html" rel="" target="" aria-current="page">
  <span class="menu-text">KIDMO</span></a>
   </li>  
   <li class="nav-item">
@@ -124,7 +92,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">EXAM</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../about/index.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -148,9 +116,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#basic-statistics-software" id="toc-basic-statistics-software" class="nav-link active" data-scroll-target="#basic-statistics-software">Basic statistics software</a></li>
-  <li><a href="#swisstransplant-r-package" id="toc-swisstransplant-r-package" class="nav-link" data-scroll-target="#swisstransplant-r-package">Swisstransplant R package</a></li>
-  <li><a href="#r-cookbook" id="toc-r-cookbook" class="nav-link" data-scroll-target="#r-cookbook">R cookbook</a></li>
+  <li><a href="#what-is-kidmo" id="toc-what-is-kidmo" class="nav-link active" data-scroll-target="#what-is-kidmo">What is KIDMO?</a></li>
+  <li><a href="#how-was-kidmo-developed" id="toc-how-was-kidmo-developed" class="nav-link" data-scroll-target="#how-was-kidmo-developed">How was KIDMO developed?</a></li>
+  <li><a href="#what-can-kidmo-predict" id="toc-what-can-kidmo-predict" class="nav-link" data-scroll-target="#what-can-kidmo-predict">What can KIDMO predict?</a></li>
+  <li><a href="#terms-of-use" id="toc-terms-of-use" class="nav-link" data-scroll-target="#terms-of-use">Terms of use</a></li>
+  <li><a href="#risk-calculator" id="toc-risk-calculator" class="nav-link" data-scroll-target="#risk-calculator">Risk calculator</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
+  <ul class="collapse">
+  <li><a href="#study-protocol" id="toc-study-protocol" class="nav-link" data-scroll-target="#study-protocol">Study protocol</a></li>
+  </ul></li>
+  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
   </ul>
 </nav>
     </div>
@@ -159,14 +134,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research Tools</h1>
+<h1 class="title">KIDMO—Kidney prediction model</h1>
+<p class="subtitle lead">Risk calculator for deceased-donor kidney transplantation in Switzerland.</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Swisstransplant </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 18, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -174,52 +162,58 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>Research tools enable state-of-the-art data analysis at Swisstransplant.</p>
-<section id="basic-statistics-software" class="level2">
-<h2 class="anchored" data-anchor-id="basic-statistics-software">Basic statistics software</h2>
-<p>The basic statistics software is based on three components and can be downloaded for free in the links provided below.</p>
-<ul>
-<li>The R Project for Statistical Computing <a href="https://stat.ethz.ch/CRAN/" class="uri">https://stat.ethz.ch/CRAN/</a></li>
-<li>Rstudio Desktop <a href="https://posit.co/download/rstudio-desktop/" class="uri">https://posit.co/download/rstudio-desktop/</a></li>
-<li>Quarto <a href="https://quarto.org/docs/download/" class="uri">https://quarto.org/docs/download/</a></li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
+<section id="what-is-kidmo" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-kidmo">What is KIDMO?</h2>
+<p>KIDMO is a prediction tool that helps clinicians and patients to see how the combination of donor, transplant and recipient clinical characteristics can affect graft survival after deceased-donor kidney transplantation.</p>
+</section>
+<section id="how-was-kidmo-developed" class="level2">
+<h2 class="anchored" data-anchor-id="how-was-kidmo-developed">How was KIDMO developed?</h2>
+<p>KIDMO was developed by <a href="https://www.swisstransplant.org/">Swisstransplant</a>—the national organisation for organ donation and transplantation in Switzerland and all the six transplant centers.</p>
+<p>The model is based on follow-up data from the Swiss Transplant Cohort Study (STCS) and information from the Swiss Organ Allocation System (SOAS) from over 2,000 kidney recipients transplanted between 2008 and 2021.</p>
+</section>
+<section id="what-can-kidmo-predict" class="level2">
+<h2 class="anchored" data-anchor-id="what-can-kidmo-predict">What can KIDMO predict?</h2>
+<p>It is not possible to predict the exact time of organ loss in the future. However, based on all the high-quality data we collected in Switzerland, we can estimate the risk for graft loss for a specific patient conditional on some clinical characteristics.</p>
+<p>In the statistical model, the primary outcome was graft survival calculated from the date of of transplantation to the date of irreversible graft failure by return to dialysis (or retransplantation).</p>
+<p>More details about KIDMO can be found in the published <a href="https://doi.org/10.1186/s41512-022-00139-5">study protocol</a>.</p>
+</section>
+<section id="terms-of-use" class="level2">
+<h2 class="anchored" data-anchor-id="terms-of-use">Terms of use</h2>
+<p>The KIDMO is currently under development and for FOR RESEARCH PURPOSES ONLY; the program must not be used in clinical practice.</p>
+<div class="callout callout-style-default callout-important callout-titled" title="More information">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Note
+More information
 </div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>In Windows 10 RStudio desktop requires administrator rights. However, it is possible to download a zip bundle from the download page, unpack the files into a folder, for example, <code>software</code>, and create a shortcut with <code>rstudio.exe</code> on the desktop or the taskbar.</p>
+<p>The KIDMO risk calculator (hereinafter referred to as “program”) comes with ABSOLUTELY NO WARRANTY and LIMITATION OF LIABILITY. The program is currently under development and FOR RESEARCH PURPOSES ONLY; this program must not be used in clinical practice, including, but not limited to, clinical decision making. This program is provided WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose. In no event unless required by applicable law will any copyright holder, or any other party who uses this program be liable for damages, including any general, special, incidental or consequential damages arising out of the use or inability to use this program.</p>
+</div>
 </div>
 </div>
 </section>
-<section id="swisstransplant-r-package" class="level2">
-<h2 class="anchored" data-anchor-id="swisstransplant-r-package">Swisstransplant R package</h2>
-<p><img src="images/swt_hex.png" style="float:right; padding:10px;height:2in"></p>
-<p>The Swisstransplant R package <code>swt</code> is the Swiss army knife for data analysis at Swisstransplant. It is under constant developed.</p>
-<p>Statistical Reporting:</p>
-<ul>
-<li>A Quarto statistical report template in the Swisstransplant in-house style</li>
-<li>Swisstransplant color scheme <code>swt_colors()</code></li>
-<li>A ggplot style called <code>swt_style()</code> for data figures styling</li>
-<li>Tidy functions to nicely format <em>p</em>-values, regression models, and descriptive statistics</li>
-</ul>
-<p>Research:</p>
-<ul>
-<li>HLA mismatch calculator designed for the antigens format as found in SOAS</li>
-<li>Prognostic models for individual predictions of patients (e.g., KIDMO)</li>
-<li>Tools to read and process data from the LifePort kidney transporter</li>
-</ul>
-<p>The <a href="https://github.com/Swisstransplant/swt">source code is developed on GitHub</a> and a <a href="https://github.com/Swisstransplant/swt/blob/main/manual/swt.pdf">package manual</a> is available. The package <code>swt</code> can be installed from within RStudio as follows (requires the package <code>remotes</code>):</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"Swisstransplant/swt"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="risk-calculator" class="level2">
+<h2 class="anchored" data-anchor-id="risk-calculator">Risk calculator</h2>
+<iframe id="KIDMO" src="https://swisstransplant.shinyapps.io/KIDMO/" style="border: none; width: 100%; height: 500px" frameborder="0"></iframe>
 </section>
-<section id="r-cookbook" class="level2">
-<h2 class="anchored" data-anchor-id="r-cookbook">R cookbook</h2>
-<p>The <a href="https://swisstransplant.github.io/rcookbook/">R cookbook</a> demonstrates the usage of the Swisstransplant R package <code>swt</code> to make high-quality reports and publication-ready graphics in our in-house style.</p>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<section id="study-protocol" class="level3">
+<h3 class="anchored" data-anchor-id="study-protocol">Study protocol</h3>
+<p>Schwab, S., Sidler, D., Haidar, F., Kuhn, C., Schaub, S., Koller, M., Mellac, K., Stürzinger, U., Tischhauser, B., Binet, I., Golshayan, D., Müller, T., Elmer, A., Franscini, N., Krügel, N., Fehr, T., Immer, F., Swisstransplant Kidney Working Group (STAN), &amp; Swiss Transplant Cohort Study. (2023). Clinical prediction model for prognosis in kidney transplant recipients (KIDMO): study protocol. <em>Diagnostic and Prognostic Research, 7(1)</em>, 6. <a href="https://doi.org/10.1186/s41512-022-00139-5">doi:10.1186/s41512-022-00139-5</a></p>
+</section>
+</section>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>KIDMO was developed by Swisstransplant and all the Swiss transplant centers. Kidney recipients have been involved in the development of KIDMO.</p>
+<p><img src="../images/SWT_2955_2021.png" style="float:left; padding:16px" height="80"> <img src="../images/CHUV.png" style="float:left; padding:16px" height="80"></p>
+<p><img src="../images/HUG.png" style="float:left; padding:16px" height="80"> <img src="../images/Insel.png" style="float:left; padding:16px" height="80"> <img src="../images/KSSG.png" style="float:left; padding:16px" height="80"></p>
+<p><img src="../images/USB.png" style="float:left; padding:16px" height="60"> <img src="../images/USZ.png" style="padding:16px" height="60"></p>
 
 
 </section>

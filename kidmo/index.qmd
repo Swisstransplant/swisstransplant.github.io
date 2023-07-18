@@ -1,0 +1,57 @@
+---
+title: "KIDMO---Kidney prediction model"
+subtitle: 'Risk calculator for deceased-donor kidney transplantation in Switzerland.'
+author: Swisstransplant
+date: last-modified
+---
+
+## What is KIDMO?
+
+KIDMO is a prediction tool that helps clinicians and patients to see how the combination of donor, transplant and recipient clinical characteristics can affect graft survival after deceased-donor kidney transplantation.
+
+## How was KIDMO developed?
+
+KIDMO was developed by [Swisstransplant](https://www.swisstransplant.org/)---the national organisation for organ donation and transplantation in Switzerland and all the six transplant centers.
+
+The model is based on follow-up data from the Swiss Transplant Cohort Study (STCS) and information from the Swiss Organ Allocation System (SOAS) from over 2,000 kidney recipients transplanted between 2008 and 2021.
+
+## What can KIDMO predict?
+
+It is not possible to predict the exact time of organ loss in the future. However, based on all the high-quality data we collected in Switzerland, we can estimate the risk for graft loss for a specific patient conditional on some clinical characteristics.
+
+In the statistical model, the primary outcome was graft survival calculated from the date of of transplantation to the date of irreversible graft failure by return to dialysis (or retransplantation).
+
+More details about KIDMO can be found in the published [study protocol](https://doi.org/10.1186/s41512-022-00139-5).
+
+## Terms of use
+
+The KIDMO is currently under development and for FOR RESEARCH PURPOSES ONLY; the program must not be used in clinical practice.
+
+::: {.callout-important title="More information" collapse=true}
+The KIDMO risk calculator (hereinafter referred to as "program") comes with ABSOLUTELY NO WARRANTY and LIMITATION OF LIABILITY. The program is currently under development and FOR RESEARCH PURPOSES ONLY; this program must not be used in clinical practice, including, but not limited to, clinical decision making. This program is provided WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose. In no event unless required by applicable law will any copyright holder, or any other party who uses this program be liable for damages, including any general, special, incidental or consequential damages arising out of the use or inability to use this program.
+:::
+
+## Risk calculator
+
+```{=html}
+<iframe id="KIDMO" src="https://swisstransplant.shinyapps.io/KIDMO/" style="border: none; width: 100%; height: 500px" frameborder="0"></iframe>
+```
+
+## References
+
+### Study protocol
+Schwab, S., Sidler, D., Haidar, F., Kuhn, C., Schaub, S., Koller, M., Mellac, K., Stürzinger, U., Tischhauser, B., Binet, I., Golshayan, D., Müller, T., Elmer, A., Franscini, N., Krügel, N., Fehr, T., Immer, F., Swisstransplant Kidney Working Group (STAN), & Swiss Transplant Cohort Study. (2023). Clinical prediction model for prognosis in kidney transplant recipients (KIDMO): study protocol. *Diagnostic and Prognostic Research, 7(1)*, 6. [doi:10.1186/s41512-022-00139-5](https://doi.org/10.1186/s41512-022-00139-5)
+
+## Acknowledgements
+
+KIDMO was developed by Swisstransplant and all the Swiss transplant centers. Kidney recipients have been involved in the development of KIDMO.
+
+![](../images/SWT_2955_2021.png){height=80 style="float:left; padding:16px"}
+![](../images/CHUV.png){height=80 style="float:left; padding:16px"}
+
+![](../images/HUG.png){height=80 style="float:left; padding:16px"}
+![](../images/Insel.png){height=80 style="float:left; padding:16px"}
+![](../images/KSSG.png){height=80 style="float:left; padding:16px"}
+
+![](../images/USB.png){height=60 style="float:left; padding:16px"}
+![](../images/USZ.png){height=60 style="padding:16px"}
