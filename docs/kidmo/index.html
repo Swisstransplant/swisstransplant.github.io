@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Swisstransplant">
-<meta name="dcterms.date" content="2023-07-18">
+<meta name="dcterms.date" content="2023-07-31">
 
 <title>Data Science - KIDMO—Kidney prediction model</title>
 <style>
@@ -121,6 +121,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#what-can-kidmo-predict" id="toc-what-can-kidmo-predict" class="nav-link" data-scroll-target="#what-can-kidmo-predict">What can KIDMO predict?</a></li>
   <li><a href="#terms-of-use" id="toc-terms-of-use" class="nav-link" data-scroll-target="#terms-of-use">Terms of use</a></li>
   <li><a href="#risk-calculator" id="toc-risk-calculator" class="nav-link" data-scroll-target="#risk-calculator">Risk calculator</a></li>
+  <li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation">Interpretation</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
   <ul class="collapse">
   <li><a href="#study-protocol" id="toc-study-protocol" class="nav-link" data-scroll-target="#study-protocol">Study protocol</a></li>
@@ -152,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 18, 2023</p>
+      <p class="date">July 31, 2023</p>
     </div>
   </div>
   
@@ -200,6 +201,19 @@ More information
 <section id="risk-calculator" class="level2">
 <h2 class="anchored" data-anchor-id="risk-calculator">Risk calculator</h2>
 <iframe id="KIDMO" src="https://swisstransplant.shinyapps.io/KIDMO/" style="border: none; width: 100%; height: 500px" frameborder="0"></iframe>
+</section>
+<section id="interpretation" class="level2">
+<h2 class="anchored" data-anchor-id="interpretation">Interpretation</h2>
+<ul>
+<li><p>The <strong>HR</strong> (hazard ratio) is the relative hazard compared to the reference recipient.</p>
+<ul>
+<li>A HR of 1.40 means that the recipient may have graft loss at 1.4-fold the rate of the baseline recipient which corresponds to a increase of the hazard by 40%</li>
+<li>A HR of 0.70 means that the recipient may have graft loss at 0.7-fold the rate of the baseline recipient which corresponds to a decrease of the hazard by 30%.</li>
+</ul></li>
+<li><p>The <strong>reference recipient</strong> is a recipient with all the clinical predictor variables set to the reference level (donor age: 54; donor history of diabetes: no; donor cause of death: other; etc.). The reference recipient should <em>not</em> be confused with an average recipient.</p></li>
+<li><p>The <strong>Scaled HR</strong> is the HR scaled by the median HR of all recipients from 2008–2021. It can be interpreted as the relative hazard compared to the median recipient, or more informally, the average recipient.</p></li>
+<li><p>The <strong>hazard</strong> is the rate of occurrence of graft loss. In other words, it is the probability of graft loss over time at 2, 5 and 10 years.</p></li>
+</ul>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>

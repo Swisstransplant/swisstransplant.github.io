@@ -96,5 +96,19 @@
     "title": "KIDMO—Kidney prediction model",
     "section": "Acknowledgements",
     "text": "Acknowledgements\nKIDMO was developed by Swisstransplant and all the Swiss transplant centers. Kidney recipients have been involved in the development of KIDMO."
+  },
+  {
+    "objectID": "kidmo/index.html#development",
+    "href": "kidmo/index.html#development",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "Development",
+    "text": "Development\n✓ Data recived ✗ Creatinine"
+  },
+  {
+    "objectID": "kidmo/index.html#interpretation",
+    "href": "kidmo/index.html#interpretation",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "Interpretation",
+    "text": "Interpretation\n\nThe HR (hazard ratio) is the relative hazard compared to the reference recipient.\n\nA HR of 1.40 means that the recipient may have graft loss at 1.4-fold the rate of the baseline recipient which corresponds to a increase of the hazard by 40%\nA HR of 0.70 means that the recipient may have graft loss at 0.7-fold the rate of the baseline recipient which corresponds to a decrease of the hazard by 30%.\n\nThe reference recipient is a recipient with all the clinical predictor variables set to the reference level (donor age: 54; donor history of diabetes: no; donor cause of death: other; etc.). The reference recipient should not be confused with an average recipient.\nThe Scaled HR is the HR scaled by the median HR of all recipients from 2008–2021. It can be interpreted as the relative hazard compared to the median recipient, or more informally, the average recipient.\nThe hazard is the rate of occurrence of graft loss. In other words, it is the probability of graft loss over time at 2, 5 and 10 years."
   }
 ]
