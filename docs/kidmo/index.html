@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Swisstransplant">
-<meta name="dcterms.date" content="2023-08-01">
+<meta name="dcterms.date" content="2023-08-02">
 
 <title>Data Science - KIDMO—Kidney prediction model</title>
 <style>
@@ -153,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 1, 2023</p>
+      <p class="date">August 2, 2023</p>
     </div>
   </div>
   
@@ -174,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="what-can-kidmo-predict" class="level2">
 <h2 class="anchored" data-anchor-id="what-can-kidmo-predict">What can KIDMO predict?</h2>
-<p>It is not possible to predict the exact time of organ loss in the future. However, based on all the high-quality data we collected in Switzerland, we can estimate the risk for graft loss for a specific patient conditional on some clinical characteristics.</p>
+<p>It is not possible to predict the exact time of organ loss in the future. However, based on all the high-quality data we collected in Switzerland, we can estimate the risk for kidney graft failure for a specific patient conditional on some clinical characteristics.</p>
 <p>In the statistical model, the primary outcome was graft survival calculated from the date of of transplantation to the date of irreversible graft failure by return to dialysis (or retransplantation).</p>
 <p>More details about KIDMO can be found in the published <a href="https://doi.org/10.1186/s41512-022-00139-5">study protocol</a>.</p>
 </section>
@@ -205,15 +205,46 @@ More information
 <section id="interpretation" class="level2">
 <h2 class="anchored" data-anchor-id="interpretation">Interpretation</h2>
 <ul>
-<li><p>The <strong>HR</strong> (hazard ratio) is the relative hazard compared to the reference recipient.</p>
-<ul>
-<li>A HR of 1.40 means that the recipient may have graft loss at 1.4-fold the rate of the baseline recipient which corresponds to a increase of the hazard by 40%</li>
-<li>A HR of 0.70 means that the recipient may have graft loss at 0.7-fold the rate of the baseline recipient which corresponds to a decrease of the hazard by 30%.</li>
-</ul></li>
-<li><p>The <strong>reference recipient</strong> is a recipient with all the clinical predictor variables set to the reference level (donor age: 54; donor history of diabetes: no; donor cause of death: other; etc.). The reference recipient should <em>not</em> be confused with an average recipient.</p></li>
-<li><p>The <strong>Scaled HR</strong> is the HR scaled by the median HR of all recipients from 2008–2021. It can be interpreted as the relative hazard compared to the median recipient, or more informally, the average recipient.</p></li>
-<li><p>The <strong>hazard</strong> is the rate of occurrence of graft loss. In other words, it is the probability of graft loss over time at 2, 5 and 10 years.</p></li>
+<li><p>The <strong>HR</strong> (hazard ratio) shows the relative increase or decrease in the hazard rate of kidney graft failure for this recipient compared to the median hazard rate in the reference population. So, a HR &gt; 1 indicates a higher hazard, and a HR &lt; 1 indicated lower hazard and a more favorable outcome as what we observe in average. A recipient with a HR of 1.0 corresponds to the median hazard.</p></li>
+<li><p>The <strong>rank</strong> is the percentile of the recipients’ calculated hazard ratio and is interpreted as the percentage of recipients in the reference population with lower or equal hazard compared to the new recipient. The rank has a range from 0% to 100%, and the lower the score, the more favorable the outcome.</p></li>
+<li><p>The <strong>CI</strong> (cumulative incidence) is the probability of occurrence of kidney graft failure over time at 2, 5 and 10 years.</p></li>
 </ul>
+<div class="callout callout-style-default callout-note callout-titled" title="Example">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Example
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>A HR of 0.69 means that the recipient may have graft failure at about 0.7-fold the rate of a recipient with median hazard. In other words, there is a decrease of the hazard rate by about 30%.</p></li>
+<li><p>A recipient’s rank of 36% indicates that 36% of recipients had a lower or equal hazard rate, and 64% had a higher hazard rate.</p></li>
+<li><p>A 10-year CI of 0.04 indicated that the probability of kidney graft failure for this recipient is 4% over a period of 10 years after transplantation. In other words, 4 in 100 recipients with similar clinical characteristics may experience kidney graft failure after 10 years.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="Additional information">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Additional information
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>The <strong>hazard rate</strong> is the frequency with which a kidney transplant fails per unit of time. The <strong>reference population</strong> is all the kidney recipients transplanted between 2008 to 2021 at a Swiss transplant center and included in the study. The <strong>reference recipient</strong> is a recipient transplanted in 2015 with all the clinical predictor variables set to the reference levels (median donor age: 54, donor history of diabetes: no, etc.) The risk calculator is initially set to the reference values except the transplantation year is set to 2021.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>

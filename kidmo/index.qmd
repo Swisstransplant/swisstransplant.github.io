@@ -17,7 +17,7 @@ The model is based on follow-up data from the Swiss Transplant Cohort Study (STC
 
 ## What can KIDMO predict?
 
-It is not possible to predict the exact time of organ loss in the future. However, based on all the high-quality data we collected in Switzerland, we can estimate the risk for graft loss for a specific patient conditional on some clinical characteristics.
+It is not possible to predict the exact time of organ loss in the future. However, based on all the high-quality data we collected in Switzerland, we can estimate the risk for kidney graft failure for a specific patient conditional on some clinical characteristics.
 
 In the statistical model, the primary outcome was graft survival calculated from the date of of transplantation to the date of irreversible graft failure by return to dialysis (or retransplantation).
 
@@ -39,13 +39,23 @@ The KIDMO risk calculator (hereinafter referred to as "program") comes with ABSO
 
 ## Interpretation
 
-* The **HR** (hazard ratio) is the relative hazard compared to the reference recipient.
-  + A HR of 1.40 means that the recipient may have graft loss at 1.4-fold the rate of the baseline recipient which corresponds to a increase of the hazard by 40%
-  + A HR of 0.70 means that the recipient may have graft loss at 0.7-fold the rate of the baseline recipient which corresponds to a decrease of the hazard by 30%.
-* The **reference recipient** is a recipient with all the clinical predictor variables set to the reference level (donor age: 54; donor history of diabetes: no; donor cause of death: other; etc.). The reference recipient should *not* be confused with an average recipient.
-* The **Scaled HR** is the HR scaled by the median HR of all recipients from 2008--2021. It can be interpreted as the relative hazard compared to the median recipient, or more informally, the average recipient.
+* The **HR** (hazard ratio) shows the relative increase or decrease in the hazard rate of kidney graft failure for this recipient compared to the median hazard rate in the reference population. So, a HR > 1 indicates a higher hazard, and a HR < 1 indicated lower hazard and a more favorable outcome as what we observe in average. A recipient with a HR of 1.0 corresponds to the median hazard.
 
-* The **hazard** is the rate of occurrence of graft loss. In other words, it is the probability of graft loss over time at 2, 5 and 10 years.
+* The **rank** is the percentile of the recipients' calculated hazard ratio and is interpreted as the percentage of recipients in the reference population with lower or equal hazard compared to the new recipient. The rank has a range from 0% to 100%, and the lower the score, the more favorable the outcome.
+
+* The **CI** (cumulative incidence) is the probability of occurrence of kidney graft failure over time at 2, 5 and 10 years.
+
+::: {.callout-note title="Example" collapse=false}
+* A HR of 0.69 means that the recipient may have graft failure at about 0.7-fold the rate of a recipient with median hazard. In other words, there is a decrease of the hazard rate by about 30%.
+
+* A recipient's rank of 36% indicates that 36% of recipients had a lower or equal hazard rate, and 64% had a higher hazard rate.
+
+* A 10-year CI of 0.04 indicated that the probability of kidney graft failure for this recipient is 4% over a period of 10 years after transplantation. In other words, 4 in 100 recipients with similar clinical characteristics may experience kidney graft failure after 10 years.
+:::
+
+::: {.callout-note title="Additional information" collapse=true}
+The **hazard rate** is the frequency with which a kidney transplant fails per unit of time. The **reference population** is all the kidney recipients transplanted between 2008 to 2021 at a Swiss transplant center and included in the study. The **reference recipient** is a recipient transplanted in 2015 with all the clinical predictor variables set to the reference levels (median donor age: 54, donor history of diabetes: no, etc.) The risk calculator is initially set to the reference values except the transplantation year is set to 2021.
+:::
 
 ## References
 
