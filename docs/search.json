@@ -7,13 +7,6 @@
     "text": "Swisstransplant Data Science is an online portal for tools and software developed at Swisstransplant.\nTo learn more about Swisstransplant and to find official statistics in different languages visit our website https://www.swisstransplant.org/."
   },
   {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "About",
-    "section": "",
-    "text": "The Data Science portal was created by Research and QM at Swisstransplant. To contact us visit our website at https://www.swisstransplant.org/."
-  },
-  {
     "objectID": "tools/index.html",
     "href": "tools/index.html",
     "title": "Research Tools",
@@ -40,6 +33,13 @@
     "title": "Research Tools",
     "section": "R cookbook",
     "text": "R cookbook\nThe R cookbook demonstrates the usage of the Swisstransplant R package swt to make high-quality reports and publication-ready graphics in our in-house style."
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About",
+    "section": "",
+    "text": "The Data Science portal was created by Research and QM at Swisstransplant. To contact us visit our website at https://www.swisstransplant.org/."
   },
   {
     "objectID": "kidmo/index.html",
@@ -84,6 +84,13 @@
     "text": "Risk calculator"
   },
   {
+    "objectID": "kidmo/index.html#interpretation",
+    "href": "kidmo/index.html#interpretation",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "Interpretation",
+    "text": "Interpretation\n\nThe HR (hazard ratio) shows the relative increase or decrease in the event rate of kidney graft failure for this recipient compared to the median event rate in the reference population. So, a HR &gt; 1 indicates a higher hazard, and a HR &lt; 1 indicated lower hazard and a more favorable outcome as what we observe in average. A recipient with a HR of 1.0 corresponds to the median hazard.\nThe rank is the percentile of the recipients’ calculated hazard ratio and is interpreted as the percentage of recipients in the reference population with lower or equal hazard compared to the new recipient. The rank has a range from 0% to 100%, and the lower the score, the more favorable the outcome.\nThe CI (cumulative incidence) is the probability of occurrence of kidney graft failure over time at 2, 5 and 10 years.\n\n\n\n\n\n\n\nExample\n\n\n\n\n\n\nA HR of 0.69 means that the recipient may have graft failure at about 0.7-fold the rate of a recipient with median hazard. In other words, there is a decrease of the hazard rate by about 30%.\nA recipient’s rank of 36% indicates that 36% of recipients had a lower or equal hazard rate, and 64% had a higher hazard rate.\nA 10-year CI of 0.04 indicated that the probability of kidney graft failure for this recipient is 4% over a period of 10 years after transplantation. In other words, 4 in 100 recipients with similar clinical characteristics may experience kidney graft failure after 10 years.\n\n\n\n\n\n\n\n\n\n\nAdditional information\n\n\n\n\n\nThe hazard rate is the frequency with which a kidney transplant fails per unit of time. The reference population is all the kidney recipients transplanted between 2008 to 2021 at a Swiss transplant center and included in the study. The reference recipient is a recipient transplanted in 2015 with all the clinical predictor variables set to the reference levels (median donor age: 54, donor history of diabetes: no, etc.) The risk calculator is initially set to the reference values except the transplantation year is set to 2021."
+  },
+  {
     "objectID": "kidmo/index.html#references",
     "href": "kidmo/index.html#references",
     "title": "KIDMO—Kidney prediction model",
@@ -96,19 +103,5 @@
     "title": "KIDMO—Kidney prediction model",
     "section": "Acknowledgements",
     "text": "Acknowledgements\nKIDMO was developed by Swisstransplant and all the Swiss transplant centers. Kidney recipients have been involved in the development of KIDMO."
-  },
-  {
-    "objectID": "kidmo/index.html#development",
-    "href": "kidmo/index.html#development",
-    "title": "KIDMO—Kidney prediction model",
-    "section": "Development",
-    "text": "Development\n✓ Data recived ✗ Creatinine"
-  },
-  {
-    "objectID": "kidmo/index.html#interpretation",
-    "href": "kidmo/index.html#interpretation",
-    "title": "KIDMO—Kidney prediction model",
-    "section": "Interpretation",
-    "text": "Interpretation\n\nThe HR (hazard ratio) shows the relative increase or decrease in the hazard rate of kidney graft failure for this recipient compared to the median hazard rate in the reference population. So, a HR &gt; 1 indicates a higher hazard, and a HR &lt; 1 indicated lower hazard and a more favorable outcome as what we observe in average. A recipient with a HR of 1.0 corresponds to the median hazard.\nThe rank is the percentile of the recipients’ calculated hazard ratio and is interpreted as the percentage of recipients in the reference population with lower or equal hazard compared to the new recipient. The rank has a range from 0% to 100%, and the lower the score, the more favorable the outcome.\nThe CI (cumulative incidence) is the probability of occurrence of kidney graft failure over time at 2, 5 and 10 years.\n\n\n\n\n\n\n\nExample\n\n\n\n\n\n\nA HR of 0.69 means that the recipient may have graft failure at about 0.7-fold the rate of a recipient with median hazard. In other words, there is a decrease of the hazard rate by about 30%.\nA recipient’s rank of 36% indicates that 36% of recipients had a lower or equal hazard rate, and 64% had a higher hazard rate.\nA 10-year CI of 0.04 indicated that the probability of kidney graft failure for this recipient is 4% over a period of 10 years after transplantation. In other words, 4 in 100 recipients with similar clinical characteristics may experience kidney graft failure after 10 years.\n\n\n\n\n\n\n\n\n\n\nAdditional information\n\n\n\n\n\nThe hazard rate is the frequency with which a kidney transplant fails per unit of time. The reference population is all the kidney recipients transplanted between 2008 to 2021 at a Swiss transplant center and included in the study. The reference recipient is a recipient transplanted in 2015 with all the clinical predictor variables set to the reference levels (median donor age: 54, donor history of diabetes: no, etc.) The risk calculator is initially set to the reference values except the transplantation year is set to 2021."
   }
 ]

@@ -34,12 +34,12 @@ The KIDMO risk calculator (hereinafter referred to as "program") comes with ABSO
 ## Risk calculator
 
 ```{=html}
-<iframe id="KIDMO" src="https://swisstransplant.shinyapps.io/KIDMO/" style="border: none; width: 100%; height: 980px" frameborder="0"></iframe>
+<iframe id="KIDMO" src="https://swisstransplant.shinyapps.io/KIDMO/" style="border: none; width: 100%; height: 670px" frameborder="0"></iframe>
 ```
 
 ## Interpretation
 
-* The **HR** (hazard ratio) shows the relative increase or decrease in the hazard rate of kidney graft failure for this recipient compared to the median hazard rate in the reference population. So, a HR > 1 indicates a higher hazard, and a HR < 1 indicated lower hazard and a more favorable outcome as what we observe in average. A recipient with a HR of 1.0 corresponds to the median hazard.
+* The **HR** (hazard ratio) shows the relative increase or decrease in the event rate of kidney graft failure for this recipient compared to the median event rate in the reference population. So, a HR > 1 indicates a higher hazard, and a HR < 1 indicated lower hazard and a more favorable outcome as what we observe in average. A recipient with a HR of 1.0 corresponds to the median hazard.
 
 * The **rank** is the percentile of the recipients' calculated hazard ratio and is interpreted as the percentage of recipients in the reference population with lower or equal hazard compared to the new recipient. The rank has a range from 0% to 100%, and the lower the score, the more favorable the outcome.
 
