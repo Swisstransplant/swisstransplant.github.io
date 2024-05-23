@@ -1,0 +1,12 @@
+---
+title: "Publications"
+bibliography: swt.bib
+csl: american-medical-association-no-et-al.csl
+nocite: |
+  @*
+---
+
+Below is a list of research publications with Swisstransplant involvement.
+
+::: {#refs}
+:::

@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://swtdata.org/index.html</loc>
-    <lastmod>2023-08-07T11:11:45.322Z</lastmod>
+    <lastmod>2024-05-21T14:52:04.930Z</lastmod>
   </url>
   <url>
     <loc>https://swtdata.org/tools/index.html</loc>
-    <lastmod>2023-08-07T11:12:00.532Z</lastmod>
-  </url>
-  <url>
-    <loc>https://swtdata.org/about/index.html</loc>
-    <lastmod>2023-08-02T13:42:11.633Z</lastmod>
+    <lastmod>2023-07-24T12:07:53.667Z</lastmod>
   </url>
   <url>
     <loc>https://swtdata.org/kidmo/index.html</loc>
-    <lastmod>2023-08-07T11:15:00.055Z</lastmod>
+    <lastmod>2023-08-07T11:14:05.517Z</lastmod>
+  </url>
+  <url>
+    <loc>https://swtdata.org/about/index.html</loc>
+    <lastmod>2023-07-16T19:25:05.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://swtdata.org/publications/index.html</loc>
+    <lastmod>2024-05-19T12:58:02.050Z</lastmod>
   </url>
 </urlset>

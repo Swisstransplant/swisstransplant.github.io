@@ -1,11 +1,23 @@
 /*-- scss:defaults --*/
 
-$navbar-bg:  #003764;
-$navbar-hl:  #fff;
+// base document colors
+$navbar-bg: #e5eef0;
+$navbar-fg: #003764;
+$navbar-hl: #e5005c;
 
 $link-color: #e5005c;
+
+$dropdown-link-color: #003764;
+$dropdown-bg: #e5eef0;
+$dropdown-link-hover-color: #e5005c;
+
+$footer-bg: #e5eef0;
 
 /*-- scss:rules --*/
 h1, h2, h3, h4, h5, h6 {
   color: #003764;
+}
+
+body {
+  font-size: 18px;
 }

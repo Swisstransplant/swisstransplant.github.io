@@ -8,27 +8,32 @@ website:
   description: "Tools and software developed at Swisstransplant."
   search: false
   navbar:
-    logo: "images/swt.png"
+    logo: "images/SWT_icon_cmyk2020.png"
     left:
-      - text: Home
+      - text: "Home"
         href: index.qmd
-      - text: Research Tools
-        href: tools/index.qmd
-      - text: KIDMO
-        href: kidmo/index.qmd
-      - text: EXAM
-        href: https://swisstransplant.shinyapps.io/EXAM/
+      - text: "Research"
+        menu:
+        - tools/index.qmd
+        - text: "KIDMO"
+          href: kidmo/index.qmd
+        - text: "EXAM"
+          href: https://swisstransplant.shinyapps.io/EXAM/
+          icon: "box-arrow-up-right"
+          target: _blank
+      #- text: Publications
+      #  href: publications/index.qmd
       - text: About
         href: about/index.qmd
       - icon: github
         href: https://github.com/Swisstransplant
+        target: _blank
   page-footer:
-    left: '© 2023 Swisstransplant'
+    left: '© 2023, 2024 Swisstransplant'
 
 format:
   html:
     theme: 
       - cosmo
       - custom.scss
-    css: styles.css
     toc: true
