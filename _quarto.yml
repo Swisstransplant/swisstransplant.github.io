@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Data Science"
-  site-url: "https://swtdata.org/"
+  site-url: "https://www.swtdata.org/"
   description: "Tools and software developed at Swisstransplant."
   search: false
   navbar:
@@ -12,6 +12,8 @@ website:
     left:
       - text: "Home"
         href: index.qmd
+      #- text: "Statistics"
+      #  href: posts.qmd
       - text: "Research"
         menu:
         - tools/index.qmd
@@ -27,7 +29,7 @@ website:
         href: about/index.qmd
       - icon: github
         href: https://github.com/Swisstransplant
-        target: _blank
+        
   page-footer:
     left: '© 2023, 2024 Swisstransplant'
 

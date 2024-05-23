@@ -7,9 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Swisstransplant">
-<meta name="dcterms.date" content="2024-05-23">
+<meta name="dcterms.date" content="2024-07-07">
+<meta name="description" content="Das Wichtigste in Kürze…Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.">
 
-<title>Data Science - KIDMO—Kidney prediction model</title>
+<title>Data Science - Kennzahlen 2. Quartal 2024</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,21 +23,55 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -59,14 +94,14 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/SWT_icon_cmyk2020.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/SWT_icon_cmyk2020.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Data Science</span>
     </a>
   </div>
@@ -76,11 +111,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../posts.html"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Statistics</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -89,11 +124,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
         <li>
-    <a class="dropdown-item" href="../tools/index.html">
+    <a class="dropdown-item" href="../../tools/index.html">
  <span class="dropdown-text">Research Tools</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../kidmo/index.html">
+    <a class="dropdown-item" href="../../kidmo/index.html">
  <span class="dropdown-text">KIDMO</span></a>
   </li>  
         <li>
@@ -104,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../about/index.html"> 
+    <a class="nav-link" href="../../about/index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -120,7 +155,44 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Kennzahlen 2. Quartal 2024</h1>
+            <p class="subtitle lead">Kennzahlen zur Organspende und Organtransplantation in der Schweiz</p>
+                  <div>
+        <div class="description">
+          Das Wichtigste in Kürze…Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">Quartalszahlen</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Swisstransplant </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">July 7, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -128,151 +200,52 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-is-kidmo" id="toc-what-is-kidmo" class="nav-link active" data-scroll-target="#what-is-kidmo">What is KIDMO?</a></li>
-  <li><a href="#how-was-kidmo-developed" id="toc-how-was-kidmo-developed" class="nav-link" data-scroll-target="#how-was-kidmo-developed">How was KIDMO developed?</a></li>
-  <li><a href="#what-can-kidmo-predict" id="toc-what-can-kidmo-predict" class="nav-link" data-scroll-target="#what-can-kidmo-predict">What can KIDMO predict?</a></li>
-  <li><a href="#terms-of-use" id="toc-terms-of-use" class="nav-link" data-scroll-target="#terms-of-use">Terms of use</a></li>
-  <li><a href="#risk-calculator" id="toc-risk-calculator" class="nav-link" data-scroll-target="#risk-calculator">Risk calculator</a></li>
-  <li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation">Interpretation</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
-  <ul class="collapse">
-  <li><a href="#study-protocol" id="toc-study-protocol" class="nav-link" data-scroll-target="#study-protocol">Study protocol</a></li>
-  </ul></li>
-  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
+  <li><a href="#code-welcher-eine-figur-produziert" id="toc-code-welcher-eine-figur-produziert" class="nav-link active" data-scroll-target="#code-welcher-eine-figur-produziert">Code welcher eine Figur Produziert</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">KIDMO—Kidney prediction model</h1>
-<p class="subtitle lead">Risk calculator for deceased-donor kidney transplantation in Switzerland.</p>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Swisstransplant </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">May 23, 2024</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
 
 
-</header>
-
-
-<section id="what-is-kidmo" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-kidmo">What is KIDMO?</h2>
-<p>KIDMO is a prediction tool that helps clinicians and patients to see how the combination of donor, transplant and recipient clinical characteristics can affect graft survival after deceased-donor kidney transplantation.</p>
-</section>
-<section id="how-was-kidmo-developed" class="level2">
-<h2 class="anchored" data-anchor-id="how-was-kidmo-developed">How was KIDMO developed?</h2>
-<p>KIDMO was developed by <a href="https://www.swisstransplant.org/">Swisstransplant</a>—the national organisation for organ donation and transplantation in Switzerland and all the six transplant centers.</p>
-<p>The model is based on follow-up data from the Swiss Transplant Cohort Study (STCS) and information from the Swiss Organ Allocation System (SOAS) from over 2,000 kidney recipients transplanted between 2008 and 2021.</p>
-</section>
-<section id="what-can-kidmo-predict" class="level2">
-<h2 class="anchored" data-anchor-id="what-can-kidmo-predict">What can KIDMO predict?</h2>
-<p>It is not possible to predict the exact time of organ loss in the future. However, based on all the high-quality data we collected in Switzerland, we can estimate the risk for kidney graft failure for a specific patient conditional on some clinical characteristics.</p>
-<p>In the statistical model, the primary outcome was graft survival calculated from the date of of transplantation to the date of irreversible graft failure by return to dialysis (or retransplantation).</p>
-<p>More details about KIDMO can be found in the published <a href="https://doi.org/10.1186/s41512-022-00139-5">study protocol</a>.</p>
-</section>
-<section id="terms-of-use" class="level2">
-<h2 class="anchored" data-anchor-id="terms-of-use">Terms of use</h2>
-<p>The KIDMO is currently under development and for FOR RESEARCH PURPOSES ONLY; the program must not be used in clinical practice.</p>
-<div class="callout callout-style-default callout-important callout-titled" title="More information">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-More information
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>The KIDMO risk calculator (hereinafter referred to as “program”) comes with ABSOLUTELY NO WARRANTY and LIMITATION OF LIABILITY. The program is currently under development and FOR RESEARCH PURPOSES ONLY; this program must not be used in clinical practice, including, but not limited to, clinical decision making. This program is provided WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose. In no event unless required by applicable law will any copyright holder, or any other party who uses this program be liable for damages, including any general, special, incidental or consequential damages arising out of the use or inability to use this program.</p>
+<section id="code-welcher-eine-figur-produziert" class="level1">
+<h1>Code welcher eine Figur Produziert</h1>
+<p>Ein separates Quarto Dokument produziert die ganzen Statisiken und Figuren rund um die Quartalszahlen. In diesem Dokument hier werden lediglich die vorbereiteten Figuren geladen und beschrieben.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(swt)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>col <span class="ot">=</span> swt<span class="sc">::</span><span class="fu">swt_colors</span>()</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>n <span class="ot">=</span> <span class="dv">100</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>var1 <span class="ot">=</span> <span class="fu">c</span>(<span class="fu">rnorm</span>(n<span class="sc">/</span><span class="dv">2</span>, <span class="at">mean=</span><span class="dv">0</span>), <span class="fu">rnorm</span>(n<span class="sc">/</span><span class="dv">2</span>, <span class="at">mean=</span><span class="dv">3</span>) )</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>d <span class="ot">=</span> <span class="fu">data.frame</span>(<span class="at">var1 =</span> var1,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>               <span class="at">var2 =</span> var1 <span class="sc">+</span> <span class="fu">rnorm</span>(n, <span class="at">sd =</span> <span class="fl">0.4</span>),</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>               <span class="at">group =</span> <span class="fu">as.factor</span>(<span class="fu">rep</span>(<span class="fu">c</span>(<span class="st">"abc"</span>, <span class="st">"mno"</span> ), <span class="at">each=</span>n<span class="sc">/</span><span class="dv">2</span>))</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(d, <span class="fu">aes</span>(<span class="at">x=</span>group, <span class="at">y=</span>var1, <span class="at">group=</span>group, <span class="at">col=</span>group)) <span class="sc">+</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>(<span class="at">fill=</span>col<span class="sc">$</span>grey.bg) <span class="sc">+</span> </span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">size=</span><span class="dv">2</span>, <span class="at">shape=</span><span class="dv">1</span>, <span class="at">position =</span> <span class="fu">position_jitter</span>(<span class="at">height =</span> <span class="dv">0</span>, <span class="at">width =</span> <span class="fl">0.25</span>),</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>             <span class="at">col=</span><span class="fu">c</span>(<span class="fu">rep</span>(col<span class="sc">$</span>pal.blue.swt[<span class="dv">1</span>], n<span class="sc">/</span><span class="dv">2</span>),</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>                   <span class="fu">rep</span>(col<span class="sc">$</span>pal.red.liver[<span class="dv">1</span>], n<span class="sc">/</span><span class="dv">2</span>))) <span class="sc">+</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Title"</span>, <span class="at">tag =</span> <span class="st">"A"</span>) <span class="sc">+</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(col<span class="sc">$</span>blue.swt,</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>                                col<span class="sc">$</span>red.liver)) <span class="sc">+</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">swt_style</span>(<span class="at">legend_position =</span> <span class="st">"none"</span>, <span class="at">grey_theme =</span> <span class="cn">FALSE</span>, <span class="at">font_size =</span> <span class="dv">14</span>,</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>            <span class="at">title_size =</span> <span class="dv">16</span>) <span class="sc">+</span> </span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">plot.tag =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">16</span>, <span class="at">face =</span> <span class="st">"bold"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="288"></p>
+</figure>
 </div>
 </div>
 </div>
-</section>
-<section id="risk-calculator" class="level2">
-<h2 class="anchored" data-anchor-id="risk-calculator">Risk calculator</h2>
-<iframe id="KIDMO" src="https://swisstransplant.shinyapps.io/KIDMO/" style="border: none; width: 100%; height: 670px" frameborder="0"></iframe>
-</section>
-<section id="interpretation" class="level2">
-<h2 class="anchored" data-anchor-id="interpretation">Interpretation</h2>
-<ul>
-<li><p>The <strong>HR</strong> (hazard ratio) shows the relative increase or decrease in the event rate of kidney graft failure for this recipient compared to the median event rate in the reference population. So, a HR &gt; 1 indicates a higher hazard, and a HR &lt; 1 indicated lower hazard and a more favorable outcome as what we observe in average. A recipient with a HR of 1.0 corresponds to the median hazard.</p></li>
-<li><p>The <strong>rank</strong> is the percentile of the recipients’ calculated hazard ratio and is interpreted as the percentage of recipients in the reference population with lower or equal hazard compared to the new recipient. The rank has a range from 0% to 100%, and the lower the score, the more favorable the outcome.</p></li>
-<li><p>The <strong>CI</strong> (cumulative incidence) is the probability of occurrence of kidney graft failure over time at 2, 5 and 10 years.</p></li>
-</ul>
-<div class="callout callout-style-default callout-note callout-titled" title="Example">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Example
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse show">
-<div class="callout-body-container callout-body">
-<ul>
-<li><p>A HR of 0.69 means that the recipient may have graft failure at about 0.7-fold the rate of a recipient with median hazard. In other words, there is a decrease of the hazard rate by about 30%.</p></li>
-<li><p>A recipient’s rank of 36% indicates that 36% of recipients had a lower or equal hazard rate, and 64% had a higher hazard rate.</p></li>
-<li><p>A 10-year CI of 0.04 indicated that the probability of kidney graft failure for this recipient is 4% over a period of 10 years after transplantation. In other words, 4 in 100 recipients with similar clinical characteristics may experience kidney graft failure after 10 years.</p></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="Additional information">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Additional information
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>The <strong>hazard rate</strong> is the frequency with which a kidney transplant fails per unit of time. The <strong>reference population</strong> is all the kidney recipients transplanted between 2008 to 2021 at a Swiss transplant center and included in the study. The <strong>reference recipient</strong> is a recipient transplanted in 2015 with all the clinical predictor variables set to the reference levels (median donor age: 54, donor history of diabetes: no, etc.) The risk calculator is initially set to the reference values except the transplantation year is set to 2021.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<section id="study-protocol" class="level3">
-<h3 class="anchored" data-anchor-id="study-protocol">Study protocol</h3>
-<p>Schwab, S., Sidler, D., Haidar, F., Kuhn, C., Schaub, S., Koller, M., Mellac, K., Stürzinger, U., Tischhauser, B., Binet, I., Golshayan, D., Müller, T., Elmer, A., Franscini, N., Krügel, N., Fehr, T., Immer, F., Swisstransplant Kidney Working Group (STAN), &amp; Swiss Transplant Cohort Study. (2023). Clinical prediction model for prognosis in kidney transplant recipients (KIDMO): study protocol. <em>Diagnostic and Prognostic Research, 7(1)</em>, 6. <a href="https://doi.org/10.1186/s41512-022-00139-5">doi:10.1186/s41512-022-00139-5</a></p>
-</section>
-</section>
-<section id="acknowledgements" class="level2">
-<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
-<p>KIDMO was developed by Swisstransplant and all the Swiss transplant centers. Kidney recipients have been involved in the development of KIDMO.</p>
-<p><img src="../images/SWT_2955_2021.png" style="float:left; padding:16px" height="80"> <img src="../images/CHUV-Centre-hospitalier-universitaire-vaudois_ng_image_full.png" style="float:left; padding:16px" height="80"></p>
-<p><img src="../images/HUG.png" style="float:left; padding:16px" height="80"> <img src="../images/Insel.png" style="float:left; padding:16px" height="80"> <img src="../images/KSSG.png" style="float:left; padding:16px" height="80"></p>
-<p><img src="../images/USB.png" style="float:left; padding:16px" height="64"> <img src="../images/USZ.png" style="padding:16px" height="64"></p>
 
 
 </section>

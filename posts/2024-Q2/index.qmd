@@ -1,0 +1,48 @@
+---
+title: "Kennzahlen 2. Quartal 2024"
+draft: false
+subtitle: "Kennzahlen zur Organspende und Organtransplantation in der Schweiz"
+description: "Das Wichtigste in Kürze...Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+author: "Swisstransplant"
+date: "2024-07-07"
+categories: [Quartalszahlen]
+image: "swt_organ_transplant.jpg"
+title-block-banner: true
+df-print: kable
+execute:
+  echo: true
+---
+
+# Code welcher eine Figur Produziert
+
+Ein separates Quarto Dokument produziert die ganzen Statisiken und Figuren rund um die Quartalszahlen. In diesem Dokument hier werden lediglich die vorbereiteten Figuren geladen und beschrieben.
+
+```{r}
+#| message: false
+#| fig-height: 3
+#| fig-width: 3
+library(ggplot2)
+library(swt)
+
+col = swt::swt_colors()
+
+n = 100
+var1 = c(rnorm(n/2, mean=0), rnorm(n/2, mean=3) )
+d = data.frame(var1 = var1,
+               var2 = var1 + rnorm(n, sd = 0.4),
+               group = as.factor(rep(c("abc", "mno" ), each=n/2))
+)
+
+ggplot(d, aes(x=group, y=var1, group=group, col=group)) +
+  geom_boxplot(fill=col$grey.bg) + 
+  geom_point(size=2, shape=1, position = position_jitter(height = 0, width = 0.25),
+             col=c(rep(col$pal.blue.swt[1], n/2),
+                   rep(col$pal.red.liver[1], n/2))) +
+  labs(title = "Title", tag = "A") +
+  scale_color_manual(values = c(col$blue.swt,
+                                col$red.liver)) +
+  swt_style(legend_position = "none", grey_theme = FALSE, font_size = 14,
+            title_size = 16) + 
+  theme(plot.tag = element_text(size = 16, face = "bold"))
+```
+
