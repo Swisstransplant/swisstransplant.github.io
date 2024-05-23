@@ -67,11 +67,11 @@ Schwab, S., Sidler, D., Haidar, F., Kuhn, C., Schaub, S., Koller, M., Mellac, K.
 KIDMO was developed by Swisstransplant and all the Swiss transplant centers. Kidney recipients have been involved in the development of KIDMO.
 
 ![](../images/SWT_2955_2021.png){height=80 style="float:left; padding:16px"}
-![](../images/CHUV.png){height=80 style="float:left; padding:16px"}
+![](../images/CHUV-Centre-hospitalier-universitaire-vaudois_ng_image_full.png){height=80 style="float:left; padding:16px"}
 
 ![](../images/HUG.png){height=80 style="float:left; padding:16px"}
 ![](../images/Insel.png){height=80 style="float:left; padding:16px"}
 ![](../images/KSSG.png){height=80 style="float:left; padding:16px"}
 
-![](../images/USB.png){height=60 style="float:left; padding:16px"}
-![](../images/USZ.png){height=60 style="padding:16px"}
+![](../images/USB.png){height=64 style="float:left; padding:16px"}
+![](../images/USZ.png){height=64 style="padding:16px"}
