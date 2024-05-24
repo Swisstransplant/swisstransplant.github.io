@@ -7,7 +7,7 @@ website:
   site-url: "https://www.swtdata.org/"
   description: "Tools and software developed at Swisstransplant."
   search: false
-  favicon: images/SWT_icon_kreis_blau_2020.ico
+  favicon: images/SWT_icon_kreis_blau_2020_196x196.png
   navbar:
     logo: "images/SWT_icon_cmyk2020.png"
     left:
