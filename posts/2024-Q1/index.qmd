@@ -9,9 +9,16 @@ categories: [Quartalszahlen]
 image: "swt_organ_transplant.jpg"
 title-block-banner: true
 df-print: kable
+language:
+  de-DE: "Test"
+  en-EN: "Test2"
 execute:
   echo: false
 ---
+
+::: {.content-visible when-profile="deutsch"}
+This content will only appear in the advanced version.
+:::
 
 # Code welcher eine Figur Produziert
 
