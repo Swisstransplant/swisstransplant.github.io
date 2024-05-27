@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Swisstransplant">
-<meta name="dcterms.date" content="2024-04-07">
 
-<title>Data Science</title>
+<title>Data Science - Research Tools</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -22,35 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<link href="../../images/SWT_icon_kreis_blau_2020_196x196.png" rel="icon" type="image/png">
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<link href="../images/SWT_icon_kreis_blau_2020_196x196.png" rel="icon" type="image/png">
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
   }
 }</script>
 
@@ -60,41 +92,41 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/SWT_icon_cmyk2020.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/SWT_icon_cmyk2020.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Data Science</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html"> 
-<span class="menu-text">Statistics</span></a>
+    <a class="nav-link" href="../posts.html"> 
+<span class="menu-text">Statistiken</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Research</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-forschung" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Forschung</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-forschung">    
         <li>
-    <a class="dropdown-item" href="../../tools/index.html">
+    <a class="dropdown-item" href="../tools/index.html">
  <span class="dropdown-text">Research Tools</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../kidmo/index.html">
+    <a class="dropdown-item" href="../kidmo/index.html">
  <span class="dropdown-text">KIDMO</span></a>
   </li>  
         <li>
@@ -105,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../about/index.html"> 
+    <a class="nav-link" href="../about/index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -116,8 +148,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../.."> 
-<span class="menu-text">Deutsch</span></a>
+    <a class="nav-link" href=".././en"> 
+<span class="menu-text">English</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -127,69 +159,88 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      
-                                <div class="quarto-categories">
-                <div class="quarto-category">Quartalszahlen</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Swisstransplant </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">April 7, 2024</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul>
-  <li><a href="#english-title" id="toc-english-title" class="nav-link active" data-scroll-target="#english-title">English title</a></li>
+  <li><a href="#basic-statistics-software" id="toc-basic-statistics-software" class="nav-link active" data-scroll-target="#basic-statistics-software">Basic statistics software</a></li>
+  <li><a href="#swisstransplant-r-package" id="toc-swisstransplant-r-package" class="nav-link" data-scroll-target="#swisstransplant-r-package">Swisstransplant R package</a></li>
+  <li><a href="#r-cookbook" id="toc-r-cookbook" class="nav-link" data-scroll-target="#r-cookbook">R cookbook</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Research Tools</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
-<section id="english-title" class="level1">
-<h1>English title</h1>
-<p>This content will only appear in the advanced version.</p>
-<p>Ein separates Quarto Dokument produziert die ganzen Statisiken und Figuren rund um die Quartalszahlen. In diesem Dokument hier werden lediglich die vorbereiteten Figuren geladen und beschrieben.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="288"></p>
-</figure>
+</header>
+
+
+<p>Research tools enable state-of-the-art data analysis at Swisstransplant.</p>
+<section id="basic-statistics-software" class="level2">
+<h2 class="anchored" data-anchor-id="basic-statistics-software">Basic statistics software</h2>
+<p>The basic statistics software can be downloaded for free in the links provided below.</p>
+<ul>
+<li>The R Project for Statistical Computing <a href="https://stat.ethz.ch/CRAN/" class="uri">https://stat.ethz.ch/CRAN/</a></li>
+<li>Rstudio Desktop <a href="https://posit.co/download/rstudio-desktop/" class="uri">https://posit.co/download/rstudio-desktop/</a></li>
+<li>Quarto <a href="https://quarto.org/docs/download/" class="uri">https://quarto.org/docs/download/</a></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Hinweis
 </div>
 </div>
+<div class="callout-body-container callout-body">
+<p>The RStudio desktop installer for Windows 10 requires administrator rights. However, it is possible to download a zip bundle from the download page, unpack the files into a folder, for example, <code>software</code>, and create a shortcut with <code>rstudio.exe</code> on the desktop or the taskbar.</p>
 </div>
+</div>
+</section>
+<section id="swisstransplant-r-package" class="level2">
+<h2 class="anchored" data-anchor-id="swisstransplant-r-package">Swisstransplant R package</h2>
+<p><img src="../images/swt_hex.png" style="float:right; padding:0px;height:2in"></p>
+<p>The Swisstransplant R package <code>swt</code> is the Swiss army knife for data analysis at Swisstransplant. It is under constant developed.</p>
+<p>Statistical Reporting:</p>
+<ul>
+<li>A Quarto statistical report template in the Swisstransplant in-house style</li>
+<li>Swisstransplant color scheme <code>swt_colors()</code></li>
+<li>A ggplot style called <code>swt_style()</code> for data figures styling</li>
+<li>Tidy functions to nicely format <em>p</em>-values, regression models, and descriptive statistics</li>
+</ul>
+<p>Research:</p>
+<ul>
+<li>HLA mismatch calculator designed for the antigens format as found in SOAS</li>
+<li>Prognostic models for individual predictions of patients (e.g., KIDMO)</li>
+<li>Tools to read and process data from the LifePort kidney transporter</li>
+</ul>
+<p>The <a href="https://github.com/Swisstransplant/swt">source code is developed on GitHub</a> and a <a href="https://github.com/Swisstransplant/swt/blob/main/manual/swt.pdf">package manual</a> is available. The package <code>swt</code> can be installed from within RStudio as follows (requires the package <code>remotes</code>):</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"Swisstransplant/swt"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="r-cookbook" class="level2">
+<h2 class="anchored" data-anchor-id="r-cookbook">R cookbook</h2>
+<p>The <a href="https://swisstransplant.github.io/rcookbook/">R cookbook</a> demonstrates the usage of the Swisstransplant R package <code>swt</code> to make high-quality reports and publication-ready graphics in our in-house style.</p>
 
 
 </section>
@@ -249,12 +300,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Kopiert");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Kopiert");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",

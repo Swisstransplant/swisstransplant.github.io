@@ -31,9 +31,7 @@ website:
         href: https://github.com/Swisstransplant
     right:
       - text: Deutsch
-        href: ../de
-      - text: English
-        href: ../en
+        href: ..
         
   page-footer:
     left: '© 2023, 2024 Swisstransplant'

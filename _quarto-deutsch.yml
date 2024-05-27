@@ -1,5 +1,5 @@
 project:
-  output-dir: ./docs/de
+  output-dir: ./docs
 
 website:
   title: "Data Science"
@@ -30,10 +30,8 @@ website:
       - icon: github
         href: https://github.com/Swisstransplant
     right:
-      - text: Deutsch
-        href: ../de
       - text: English
-        href: ../en
+        href: ./en
         
   page-footer:
     left: '© 2023, 2024 Swisstransplant'
