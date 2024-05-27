@@ -1,8 +1,8 @@
 ---
-title: "Kennzahlen 1. Quartal 2024"
+#title: "Kennzahlen 1. Quartal 2024"
 draft: false
-subtitle: "Kennzahlen zur Organspende und Organtransplantation in der Schweiz"
-description: "Das Wichtigste in Kürze...Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+#subtitle: "Kennzahlen zur Organspende und Organtransplantation in der Schweiz"
+#description: "Das Wichtigste in Kürze...Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 author: "Swisstransplant"
 date: "2024-04-07"
 categories: [Quartalszahlen]
@@ -17,10 +17,16 @@ execute:
 ---
 
 ::: {.content-visible when-profile="deutsch"}
+# Deutscher Titel
+
 This content will only appear in the advanced version.
 :::
 
-# Code welcher eine Figur Produziert
+::: {.content-visible when-profile="english"}
+# English title
+
+This content will only appear in the advanced version.
+:::
 
 Ein separates Quarto Dokument produziert die ganzen Statisiken und Figuren rund um die Quartalszahlen. In diesem Dokument hier werden lediglich die vorbereiteten Figuren geladen und beschrieben.
 

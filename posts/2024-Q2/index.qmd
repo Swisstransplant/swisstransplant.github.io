@@ -46,3 +46,8 @@ ggplot(d, aes(x=group, y=var1, group=group, col=group)) +
   theme(plot.tag = element_text(size = 16, face = "bold"))
 ```
 
+```{r}
+data.frame(x=c(1:5))
+```
+
+
