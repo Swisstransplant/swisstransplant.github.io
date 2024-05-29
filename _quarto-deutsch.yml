@@ -28,10 +28,10 @@ website:
       - icon: github
         href: https://github.com/Swisstransplant
     right:
-      - text: "English"
-        href: ./en
       - text: "En français"
         href: ./fr
+      - text: "English"
+        href: ./en
         
   page-footer:
     left: '© 2023, 2024 Swisstransplant'

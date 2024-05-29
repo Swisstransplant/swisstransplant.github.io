@@ -6,4 +6,4 @@ project:
 
 profile:
   default: deutsch
-  group: [deutsch, english, francais]
+  group: [deutsch, francais, english]

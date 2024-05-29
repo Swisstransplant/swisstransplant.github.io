@@ -1,6 +1,5 @@
 ---
 title: "Statistiken"
-subtitle: "Nationale Statistiken der Organspende und Transplantationen in der Schweiz"
 listing:
   contents: posts
   sort: "date desc"
@@ -11,3 +10,19 @@ listing:
 page-layout: full
 title-block-banner: false
 ---
+
+::: {.content-visible when-profile="deutsch"}
+Auf dieser Seite befinden sich die wichtigsten Kennzahlen zur Organspende- und Transplantationsaktivität in der Schweiz.
+:::
+
+::: {.content-visible when-profile="english"}
+# English title
+
+Content will be added here.
+:::
+
+::: {.content-visible when-profile="francais"}
+# Titre français
+
+Le contenu sera ajouté ici.
+:::
