@@ -1,6 +1,9 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "!R/"
 
 profile:
   default: deutsch
-  group: [deutsch, english]
+  group: [deutsch, english, francais]

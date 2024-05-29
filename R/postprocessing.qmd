@@ -1,0 +1,13 @@
+---
+title: "postprocessing"
+format: html
+editor: visual
+---
+
+
+```{r}
+x=readLines("docs/about/index.html", warn = F)
+y=gsub(pattern = "About", replace = "About Francaise", x = x)
+writeLines(tx2, con="~/Desktop/text2.txt")
+```
+

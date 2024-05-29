@@ -1,6 +1,6 @@
 ---
-title: "Fakten und Zahlen"
-subtitle: "Offizielle nationale Statistiken der Organspende und Transplantationen in der Schweiz"
+title: "Statistiken"
+subtitle: "Nationale Statistiken der Organspende und Transplantationen in der Schweiz"
 listing:
   contents: posts
   sort: "date desc"

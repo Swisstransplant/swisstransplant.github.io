@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "tools/index.html",
+    "href": "tools/index.html",
+    "title": "Research Tools",
+    "section": "",
+    "text": "Research tools enable state-of-the-art data analysis at Swisstransplant."
+  },
+  {
+    "objectID": "tools/index.html#basic-statistics-software",
+    "href": "tools/index.html#basic-statistics-software",
+    "title": "Research Tools",
+    "section": "Basic statistics software",
+    "text": "Basic statistics software\nThe basic statistics software can be downloaded for free in the links provided below.\n\nThe R Project for Statistical Computing https://stat.ethz.ch/CRAN/\nRstudio Desktop https://posit.co/download/rstudio-desktop/\nQuarto https://quarto.org/docs/download/\n\n\n\n\n\n\n\nNote\n\n\n\nThe RStudio desktop installer for Windows 10 requires administrator rights. However, it is possible to download a zip bundle from the download page, unpack the files into a folder, for example, software, and create a shortcut with rstudio.exe on the desktop or the taskbar."
+  },
+  {
+    "objectID": "tools/index.html#swisstransplant-r-package",
+    "href": "tools/index.html#swisstransplant-r-package",
+    "title": "Research Tools",
+    "section": "Swisstransplant R package",
+    "text": "Swisstransplant R package\n\nThe Swisstransplant R package swt is the Swiss army knife for data analysis at Swisstransplant. It is under constant developed.\nStatistical Reporting:\n\nA Quarto statistical report template in the Swisstransplant in-house style\nSwisstransplant color scheme swt_colors()\nA ggplot style called swt_style() for data figures styling\nTidy functions to nicely format p-values, regression models, and descriptive statistics\n\nResearch:\n\nHLA mismatch calculator designed for the antigens format as found in SOAS\nPrognostic models for individual predictions of patients (e.g., KIDMO)\nTools to read and process data from the LifePort kidney transporter\n\nThe source code is developed on GitHub and a package manual is available. The package swt can be installed from within RStudio as follows (requires the package remotes):\nremotes::install_github(\"Swisstransplant/swt\")"
+  },
+  {
+    "objectID": "tools/index.html#r-cookbook",
+    "href": "tools/index.html#r-cookbook",
+    "title": "Research Tools",
+    "section": "R cookbook",
+    "text": "R cookbook\nThe R cookbook demonstrates the usage of the Swisstransplant R package swt to make high-quality reports and publication-ready graphics in our in-house style."
+  },
+  {
+    "objectID": "posts/2024-Q2/index.html",
+    "href": "posts/2024-Q2/index.html",
+    "title": "2. Quartal, 2024",
+    "section": "",
+    "text": "Titre français\nLe contenu sera ajouté ici."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Statistiken",
+    "section": "",
+    "text": "1. Quartal, 2024\n\n\n\n\n\n\nQuartalszahlen\n\n\n\n\n\n\n\n\n\nApr 7, 2024\n\n\nSwisstransplant\n\n\n\n\n\n\n\n\n\n\n\n\n2. Quartal, 2024\n\n\n\n\n\n\nQuartalszahlen\n\n\n\n\n\n\n\n\n\nApr 7, 2024\n\n\nSwisstransplant\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Swisstransplant",
+    "section": "",
+    "text": "Swisstransplant Data Science est un portail en ligne pour les rapports statistiques et la recherche à Swisstransplant.\nPour en savoir plus sur Swisstransplant, veuillez consulter notre site web https://www.swisstransplant.org/."
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About",
+    "section": "",
+    "text": "Le portail Data Science a été créé par Research & QM chez Swisstransplant. Pour nous contacter, visitez notre site web à https://www.swisstransplant.org/."
+  },
+  {
+    "objectID": "kidmo/index.html",
+    "href": "kidmo/index.html",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "",
+    "text": "KIDMO is a prediction tool that helps clinicians and patients to see how the combination of donor, transplant and recipient clinical characteristics can affect graft survival after deceased-donor kidney transplantation."
+  },
+  {
+    "objectID": "kidmo/index.html#what-is-kidmo",
+    "href": "kidmo/index.html#what-is-kidmo",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "",
+    "text": "KIDMO is a prediction tool that helps clinicians and patients to see how the combination of donor, transplant and recipient clinical characteristics can affect graft survival after deceased-donor kidney transplantation."
+  },
+  {
+    "objectID": "kidmo/index.html#how-was-kidmo-developed",
+    "href": "kidmo/index.html#how-was-kidmo-developed",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "How was KIDMO developed?",
+    "text": "How was KIDMO developed?\nKIDMO was developed by Swisstransplant—the national organisation for organ donation and transplantation in Switzerland and all the six transplant centers.\nThe model is based on follow-up data from the Swiss Transplant Cohort Study (STCS) and information from the Swiss Organ Allocation System (SOAS) from over 2,000 kidney recipients transplanted between 2008 and 2021."
+  },
+  {
+    "objectID": "kidmo/index.html#what-can-kidmo-predict",
+    "href": "kidmo/index.html#what-can-kidmo-predict",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "What can KIDMO predict?",
+    "text": "What can KIDMO predict?\nIt is not possible to predict the exact time of organ loss in the future. However, based on all the high-quality data we collected in Switzerland, we can estimate the risk for kidney graft failure for a specific patient conditional on some clinical characteristics.\nIn the statistical model, the primary outcome was graft survival calculated from the date of of transplantation to the date of irreversible graft failure by return to dialysis (or retransplantation).\nMore details about KIDMO can be found in the published study protocol."
+  },
+  {
+    "objectID": "kidmo/index.html#terms-of-use",
+    "href": "kidmo/index.html#terms-of-use",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "Terms of use",
+    "text": "Terms of use\nThe KIDMO is currently under development and for FOR RESEARCH PURPOSES ONLY; the program must not be used in clinical practice.\n\n\n\n\n\n\nMore information\n\n\n\n\n\nThe KIDMO risk calculator (hereinafter referred to as “program”) comes with ABSOLUTELY NO WARRANTY and LIMITATION OF LIABILITY. The program is currently under development and FOR RESEARCH PURPOSES ONLY; this program must not be used in clinical practice, including, but not limited to, clinical decision making. This program is provided WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose. In no event unless required by applicable law will any copyright holder, or any other party who uses this program be liable for damages, including any general, special, incidental or consequential damages arising out of the use or inability to use this program."
+  },
+  {
+    "objectID": "kidmo/index.html#risk-calculator",
+    "href": "kidmo/index.html#risk-calculator",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "Risk calculator",
+    "text": "Risk calculator"
+  },
+  {
+    "objectID": "kidmo/index.html#interpretation",
+    "href": "kidmo/index.html#interpretation",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "Interpretation",
+    "text": "Interpretation\n\nThe HR (hazard ratio) shows the relative increase or decrease in the event rate of kidney graft failure for this recipient compared to the median event rate in the reference population. So, a HR &gt; 1 indicates a higher hazard, and a HR &lt; 1 indicated lower hazard and a more favorable outcome as what we observe in average. A recipient with a HR of 1.0 corresponds to the median hazard.\nThe rank is the percentile of the recipients’ calculated hazard ratio and is interpreted as the percentage of recipients in the reference population with lower or equal hazard compared to the new recipient. The rank has a range from 0% to 100%, and the lower the score, the more favorable the outcome.\nThe CI (cumulative incidence) is the probability of occurrence of kidney graft failure over time at 2, 5 and 10 years.\n\n\n\n\n\n\n\nExample\n\n\n\n\n\n\nA HR of 0.69 means that the recipient may have graft failure at about 0.7-fold the rate of a recipient with median hazard. In other words, there is a decrease of the hazard rate by about 30%.\nA recipient’s rank of 36% indicates that 36% of recipients had a lower or equal hazard rate, and 64% had a higher hazard rate.\nA 10-year CI of 0.04 indicated that the probability of kidney graft failure for this recipient is 4% over a period of 10 years after transplantation. In other words, 4 in 100 recipients with similar clinical characteristics may experience kidney graft failure after 10 years.\n\n\n\n\n\n\n\n\n\n\nAdditional information\n\n\n\n\n\nThe hazard rate is the frequency with which a kidney transplant fails per unit of time. The reference population is all the kidney recipients transplanted between 2008 to 2021 at a Swiss transplant center and included in the study. The reference recipient is a recipient transplanted in 2015 with all the clinical predictor variables set to the reference levels (median donor age: 54, donor history of diabetes: no, etc.) The risk calculator is initially set to the reference values except the transplantation year is set to 2021."
+  },
+  {
+    "objectID": "kidmo/index.html#references",
+    "href": "kidmo/index.html#references",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "References",
+    "text": "References\n\nStudy protocol\nSchwab, S., Sidler, D., Haidar, F., Kuhn, C., Schaub, S., Koller, M., Mellac, K., Stürzinger, U., Tischhauser, B., Binet, I., Golshayan, D., Müller, T., Elmer, A., Franscini, N., Krügel, N., Fehr, T., Immer, F., Swisstransplant Kidney Working Group (STAN), & Swiss Transplant Cohort Study. (2023). Clinical prediction model for prognosis in kidney transplant recipients (KIDMO): study protocol. Diagnostic and Prognostic Research, 7(1), 6. doi:10.1186/s41512-022-00139-5"
+  },
+  {
+    "objectID": "kidmo/index.html#acknowledgements",
+    "href": "kidmo/index.html#acknowledgements",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nKIDMO was developed by Swisstransplant and all the Swiss transplant centers. Kidney recipients have been involved in the development of KIDMO."
+  },
+  {
+    "objectID": "posts/2024-Q1/index.html",
+    "href": "posts/2024-Q1/index.html",
+    "title": "1. Quartal, 2024",
+    "section": "",
+    "text": "Titre français\nLe contenu sera ajouté ici."
+  },
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Below is a list of research publications with Swisstransplant involvement.\n\n\n1. Maire S, Schweiger M, Immer F, Prêtre R, Di Bernardo S, Kadner A, Glöckler M, Balmer C. “Take it or leave it”: Analysis of pediatric heart offers for transplantation in switzerland. Pediatr Transplant. 2024;28(4):e14770. doi:10.1111/petr.14770\n\n\n2. Mueller TF, Nagral S. Organ trafficking - a continuing challenge. Nat Rev Nephrol. 2024;20(5):267-268. doi:10.1038/s41581-024-00821-5\n\n\n3. Blaser F, Immer F, Kruegel N, Franscini N, Tappeiner C, Rennesson C, Massa H, Reinshagen H, Früh B, Kaufmann C, Meneau I, Said S. National consensus on contraindications for corneal donation for transplantation in switzerland. Klin Monbl Augenheilkd. 2024;241(4):412-416. doi:10.1055/a-2211-9614\n\n\n4. Sever MS, Mueller TF, Oniscu GC, Schena P, Vanholder R. Facts and myths about altruistic organ donation. Nephrol Dial Transplant. Published online February 2024:gfae039. doi:10.1093/ndt/gfae039\n\n\n5. Zwet E van, Gelman A, Greenland S, Imbens G, Schwab S, Goodman SN. A new look at P values for randomized clinical trials. NEJM Evid. 2024;3(1):EVIDoa2300003. doi:10.1056/EVIDoa2300003\n\n\n6. Eden J, Breuer E, Birrer D, Müller M, Pfister M, Mayr H, Sun K, Widmer J, Huwyler F, Ungethüm U, Humar B, Gupta A, Schiess S, Wendt M, Immer F, Elmer A, Meierhofer D, Schlegel A, Dutkowski P. Screening for mitochondrial function before use-routine liver assessment during hypothermic oxygenated perfusion impacts liver utilization. EBioMedicine. 2023;98:104857. doi:10.1016/j.ebiom.2023.104857\n\n\n7. Elmer A, Lütolf VV, Carella C, Beyeler F, Krügel N, Straka L, Cardillo M, Immer F. Importance and potential of european Cross-Border deceased donor organ allocation through FOEDUS-EOEO platform. Transpl Int. 2023;36:11327. doi:10.3389/ti.2023.11327\n\n\n8. Mihály S, Smudla A, Dominguez-Gil B, Pérez A, Procaccio F, Cozzi E, López Fraga M, Avsec D, Rahmel A, Forsythe J, Immer F, Jushinskis J, Manara A. Approaching the families of potential deceased organ donors: An overview of regulations and practices in council of europe member states. Transpl Int. 2023;36:11498. doi:10.3389/ti.2023.11498\n\n\n9. Eden J, Sousa Da Silva R, Cortes-Cerisuelo M, Croome K, De Carlis R, Hessheimer AJ, Muller X, Goeij F de, Banz V, Magini G, Compagnon P, Elmer A, Lauterio A, Panconesi R, Widmer J, Dondossola D, Muiesan P, Monbaliu D, Rosner van Rosmalen M de, Detry O, Fondevila C, Jochmans I, Pirenne J, Immer F, Oniscu GC, Jonge J de, Lesurtel M, De Carlis LG, Taner CB, Heaton N, Schlegel A, Dutkowski P. Utilization of livers donated after circulatory death for transplantation - an international comparison. J Hepatol. 2023;78(5):1007-1016. doi:10.1016/j.jhep.2023.01.025\n\n\n10. Dirchwolf M, Becchetti C, Stampf S, Haldimann C, Immer F, Beyeler F, Toso C, Dutkowski P, Candinas D, Dufour JF, Banz V, Swiss Transplant Cohort Study. The impact of perceived donor liver quality on post-transplant outcome. ANZ J Surg. 2023;93(4):918-925. doi:10.1111/ans.18217\n\n\n11. Schwab S, Sidler D, Haidar F, Kuhn C, Schaub S, Koller M, Mellac K, Stürzinger U, Tischhauser B, Binet I, Golshayan D, Müller T, Elmer A, Franscini N, Krügel N, Fehr T, Immer F, Swisstransplant Kidney Working Group (STAN), Swiss Transplant Cohort Study. Clinical prediction model for prognosis in kidney transplant recipients (KIDMO): Study protocol. Diagn Progn Res. 2023;7(1):6. doi:10.1186/s41512-022-00139-5\n\n\n12. Becchetti C, Dirchwolf M, Schropp J, Magini G, Müllhaupt B, Immer F, Dufour JF, Banz V, Berzigotti A, Bosch J, Swiss Transplant Cohort Study. Use of statins after liver transplantation is associated with improved survival: Results of a nationwide study. Aliment Pharmacol Ther. 2022;56(7):1194-1204. doi:10.1111/apt.17192\n\n\n13. Dirchwolf M, Becchetti C, Gschwend SG, Toso C, Dutkowski P, Immer F, Beyeler F, Rossi S, Schropp J, Dufour JF, Banz V, Swiss Transplant Cohort Study. The MELD upgrade exception: A successful strategy to optimize access to liver transplantation for patients with high waiting list mortality. HPB. 2022;24(7):1168-1176. doi:10.1016/j.hpb.2021.12.009\n\n\n14. Beckmann S, Mauthner O, Schick L, Rochat J, Lovis C, Boehler A, Binet I, Huynh-Do U, De Geest S, Psychosocial Interest Group, Swiss Transplant Cohort Study. A national survey comparing patients’ and transplant professionals’ research priorities in the swiss transplant cohort study. Transpl Int. 2022;35:10255. doi:10.3389/ti.2022.10255\n\n\n15. Kuhn C, Born A, Karolin A, Lang B, Binet I, Golshayan D, Haidar F, Müller TF, Schaub S, Immer F, Koller M, Sidler D, Swiss Transplant Cohort Study. Relevance of deceased donor proteinuria for kidney transplantation: A comprehensive national cohort study. Clin Transplant. 2022;36(4):e14574. doi:10.1111/ctr.14574\n\n\n16. Elmer A, Rohrer ML, Benden C, Krügel N, Beyeler F, Immer FF. Organ donation after circulatory death as compared with organ donation after brain death in switzerland - an observational study. Swiss Med Wkly. 2022;152:w30139. doi:10.4414/smw.2022.w30132\n\n\n17. Aubert O, Yoo D, Zielinski D, Cozzi E, Cardillo M, Dürr M, Domı́nguez-Gil B, Coll E, Da Silva MI, Sallinen V, Lemström K, Midtvedt K, Ulloa C, Immer F, Weissenbacher A, Vallant N, Basic-Jukic N, Tanabe K, Papatheodoridis G, Menoudakou G, Torres M, Soratti C, Hansen Krogh D, Lefaucheur C, Ferreira G, Silva HT Jr, Hartell D, Forsythe J, Mumford L, Reese PP, Kerbaul F, Jacquelinet C, Vogelaar S, Papalois V, Loupy A. COVID-19 pandemic and worldwide organ transplantation: A population-based study. Lancet Public Health. 2021;6(10):e709-e719. doi:10.1016/S2468-2667(21)00200-0\n\n\n18. Ehrsam JP, Benden C, Immer FF, Inci I. Current status and further potential of lung donation after circulatory death. Clin Transplant. 2021;35(7):e14335. doi:10.1111/ctr.14335\n\n\n19. Kuhn C, Lang BM, Lörcher S, Karolin A, Binet I, Beldi G, Golshayan D, Hadaya K, Mueller TF, Schaub S, Immer F, Stampf S, Koller M, Sidler D. Outcome of kidney transplantation from very senior donors in switzerland - a national cohort study. Transpl Int. 2021;34(4):689-699. doi:10.1111/tri.13836\n\n\n20. Gottschalk M, Elmer A, Benden C, Beyeler F, Immer F. Impact of cardiopulmonary resuscitation on organ donation in switzerland. Swiss Med Wkly. 2021;151:w20413. doi:10.4414/smw.2021.20413\n\n\n21. Werner R, Benden C. Pediatric lung transplantation as standard of care. Clin Transplant. 2021;35(1):e14126. doi:10.1111/ctr.14126\n\n\n22. Benden C, Haile S, Kruegel N, Beyeler F, Aubert JD, Binet I, Golshayan D, Hadaya K, Mueller T, Parvex P, Immer F. SARS-CoV-2 / COVID-19 in patients on the swiss national transplant waiting list. Swiss Med Wkly. 2020;150:w20451. doi:10.4414/smw.2020.20451\n\n\n23. Immer F, Benden C, Elmer A, Krügel N, Nyfeler S, Nebiker M, Wilhlem M, Hirzel C, National Committee for Organ Donation (CNDO), Medical Committee (CM), Swisstransplant Infectious Diseases Working Group (STAI). In the eye of the hurricane: The swiss COVID-19 pandemic stepwise shutdown approach in organ donation and transplantation. Swiss Med Wkly. 2020;150:w20447. doi:10.4414/smw.2020.20447\n\n\n24. Radtke T, Haile SR, Dressel H, Benden C. Recommended shielding against COVID-19 impacts physical activity levels in adults with cystic fibrosis. J Cyst Fibros. 2020;19(6):875-879. doi:10.1016/j.jcf.2020.08.013\n\n\n25. Holm AM, Immer F, Benden C. Lung allocation for transplant: The european perspective. Clin Transplant. 2020;34(7):e13883. doi:10.1111/ctr.13883\n\n\n26. Benden C. Lung transplantation as standard of care for advanced cystic fibrosis lung disease. J Heart Lung Transplant. 2020;39(6):561-562. doi:10.1016/j.healun.2020.03.022\n\n\n27. Muller YD, Vionnet J, Beyeler F, Eigenmann P, Caubet JC, Villard J, Berney T, Scherer K, Spertini F, Fricker MP, Lang C, Schmid-Grendelmeier P, Benden C, Roux Lombard P, Aubert V, Immer F, Pascual M, Harr T, Swiss Transplant Cohort Study. Management of allergy transfer upon solid organ transplantation. Am J Transplant. 2020;20(3):834-843. doi:10.1111/ajt.15601\n\n\n28. Lomero M, Gardiner D, Coll E, Haase-Kromwijk B, Procaccio F, Immer F, Gabbasova L, Antoine C, Jushinskis J, Lynch N, Foss S, Bolotinha C, Ashkenazi T, Colenbie L, Zuckermann A, Adamec M, Czerwiński J, Karčiauskaitė S, Ström H, López-Fraga M, Dominguez-Gil B, European Committee on Organ Transplantation of the Council of Europe (CD-P-TO). Donation after circulatory death today: An updated overview of the european landscape. Transpl Int. 2020;33(1):76-88. doi:10.1111/tri.13506\n\n\n29. Schaub S, Immer F, Steiger J. Organ transplantation in switzerland. Transplantation. 2019;103(5):853-856. doi:10.1097/TP.0000000000002565\n\n\n30. Schweiger M, Immer FF. Utilization of organs to pediatric heart transplant recipients. J Heart Lung Transplant. 2019;38(3):239-240. doi:10.1016/j.healun.2018.12.005\n\n\n31. Keel I, Schürch R, Weiss J, Zwahlen M, Immer FF, Comité National du Don d’Organes (CNDO). Is there an association between consent rates in swiss hospitals and critical care staffs’ attitudes towards organ donation, their knowledge and confidence in the donation process? PLoS One. 2019;14(2):e0211614. doi:10.1371/journal.pone.0211614\n\n\n32. Weiss J, Elmer A, Béchir M, Brunner C, Eckert P, Endermann S, Lenherr R, Nebiker M, Tisljar K, Haberthür C, Immer FF, Comité National du Don d’Organes (CNDO). Deceased organ donation activity and efficiency in switzerland between 2008 and 2017: Achievements and future challenges. BMC Health Serv Res. 2018;18(1):876. doi:10.1186/s12913-018-3691-8\n\n\n33. Weiss J, Elmer A, Mahı́llo B, Domı́nguez-Gil B, Avsec D, Nanni Costa A, Haase-Kromwijk BJJM, Laouabdia K, Immer FF, Council of Europe European Committee on Organ Transplantation (CD-P-TO). Evolution of deceased organ donation activity versus efficiency over a 15-year period: An international comparison. Transplantation. 2018;102(10):1768-1778. doi:10.1097/TP.0000000000002226\n\n\n34. Elmer A, Birrer M, Weiss J, Aubert JD, Benden C, Inci I, Krüger T, Soccal PM, Immer FF. Extended-criteria donors in lung transplantation in switzerland: An evaluation of two adapted lung donor scores. Swiss Med Wkly. 2018;148:w14614. doi:10.57187/smw.2018.14614\n\n\n35. Fehr T, Immer F. Marginal organ allocation: Old and new REALity. Transpl Int. 2017;30(12):1212-1214. doi:10.1111/tri.13020\n\n\n36. Schweiger M, Stiasny B, Immer F, Bürki C, Schmiady M, Dave H, Cavigelli-Brunner A, Kretschmar O, Cannizzaro V, Hübler M. Cardiac transplantation in a neonate-first case in switzerland and european overview. Clin Transplant. 2017;31(5). doi:10.1111/ctr.12935\n\n\n37. Weiss J, Shaw D, Schober R, Abati V, Immer FF, Comité National du Don d’Organes Cndo. Attitudes towards organ donation and relation to wish to donate posthumously. Swiss Med Wkly. 2017;147:w14401. doi:10.4414/smw.2017.14401\n\n\n38. Weitz M, Sazpinar O, Schmidt M, Neuhaus TJ, Maurer E, Kuehni C, Parvex P, Chehade H, Tschumi S, Immer F, Laube GF. Balancing competing needs in kidney transplantation: Does an allocation system prioritizing children affect the renal transplant function? Transpl Int. 2017;30(1):68-75. doi:10.1111/tri.12874\n\n\n39. Weiss J, Kocher M, Immer FF. International collaboration and organ exchange in switzerland. J Thorac Dis. 2015;7(3):543-548. doi:10.3978/j.issn.2072-1439.2014.12.44\n\n\n40. Immer FF. Organ donation after circulatory death in switzerland: Slow but constant progress. Swiss Med Wkly. 2015;145:w14062. doi:10.4414/smw.2015.14062\n\n\n41. Weiss J, Beyeler F, Immer FF, Swisstransplant Heart Working Group Stah. Heart allocation and transplantation in switzerland since the introduction of the swiss organ allocation system (SOAS). Swiss Med Wkly. 2014;144:w14057. doi:10.4414/smw.2014.14057\n\n\n42. Weiss JH, Keel I, Immer FF, Wiegand J, Haberthür C, Comité National du Don d’Organes (CNDO). Swiss monitoring of potential organ donors (SwissPOD): A prospective 12-month cohort study of all adult ICU deaths in switzerland. Swiss Med Wkly. 2014;144:w14045. doi:10.4414/smw.2014.14045\n\n\n43. Weiss J, Coslovsky M, Keel I, Immer FF, Jüni P, Comité National du Don d’Organes. Organ donation in switzerland–an analysis of factors associated with consent rate. PLoS One. 2014;9(9):e106845. doi:10.1371/journal.pone.0106845\n\n\n44. Schneider S, Schreiner P, Weiss J, Immer FF. Assessing the potential of international organ exchange–the swiss experience. Eur J Cardiothorac Surg. 2011;40(6):1368-1373. doi:10.1016/j.ejcts.2011.02.005\n\n\n45. Immer FF. [What does the practicing doctor need to know about the transplantation law and its effects?]. Ther Umsch. 2011;68(12):673-677. doi:10.1024/0040-5930/a000229\n\n\n46. Weiss J, Hofmann SP, Immer FF. Patient characteristics of deceased organ donors in switzerland 1998-2008. Swiss Med Wkly. 2011;141:w13265. doi:10.4414/smw.2011.13265\n\n\n47. Otth M, Rödder S, Immer FF, Marti HP. Organ donation in switzerland: A survey on marginal or extended criteria donors (ECD) from 1998 to 2009. Swiss Med Wkly. 2011;141:w13230. doi:10.4414/smw.2011.13230\n\n\n48. Uehlinger NB, Beyeler F, Weiss J, Marti HP, Immer FF. Organ transplantation in switzerland: Impact of the new transplant law on cold ischaemia time and organ transports. Swiss Med Wkly. 2010;140(15-16):222-227. doi:10.4414/smw.2010.12965\n\n\n49. Müller C, Vernet D, Moretti D, Klinger S, Vernet JP. [Organ donation in switzerland]. Ther Umsch. 2005;62(7):437-442. doi:10.1024/0040-5930.62.7.437\n\n\n50. Longerich B. [Role of the transplantation coordinator. Between 2 lives: A permanent challenge]. Krankenpfl Soins Infirm. 2001;94(1):64-67.\n\n\n51. Speiser DE, Jeannet M. Renal transplantation to sensitized patients: Decreased graft survival probability associated with a positive historical crossmatch. Transpl Immunol. 1995;3(4):330-334. doi:10.1016/0966-3274(95)80019-0\n\n\n52. Speiser DE, Frick TW, Goumaz C, Opelz G, Jeannet M. [Immunological aspects of kidney transplantation in switzerland 1981-1992. Swiss transplant work group kidney transplantation]. Schweiz Med Wochenschr. 1995;125(34):1573-1582."
+  }
+]

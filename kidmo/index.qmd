@@ -1,8 +1,8 @@
 ---
 title: "KIDMO---Kidney prediction model"
-subtitle: 'Risk calculator for deceased-donor kidney transplantation in Switzerland.'
+subtitle: "Risk calculator for deceased-donor kidney transplantation in Switzerland."
 author: Swisstransplant
-date: last-modified
+date: "2023-08-07"
 ---
 
 ## What is KIDMO?

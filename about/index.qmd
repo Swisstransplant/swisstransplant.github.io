@@ -2,4 +2,14 @@
 title: "About"
 ---
 
-The Data Science portal was created by Research and QM at Swisstransplant. To contact us visit our website at <https://www.swisstransplant.org/>.
+::: {.content-visible when-profile="deutsch"}
+Das Data Science Portal wurde von Research & QM bei Swisstransplant erstellt. Um uns zu kontaktieren, besuchen Sie unsere Website unter <https://www.swisstransplant.org/>.
+:::
+
+::: {.content-visible when-profile="english"}
+The Data Science portal was created by Research & QM at Swisstransplant. To contact us visit our website at <https://www.swisstransplant.org/>.
+:::
+
+::: {.content-visible when-profile="francais"}
+Le portail Data Science a été créé par Research & QM chez Swisstransplant. Pour nous contacter, visitez notre site web à <https://www.swisstransplant.org/>.
+:::

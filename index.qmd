@@ -2,6 +2,20 @@
 title: "Swisstransplant"
 ---
 
+::: {.content-visible when-profile="deutsch"}
+Swisstransplant Data Science ist ein Online-Portal für statistisches Reporting und Forschung bei Swisstransplant.
+
+Um mehr über Swisstransplant zu erfahren, besuchen Sie bitte unsere Website <https://www.swisstransplant.org/>.
+:::
+
+::: {.content-visible when-profile="english"}
 Swisstransplant Data Science is an online portal for statistical reporting and research at Swisstransplant.
 
 To learn more about Swisstransplant please visit our website <https://www.swisstransplant.org/>.
+:::
+
+::: {.content-visible when-profile="francais"}
+Swisstransplant Data Science est un portail en ligne pour les rapports statistiques et la recherche à Swisstransplant.
+
+Pour en savoir plus sur Swisstransplant, veuillez consulter notre site web <https://www.swisstransplant.org/>.
+:::

@@ -1,0 +1,46 @@
+project:
+  output-dir: ./docs/fr
+
+website:
+  title: "Data Science"
+  site-url: "https://www.swtdata.org/"
+  description: "Rapports statistiques et recherche à Swisstransplant."
+  search: false
+  favicon: images/SWT_icon_kreis_blau_2020_196x196.png
+  navbar:
+    logo: "images/SWT_icon_cmyk2020.png"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Rapports statistiques"
+        href: posts.qmd
+      - text: "Recherche"
+        menu:
+        - tools/index.qmd
+        - text: "KIDMO"
+          href: kidmo/index.qmd
+        - text: "EXAM"
+          href: https://swisstransplant.shinyapps.io/EXAM/
+          icon: "box-arrow-up-right"
+          target: _blank
+      - text: "Qui sommes-nous?"
+        href: about/index.qmd
+      - icon: github
+        href: https://github.com/Swisstransplant
+    right:
+      - text: "Deutsch"
+        href: ..
+      - text: "English"
+        href: ../en
+        
+  page-footer:
+    left: '© 2023, 2024 Swisstransplant'
+
+lang: en
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - custom.scss
+    toc: true

@@ -28,32 +28,32 @@
     "text": "R cookbook\nThe R cookbook demonstrates the usage of the Swisstransplant R package swt to make high-quality reports and publication-ready graphics in our in-house style."
   },
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Fakten und Zahlen",
+    "objectID": "posts/2024-Q2/index.html",
+    "href": "posts/2024-Q2/index.html",
+    "title": "2. Quartal, 2024",
     "section": "",
-    "text": "Kennzahlen 2. Quartal 2024\n\n\nKennzahlen zur Organspende und Organtransplantation in der Schweiz\n\n\n\nQuartalszahlen\n\n\n\nDas Wichtigste in Kürze…Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n\n\n\n\n07.07.2024\n\n\nSwisstransplant\n\n\n\n\n\n\n\n\n\n\n\n\nDeutscher Titel\n\n\n\n\n\n\nQuartalszahlen\n\n\n\n\n\n\n\n\n\n07.04.2024\n\n\nSwisstransplant\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Deutscher Titel\nHier ensteht ein Inhalt."
   },
   {
-    "objectID": "posts/2024-Q1/index.html",
-    "href": "posts/2024-Q1/index.html",
-    "title": "Deutscher Titel",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Statistiken",
     "section": "",
-    "text": "Deutscher Titel\nThis content will only appear in the advanced version.\nEin separates Quarto Dokument produziert die ganzen Statisiken und Figuren rund um die Quartalszahlen. In diesem Dokument hier werden lediglich die vorbereiteten Figuren geladen und beschrieben."
+    "text": "1. Quartal, 2024\n\n\n\n\n\n\nQuartalszahlen\n\n\n\n\n\n\n\n\n\n07.04.2024\n\n\nSwisstransplant\n\n\n\n\n\n\n\n\n\n\n\n\n2. Quartal, 2024\n\n\n\n\n\n\nQuartalszahlen\n\n\n\n\n\n\n\n\n\n07.04.2024\n\n\nSwisstransplant\n\n\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Swisstransplant",
     "section": "",
-    "text": "Swisstransplant Data Science is an online portal for statistical reporting and research at Swisstransplant.\nTo learn more about Swisstransplant please visit our website https://www.swisstransplant.org/."
+    "text": "Swisstransplant Data Science ist ein Online-Portal für statistisches Reporting und Forschung bei Swisstransplant.\nUm mehr über Swisstransplant zu erfahren, besuchen Sie bitte unsere Website https://www.swisstransplant.org/."
   },
   {
     "objectID": "about/index.html",
     "href": "about/index.html",
     "title": "About",
     "section": "",
-    "text": "The Data Science portal was created by Research and QM at Swisstransplant. To contact us visit our website at https://www.swisstransplant.org/."
+    "text": "Das Data Science Portal wurde von Research & QM bei Swisstransplant erstellt. Um uns zu kontaktieren, besuchen Sie unsere Website unter https://www.swisstransplant.org/."
   },
   {
     "objectID": "kidmo/index.html",
@@ -119,11 +119,11 @@
     "text": "Acknowledgements\nKIDMO was developed by Swisstransplant and all the Swiss transplant centers. Kidney recipients have been involved in the development of KIDMO."
   },
   {
-    "objectID": "posts/2024-Q2/index.html",
-    "href": "posts/2024-Q2/index.html",
-    "title": "Kennzahlen 2. Quartal 2024",
+    "objectID": "posts/2024-Q1/index.html",
+    "href": "posts/2024-Q1/index.html",
+    "title": "1. Quartal, 2024",
     "section": "",
-    "text": "Code welcher eine Figur Produziert\nEin separates Quarto Dokument produziert die ganzen Statisiken und Figuren rund um die Quartalszahlen. In diesem Dokument hier werden lediglich die vorbereiteten Figuren geladen und beschrieben.\n\nlibrary(ggplot2)\nlibrary(swt)\n\ncol = swt::swt_colors()\n\nn = 100\nvar1 = c(rnorm(n/2, mean=0), rnorm(n/2, mean=3) )\nd = data.frame(var1 = var1,\n               var2 = var1 + rnorm(n, sd = 0.4),\n               group = as.factor(rep(c(\"abc\", \"mno\" ), each=n/2))\n)\n\nggplot(d, aes(x=group, y=var1, group=group, col=group)) +\n  geom_boxplot(fill=col$grey.bg) + \n  geom_point(size=2, shape=1, position = position_jitter(height = 0, width = 0.25),\n             col=c(rep(col$pal.blue.swt[1], n/2),\n                   rep(col$pal.red.liver[1], n/2))) +\n  labs(title = \"Title\", tag = \"A\") +\n  scale_color_manual(values = c(col$blue.swt,\n                                col$red.liver)) +\n  swt_style(legend_position = \"none\", grey_theme = FALSE, font_size = 14,\n            title_size = 16) + \n  theme(plot.tag = element_text(size = 16, face = \"bold\"))\n\n\n\n\n\n\n\n\n\ndata.frame(x=c(1:5))\n\n\n\n\n\nx\n\n\n\n\n1\n\n\n2\n\n\n3\n\n\n4\n\n\n5"
+    "text": "Deutscher Titel\nHier ensteht ein Inhalt."
   },
   {
     "objectID": "publications/index.html",
