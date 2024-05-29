@@ -16,13 +16,9 @@ Auf dieser Seite befinden sich die wichtigsten Kennzahlen zur Organspende- und T
 :::
 
 ::: {.content-visible when-profile="english"}
-# English title
-
-Content will be added here.
+This page contains the most important key figures on organ donation and transplantation activity in Switzerland.
 :::
 
 ::: {.content-visible when-profile="francais"}
-# Titre français
-
-Le contenu sera ajouté ici.
+Sur cette page se trouvent les principaux chiffres clés concernant l'activité de don et de transplantation d'organes en Suisse.
 :::

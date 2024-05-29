@@ -1,5 +1,5 @@
 ---
-title: "1. Quartal, 2024"
+title: "1. Quartal 2024"
 draft: false
 author: "Swisstransplant"
 date: "2024-04-07"
