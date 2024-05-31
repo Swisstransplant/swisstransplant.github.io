@@ -11,21 +11,22 @@ execute:
   echo: false
 ---
 
+
+
 ::: {.content-visible when-profile="deutsch"}
-# Deutscher Titel
+# 1.1 Personen auf der Warteliste
 
-Hier ensteht ein Inhalt.
-:::
-
-::: {.content-visible when-profile="english"}
-# English title
-
-Content will be added here.
+![](Figur1.1-de.png){width=80%}
 :::
 
 ::: {.content-visible when-profile="francais"}
-# Titre français
+# 1.1 Personnes sur liste d'attente
 
-Le contenu sera ajouté ici.
+![](Figur1.1-fr.png){width=80%}
 :::
 
+::: {.content-visible when-profile="english"}
+# 1.1 Persons on the waiting list
+
+![](Figur1.1-en.png){width=80%}
+:::
