@@ -24,7 +24,14 @@ The preview option can also be used to render and also display the page
     
 ### 3. Upload the project to GitHub
 
-Review, commit and push changes to GitHub
+First let's review all change
 
     git status
-    git 
+    
+If all if fine, commit all changes and push a new version of the website
+
+    git add --all
+    git commit -m "update Q1 2024"
+    git push
+    
+    
