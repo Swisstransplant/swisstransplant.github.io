@@ -3,7 +3,7 @@ title: "1. Quartal 2024"
 draft: false
 author: "Swisstransplant"
 date: "2024-04-07"
-categories: [Quartalszahlen]
+categories: [Quartalszahlen, Chiffres trimestriels, Quarterly figures]
 image: "swt_organ_transplant.jpg"
 title-block-banner: true
 df-print: kable
@@ -12,21 +12,40 @@ execute:
 ---
 
 
+::: {.content-visible when-profile="de"}
+# 1. Warteliste
 
-::: {.content-visible when-profile="deutsch"}
-# 1.1 Personen auf der Warteliste
+## 1.1 Personen auf der Warteliste
 
-![](Figur1.1-de.png){width=80%}
+![](Fig1.1-de.png){width=80%}
 :::
 
-::: {.content-visible when-profile="francais"}
-# 1.1 Personnes sur liste d'attente
+::: {.content-visible when-profile="fr"}
+## 1.1 Personnes sur liste d'attente
 
-![](Figur1.1-fr.png){width=80%}
+![](Fig1.1-fr.png){width=80%}
 :::
 
-::: {.content-visible when-profile="english"}
-# 1.1 Persons on the waiting list
+::: {.content-visible when-profile="en"}
+## 1.1 Persons on the waiting list
 
-![](Figur1.1-en.png){width=80%}
+![](Fig1.1-en.png){width=80%}
+:::
+
+::: {.content-visible when-profile="de"}
+## 1.2 Ereignisse auf der Warteliste
+
+![](Fig1.2-de.png){width=80%}
+:::
+
+::: {.content-visible when-profile="fr"}
+## 1.2 Événements sur la liste d'attente
+
+![](Fig1.2-fr.png){width=80%}
+:::
+
+::: {.content-visible when-profile="en"}
+## 1.2 Events on the waiting list
+
+![](Fig1.2-en.png){width=80%}
 :::
