@@ -12,23 +12,23 @@ First, we need to render all profiles, it is important to first render the Germa
     quarto render --profile fr
     quarto render --profile en
     
-The preview option can also be used to render and also display the page
+The preview option can also be used to render and also display the page.
 
     quarto preview --profile de
 
 ### 2. Multilanguage support
 
-# Then we run the post-processing script which translates the document titles.
+We run the post-processing script which translates the document titles.
     
     Multilanguage.qmd
     
 ### 3. Upload the project to GitHub
 
-First let's review all change
+Let's review all changes.
 
     git status
     
-If all if fine, commit all changes and push a new version of the website
+If all if fine, commit all changes and push a new version of the website.
 
     git add --all
     git commit -m "update Q1 2024"
