@@ -11,6 +11,17 @@ execute:
   echo: false
 ---
 
+::: {.content-visible when-profile="de"}
+Die Quartalszahlen beinhalten die wichtigsten Kennzahlen der Warteliste, der spendenden Personen und der Transplantationen in der Schweiz.
+:::
+
+::: {.content-visible when-profile="fr"}
+Les chiffres trimestriels comprennent les principaux indicateurs de la liste d'attente, des donneurs et des transplantations en Suisse.
+:::
+
+::: {.content-visible when-profile="en"}
+The quarterly figures include the key figures for the waiting list, donors and transplants in Switzerland.
+:::
 
 ::: {.content-visible when-profile="de"}
 # 1. Warteliste

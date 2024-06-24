@@ -11,14 +11,14 @@ page-layout: full
 title-block-banner: false
 ---
 
-::: {.content-visible when-profile="deutsch"}
+::: {.content-visible when-profile="de"}
 Auf dieser Seite befinden sich die wichtigsten Kennzahlen zur Organspende- und Transplantationsaktivität in der Schweiz.
 :::
 
-::: {.content-visible when-profile="english"}
+::: {.content-visible when-profile="en"}
 This page contains the most important key figures on organ donation and transplantation activity in Switzerland.
 :::
 
-::: {.content-visible when-profile="francais"}
+::: {.content-visible when-profile="fr"}
 Sur cette page se trouvent les principaux chiffres clés concernant l'activité de don et de transplantation d'organes en Suisse.
 :::
