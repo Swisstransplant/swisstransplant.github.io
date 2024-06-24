@@ -106,3 +106,21 @@ The quarterly figures include the key figures for the waiting list, donors and t
 
 ![](Fig2.2-en.png){width=80%}
 :::
+
+::: {.content-visible when-profile="de"}
+## 2.3 Transplantierte Organe pro postmortale Spende
+
+![](Fig2.3-de.png){width=80%}
+:::
+
+::: {.content-visible when-profile="fr"}
+## 2.3 Organes transplantés par donneur décédé
+
+![](Fig2.3-fr.png){width=80%}
+:::
+
+::: {.content-visible when-profile="en"}
+## 2.3 Transplanted organs from deceased donors
+
+![](Fig2.3-en.png){width=80%}
+:::
