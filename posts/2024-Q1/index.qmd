@@ -55,7 +55,7 @@ execute:
 :::
 
 ::: {.content-visible when-profile="de"}
-# 2. Personnes ayant fait un don
+# 2.Für eine postmortale Organspende gemeldete Personen
 
 ## 2.1 Personnes inscrites pour un don d'organe post-mortem
 
