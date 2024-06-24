@@ -21,12 +21,16 @@ execute:
 :::
 
 ::: {.content-visible when-profile="fr"}
+# 1. Liste d'attente
+
 ## 1.1 Personnes sur liste d'attente
 
 ![](Fig1.1-fr.png){width=80%}
 :::
 
 ::: {.content-visible when-profile="en"}
+# 1. Waiting list
+
 ## 1.1 Persons on the waiting list
 
 ![](Fig1.1-en.png){width=80%}
@@ -48,4 +52,46 @@ execute:
 ## 1.2 Events on the waiting list
 
 ![](Fig1.2-en.png){width=80%}
+:::
+
+::: {.content-visible when-profile="de"}
+# 2. Personnes ayant fait un don
+
+## 2.1 Personnes inscrites pour un don d'organe post-mortem
+
+![](Fig2.1-de.png){width=80%}
+:::
+
+::: {.content-visible when-profile="fr"}
+# 2. Personnes faisant un don
+
+## 2.1 Personnes inscrites pour un don d'organe post-mortem
+
+![](Fig2.1-fr.png){width=80%}
+:::
+
+::: {.content-visible when-profile="en"}
+# 2. Donating persons
+
+## 2.1 Persons registered for post-mortem organ donation
+
+![](Fig2.1-en.png){width=80%}
+:::
+
+::: {.content-visible when-profile="de"}
+## 2.2 Postmortale Organspende
+
+![](Fig2.2-de.png){width=80%}
+:::
+
+::: {.content-visible when-profile="fr"}
+## 2.2 Donneurs décédés
+
+![](Fig2.2-fr.png){width=80%}
+:::
+
+::: {.content-visible when-profile="en"}
+## 2.2 Post-mortem organ donation
+
+![](Fig2.2-en.png){width=80%}
 :::
