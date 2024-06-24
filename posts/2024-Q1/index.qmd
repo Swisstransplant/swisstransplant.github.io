@@ -124,3 +124,45 @@ The quarterly figures include the key figures for the waiting list, donors and t
 
 ![](Fig2.3-en.png){width=80%}
 :::
+
+::: {.content-visible when-profile="de"}
+# 3. Transplantationen
+
+## 3.1 Transplantationen
+
+![](Fig3.1-de.png){width=80%}
+:::
+
+::: {.content-visible when-profile="fr"}
+# 3. Transplantations
+
+## 3.1 Transplantations
+
+![](Fig3.1-fr.png){width=80%}
+:::
+
+::: {.content-visible when-profile="en"}
+# 3. Transplantations
+
+## 3.1 Transplantations
+
+![](Fig3.1-en.png){width=80%}
+:::
+
+::: {.content-visible when-profile="de"}
+## 3.2 Transplantationen mit importierten Organen
+
+![](Fig3.2-de.png){width=80%}
+:::
+
+::: {.content-visible when-profile="fr"}
+## 3.2 Transplantations avec des organes importés
+
+![](Fig3.2-fr.png){width=80%}
+:::
+
+::: {.content-visible when-profile="en"}
+## 3.2 Transplantations with imported organs
+
+![](Fig3.2-en.png){width=80%}
+:::
