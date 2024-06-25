@@ -166,3 +166,21 @@ The quarterly figures include the key figures for the waiting list, donors and t
 
 ![](Fig3.2-en.png){width=80%}
 :::
+
+::: {.content-visible when-profile="de"}
+## 3.3 Exportierte Organe
+
+![](Fig3.3-de.png){width=80%}
+:::
+
+::: {.content-visible when-profile="fr"}
+## 3.3 Organes exportés
+
+![](Fig3.3-fr.png){width=80%}
+:::
+
+::: {.content-visible when-profile="en"}
+## 3.3 Exported organs
+
+![](Fig3.3-en.png){width=80%}
+:::
