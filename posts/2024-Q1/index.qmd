@@ -184,3 +184,21 @@ The quarterly figures include the key figures for the waiting list, donors and t
 
 ![](Fig3.3-en.png){width=80%}
 :::
+
+::: {.content-visible when-profile="de"}
+## 3.4 Herztransplantationen
+
+![](Fig3.4-de.png){width=80%}
+:::
+
+::: {.content-visible when-profile="fr"}
+## 3.4 Transplantations de cœurs
+
+![](Fig3.4-fr.png){width=80%}
+:::
+
+::: {.content-visible when-profile="en"}
+## 3.4 Heart transplantations
+
+![](Fig3.4-en.png){width=80%}
+:::
