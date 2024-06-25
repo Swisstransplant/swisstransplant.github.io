@@ -28,7 +28,7 @@ The quarterly figures include the key figures for the waiting list, donors and t
 
 ## 1.1 Personen auf der Warteliste
 
-![](Fig1.1-de.png){width=80%}
+![Erklärung zu der Figur](Fig1.1-de.png){width=80%}
 :::
 
 ::: {.content-visible when-profile="fr"}
@@ -201,4 +201,76 @@ The quarterly figures include the key figures for the waiting list, donors and t
 ## 3.4 Heart transplantations
 
 ![](Fig3.4-en.png){width=80%}
+:::
+
+::: {.content-visible when-profile="de"}
+## 3.5 Lungentransplantationen
+
+![](Fig3.5-de.png){width=80%}
+:::
+
+::: {.content-visible when-profile="fr"}
+## 3.5 Transplantations de poumons
+
+![](Fig3.5-fr.png){width=80%}
+:::
+
+::: {.content-visible when-profile="en"}
+## 3.5 Lung transplantations
+
+![](Fig3.5-en.png){width=80%}
+:::
+
+::: {.content-visible when-profile="de"}
+## 3.6 Lebertransplantationen
+
+![](Fig3.6-de.png){width=80%}
+:::
+
+::: {.content-visible when-profile="fr"}
+## 3.6 Transplantation du foie
+
+![](Fig3.6-fr.png){width=80%}
+:::
+
+::: {.content-visible when-profile="en"}
+## 3.6 Liver transplantations
+
+![](Fig3.6-en.png){width=80%}
+:::
+
+::: {.content-visible when-profile="de"}
+## 3.7 Nierentransplantationen
+
+![](Fig3.7-de.png){width=80%}
+:::
+
+::: {.content-visible when-profile="fr"}
+## 3.7 Transplantations de reins
+
+![](Fig3.7-fr.png){width=80%}
+:::
+
+::: {.content-visible when-profile="en"}
+## 3.7 Kidney transplantations
+
+![](Fig3.7-en.png){width=80%}
+:::
+
+::: {.content-visible when-profile="de"}
+## 3.8 Pankreas/Inselzellen Transplantationen
+
+![](Fig3.8-de.png){width=80%}
+:::
+
+::: {.content-visible when-profile="fr"}
+## 3.8 Greffes de pancréas/cellules isolées
+
+![](Fig3.8-fr.png){width=80%}
+:::
+
+::: {.content-visible when-profile="en"}
+## 3.8 Pancreas/islet cell transplants
+
+![](Fig3.8-en.png){width=80%}
 :::
