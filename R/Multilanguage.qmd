@@ -30,8 +30,8 @@ file = "../docs/en/about/index.html"
 page = readLines(file, warn = FALSE)
 
 page = gsub(x = page,
-            pattern = "<title>Über uns - Swisstransplant Data Science</title>", 
-            replace = "<title>About - Swisstransplant Data Science</title>")
+            pattern = "<title>Über uns – Swisstransplant Data Science</title>",
+            replace = "<title>About – Swisstransplant Data Science</title>")
 page = gsub(x = page,
             pattern = "<h1 class=\"title\">Über uns</h1>", 
             replace = "<h1 class=\"title\">About</h1>")
@@ -46,8 +46,8 @@ file = "../docs/fr/about/index.html"
 page = readLines(file, warn = FALSE)
 
 page = gsub(x = page,
-            pattern = "<title>Über uns - Swisstransplant Data Science</title>", 
-            replace = "<title>Qui sommes-nous? - Swisstransplant Data Science</title>")
+            pattern = "<title>Über uns – Swisstransplant Data Science</title>",
+            replace = "<title>Qui sommes-nous? – Swisstransplant Data Science</title>")
 page = gsub(x = page,
             pattern = "<h1 class=\"title\">Über uns</h1>", 
             replace = "<h1 class=\"title\">Qui sommes-nous?</h1>")
@@ -62,8 +62,8 @@ file = "../docs/en/posts.html"
 page = readLines(file, warn = FALSE)
 
 page = gsub(x = page,
-            pattern = "<title>Statistiken - Swisstransplant Data Science</title>", 
-            replace = "<title>Statistical Reports- Swisstransplant Data Science</title>")
+            pattern = "<title>Statistiken – Swisstransplant Data Science</title>",
+            replace = "<title>Statistical Reports – Swisstransplant Data Science</title>")
 page = gsub(x = page,
             pattern = "<h1 class=\"title\">Statistiken</h1>", 
             replace = "<h1 class=\"title\">Statistical Reports</h1>")
@@ -86,8 +86,8 @@ file = "../docs/fr/posts.html"
 page = readLines(file, warn = FALSE)
 
 page = gsub(x = page,
-            pattern = "<title>Statistiken - Swisstransplant Data Science</title>", 
-            replace = "<title>Rapports statistiques - Swisstransplant Data Science</title>")
+            pattern = "<title>Statistiken – Swisstransplant Data Science</title>",
+            replace = "<title>Rapports statistiques – Swisstransplant Data Science</title>")
 page = gsub(x = page,
             pattern = "<h1 class=\"title\">Statistiken</h1>", 
             replace = "<h1 class=\"title\">Rapports statistiques</h1>")
@@ -110,8 +110,8 @@ file = "../docs/en/posts/2024-Q1/index.html"
 page = readLines(file, warn = FALSE)
 
 page = gsub(x = page,
-            pattern = "<title>1. Quartal 2024 - Swisstransplant Data Science</title>", 
-            replace = "<title>1st quarter 2024 - Swisstransplant Data Science</title>")
+            pattern = "<title>1. Quartal 2024 – Swisstransplant Data Science</title>",
+            replace = "<title>1st quarter 2024 – Swisstransplant Data Science</title>")
 page = gsub(x = page,
             pattern = "<h1 class=\"title\">1. Quartal 2024</h1>", 
             replace = "<h1 class=\"title\">1st quarter 2024</h1>")
@@ -126,8 +126,8 @@ file = "../docs/fr/posts/2024-Q1/index.html"
 page = readLines(file, warn = FALSE)
 
 page = gsub(x = page,
-            pattern = "<title>1. Quartal 2024 - Swisstransplant Data Science</title>", 
-            replace = "<title>1er trimestre 2024 - Swisstransplant Data Science</title>")
+            pattern = "<title>1. Quartal 2024 – Swisstransplant Data Science</title>", 
+            replace = "<title>1er trimestre 2024 – Swisstransplant Data Science</title>")
 page = gsub(x = page,
             pattern = "<h1 class=\"title\">1. Quartal 2024</h1>", 
             replace = "<h1 class=\"title\">1er trimestre 2024</h1>")
