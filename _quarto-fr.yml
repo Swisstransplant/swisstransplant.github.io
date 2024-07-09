@@ -2,7 +2,7 @@ project:
   output-dir: ./docs/fr
 
 website:
-  title: "Data Science"
+  title: "Swisstransplant Data Science"
   site-url: "https://www.swtdata.org/"
   description: "Rapports statistiques et recherche à Swisstransplant."
   search: false
@@ -25,8 +25,6 @@ website:
           target: _blank
       - text: "Qui sommes-nous?"
         href: about/index.qmd
-      - icon: github
-        href: https://github.com/Swisstransplant
     right:
       - text: "Deutsch"
         href: ..
