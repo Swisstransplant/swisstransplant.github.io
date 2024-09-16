@@ -1,1 +1,1 @@
-Sitemap: https://www.swtdata.org/sitemap.xml
+Sitemap: https://data.swisstransplant.org/sitemap.xml

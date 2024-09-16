@@ -3,12 +3,13 @@ project:
 
 website:
   title: "Swisstransplant Data Science"
-  site-url: "https://www.swtdata.org/"
+  site-url: "https://data.swisstransplant.org/"
   description: "Rapports statistiques et recherche à Swisstransplant."
   search: false
   favicon: images/SWT_icon_kreis_blau_2020_196x196.png
   navbar:
-    logo: "images/SWT_icon_cmyk2020.png"
+    logo: "images/SWT_2955_2021.png"
+    title: false
     left:
       - text: "Home"
         href: index.qmd
@@ -26,9 +27,9 @@ website:
       - text: "Qui sommes-nous?"
         href: about/index.qmd
     right:
-      - text: "Deutsch"
+      - text: "DE"
         href: ..
-      - text: "English"
+      - text: "EN"
         href: ../en
         
   page-footer:

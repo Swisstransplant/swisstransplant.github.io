@@ -86,9 +86,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Swisstransplant",
+    "title": "Swisstransplant Data Science",
     "section": "",
-    "text": "Swisstransplant Data Science ist ein Online-Portal für statistisches Reporting und Forschung bei Swisstransplant.\nUm mehr über Swisstransplant zu erfahren, besuchen Sie bitte unsere Website https://www.swisstransplant.org/."
+    "text": "Swisstransplant Data Science\nSwisstransplant Data Science ist ein Online-Portal für statistisches Reporting und Forschung bei Swisstransplant.\nUm mehr über Swisstransplant zu erfahren, besuchen Sie bitte unsere Website https://www.swisstransplant.org/."
   },
   {
     "objectID": "posts/2024-Q1/index.html",
@@ -102,91 +102,98 @@
     "href": "posts/2024-Q1/index.html#personnes-sur-liste-dattente",
     "title": "1. Quartal 2024",
     "section": "1.1 Personnes sur liste d’attente",
-    "text": "1.1 Personnes sur liste d’attente\n\n\n\nFig. 1.1a Nombre de patients en liste d’attente…\n\n\n\n\n\nFig. 1.1b Translation to be added.."
+    "text": "1.1 Personnes sur liste d’attente\n\n\n\nFig. 1.1 Personnes sur la liste d’attente pour un don d’organe après le décès à la fin de chaque trimestre, au total et en statut inactif. Les personnes sur la liste d’attente sont parfois temporairement inaptes à la transplantation pour des raisons de santé ou de logistique. Dans ce statut inactif, elles ne reçoivent pas d’offres d’organes. Les personnes qui étaient sur la liste pour un don de leur vivant ne sont pas comptées.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de patients en liste d’attente\n-9 patients (-0.7 %)\n\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nFin mars 2024, 1326 personnes attendaient en Suisse un ou plusieurs organes de donneurs décédés. Par rapport au trimestre précédent, cela représente 9 personnes de moins (-0,7 %). Près de la moitié (48,8 %) des personnes sur la liste d’attente avaient un statut inactif.\n\n\n\n\n\n\nFig. 1.2 Personnes sur la liste d’attente pour un don d’organe après le décès à la fin de chaque trimestre, au total et par organe. Les personnes en attente de plus d’un organe sont comptées dans le groupe « multi-organes ». Les personnes qui étaient sur la liste pour un don de leur vivant ne sont pas comptées.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nChangement par rapport au trimestre précédent\n\n\n\n\nMulti-Organ\n-2 patients (-4.8 %)\n\n\nCœur\n+1 patient (+2.4 %)\n\n\nPoumons\n-4 patients (-8.7 %)\n\n\nFois\n+13 patients (+4.9 %)\n\n\nRein\n-16 patients (-1.7 %)\n\n\nPancréas/îlots de Langerhans\n-1 patient (-7.1 %)\n\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nSur les 1326 patients en liste d’attente, la grande majorité attendait un rein (907 ; 68 %) ou un foie (281 ; 21 %). 40 patients attendaient plus d’un organe."
   },
   {
     "objectID": "posts/2024-Q1/index.html#événements-sur-la-liste-dattente",
     "href": "posts/2024-Q1/index.html#événements-sur-la-liste-dattente",
     "title": "1. Quartal 2024",
-    "section": "1.2 Événements sur la liste d’attente",
-    "text": "1.2 Événements sur la liste d’attente\n\n\n\nFig. 1.2 Traduction…"
+    "section": "1.3 Événements sur la liste d’attente",
+    "text": "1.3 Événements sur la liste d’attente\n\n\n\nFig. 1.3 Patients transplantées et patients décédées sur la liste d’attente. Les patients qui étaient sur la liste pour un don de leur vivant ou qui ont reçu un don de leur vivant ne sont pas prises en compte.\n\n\n\n\n\n\n\n\n\nIndicateur\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de patients transplantés\n-36 Personen (-26.1 %)\n\n\nNombre de patients décédés\n+8 Personen (+42.1 %)\n\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu premier trimestre 2024, 140 personnes ont reçu en Suisse un ou plusieurs organes provenant d’un don d’organe apres la mort. 28 personnes sont décédées sur la liste d’attente au premier trimestre 2024."
   },
   {
-    "objectID": "posts/2024-Q1/index.html#personnes-autorisées-à-faire-un-don-dorgane-post-mortem",
-    "href": "posts/2024-Q1/index.html#personnes-autorisées-à-faire-un-don-dorgane-post-mortem",
+    "objectID": "posts/2024-Q1/index.html#personnes-autorisées-à-faire-un-don-après-la-mort",
+    "href": "posts/2024-Q1/index.html#personnes-autorisées-à-faire-un-don-après-la-mort",
     "title": "1. Quartal 2024",
-    "section": "2.1 Personnes autorisées à faire un don d’organe post-mortem",
-    "text": "2.1 Personnes autorisées à faire un don d’organe post-mortem\n\n\n\nFig. 2.1 Nombre de personnes signalées à Swisstransplant et évaluées pour un possible don d’organes après le décès. Une personne décédée est considérée comme « utilisée » si au moins l’un de ses organes a pu être transplanté. Une personne est considérée comme « non utilisée » si elle a été qualifié médicalement pour un don d’organes et qu’elle a donné son consentement au don d’organes, mais qu’aucune intervention chirurgicale n’a eu lieu pour prélever des organes à des fins de transplantation. Un « donneur effectif » est une personne décédée qui a été qualifiée médicalement pour un don d’organes, a donné son consentement au don et a subi une intervention chirurgicale en ce sens, mais dont aucun organe n’a pu être transplanté."
+    "section": "2.1 Personnes autorisées à faire un don après la mort",
+    "text": "2.1 Personnes autorisées à faire un don après la mort\n\n\n\nFig. 2.1 Personnes décédées en Suisse et autorisées par Swisstransplant pour le don d’organes après la mort. Une personne est autorisée si, en cas de pronostic sans espoir, elle a donné son consentement au don d’organes et qu’elle est médicalement qualifiée pour le don d’au moins un organe. « Utilisé » signifie qu’au moins un organe a pu être transplanté. « Utilisé » signifie qu’une intervention chirurgicale a eu lieu avec l’intention de prélever un organe en vue d’une transplantation, mais qu’aucun organe n’a pu être transplanté. « Non utilisé » signifie qu’il n’y a pas eu d’intervention chirurgicale avec intention de prélever un organe en vue d’une transplantation.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de personnes autorisées\n-11 personnes (-19.0 %)\n\n\nProportion non utilisée (17.0 %)\n+4.2 Prozentpunkte\n\n\nProportion effectif (2.1 %)\n-6.4 Prozentpunkte\n\n\nProportion utilisée (80.9 %)\n+2.2 Prozentpunkte\n\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu premier trimestre 2024, Swisstransplant a autorisées 47 personnes de Suisse pour un don d’organe après la mort. Ce sont 11 de moins qu’au trimestre précédent. Le taux d’utilisation était de 80,9%."
   },
   {
     "objectID": "posts/2024-Q1/index.html#donneurs-décédés",
     "href": "posts/2024-Q1/index.html#donneurs-décédés",
     "title": "1. Quartal 2024",
     "section": "2.2 Donneurs décédés",
-    "text": "2.2 Donneurs décédés\n\n\n\nFig. 2.2 Nombre de donneurs décédés en Suisse. DBD: don en état de mort cérébrale, DCD: don en état de mort cérébrale après un arrêt cardio-circulatoire. Un donneur est défini comme toute personne ayant subi une intervention chirurgicale pour prélever des organes à des fins de transplantation."
+    "text": "2.2 Donneurs décédés\n\n\n\nFig. 2.2 Nombre de donneurs décédés en Suisse. DBD: don en état de mort cérébrale, DCD: don en état de mort cérébrale après un arrêt cardio-circulatoire. Un donneur est défini comme toute personne ayant subi une intervention chirurgicale pour prélever des organes à des fins de transplantation.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de donneurs (tous)\n-11 (-22.0 %)\n\n\nDBD\n-4 (+15.4 %)\n\n\nDCD\n-7 (-29.2 %)\n\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu premier trimestre 2024, 39 personnes ont fait don de leurs organes après leur décès en Suisse. Par rapport au trimestre précédent, cela représente 11 personnes de moins (-22,0 %)."
+  },
+  {
+    "objectID": "posts/2024-Q1/index.html#organes-transplantés-de-donneurs-décédés",
+    "href": "posts/2024-Q1/index.html#organes-transplantés-de-donneurs-décédés",
+    "title": "1. Quartal 2024",
+    "section": "2.3 Organes transplantés de donneurs décédés",
+    "text": "2.3 Organes transplantés de donneurs décédés\n\n\n\nFig 2.3 Organes transplantés en Suisse de donneurs décédés (incluant les organes importés de l’étranger), total et par organe\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nChangement par rapport au trimestre précédent\n\n\n\n\nOrganes transplantés (tous)\n-16 (-13.6 %)\n\n\nCœur\n+1 patient (+2.4 %)\n\n\nPoumons\n-4 patients (-8.7 %)\n\n\nFois\n+13 patients (+4.9 %)\n\n\nRein\n-16 patients (-1.7 %)\n\n\nPancréas/îlots de Langerhans\n-1 patient (-7.1 %)\n\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu premier trimestre 2024, 104 organes ont été transplantés en Suisse de donneurs décédés. Par rapport au trimestre précédent, cela représente 38 (-26.7 %) organes de moins."
   },
   {
     "objectID": "posts/2024-Q1/index.html#organes-transplantés-par-donneur-décédé",
     "href": "posts/2024-Q1/index.html#organes-transplantés-par-donneur-décédé",
     "title": "1. Quartal 2024",
-    "section": "2.3 Organes transplantés par donneur décédé",
-    "text": "2.3 Organes transplantés par donneur décédé\n\n\n\nFig 2.3 Nombre d’organes transplantés par donneur décédé (moyenne et écart-type). DBD: don en état de mort cérébrale, DCD: don en état de mort cérébrale après un arrêt cardio-circulatoire."
+    "section": "2.4 Organes transplantés par donneur décédé",
+    "text": "2.4 Organes transplantés par donneur décédé\n\n\n\nFig 2.4 Nombre d’organes transplantés par donneur décédé (moyenne et écart-type). DBD: don en état de mort cérébrale, DCD: don en état de mort cérébrale après un arrêt cardio-circulatoire.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nChangement par rapport au trimestre précédent\n\n\n\n\nOrganes par donneur (DBD et DCD)\n-0.4 organes\n\n\nDBD\n-0.1 organes\n\n\nDCD\n-0.7 organes\n\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nIm ersten Quartal 2024 wurden in der Schweiz durchschnittlich 2.4 Organe pro spendende verstorbene Person transplantiert. Im Vergleich zum Vorquartal sind das 0.3 Organe weniger. Insbesondere wurden weniger Organe pro spendende verstorbene Persone im Hirntod nach Herz-Kreislauf-Stillstand transplantiert."
   },
   {
     "objectID": "posts/2024-Q1/index.html#donneurs-vivants",
     "href": "posts/2024-Q1/index.html#donneurs-vivants",
     "title": "1. Quartal 2024",
-    "section": "2.4 Donneurs vivants",
-    "text": "2.4 Donneurs vivants\n\n\n\nFig 2.4 Traduction…"
+    "section": "2.5 Donneurs vivants",
+    "text": "2.5 Donneurs vivants\n\n\n\nFig 2.5 Traduction…\n\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nDernier trimestre\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de donneurs vivants (tous)\n38\n+2 Personnes\n\n\nFois\n1\n+/-0 Personnes\n\n\nRein\n37\n+2 Personnes\n\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nAu premier trimestre 2024, 38 personnes vivantes en Suisse ont donné un de leurs reins et 1 personne a donné une partie de son foie. Cela représente 2 dons de reins entre vifs de plus qu’au dernier trimestre 2023."
   },
   {
     "objectID": "posts/2024-Q1/index.html#personnes-transplantées-en-suisse",
     "href": "posts/2024-Q1/index.html#personnes-transplantées-en-suisse",
     "title": "1. Quartal 2024",
     "section": "3.1 Personnes transplantées en Suisse",
-    "text": "3.1 Personnes transplantées en Suisse\n\n\n\nFig. 3.1a Traduction…\n\n\n\n\n\nFig. 3.1b Traduction…"
+    "text": "3.1 Personnes transplantées en Suisse\n\n\n\nFig. 3.1 Traduction…\n\n\n\n\n\nFig. 3.2 Traduction…"
   },
   {
     "objectID": "posts/2024-Q1/index.html#personnes-transplantées-à-létranger",
     "href": "posts/2024-Q1/index.html#personnes-transplantées-à-létranger",
     "title": "1. Quartal 2024",
-    "section": "3.2 Personnes transplantées à l’étranger",
-    "text": "3.2 Personnes transplantées à l’étranger\n\n\n\nFig. 3.2"
+    "section": "3.3 Personnes transplantées à l’étranger",
+    "text": "3.3 Personnes transplantées à l’étranger\n\n\n\nFig. 3.3"
   },
   {
     "objectID": "posts/2024-Q1/index.html#transplantation-de-cœur",
     "href": "posts/2024-Q1/index.html#transplantation-de-cœur",
     "title": "1. Quartal 2024",
-    "section": "3.3 Transplantation de cœur",
-    "text": "3.3 Transplantation de cœur\n\n\n\nFig. 3.3 Nombre de transplantations du cœur en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont comprises. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire."
+    "section": "3.4 Transplantation de cœur",
+    "text": "3.4 Transplantation de cœur\n\n\n\nFig. 3.4 Nombre de transplantations du cœur en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont comprises. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire."
   },
   {
     "objectID": "posts/2024-Q1/index.html#transplantation-de-poumons",
     "href": "posts/2024-Q1/index.html#transplantation-de-poumons",
     "title": "1. Quartal 2024",
-    "section": "3.4 Transplantation de poumons",
-    "text": "3.4 Transplantation de poumons\n\n\n\nFig. 3.4 Nombre de transplantations du poumons en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont comprises. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire."
+    "section": "3.5 Transplantation de poumons",
+    "text": "3.5 Transplantation de poumons\n\n\n\nFig. 3.5 Nombre de transplantations du poumons en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont comprises. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire."
   },
   {
     "objectID": "posts/2024-Q1/index.html#transplantation-de-foie",
     "href": "posts/2024-Q1/index.html#transplantation-de-foie",
     "title": "1. Quartal 2024",
-    "section": "3.5 Transplantation de foie",
-    "text": "3.5 Transplantation de foie\n\n\n\nFig. 3.5 Nombre de transplantations du foie des donneurs decédés en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont comprises. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire."
+    "section": "3.6 Transplantation de foie",
+    "text": "3.6 Transplantation de foie\n\n\n\nFig. 3.6 Nombre de transplantations du foie des donneurs decédés en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont comprises. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire."
   },
   {
     "objectID": "posts/2024-Q1/index.html#transplantation-de-reins",
     "href": "posts/2024-Q1/index.html#transplantation-de-reins",
     "title": "1. Quartal 2024",
-    "section": "3.6 Transplantation de reins",
-    "text": "3.6 Transplantation de reins\n\n\n\nFig. 3.6 Nombre de transplantations du don de rein de donneur decédé en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont comprises. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire."
+    "section": "3.7 Transplantation de reins",
+    "text": "3.7 Transplantation de reins\n\n\n\nFig. 3.7 Nombre de transplantations du don de rein de donneur decédé en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont comprises. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire."
   },
   {
     "objectID": "posts/2024-Q1/index.html#transplantations-de-pancréas-et-dîlots",
     "href": "posts/2024-Q1/index.html#transplantations-de-pancréas-et-dîlots",
     "title": "1. Quartal 2024",
-    "section": "3.7 Transplantations de pancréas et d’îlots",
-    "text": "3.7 Transplantations de pancréas et d’îlots\n\n\n\nFig. 3.7 Nombre de transplantations du pancréas et d’îlots, réparties en dons DBD et DCD. Les transplantations combinées sont comprises. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire."
+    "section": "3.8 Transplantations de pancréas et d’îlots",
+    "text": "3.8 Transplantations de pancréas et d’îlots\n\n\n\nFig. 3.8 Nombre de transplantations du pancréas et d’îlots, réparties en dons DBD et DCD. Les transplantations combinées sont comprises. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire."
   },
   {
     "objectID": "tools/index.html",

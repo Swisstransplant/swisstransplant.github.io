@@ -86,9 +86,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Swisstransplant",
+    "title": "Swisstransplant Data Science",
     "section": "",
-    "text": "Swisstransplant Data Science ist ein Online-Portal für statistisches Reporting und Forschung bei Swisstransplant.\nUm mehr über Swisstransplant zu erfahren, besuchen Sie bitte unsere Website https://www.swisstransplant.org/."
+    "text": "Swisstransplant Data Science\nSwisstransplant Data Science ist ein Online-Portal für statistisches Reporting und Forschung bei Swisstransplant.\nUm mehr über Swisstransplant zu erfahren, besuchen Sie bitte unsere Website https://www.swisstransplant.org/."
   },
   {
     "objectID": "posts/2024-Q1/index.html",
@@ -102,21 +102,21 @@
     "href": "posts/2024-Q1/index.html#persons-on-the-waiting-list",
     "title": "1. Quartal 2024",
     "section": "1.1 Persons on the waiting list",
-    "text": "1.1 Persons on the waiting list\n\n\n\nFig. 1.1a Translation to be added..\n\n\n\n\n\nFig. 1.1b Translation to be added.."
+    "text": "1.1 Persons on the waiting list\n\n\n\nFig. 1.1 Translation to be added..\n\n\n\n\n\nFig. 1.2 Translation to be added.."
   },
   {
     "objectID": "posts/2024-Q1/index.html#events-on-the-waiting-list",
     "href": "posts/2024-Q1/index.html#events-on-the-waiting-list",
     "title": "1. Quartal 2024",
-    "section": "1.2 Events on the waiting list",
-    "text": "1.2 Events on the waiting list\n\n\n\nFig. 1.2 Translation…"
+    "section": "1.3 Events on the waiting list",
+    "text": "1.3 Events on the waiting list\n\n\n\nFig. 1.3 Translation…"
   },
   {
-    "objectID": "posts/2024-Q1/index.html#persons-approved-for-deceased-organ-donation",
-    "href": "posts/2024-Q1/index.html#persons-approved-for-deceased-organ-donation",
+    "objectID": "posts/2024-Q1/index.html#persons-approved-for-deceased-donation",
+    "href": "posts/2024-Q1/index.html#persons-approved-for-deceased-donation",
     "title": "1. Quartal 2024",
-    "section": "2.1 Persons approved for deceased organ donation",
-    "text": "2.1 Persons approved for deceased organ donation\n\n\n\nFig. 2.1 Translation…"
+    "section": "2.1 Persons approved for deceased donation",
+    "text": "2.1 Persons approved for deceased donation\n\n\n\nFig. 2.1 Translation…"
   },
   {
     "objectID": "posts/2024-Q1/index.html#deceased-donors",
@@ -126,18 +126,25 @@
     "text": "2.2 Deceased Donors\n\n\n\nFig. 2.2 Translation…"
   },
   {
+    "objectID": "posts/2024-Q1/index.html#transplanted-organs-from-deceased-donors",
+    "href": "posts/2024-Q1/index.html#transplanted-organs-from-deceased-donors",
+    "title": "1. Quartal 2024",
+    "section": "2.3 Transplanted organs from deceased donors",
+    "text": "2.3 Transplanted organs from deceased donors\n\n\n\nFig. 2.3 Transplanted organs in Switzerland from deceased donors, including imported organs from deceased donors abroad."
+  },
+  {
     "objectID": "posts/2024-Q1/index.html#transplanted-organs-per-deceased-donor",
     "href": "posts/2024-Q1/index.html#transplanted-organs-per-deceased-donor",
     "title": "1. Quartal 2024",
-    "section": "2.3 Transplanted organs per deceased donor",
-    "text": "2.3 Transplanted organs per deceased donor\n\n\n\nFig. 2.3 Translation needed…"
+    "section": "2.4 Transplanted organs per deceased donor",
+    "text": "2.4 Transplanted organs per deceased donor\n\n\n\nFig. 2.4 Translation needed…"
   },
   {
     "objectID": "posts/2024-Q1/index.html#living-donors",
     "href": "posts/2024-Q1/index.html#living-donors",
     "title": "1. Quartal 2024",
-    "section": "2.4 Living donors",
-    "text": "2.4 Living donors\n\n\n\nFig 2.4 Translation to be added…"
+    "section": "2.5 Living donors",
+    "text": "2.5 Living donors\n\n\n\nFig 2.5 Translation to be added…"
   },
   {
     "objectID": "posts/2024-Q1/index.html#transplanted-persons-in-switzerland",
@@ -150,43 +157,43 @@
     "objectID": "posts/2024-Q1/index.html#transplanted-persons-abroad",
     "href": "posts/2024-Q1/index.html#transplanted-persons-abroad",
     "title": "1. Quartal 2024",
-    "section": "3.2 Transplanted persons abroad",
-    "text": "3.2 Transplanted persons abroad\n\n\n\nFig. 3.2 Translation needed…"
+    "section": "3.3 Transplanted persons abroad",
+    "text": "3.3 Transplanted persons abroad\n\n\n\nFig. 3.3 Translation needed…"
   },
   {
     "objectID": "posts/2024-Q1/index.html#heart-transplantation",
     "href": "posts/2024-Q1/index.html#heart-transplantation",
     "title": "1. Quartal 2024",
-    "section": "3.3 Heart transplantation",
-    "text": "3.3 Heart transplantation\n\n\n\n*Fig. 3.3** Translation needed…"
+    "section": "3.4 Heart transplantation",
+    "text": "3.4 Heart transplantation\n\n\n\n*Fig. 3.4** Translation needed…"
   },
   {
     "objectID": "posts/2024-Q1/index.html#lung-transplantation",
     "href": "posts/2024-Q1/index.html#lung-transplantation",
     "title": "1. Quartal 2024",
-    "section": "3.4 Lung transplantation",
-    "text": "3.4 Lung transplantation\n\n\n\nFig. 3.4 Translation needed.."
+    "section": "3.5 Lung transplantation",
+    "text": "3.5 Lung transplantation\n\n\n\nFig. 3.5 Translation needed.."
   },
   {
     "objectID": "posts/2024-Q1/index.html#liver-transplantation",
     "href": "posts/2024-Q1/index.html#liver-transplantation",
     "title": "1. Quartal 2024",
-    "section": "3.5 Liver transplantation",
-    "text": "3.5 Liver transplantation\n\n\n\n*Fig. 3.5** Translation needed…"
+    "section": "3.6 Liver transplantation",
+    "text": "3.6 Liver transplantation\n\n\n\n*Fig. 3.6** Translation needed…"
   },
   {
     "objectID": "posts/2024-Q1/index.html#kidney-transplantation",
     "href": "posts/2024-Q1/index.html#kidney-transplantation",
     "title": "1. Quartal 2024",
-    "section": "3.6 Kidney transplantation",
-    "text": "3.6 Kidney transplantation\n\n\n\nFig. 3.6 Translation needed…"
+    "section": "3.7 Kidney transplantation",
+    "text": "3.7 Kidney transplantation\n\n\n\nFig. 3.7 Translation needed…"
   },
   {
     "objectID": "posts/2024-Q1/index.html#pancreasislet-cell-transplants",
     "href": "posts/2024-Q1/index.html#pancreasislet-cell-transplants",
     "title": "1. Quartal 2024",
-    "section": "3.7 Pancreas/islet cell transplants",
-    "text": "3.7 Pancreas/islet cell transplants\n\n\n\nFig. 3.7 Translation needed…"
+    "section": "3.8 Pancreas/islet cell transplants",
+    "text": "3.8 Pancreas/islet cell transplants\n\n\n\nFig. 3.8 Translation needed…"
   },
   {
     "objectID": "tools/index.html",
