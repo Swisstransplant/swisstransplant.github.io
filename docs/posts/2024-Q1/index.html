@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Swisstransplant">
+<meta name="description" content="test">
 
 <title>1. Quartal 2024 – Swisstransplant Data Science</title>
 <style>
@@ -126,7 +127,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">1. Quartal 2024</h1>
-                      </div>
+                  <div>
+        <div class="description">
+          test
+        </div>
+      </div>
+                </div>
   </div>
     
   
@@ -161,11 +167,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#warteliste" id="toc-warteliste" class="nav-link active" data-scroll-target="#warteliste">1. Warteliste</a>
   <ul class="collapse">
   <li><a href="#personen-auf-der-warteliste" id="toc-personen-auf-der-warteliste" class="nav-link" data-scroll-target="#personen-auf-der-warteliste">1.1 Personen auf der Warteliste</a></li>
+  <li><a href="#personen-auf-der-warteliste-nach-organ" id="toc-personen-auf-der-warteliste-nach-organ" class="nav-link" data-scroll-target="#personen-auf-der-warteliste-nach-organ">1.2 Personen auf der Warteliste nach Organ</a></li>
   <li><a href="#ereignisse-auf-der-warteliste" id="toc-ereignisse-auf-der-warteliste" class="nav-link" data-scroll-target="#ereignisse-auf-der-warteliste">1.3 Ereignisse auf der Warteliste</a></li>
   </ul></li>
   <li><a href="#organspende" id="toc-organspende" class="nav-link" data-scroll-target="#organspende">2. Organspende</a>
   <ul class="collapse">
-  <li><a href="#für-eine-spende-nach-dem-tod-freigegebene-personen" id="toc-für-eine-spende-nach-dem-tod-freigegebene-personen" class="nav-link" data-scroll-target="#für-eine-spende-nach-dem-tod-freigegebene-personen">2.1 Für eine Spende nach dem Tod freigegebene Personen</a></li>
+  <li><a href="#für-eine-organspende-nach-dem-tod-freigegebene-personen" id="toc-für-eine-organspende-nach-dem-tod-freigegebene-personen" class="nav-link" data-scroll-target="#für-eine-organspende-nach-dem-tod-freigegebene-personen">2.1 Für eine Organspende nach dem Tod freigegebene Personen</a></li>
   <li><a href="#spendende-verstorbene-personen" id="toc-spendende-verstorbene-personen" class="nav-link" data-scroll-target="#spendende-verstorbene-personen">2.2 Spendende verstorbene Personen</a></li>
   <li><a href="#transplantierte-organe-von-spendenden-verstorbenen-personen" id="toc-transplantierte-organe-von-spendenden-verstorbenen-personen" class="nav-link" data-scroll-target="#transplantierte-organe-von-spendenden-verstorbenen-personen">2.3 Transplantierte Organe von spendenden verstorbenen Personen</a></li>
   <li><a href="#transplantierte-organe-pro-spendende-verstorbene-person" id="toc-transplantierte-organe-pro-spendende-verstorbene-person" class="nav-link" data-scroll-target="#transplantierte-organe-pro-spendende-verstorbene-person">2.4 Transplantierte Organe pro spendende verstorbene Person</a></li>
@@ -173,8 +180,9 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#transplantationen" id="toc-transplantationen" class="nav-link" data-scroll-target="#transplantationen">3. Transplantationen</a>
   <ul class="collapse">
-  <li><a href="#transplantierte-personen-in-der-schweiz" id="toc-transplantierte-personen-in-der-schweiz" class="nav-link" data-scroll-target="#transplantierte-personen-in-der-schweiz">3.1 Transplantierte Personen in der Schweiz</a></li>
-  <li><a href="#transplantierte-personen-im-ausland" id="toc-transplantierte-personen-im-ausland" class="nav-link" data-scroll-target="#transplantierte-personen-im-ausland">3.3 Transplantierte Personen im Ausland</a></li>
+  <li><a href="#in-der-schweiz-transplantierte-personen" id="toc-in-der-schweiz-transplantierte-personen" class="nav-link" data-scroll-target="#in-der-schweiz-transplantierte-personen">3.1 In der Schweiz transplantierte Personen</a></li>
+  <li><a href="#in-der-schweiz-transplantierte-personen-mit-organen-aus-dem-ausland" id="toc-in-der-schweiz-transplantierte-personen-mit-organen-aus-dem-ausland" class="nav-link" data-scroll-target="#in-der-schweiz-transplantierte-personen-mit-organen-aus-dem-ausland">3.2 In der Schweiz transplantierte Personen mit Organen aus dem Ausland</a></li>
+  <li><a href="#im-ausland-transplantierte-personen" id="toc-im-ausland-transplantierte-personen" class="nav-link" data-scroll-target="#im-ausland-transplantierte-personen">3.3 Im Ausland transplantierte Personen</a></li>
   <li><a href="#herztransplantationen" id="toc-herztransplantationen" class="nav-link" data-scroll-target="#herztransplantationen">3.4 Herztransplantationen</a></li>
   <li><a href="#lungentransplantationen" id="toc-lungentransplantationen" class="nav-link" data-scroll-target="#lungentransplantationen">3.5 Lungentransplantationen</a></li>
   <li><a href="#lebertransplantationen" id="toc-lebertransplantationen" class="nav-link" data-scroll-target="#lebertransplantationen">3.6 Lebertransplantationen</a></li>
@@ -191,7 +199,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Die Quartalszahlen beinhalten die wichtigsten Kennzahlen zur Warteliste sowie zur Organspende- und Transplantationsaktivität in der Schweiz. Alle Daten stammen aus dem vom BAG betriebenen Swiss Organ Allocation System (<a href="https://www.bag.admin.ch/bag/de/home/medizin-und-forschung/transplantationsmedizin/transplantieren-von-organen-geweben-Zellen/zuteilung-organe-gewebe-blut-stammzellen/soas.html" target="_blank">SOAS</a>).</p>
 <div class="callout callout-style-default callout-warning callout-titled" title="Achtung">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -205,9 +212,22 @@ Achtung
 <p><strong>Diese Seite befindet sich noch in Entwicklung.</strong></p>
 </div>
 </div>
+<div class="callout callout-style-default callout-warning callout-titled" title="Hinweis">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Hinweis
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Die Wartezeiten bis zur Transplantation werden nicht mehr pro Quartal ausgewiesen, sondern neu nur noch einmal pro Jahr. Die Berechnung erfolgt nach einer neuen Methodik (<a href="https://www.swisstransplant.org/fileadmin/user_upload/Bilder/Home/Organ-_und_Gewebespende/Fakten_und_Zahlen/Jahreszahlen/2023_ersetzt/Abb_4.13_2023_DE.jpg" target="_blank">siehe Abb. 4.13 Jahresbericht 2023</a>). Die Kennzahlen zu den Wartezeiten pro Organ werden auf dieser Website publiziert.</p>
+</div>
+</div>
 <section id="warteliste" class="level1">
 <h1>1. Warteliste</h1>
-<p>Hier finden Sie Kennzahlen zur Warteliste der Personen, die in der Schweiz auf eine Organtransplantation warten. Personen, die für eine Lebendspende gelistet waren, sind in diesem Abschnitt nicht mitberücksichtigt.</p>
+<p>Hier finden Sie Kennzahlen zur Warteliste der Personen, die in der Schweiz auf ein Organ von spendenden verstorbenen Personen warten. Personen, die für eine Lebendspende gelistet waren, sind in diesem Abschnitt nicht mitberücksichtigt.</p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Das Wichtigste in Kürze">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -218,7 +238,7 @@ Das Wichtigste in Kürze
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Ende März 2024 warteten in der Schweiz 1326 Personen auf eines oder mehrere Organe von verstorbenen spendenden Personen. Im Vergleich zum Vorquartal sind das 9 Personen weniger (-0.7 %). 28 Personen sind im ersten Quartal 2024 auf der Warteliste verstorben.</p>
+<p>Ende März 2024 warteten in der Schweiz 1326 Personen auf eines oder mehrere Organe von verstorbenen spendenden Personen. Im Vergleich zum Vorquartal sind das 9 Personen weniger (-0.7 %). 27 Personen sind im ersten Quartal 2024 auf der Warteliste verstorben.</p>
 </div>
 </div>
 <section id="personen-auf-der-warteliste" class="level2">
@@ -226,33 +246,33 @@ Das Wichtigste in Kürze
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig1.1-de.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Abb. 1.1</strong> Personen auf der Warteliste für eine Organspende nach dem Tod jeweils Ende Quartal, total und im inaktiven Status. Personen auf der Warteliste sind manchmal aus gesundheitlichen oder logistischen Gründen vorübergehend nicht transplantationsfähig. In diesem inaktiven Status erhalten sie keine Organangebote. Personen, die für eine Lebendspende gelistet waren, sind nicht mitgezählt.</figcaption>
+<figcaption><strong>Abb. 1.1</strong> Personen auf der Warteliste für ein Organ jeweils Ende Quartal, total und im inaktiven Status. Personen auf der Warteliste sind manchmal aus gesundheitlichen oder logistischen Gründen vorübergehend nicht transplantationsfähig. In diesem inaktiven Status erhalten sie keine Organangebote. Personen, die für eine Lebendspende gelistet waren, sind nicht mitgezählt.</figcaption>
 </figure>
 </div>
 <p><br></p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 48%">
-<col style="width: 17%">
+<col style="width: 47%">
+<col style="width: 18%">
 <col style="width: 34%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Indikator</th>
-<th>Letztes Quartal</th>
-<th>Veränderung zum Vorquartal</th>
+<th style="text-align: right;">Aktuelles Quartal</th>
+<th style="text-align: right;">Veränderung zum Vorquartal</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Anzahl Personen auf der Warteliste</td>
-<td>1326</td>
-<td>-9 Personen (-0.7 %)</td>
+<td style="text-align: right;">1326</td>
+<td style="text-align: right;">-9 Personen (-0.7 %)</td>
 </tr>
 <tr class="even">
 <td>Anteil inaktive</td>
-<td>48.8 %</td>
-<td>-1.1 Prozentpunkte</td>
+<td style="text-align: right;">48.8 %</td>
+<td style="text-align: right;">-1.1 Prozentpunkte</td>
 </tr>
 </tbody>
 </table>
@@ -269,62 +289,72 @@ Lesebeispiel
 <p>Ende März 2024 warteten in der Schweiz 1326 Personen auf eines oder mehrere Organe von verstorbenen spendenden Personen. Im Vergleich zum Vorquartal sind das 9 Personen weniger (-0.7 %). Fast die Hälfte (48.8 %) der Personen auf der Warteliste war im inaktiven Status.</p>
 </div>
 </div>
-<p><br></p>
+</section>
+<section id="personen-auf-der-warteliste-nach-organ" class="level2">
+<h2 class="anchored" data-anchor-id="personen-auf-der-warteliste-nach-organ">1.2 Personen auf der Warteliste nach Organ</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig1.2-de.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Abb. 1.2</strong> Personen auf der Warteliste für eine Organspende nach dem Tod jeweils Ende Quartal, total und nach Organ. Personen, die auf mehr als ein Organ warten, sind bei der Gruppe “Multi-Organ” dazugezählt. Personen, die für eine Lebendspende gelistet waren, sind nicht mitgezählt.</figcaption>
+<figcaption><strong>Abb. 1.2</strong> Personen auf der Warteliste für ein Organ jeweils Ende Quartal, total und nach Organ. Personen, die auf mehr als ein Organ warten, sind bei der Gruppe «Multiorgan» dazugezählt. Personen, die für eine Lebendspende gelistet waren, sind nicht mitgezählt.</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 48%">
-<col style="width: 16%">
-<col style="width: 34%">
+<col style="width: 50%">
+<col style="width: 17%">
+<col style="width: 31%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Indikator</th>
-<th>Letztes Quartal</th>
-<th>Veränderung zum Vorquartal</th>
+<th style="text-align: right;">Aktuelles Quartal</th>
+<th style="text-align: right;">Veränderung zum Vorquartal</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Multi-Organ</td>
-<td>40</td>
-<td>-2 Personen (-4.8 %)</td>
+<td>Anzahl Personen auf der Warteliste (alle)</td>
+<td style="text-align: right;">1326</td>
+<td style="text-align: right;">-9 Personen (-0.7 %)</td>
 </tr>
 <tr class="even">
+<td>Multiorgan</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">-2 Personen (-4.8 %)</td>
+</tr>
+<tr class="odd">
 <td>Herz</td>
-<td>43</td>
-<td>+1 Person (+2.4 %)</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">+1 Person (+2.3 %)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Lunge</td>
-<td>42</td>
-<td>-4 Personen (-8.7 %)</td>
-</tr>
-<tr class="even">
-<td>Leber</td>
-<td>281</td>
-<td>+13 Personen (+4.9 %)</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">-4 Personen (-8.7 %)</td>
 </tr>
 <tr class="odd">
-<td>Niere</td>
-<td>907</td>
-<td>-16 Personen (-1.7 %)</td>
+<td>Leber</td>
+<td style="text-align: right;">281</td>
+<td style="text-align: right;">+13 Personen (+4.9 %)</td>
 </tr>
 <tr class="even">
+<td>Niere</td>
+<td style="text-align: right;">907</td>
+<td style="text-align: right;">-16 Personen (-1.7 %)</td>
+</tr>
+<tr class="odd">
 <td>Pankreas/Inselzellen</td>
-<td>13</td>
-<td>-1 Personen (-7.1 %)</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">-1 Personen (-7.1 %)</td>
+</tr>
+<tr class="even">
+<td>Dünndarm</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+/- 0 Personen</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Lesebeispiel">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -348,7 +378,6 @@ Lesebeispiel
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
 <col style="width: 36%">
@@ -358,24 +387,23 @@ Lesebeispiel
 <thead>
 <tr class="header">
 <th>Indikator</th>
-<th>Letztes Quartal</th>
-<th>Veränderung zum Vorquartal</th>
+<th style="text-align: right;">Aktuelles Quartal</th>
+<th style="text-align: right;">Veränderung zum Vorquartal</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Anzahl transplantierte Personen</td>
-<td>102</td>
-<td>-36 Personen (-26.1 %)</td>
+<td style="text-align: right;">102</td>
+<td style="text-align: right;">-36 Personen (-26.1 %)</td>
 </tr>
 <tr class="even">
 <td>Anzahl verstorbene Personen</td>
-<td>27</td>
-<td>+8 Personen (+42.1 %)</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">+8 Personen (+29.6 %)</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Lesebeispiel">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -386,14 +414,14 @@ Lesebeispiel
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Im ersten Quartal 2024 erhielten in der Schweiz 140 Personen eines oder mehrere Organe aus einer Organspende nach dem Tod. 28 Personen sind im ersten Quartal 2024 auf der Warteliste verstorben.</p>
+<p>Im ersten Quartal 2024 erhielten in der Schweiz 102 Personen eines oder mehrere Organe aus einer Organspende nach dem Tod. 27 Personen sind im ersten Quartal 2024 auf der Warteliste verstorben.</p>
 </div>
 </div>
 </section>
 </section>
 <section id="organspende" class="level1">
 <h1>2. Organspende</h1>
-<p>Hier finden Sie Kennzahlen für die Schweiz zur Organspende nach dem Tod und zur Organ-Lebendspende.</p>
+<p>Hier finden Sie Kennzahlen zur Organspende nach dem Tod und zur Organ-Lebendspende in der Schweiz.</p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Das Wichtigste in Kürze">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -404,19 +432,18 @@ Das Wichtigste in Kürze
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Im ersten Quartal 2024 haben in der Schweiz 39 Personen ihre Organe nach dem Tod gespendet. Im Vergleich zum Vorquartal sind das 11 Personen weniger (-22.0 %). Von den 39 Personen waren 22 (56.4 %) im Hirntod nach Herz-Kreislauf-Stillstand. 104 Organe von verstorbenen spendenden Personen wurden in der Schweiz transplantiert, das sind X weniger (-X.X %) als im Vorquartal. Mit 2.4 Organen ist auch die durchschnittliche Anzahl transplantierter Organe pro spendende verstorbene Person zurückgegangen, insbesondere bei der Spende im Hirntod nach Herz-Kreislauf-Stillstand.</p>
+<p>Im ersten Quartal 2024 haben in der Schweiz 39 Personen ihre Organe nach dem Tod gespendet. Im Vergleich zum Vorquartal sind das 11 Personen weniger (-22.0 %). Von den 39 Personen waren 17 (43.6 %) im Hirntod nach Herz-Kreislauf-Stillstand. 104 Organe von verstorbenen spendenden Personen wurden in der Schweiz transplantiert, das sind 38 weniger (-26.8 %) als im Vorquartal. Mit 2.4 Organen ist auch die durchschnittliche Anzahl transplantierter Organe pro spendende verstorbene Person zurückgegangen, insbesondere bei der Spende im Hirntod nach Herz-Kreislauf-Stillstand (DCD).</p>
 </div>
 </div>
-<section id="für-eine-spende-nach-dem-tod-freigegebene-personen" class="level2">
-<h2 class="anchored" data-anchor-id="für-eine-spende-nach-dem-tod-freigegebene-personen">2.1 Für eine Spende nach dem Tod freigegebene Personen</h2>
+<section id="für-eine-organspende-nach-dem-tod-freigegebene-personen" class="level2">
+<h2 class="anchored" data-anchor-id="für-eine-organspende-nach-dem-tod-freigegebene-personen">2.1 Für eine Organspende nach dem Tod freigegebene Personen</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig2.1-de.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Abb. 2.1</strong> In der Schweiz von Swisstransplant für die Spende nach dem Tod freigegebene verstorbene Personen. Eine Person wird freigegeben, wenn bei aussichtloser Prognose eine Zustimmung zur Organspende vorliegt und sie medizinisch für eine Organspende mindestens eines Organs qualifiziert. «Utilisiert» bedeutet, es konnte mindestens ein Organ transplantiert werden. «Effektiv» bedeutet, ein chirurgischer Eingriff mit der Absicht zur Organentnahme zum Zweck einer Transplantation erfolgte, aber kein Organ konnte transplantiert werden. «Nicht utilisiert» bedeutet, es kam nicht zu einem chirurgischen Eingriff mit der Absicht zur Organentnahme zum Zweck einer Transplantation.</figcaption>
+<figcaption><strong>Abb. 2.1</strong> In der Schweiz von Swisstransplant für die Organspende nach dem Tod freigegebene verstorbene Personen. Eine Person wird freigegeben, wenn bei aussichtloser Prognose eine Zustimmung zur Organspende vorliegt und sie medizinisch für eine Organspende mindestens eines Organs qualifiziert. «Utilisiert» bedeutet, es konnte mindestens ein Organ transplantiert werden. «Effektiv» bedeutet, ein chirurgischer Eingriff mit der Absicht zur Organentnahme zum Zweck einer Transplantation erfolgte, aber kein Organ konnte transplantiert werden. «Nicht utilisiert» bedeutet, es kam nicht zu einem chirurgischen Eingriff mit der Absicht zur Organentnahme zum Zweck einer Transplantation.</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
 <col style="width: 36%">
@@ -426,34 +453,33 @@ Das Wichtigste in Kürze
 <thead>
 <tr class="header">
 <th>Indikator</th>
-<th>Letztes Quartal</th>
-<th>Veränderung zum Vorquartal</th>
+<th style="text-align: right;">Aktuelles Quartal</th>
+<th style="text-align: right;">Veränderung zum Vorquartal</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Anzahl freigegebene Personen</td>
-<td>47</td>
-<td>-11 Personen (-19.0 %)</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">-11 Personen (-19.0 %)</td>
 </tr>
 <tr class="even">
-<td>Anteil Nicht Utilisierte</td>
-<td>17.0 %</td>
-<td>+4.2 Prozentpunkte</td>
+<td>Anteil Nicht utilisierte</td>
+<td style="text-align: right;">17.0 %</td>
+<td style="text-align: right;">+3.2 Prozentpunkte</td>
 </tr>
 <tr class="odd">
 <td>Anteil Effektive</td>
-<td>2.1 %</td>
-<td>-6.4 Prozentpunkte</td>
+<td style="text-align: right;">2.1 %</td>
+<td style="text-align: right;">-1.3 Prozentpunkte</td>
 </tr>
 <tr class="even">
 <td>Anteil Utilisierte</td>
-<td>80.9 %</td>
-<td>+2.2 Prozentpunkte</td>
+<td style="text-align: right;">80.9 %</td>
+<td style="text-align: right;">+1.9 Prozentpunkte</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Lesebeispiel">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -473,43 +499,41 @@ Lesebeispiel
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig2.2-de.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Abb. 2.2</strong> Anzahl spendende verstorbene Personen in der Schweiz. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislaufstillstand. Als spendende Person gilt jede verstorbene Person, bei der ein chirurgischer Eingriff mit der Absicht zur Organentnahme zum Zweck einer Transplantation erfolgt ist.</figcaption>
+<figcaption><strong>Abb. 2.2</strong> Spendende verstorbene Personen in der Schweiz. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand. Als spendende Person gilt jede verstorbene Person, bei der ein chirurgischer Eingriff mit der Absicht zur Organentnahme zum Zweck einer Transplantation erfolgt ist.</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 47%">
-<col style="width: 22%">
-<col style="width: 30%">
+<col style="width: 45%">
+<col style="width: 21%">
+<col style="width: 32%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Indikator</th>
-<th>Letztes Quartal</th>
-<th>Veränderung zum Vorquartal</th>
+<th style="text-align: right;">Aktuelles Quartal</th>
+<th style="text-align: right;">Veränderung zum Vorquartal</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Anzahl spendende Personen (alle)</td>
-<td>39</td>
-<td>-11 (-22.0 %)</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">-11 Personen (-22.0 %)</td>
 </tr>
 <tr class="even">
-<td>DBD</td>
-<td>22</td>
-<td>-4 (+15.4 %)</td>
+<td>DCD</td>
+<td style="text-align: right;">17 (43.6 %)</td>
+<td style="text-align: right;">-7 Personen (-29.2 %)</td>
 </tr>
 <tr class="odd">
-<td>DCD</td>
-<td>17</td>
-<td>-7 (-29.2 %)</td>
+<td>DBD</td>
+<td style="text-align: right;">22 (56.4 %)</td>
+<td style="text-align: right;">-4 Personen (+15.4 %)</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Lesebeispiel">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -520,7 +544,7 @@ Lesebeispiel
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Im ersten Quartal 2024 haben in der Schweiz 39 Personen ihre Organe nach dem Tod gespendet. Im Vergleich zum Vorquartal sind das 3 Personen weniger (-7.3 %).</p>
+<p>Im ersten Quartal 2024 haben in der Schweiz 39 Personen ihre Organe nach dem Tod gespendet. Im Vergleich zum Vorquartal sind das 11 Personen weniger (-22.0 %). Von den 39 spendenden verstorbenen Personen waren 17 (43.6 %) im Hirntod nach Herz-Kreislauf-Stillstand (DCD).</p>
 </div>
 </div>
 </section>
@@ -529,11 +553,10 @@ Lesebeispiel
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig2.3-de.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Abb. 2.3</strong> In der Schweiz transplantierte Organe von spendenden verstorbenen Person (inklusive aus dem Ausland importierte Organe).</figcaption>
+<figcaption><strong>Abb. 2.3</strong> In der Schweiz transplantierte Organe von spendenden verstorbenen Person (inklusive aus dem Ausland stammende Organe).</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
 <col style="width: 46%">
@@ -543,44 +566,43 @@ Lesebeispiel
 <thead>
 <tr class="header">
 <th>Indikator</th>
-<th>Letztes Quartal</th>
-<th>Veränderung zum Vorquartal</th>
+<th style="text-align: right;">Aktuelles Quartal</th>
+<th style="text-align: right;">Veränderung zum Vorquartal</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Anzahl transplantierte Organe (alle)</td>
-<td>104</td>
-<td>-38 (-26.7 %)</td>
+<td style="text-align: right;">104</td>
+<td style="text-align: right;">-38 Organe (-26.7 %)</td>
 </tr>
 <tr class="even">
 <td>Herz</td>
-<td>9</td>
-<td>-2 (-18.2 %)</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">-2 Organe (-18.2 %)</td>
 </tr>
 <tr class="odd">
 <td>Lunge</td>
-<td>2</td>
-<td>-3 (-60.0 %)</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">-6 Organe (-35.3 %)</td>
 </tr>
 <tr class="even">
 <td>Leber</td>
-<td>27</td>
-<td>-5 (-15.6 %)</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">-5 Organe (-15.6 %)</td>
 </tr>
 <tr class="odd">
 <td>Niere</td>
-<td>55</td>
-<td>-22 (-28.6 %)</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">-22 Organe (-28.6 %)</td>
 </tr>
 <tr class="even">
 <td>Pankreas/Inselzellen</td>
-<td>2</td>
-<td>+/-0 (+0.0 %)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">-3 Organe (-60.0 %)</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Lesebeispiel">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -591,7 +613,7 @@ Lesebeispiel
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Im ersten Quartal 2024 wurden in der Schweiz 104 Organe von spendenden verstorbenen Person transplantiert. Im Vergleich zum Vorquartal sind das 38 (-26.7 %) Organe weniger.</p>
+<p>Im ersten Quartal 2024 wurden in der Schweiz 104 Organe von spendenden verstorbenen Person transplantiert. Im Vergleich zum Vorquartal sind das 38 Organe weniger (-26.7 %).</p>
 </div>
 </div>
 </section>
@@ -604,39 +626,37 @@ Lesebeispiel
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 39%">
-<col style="width: 17%">
-<col style="width: 43%">
+<col style="width: 38%">
+<col style="width: 18%">
+<col style="width: 42%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Indikator</th>
-<th>Letztes Quartal</th>
-<th>Veränderung zum Vorquartal</th>
+<th style="text-align: right;">Aktuelles Quartal</th>
+<th style="text-align: right;">Veränderung zum Vorquartal</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Organe pro spendende Person (alle)</td>
-<td>2.4</td>
-<td>-0.4 Organe</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">-0.4 Organe</td>
 </tr>
 <tr class="even">
 <td>DBD</td>
-<td>2.8</td>
-<td>-0.1 Organe</td>
+<td style="text-align: right;">2.8</td>
+<td style="text-align: right;">-0.1 Organe</td>
 </tr>
 <tr class="odd">
 <td>DCD</td>
-<td>2.0</td>
-<td>-0.7 Organe</td>
+<td style="text-align: right;">2.0</td>
+<td style="text-align: right;">-0.7 Organe</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Lesebeispiel">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -647,7 +667,7 @@ Lesebeispiel
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Im ersten Quartal 2024 wurden in der Schweiz durchschnittlich 2.4 Organe pro spendende verstorbene Person transplantiert. Im Vergleich zum Vorquartal sind das 0.3 Organe weniger. Insbesondere wurden weniger Organe pro spendende verstorbene Persone im Hirntod nach Herz-Kreislauf-Stillstand transplantiert.</p>
+<p>Im ersten Quartal 2024 wurden in der Schweiz durchschnittlich 2.4 Organe pro spendende verstorbene Person transplantiert. Im Vergleich zum Vorquartal sind das 0.4 Organe weniger. Insbesondere wurden weniger Organe pro spendende verstorbene Person im Hirntod nach Herz-Kreislauf-Stillstand (DCD) transplantiert.</p>
 </div>
 </div>
 </section>
@@ -656,43 +676,41 @@ Lesebeispiel
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig2.5-de.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Abb. 2.5</strong> Anzahl spendende lebende Personen in der Schweiz, total und nach Organ. Bei Lebendspenden entspricht die Anzahl transplantierter Organe der Anzahl spendenden Personen.</figcaption>
+<figcaption><strong>Abb. 2.5</strong> Spendende lebende Personen in der Schweiz, total und nach Organ. Bei Lebendspenden entspricht die Anzahl spendender Personen gleich der Anzahl transplantierter Organe.</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 46%">
-<col style="width: 21%">
-<col style="width: 31%">
+<col style="width: 44%">
+<col style="width: 20%">
+<col style="width: 34%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Indikator</th>
-<th>Letztes Quartal</th>
-<th>Veränderung zum Vorquartal</th>
+<th style="text-align: right;">Aktuelles Quartal</th>
+<th style="text-align: right;">Veränderung zum Vorquartal</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Anzahl spendende Personen (alle)</td>
-<td>38</td>
-<td>+2 Personen</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">+2 Personen</td>
 </tr>
 <tr class="even">
 <td>Leber</td>
-<td>1</td>
-<td>+/-0 Personen</td>
+<td style="text-align: right;">1 (2.6 %)</td>
+<td style="text-align: right;">+/-0 Personen</td>
 </tr>
 <tr class="odd">
 <td>Niere</td>
-<td>37</td>
-<td>+2 Personen</td>
+<td style="text-align: right;">37 (97.4 %)</td>
+<td style="text-align: right;">+2 Personen</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Lesebeispiel">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -703,14 +721,14 @@ Lesebeispiel
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Im ersten Quartal 2024 haben in der Schweiz 38 lebende Personen eine ihrer Nieren gespendet und 1 Person einen Teil ihrer Leber. Das sind 2 Nieren-Lebendspenden mehr als im letzten Quartal 2023.</p>
+<p>Im ersten Quartal 2024 haben in der Schweiz 37 lebende Personen eine ihrer Nieren gespendet und 1 Person einen Teil ihrer Leber. Das sind 2 Nieren-Lebendspenden mehr als im Vorquartal.</p>
 </div>
 </div>
 </section>
 </section>
 <section id="transplantationen" class="level1">
 <h1>3. Transplantationen</h1>
-<p>Hier finden Sie Kennzahlen zu Personen, die ein Organ von einer spendenden verstorbenen Person erhielten. Einerseits sind dies Empfängerinnen und Empfänger in der Schweiz, die ein Organ von einer spendenden verstorbenen Person aus der Schweiz oder aus dem Ausland erhielten. Andererseits sind dies Personen im Ausland, die ein Organ von einer verstorbenen Person aus der Schweiz erhielten, wenn in der Schweiz für ein Organ keine passende Person gefunden werden konnte.</p>
+<p>Hier finden Sie Kennzahlen zu Personen, die ein Organ von einer spendenden verstorbenen Person erhielten. Einerseits sind dies Personen in der Schweiz, die ein Organ von einer spendenden verstorbenen Person aus der Schweiz oder aus dem Ausland erhielten. Andererseits sind dies Personen im Ausland, die ein Organ von einer verstorbenen Person aus der Schweiz erhielten, wenn in der Schweiz für ein Organ keine passende Person gefunden werden konnte. Kennzahlen zur Lebendspende von Niere und Leber finden Sie unter 2.5.</p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Das Wichtigste in Kürze">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -721,19 +739,18 @@ Das Wichtigste in Kürze
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Hier werden die wichtigsten Findings zur Transplantation von Organen in der Schweiz hervorgehoben.</p>
+<p>Im ersten Quartal 2024 erhielten in der Schweiz 102 Personen eines oder mehrere Organe von spendenen verstorbenen Personen. Im Vergleich zum Vorquartal sind das 36 Transplantationen (rund 26 %) weniger. Von den 102 Personen erhielten 9 Personen ein Organ aus dem Ausland.</p>
 </div>
 </div>
-<section id="transplantierte-personen-in-der-schweiz" class="level2">
-<h2 class="anchored" data-anchor-id="transplantierte-personen-in-der-schweiz">3.1 Transplantierte Personen in der Schweiz</h2>
+<section id="in-der-schweiz-transplantierte-personen" class="level2">
+<h2 class="anchored" data-anchor-id="in-der-schweiz-transplantierte-personen">3.1 In der Schweiz transplantierte Personen</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig3.1-de.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Abb. 3.1</strong> Anzahl transplantierte Personen in der Schweiz, die ein Organ von einer spendenden verstorbenen Person erhielten, total und nach Art der Transplantation. Multi-Organ bedeutet, eine Person erhielt mehr als ein Organ gleichzeitig. Organe von spendenden verstorbenen Personen aus dem Ausland sind mit eingerechnet, Organe aus Lebendspenden sind nicht mit eingerechnet.</figcaption>
+<figcaption><strong>Abb. 3.1</strong> Transplantierte Personen in der Schweiz, die ein Organ von einer spendenden verstorbenen Person erhielten, total und nach Art der Transplantation. «Multiorgan» bedeutet, eine Person erhielt mehr als ein Organ gleichzeitig. Organe von spendenden verstorbenen Personen aus dem Ausland sind miteingerechnet, Organe aus Lebendspenden sind nicht miteingerechnet.</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
 <col style="width: 42%">
@@ -743,49 +760,48 @@ Das Wichtigste in Kürze
 <thead>
 <tr class="header">
 <th>Indikator</th>
-<th>Letzes Quartal</th>
-<th>Veränderung zum Vorquartal</th>
+<th style="text-align: right;">Aktuelles Quartal</th>
+<th style="text-align: right;">Veränderung zum Vorquartal</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Anzahl transplantierte Personen (alle)</td>
-<td>102</td>
-<td>-36 Personen (-26.1 %)</td>
+<td style="text-align: right;">102</td>
+<td style="text-align: right;">-36 Personen (-26.1 %)</td>
 </tr>
 <tr class="even">
-<td>Multi-Organ</td>
-<td>2</td>
-<td>-2 Personen (-50.0 %)</td>
+<td>Multiorgan</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">-2 Personen (-50.0 %)</td>
 </tr>
 <tr class="odd">
 <td>Herz</td>
-<td>9</td>
-<td>-2 Personen (-18.2 %)</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">-2 Personen (-18.2 %)</td>
 </tr>
 <tr class="even">
 <td>Lunge</td>
-<td>11</td>
-<td>-6 Personen (-35.3 %)</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">-6 Personen (-35.3 %)</td>
 </tr>
 <tr class="odd">
 <td>Leber</td>
-<td>27</td>
-<td>-5 Personen (-15.7 %)</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">-5 Personen (-15.7 %)</td>
 </tr>
 <tr class="even">
 <td>Niere</td>
-<td>53</td>
-<td>-20 Personen (-27.4 %)</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">-20 Personen (-27.4 %)</td>
 </tr>
 <tr class="odd">
 <td>Pankreas/Inselzellen</td>
-<td>0</td>
-<td>+/-0 Personen (+0.0 %)</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+/-0 Personen (+0.0 %)</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Lesebeispiel">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -796,18 +812,19 @@ Lesebeispiel
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Im ersten Quartal 2024 erhielten in der Schweiz 102 Personen eines oder mehrere Organe von spendenen verstorbenen Personen. Im Vergleich zum Vorquartal sind das 36 Transplantationen (rund 26 %) weniger. Im ersten Quartal erhielten 2 Personen je eine Niere und eine Bauchspeicheldrüse.</p>
+<p>Im ersten Quartal 2024 erhielten in der Schweiz 102 Personen eines oder mehrere Organe von spendenden verstorbenen Personen. Im Vergleich zum Vorquartal sind das 36 Transplantationen (rund 26 %) weniger. Im ersten Quartal erhielten 2 Personen je eine Niere und eine Bauchspeicheldrüse (Pankreas).</p>
 </div>
 </div>
-<p><br></p>
+</section>
+<section id="in-der-schweiz-transplantierte-personen-mit-organen-aus-dem-ausland" class="level2">
+<h2 class="anchored" data-anchor-id="in-der-schweiz-transplantierte-personen-mit-organen-aus-dem-ausland">3.2 In der Schweiz transplantierte Personen mit Organen aus dem Ausland</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig3.2-de.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Abb. 3.2</strong> Anzahl transplantierte Personen in der Schweiz, die ein Organ von einer spendenden verstorbenen Person aus dem Ausland erhielten, total und nach Art der Transplantation.</figcaption>
+<figcaption><strong>Abb. 3.2</strong> Transplantierte Personen in der Schweiz, die ein Organ von einer spendenden verstorbenen Person aus dem Ausland erhielten, total und nach Art der Transplantation.</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
 <col style="width: 42%">
@@ -817,19 +834,18 @@ Lesebeispiel
 <thead>
 <tr class="header">
 <th>Indikator</th>
-<th>Letztes Quartal</th>
-<th>Veränderung zum Vorquartal</th>
+<th style="text-align: right;">Aktuelles Quartal</th>
+<th style="text-align: right;">Veränderung zum Vorquartal</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Anzahl transplantierte Personen</td>
-<td>9</td>
-<td>-3 Personen (-25.0 %)</td>
+<td>Anzahl transplantierte Personen mit Organen aus dem Ausland</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">-3 Personen (-25.0 %)</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Lesebeispiel">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -840,20 +856,19 @@ Lesebeispiel
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Im ersten Quartal 2024 erhielten in der Schweiz 9 Empfängerinnen und Empfänger Organe von spendenen verstorbenen Personen aus dem Ausland. Im Vergleich zum Vorquartal sind das 3 Transplantationen (25 %) weniger.</p>
+<p>Im ersten Quartal 2024 erhielten in der Schweiz 9 Personen Organe von spendenden verstorbenen Personen aus dem Ausland. Im Vergleich zum Vorquartal sind das 3 Transplantationen weniger (-25 %).</p>
 </div>
 </div>
 </section>
-<section id="transplantierte-personen-im-ausland" class="level2">
-<h2 class="anchored" data-anchor-id="transplantierte-personen-im-ausland">3.3 Transplantierte Personen im Ausland</h2>
+<section id="im-ausland-transplantierte-personen" class="level2">
+<h2 class="anchored" data-anchor-id="im-ausland-transplantierte-personen">3.3 Im Ausland transplantierte Personen</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig3.3-de.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Abb. 3.3</strong> Anzahl im Ausland transplantierte Personen, die ein Organ von einer spendenden verstorbenen Person aus der Schweiz erhielten, total und nach Art der Transplantation.</figcaption>
+<figcaption><strong>Abb. 3.3</strong> Im Ausland transplantierte Personen, die ein Organ von einer spendenden verstorbenen Person aus der Schweiz erhielten, total und nach Art der Transplantation.</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
 <col style="width: 45%">
@@ -863,19 +878,18 @@ Lesebeispiel
 <thead>
 <tr class="header">
 <th>Indikator</th>
-<th>Letztes Quartal</th>
-<th>Veränderung zum Vorquartal</th>
+<th style="text-align: right;">Aktuelles Quartal</th>
+<th style="text-align: right;">Veränderung zum Vorquartal</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Anzahl Transplantationen im Ausland</td>
-<td>0</td>
-<td>-9 (-100.0 %)</td>
+<td>Anzahl transplantierte Personen im Ausland</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-9 Personen (-100.0 %)</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Lesebeispiel">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -886,7 +900,7 @@ Lesebeispiel
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Im ersten Quartal 2024 erhielten im Ausland keine Empfängerinnen oder Empfänger Organe von spendenden verstorbenen Personen aus der Schweiz. Im Vorquartal waren es 9.</p>
+<p>Im ersten Quartal 2024 erhielten im Ausland keine Patientinnen und Patienten Organe von spendenden verstorbenen Personen aus der Schweiz. Im Vorquartal waren es 9 Patientinnen und Patienten.</p>
 </div>
 </div>
 </section>
@@ -895,11 +909,10 @@ Lesebeispiel
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig3.4-de.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Abb. 3.4</strong> Anzahl Herztransplantationen in der Schweiz, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.</figcaption>
+<figcaption><strong>Abb. 3.4</strong> Herztransplantationen in der Schweiz, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
 <col style="width: 40%">
@@ -909,29 +922,28 @@ Lesebeispiel
 <thead>
 <tr class="header">
 <th>Indikator</th>
-<th>Letztes Quartal</th>
-<th>Veränderung zum Vorquartal</th>
+<th style="text-align: right;">Aktuelles Quartal</th>
+<th style="text-align: right;">Veränderung zum Vorquartal</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Anzahl Herztransplantationen (alle)</td>
-<td>9</td>
-<td>-2 (-18.2 %)</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">-2 Transplantationen (-18.2 %)</td>
 </tr>
 <tr class="even">
-<td>DBD</td>
-<td>8</td>
-<td>-1 (-11.1 %)</td>
+<td>DCD</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">-1 Transplantation (-50.0 %)</td>
 </tr>
 <tr class="odd">
-<td>DCD</td>
-<td>1</td>
-<td>-1 (-50.0 %)</td>
+<td>DBD</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">-1 Transplantation (-11.1 %)</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Lesebeispiel">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -942,7 +954,7 @@ Lesebeispiel
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Im ersten Quartal 2024 erhielten in der Schweiz 9 Personen eine Herztransplantation. Im Vergleich zum Vorquartal sind das 2 (-18 %) Herztransplantationen weniger.</p>
+<p>Im ersten Quartal 2024 erhielten in der Schweiz 9 Personen eine Herztransplantation. Im Vergleich zum Vorquartal sind das 2 Herztransplantationen weniger (-18.2 %).</p>
 </div>
 </div>
 </section>
@@ -951,11 +963,10 @@ Lesebeispiel
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig3.5-de.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Abb. 3.5</strong> Anzahl Lungentransplantationen in der Schweiz, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.</figcaption>
+<figcaption><strong>Abb. 3.5</strong> Lungentransplantationen in der Schweiz, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
 <col style="width: 40%">
@@ -965,29 +976,28 @@ Lesebeispiel
 <thead>
 <tr class="header">
 <th>Indikator</th>
-<th>Letztes Quartal</th>
-<th>Veränderung zum Vorquartal</th>
+<th style="text-align: right;">Aktuelles Quartal</th>
+<th style="text-align: right;">Veränderung zum Vorquartal</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Anzahl Lungentransplantationen (alle)</td>
-<td>11</td>
-<td>-6 (-35.3.0 %)</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">-6 Transplantationen (-35.3 %)</td>
 </tr>
 <tr class="even">
-<td>DBD</td>
-<td>8</td>
-<td>-3 (-27.3 %)</td>
+<td>DCD</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">-3 Transplantationen (-50.0 %)</td>
 </tr>
 <tr class="odd">
-<td>DCD</td>
-<td>3</td>
-<td>-3 (-50.0 %)</td>
+<td>DBD</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">-3 Transplantationen (-27.3 %)</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Lesebeispiel">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -998,7 +1008,7 @@ Lesebeispiel
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Im ersten Quartal 2024 erhielten in der Schweiz 11 Personen eine Lungentransplantation. Im Vergleich zum Vorquartal sind das 6 (-67 %) Lungentransplantationen weniger.</p>
+<p>Im ersten Quartal 2024 erhielten in der Schweiz 11 Personen eine Lungentransplantation. Im Vergleich zum Vorquartal sind das 6 Lungentransplantationen weniger (-35.3 %).</p>
 </div>
 </div>
 </section>
@@ -1007,11 +1017,10 @@ Lesebeispiel
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig3.6-de.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Abb. 3.6</strong> Anzahl Lebertransplantationen in der Schweiz aus einer Organspende nach dem Tod, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.</figcaption>
+<figcaption><strong>Abb. 3.6</strong> Lebertransplantationen in der Schweiz aus einer Organspende nach dem Tod, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
 <col style="width: 40%">
@@ -1021,29 +1030,28 @@ Lesebeispiel
 <thead>
 <tr class="header">
 <th>Indikator</th>
-<th>Letztes Quartal</th>
-<th>Veränderung zum Vorquartal</th>
+<th style="text-align: right;">Aktuelles Quartal</th>
+<th style="text-align: right;">Veränderung zum Vorquartal</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Anzahl Lebertransplantationen (alle)</td>
-<td>27</td>
-<td>-5 (-15.6 %)</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">-5 Transplantationen (-15.6 %)</td>
 </tr>
 <tr class="even">
-<td>DBD</td>
-<td>20</td>
-<td>-1 (-4.8 %)</td>
+<td>DCD</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">-4 Transplantationen (-36.4 %)</td>
 </tr>
 <tr class="odd">
-<td>DCD</td>
-<td>7</td>
-<td>-4 (-36.6 %)</td>
+<td>DBD</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">-1 Transplantation (-4.8 %)</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Lesebeispiel">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -1054,7 +1062,7 @@ Lesebeispiel
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Im ersten Quartal 2024 erhielten in der Schweiz 27 Personen eine Lebertransplantation aus einer postmortalen Organspende. Im Vergleich zum Vorquartal sind das 5 (-15.6 %) Lebertransplantationen weniger.</p>
+<p>Im ersten Quartal 2024 erhielten in der Schweiz 27 Personen eine Lebertransplantation aus einer Organspende nach dem Tod. Im Vergleich zum Vorquartal sind das 5 Lebertransplantationen weniger (-15.6 %).</p>
 </div>
 </div>
 </section>
@@ -1063,11 +1071,10 @@ Lesebeispiel
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig3.7-de.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Abb. 3.7</strong> Anzahl Nierentransplantationen in der Schweiz aus einer Organspende nach dem Tod, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.</figcaption>
+<figcaption><strong>Abb. 3.7</strong> Nierentransplantationen in der Schweiz aus einer Organspende nach dem Tod, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
 <col style="width: 40%">
@@ -1077,29 +1084,28 @@ Lesebeispiel
 <thead>
 <tr class="header">
 <th>Indikator</th>
-<th>Letztes Quartal</th>
-<th>Veränderung zum Vorquartal</th>
+<th style="text-align: right;">Aktuelles Quartal</th>
+<th style="text-align: right;">Veränderung zum Vorquartal</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Anzahl Nierentransplantationen (alle)</td>
-<td>55</td>
-<td>-3 (-5.2 %)</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">-22 Transplantationen (-28.6 %)</td>
 </tr>
 <tr class="even">
-<td>DBD</td>
-<td>31</td>
-<td>-4 (-11.4 %)</td>
+<td>DCD</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">-18 Transplantationen (-42.9 %)</td>
 </tr>
 <tr class="odd">
-<td>DCD</td>
-<td>24</td>
-<td>-18 (-42.9 %)</td>
+<td>DBD</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">-4 Transplantationen (-11.4 %)</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Lesebeispiel">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -1110,7 +1116,7 @@ Lesebeispiel
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Im ersten Quartal 2024 erhielten in der Schweiz 53 Personen eine Nierentransplantation aus einer postmortalen Organspende. Im Vergleich zum Vorquartal sind das 2 (-4 %) Nierentransplantationen weniger.</p>
+<p>Im ersten Quartal 2024 erhielten in der Schweiz 55 Personen eine Nierentransplantation aus einer Organspende nach dem Tod. Im Vergleich zum Vorquartal sind das 22 Nierentransplantationen weniger (-28.6 %).</p>
 </div>
 </div>
 </section>
@@ -1119,43 +1125,41 @@ Lesebeispiel
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig3.8-de.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Abb. 3.8</strong> Anzahl Pankreas/Inselzellen-Transplantationen in der Schweiz, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.</figcaption>
+<figcaption><strong>Abb. 3.8</strong> Pankreas/Inselzellen-Transplantationen in der Schweiz, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 50%">
-<col style="width: 23%">
-<col style="width: 26%">
+<col style="width: 49%">
+<col style="width: 22%">
+<col style="width: 27%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Indikator</th>
-<th>Letztes Quartal</th>
-<th>Veränderung zum Vorquartal</th>
+<th style="text-align: right;">Aktuelles Quartal</th>
+<th style="text-align: right;">Veränderung zum Vorquartal</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Anzahl Transplantationen Pankreas/Inselzellen (alle)</td>
-<td>2</td>
-<td>-3 (-60.0 %)</td>
+<td>Anzahl Pankreas-/Inselzellen-Transplantationen (alle)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">-3 Transplantationen (-60.0 %)</td>
 </tr>
 <tr class="even">
-<td>DBD</td>
-<td>1</td>
-<td>-2 (-66.7 %)</td>
+<td>DCD</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">-1 Transplantationen (-50.0 %)</td>
 </tr>
 <tr class="odd">
-<td>DCD</td>
-<td>1</td>
-<td>-1 (-50.0 %)</td>
+<td>DBD</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">-2 Transplantationen (-66.7 %)</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Lesebeispiel">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -1166,7 +1170,7 @@ Lesebeispiel
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Im ersten Quartal 2024 erhielten in der Schweiz 2 Personen eine Pankreas/Inselzellen-Transplantation. Im Vorquartal waren es ebenfalls 5 Personen.</p>
+<p>Im ersten Quartal 2024 erhielten in der Schweiz 2 Personen eine Pankreas/Inselzellen-Transplantation. Im Vergleich zum Vorquartal sind das 3 Transplantationen weniger (-60 %).</p>
 </div>
 </div>
 

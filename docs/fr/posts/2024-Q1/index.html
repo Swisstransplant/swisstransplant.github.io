@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Swisstransplant">
+<meta name="description" content="test">
 
-<title>1er trimestre 2024 – Swisstransplant Data Science</title>
+<title>1. Quartal 2024 – Swisstransplant Data Science</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -125,8 +126,13 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">1er trimestre 2024</h1>
-                      </div>
+      <h1 class="title">1. Quartal 2024</h1>
+                  <div>
+        <div class="description">
+          test
+        </div>
+      </div>
+                </div>
   </div>
     
   
@@ -160,12 +166,13 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#liste-dattente" id="toc-liste-dattente" class="nav-link active" data-scroll-target="#liste-dattente">1. Liste d’attente</a>
   <ul class="collapse">
-  <li><a href="#personnes-sur-liste-dattente" id="toc-personnes-sur-liste-dattente" class="nav-link" data-scroll-target="#personnes-sur-liste-dattente">1.1 Personnes sur liste d’attente</a></li>
+  <li><a href="#personnes-en-liste-dattente" id="toc-personnes-en-liste-dattente" class="nav-link" data-scroll-target="#personnes-en-liste-dattente">1.1 Personnes en liste d’attente</a></li>
+  <li><a href="#personnes-en-liste-dattente-par-organe" id="toc-personnes-en-liste-dattente-par-organe" class="nav-link" data-scroll-target="#personnes-en-liste-dattente-par-organe">1.2 Personnes en liste d’attente par organe</a></li>
   <li><a href="#événements-sur-la-liste-dattente" id="toc-événements-sur-la-liste-dattente" class="nav-link" data-scroll-target="#événements-sur-la-liste-dattente">1.3 Événements sur la liste d’attente</a></li>
   </ul></li>
   <li><a href="#don-dorganes" id="toc-don-dorganes" class="nav-link" data-scroll-target="#don-dorganes">2. Don d’organes</a>
   <ul class="collapse">
-  <li><a href="#personnes-autorisées-à-faire-un-don-après-la-mort" id="toc-personnes-autorisées-à-faire-un-don-après-la-mort" class="nav-link" data-scroll-target="#personnes-autorisées-à-faire-un-don-après-la-mort">2.1 Personnes autorisées à faire un don après la mort</a></li>
+  <li><a href="#personnes-approuvées-à-faire-un-don-dorganes-après-le-décès" id="toc-personnes-approuvées-à-faire-un-don-dorganes-après-le-décès" class="nav-link" data-scroll-target="#personnes-approuvées-à-faire-un-don-dorganes-après-le-décès">2.1 Personnes approuvées à faire un don d’organes après le décès</a></li>
   <li><a href="#donneurs-décédés" id="toc-donneurs-décédés" class="nav-link" data-scroll-target="#donneurs-décédés">2.2 Donneurs décédés</a></li>
   <li><a href="#organes-transplantés-de-donneurs-décédés" id="toc-organes-transplantés-de-donneurs-décédés" class="nav-link" data-scroll-target="#organes-transplantés-de-donneurs-décédés">2.3 Organes transplantés de donneurs décédés</a></li>
   <li><a href="#organes-transplantés-par-donneur-décédé" id="toc-organes-transplantés-par-donneur-décédé" class="nav-link" data-scroll-target="#organes-transplantés-par-donneur-décédé">2.4 Organes transplantés par donneur décédé</a></li>
@@ -173,13 +180,14 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#transplantations" id="toc-transplantations" class="nav-link" data-scroll-target="#transplantations">3. Transplantations</a>
   <ul class="collapse">
-  <li><a href="#personnes-transplantées-en-suisse" id="toc-personnes-transplantées-en-suisse" class="nav-link" data-scroll-target="#personnes-transplantées-en-suisse">3.1 Personnes transplantées en Suisse</a></li>
-  <li><a href="#personnes-transplantées-à-létranger" id="toc-personnes-transplantées-à-létranger" class="nav-link" data-scroll-target="#personnes-transplantées-à-létranger">3.3 Personnes transplantées à l’étranger</a></li>
-  <li><a href="#transplantation-de-cœur" id="toc-transplantation-de-cœur" class="nav-link" data-scroll-target="#transplantation-de-cœur">3.4 Transplantation de cœur</a></li>
-  <li><a href="#transplantation-de-poumons" id="toc-transplantation-de-poumons" class="nav-link" data-scroll-target="#transplantation-de-poumons">3.5 Transplantation de poumons</a></li>
-  <li><a href="#transplantation-de-foie" id="toc-transplantation-de-foie" class="nav-link" data-scroll-target="#transplantation-de-foie">3.6 Transplantation de foie</a></li>
-  <li><a href="#transplantation-de-reins" id="toc-transplantation-de-reins" class="nav-link" data-scroll-target="#transplantation-de-reins">3.7 Transplantation de reins</a></li>
-  <li><a href="#transplantations-de-pancréas-et-dîlots" id="toc-transplantations-de-pancréas-et-dîlots" class="nav-link" data-scroll-target="#transplantations-de-pancréas-et-dîlots">3.8 Transplantations de pancréas et d’îlots</a></li>
+  <li><a href="#patients-transplantés-en-suisse" id="toc-patients-transplantés-en-suisse" class="nav-link" data-scroll-target="#patients-transplantés-en-suisse">3.1 Patients transplantés en Suisse</a></li>
+  <li><a href="#patients-transplantés-en-suisse-avec-organes-de-létranger" id="toc-patients-transplantés-en-suisse-avec-organes-de-létranger" class="nav-link" data-scroll-target="#patients-transplantés-en-suisse-avec-organes-de-létranger">3.2 Patients transplantés en Suisse avec organes de l’étranger</a></li>
+  <li><a href="#patients-transplantés-à-létranger" id="toc-patients-transplantés-à-létranger" class="nav-link" data-scroll-target="#patients-transplantés-à-létranger">3.3 Patients transplantés à l’étranger</a></li>
+  <li><a href="#transplantations-du-cœur" id="toc-transplantations-du-cœur" class="nav-link" data-scroll-target="#transplantations-du-cœur">3.4 Transplantations du cœur</a></li>
+  <li><a href="#transplantations-de-poumons" id="toc-transplantations-de-poumons" class="nav-link" data-scroll-target="#transplantations-de-poumons">3.5 Transplantations de poumons</a></li>
+  <li><a href="#transplantations-du-foie" id="toc-transplantations-du-foie" class="nav-link" data-scroll-target="#transplantations-du-foie">3.6 Transplantations du foie</a></li>
+  <li><a href="#transplantations-de-reins" id="toc-transplantations-de-reins" class="nav-link" data-scroll-target="#transplantations-de-reins">3.7 Transplantations de reins</a></li>
+  <li><a href="#transplantations-de-pancréas-et-dîlots-de-langerhans" id="toc-transplantations-de-pancréas-et-dîlots-de-langerhans" class="nav-link" data-scroll-target="#transplantations-de-pancréas-et-dîlots-de-langerhans">3.8 Transplantations de pancréas et d’îlots de Langerhans</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -191,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Les chiffres trimestriels comprennent les principaux indicateurs relatifs à la liste d’attente et à l’activité de don et de transplantation d’organes en Suisse. Toutes les données proviennent du Swiss Organ Allocation System (<a href="https://www.bag.admin.ch/bag/fr/home/medizin-und-forschung/transplantationsmedizin/transplantieren-von-organen-geweben-Zellen/zuteilung-organe-gewebe-blut-stammzellen/soas.html" target="_blank">SOAS</a>), géré par l’OFSP .</p>
+<p>Les chiffres trimestriels comprennent les principaux chiffres clés de la liste d’attente et de l’activité de don d’organes et de transplantation en Suisse. Toutes les données viennent du « Swiss Organ Allocation System »(<a href="https://www.bag.admin.ch/bag/fr/home/medizin-und-forschung/transplantationsmedizin/transplantieren-von-organen-geweben-Zellen/zuteilung-organe-gewebe-blut-stammzellen/soas.html" target="_blank">SOAS</a>), géré par l’OFSP.</p>
 <div class="callout callout-style-default callout-warning callout-titled" title="Attention">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -205,37 +213,70 @@ Attention
 <p><strong>Cette page est encore en cours de développement.</strong></p>
 </div>
 </div>
+<div class="callout callout-style-default callout-warning callout-titled" title="Remarque">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Remarque
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Les temps d’attente jusqu’à la transplantation ne sont plus indiqués par trimestre, mais seulement une fois par an. Le calcul est effectué selon une nouvelle méthodologie (<a href="https://www.swisstransplant.org/fileadmin/user_upload/Bilder/Home/Organ-_und_Gewebespende/Fakten_und_Zahlen/Jahreszahlen/2023_ersetzt/FR_2023/Ill_4.13_2023_FR.jpg" target="_blank">voir fig.&nbsp;4.13 du rapport annuel 2023</a>). Les chiffres clés concernant les temps d’attente par organe seront publiés sur ce site.</p>
+</div>
+</div>
 <section id="liste-dattente" class="level1">
 <h1>1. Liste d’attente</h1>
-<section id="personnes-sur-liste-dattente" class="level2">
-<h2 class="anchored" data-anchor-id="personnes-sur-liste-dattente">1.1 Personnes sur liste d’attente</h2>
+<p>Vous trouverez ici les chiffres clés sur la liste d’attente des personnes en attente d’un organe en Suisse. Les personnes listées pour un don de donneur vivant ne sont pas prises en compte dans cette section.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="L'essentiel en bref">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+L’essentiel en bref
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Fin Mars 2024, 1326 personnes attendaient en Suisse un ou plusieurs organes de donneurs décédés. Par rapport au trimestre précédent, cela représente 9 personnes de moins (-0,7 %). 27 personnes sont décédées sur la liste d’attente au premier trimestre 2024.</p>
+</div>
+</div>
+<section id="personnes-en-liste-dattente" class="level2">
+<h2 class="anchored" data-anchor-id="personnes-en-liste-dattente">1.1 Personnes en liste d’attente</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig1.1-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Fig. 1.1</strong> Personnes sur la liste d’attente pour un don d’organe après le décès à la fin de chaque trimestre, au total et en statut inactif. Les personnes sur la liste d’attente sont parfois temporairement inaptes à la transplantation pour des raisons de santé ou de logistique. Dans ce statut inactif, elles ne reçoivent pas d’offres d’organes. Les personnes qui étaient sur la liste pour un don de leur vivant ne sont pas comptées.</figcaption>
+<figcaption><strong>Fig. 1.1</strong> Personnes en liste d’attente pour un organe à la fin de chaque trimestre, au total et en statut inactif. Parfois, les personnes sur la liste d’attente ne peuvent temporairement pas bénéficier d’une transplantation pour des raisons de santé ou de logistique. Dans cet état inactif, elles ne reçoivent pas d’offre d’organes. Les personnes listées pour un don de donneur vivant ne sont pas iclus.</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 48%">
-<col style="width: 51%">
+<col style="width: 38%">
+<col style="width: 15%">
+<col style="width: 46%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Indicateur</th>
-<th>Changement par rapport au trimestre précédent</th>
+<th style="text-align: right;">Trimestre actuel</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Nombre de patients en liste d’attente</td>
-<td>-9 patients (-0.7 %)</td>
+<td style="text-align: right;">1326</td>
+<td style="text-align: right;">-9 patients (-0.7 %)</td>
+</tr>
+<tr class="even">
+<td>Part dans état inactif</td>
+<td style="text-align: right;">48.8 %</td>
+<td style="text-align: right;">-1.1 points de pourcentage</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -246,64 +287,77 @@ Exemple de lecture
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Fin mars 2024, 1326 personnes attendaient en Suisse un ou plusieurs organes de donneurs décédés. Par rapport au trimestre précédent, cela représente 9 personnes de moins (-0,7 %). Près de la moitié (48,8 %) des personnes sur la liste d’attente avaient un statut inactif.</p>
+<p>Fin mars 2024, 1326 personnes attendaient en Suisse un ou plusieurs organes de donneurs décédés. Par rapport au trimestre précédent, cela représente 9 personnes de moins (-0,7 %). Près de la moitié (48,8 %) des personnes sur la liste d’attente etait dans l’état inactif.</p>
 </div>
 </div>
-<p><br></p>
+</section>
+<section id="personnes-en-liste-dattente-par-organe" class="level2">
+<h2 class="anchored" data-anchor-id="personnes-en-liste-dattente-par-organe">1.2 Personnes en liste d’attente par organe</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig1.2-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Fig. 1.2</strong> Personnes sur la liste d’attente pour un don d’organe après le décès à la fin de chaque trimestre, au total et par organe. Les personnes en attente de plus d’un organe sont comptées dans le groupe « multi-organes ». Les personnes qui étaient sur la liste pour un don de leur vivant ne sont pas comptées.</figcaption>
+<figcaption><strong>Fig. 1.2</strong> Personnes en liste d’attente pour un organe à la fin de chaque trimestre, au total et par organe. Les personnes en attente de plus d’un organe sont comptées dans le groupe « multiorganes ». Les personnes listées pour un don de donneur vivant ne sont pas inclus.</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 48%">
-<col style="width: 51%">
+<col style="width: 39%">
+<col style="width: 19%">
+<col style="width: 41%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Indicateur</th>
-<th>Changement par rapport au trimestre précédent</th>
+<th style="text-align: right;">Trimestre actuel</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Multi-Organ</td>
-<td>-2 patients (-4.8 %)</td>
+<td>Nombre de patients en liste d’attente</td>
+<td style="text-align: right;">1326</td>
+<td style="text-align: right;">-9 patients (-0.7 %)</td>
 </tr>
 <tr class="even">
 <td>Cœur</td>
-<td>+1 patient (+2.4 %)</td>
+<td style="text-align: right;">43</td>
+<td style="text-align: right;">+1 patient (+2.4 %)</td>
 </tr>
 <tr class="odd">
 <td>Poumons</td>
-<td>-4 patients (-8.7 %)</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: right;">-4 patients (-8.7 %)</td>
 </tr>
 <tr class="even">
 <td>Fois</td>
-<td>+13 patients (+4.9 %)</td>
+<td style="text-align: right;">281</td>
+<td style="text-align: right;">+13 patients (+4.9 %)</td>
 </tr>
 <tr class="odd">
 <td>Rein</td>
-<td>-16 patients (-1.7 %)</td>
+<td style="text-align: right;">907</td>
+<td style="text-align: right;">-16 patients (-1.7 %)</td>
 </tr>
 <tr class="even">
 <td>Pancréas/îlots de Langerhans</td>
-<td>-1 patient (-7.1 %)</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">-1 patient (-7.1 %)</td>
+</tr>
+<tr class="odd">
+<td>Intestin grêle</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+/- 0 patients</td>
 </tr>
 </tbody>
 </table>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="Lesebeispiel">
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Lesebeispiel
+Exemple de lecture
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -316,28 +370,32 @@ Lesebeispiel
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig1.3-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Fig. 1.3</strong> Patients transplantées et patients décédées sur la liste d’attente. Les patients qui étaient sur la liste pour un don de leur vivant ou qui ont reçu un don de leur vivant ne sont pas prises en compte.</figcaption>
+<figcaption><strong>Fig. 1.3</strong> Patients transplantées et patients décédées sur la liste d’attente. Les patients qui étaient sur la liste pour un don de donneur vivant ou qui ont reçu un don de donneur vivant ne sont pas inclus.</figcaption>
 </figure>
 </div>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 48%">
-<col style="width: 51%">
+<col style="width: 31%">
+<col style="width: 27%">
+<col style="width: 41%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Indicateur</th>
-<th>Changement par rapport au trimestre précédent</th>
+<th style="text-align: right;">Trimestre actuel</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Nombre de patients transplantés</td>
-<td>-36 Personen (-26.1 %)</td>
+<td style="text-align: right;">102</td>
+<td style="text-align: right;">-36 patients (-26.1 %)</td>
 </tr>
 <tr class="even">
 <td>Nombre de patients décédés</td>
-<td>+8 Personen (+42.1 %)</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">+8 patients (+29.6 %)</td>
 </tr>
 </tbody>
 </table>
@@ -352,54 +410,72 @@ Exemple de lecture
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Au premier trimestre 2024, 140 personnes ont reçu en Suisse un ou plusieurs organes provenant d’un don d’organe apres la mort. 28 personnes sont décédées sur la liste d’attente au premier trimestre 2024.</p>
+<p>Au premier trimestre 2024, 102 patients en Suisse ont reçu un ou plusieurs organes provenant d’un don d’organe après le décès. 27 patients sont décédés sur la liste d’attente au premier trimestre 2024.</p>
 </div>
 </div>
 </section>
 </section>
 <section id="don-dorganes" class="level1">
 <h1>2. Don d’organes</h1>
-<section id="personnes-autorisées-à-faire-un-don-après-la-mort" class="level2">
-<h2 class="anchored" data-anchor-id="personnes-autorisées-à-faire-un-don-après-la-mort">2.1 Personnes autorisées à faire un don après la mort</h2>
+<p>Vous trouverez ici les chiffre clés sur le don d’organes après le décès et le don d’organes de donneur vivant en Suisse.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="L'essentiel en bref">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+L’essentiel en bref
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au premier trimestre 2024, 39 personnes ont fait don de leurs organes après leur décès en Suisse. Ce sont 11 personnes de moins (-22,0 %) comparé au trimestre précédent. Parmi ces 39 personnes décédées, 17 (43,6 %) étaient en état de mort cérébrale après un arrêt cardio-vasculaire. 104 organes de donneurs décédés ont été transplantés en Suisse, soit 38 de moins (-26,8 %) qu’au trimestre précédent. Avec 2,4 organes, le nombre moyen d’organes transplantés par donneur décédée a également diminué, en particulier pour les dons en état de mort cérébrale après un arrêt cardio-circulatoire (DCD).</p>
+</div>
+</div>
+<section id="personnes-approuvées-à-faire-un-don-dorganes-après-le-décès" class="level2">
+<h2 class="anchored" data-anchor-id="personnes-approuvées-à-faire-un-don-dorganes-après-le-décès">2.1 Personnes approuvées à faire un don d’organes après le décès</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig2.1-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Fig. 2.1</strong> Personnes décédées en Suisse et autorisées par Swisstransplant pour le don d’organes après la mort. Une personne est autorisée si, en cas de pronostic sans espoir, elle a donné son consentement au don d’organes et qu’elle est médicalement qualifiée pour le don d’au moins un organe. « Utilisé » signifie qu’au moins un organe a pu être transplanté. « Utilisé » signifie qu’une intervention chirurgicale a eu lieu avec l’intention de prélever un organe en vue d’une transplantation, mais qu’aucun organe n’a pu être transplanté. « Non utilisé » signifie qu’il n’y a pas eu d’intervention chirurgicale avec intention de prélever un organe en vue d’une transplantation.</figcaption>
+<figcaption><strong>Fig. 2.1</strong> Personnes décédées en Suisse et approuvées par Swisstransplant pour le don d’organes après le décès. Une personne est approuvée si, en cas de pronostic sans espoir, elle a donné son consentement au don d’organes et qu’elle est médicalement qualifiée pour le don d’au moins un organe. « Utilisé » signifie qu’au moins un organe a pu être transplanté. « Effectif » signifie qu’une intervention chirurgicale a eu lieu avec l’intention de prélever un organe en vue d’une transplantation, mais qu’aucun organe n’a pu être transplanté. « Non utilisé » signifie qu’il n’y a pas eu d’intervention d’intervention chirurgicale dans l’intention d’un prélèvement d’organes aux fins d’une transplantation.</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 48%">
-<col style="width: 51%">
+<col style="width: 36%">
+<col style="width: 21%">
+<col style="width: 41%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Indicateur</th>
-<th>Changement par rapport au trimestre précédent</th>
+<th style="text-align: right;">Trimestre actuel</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Nombre de personnes autorisées</td>
-<td>-11 personnes (-19.0 %)</td>
+<td>Nombre de personnes approuvées</td>
+<td style="text-align: right;">47</td>
+<td style="text-align: right;">-11 personnes (-19.0 %)</td>
 </tr>
 <tr class="even">
-<td>Proportion non utilisée (17.0 %)</td>
-<td>+4.2 Prozentpunkte</td>
+<td>Proportion non utilisée</td>
+<td style="text-align: right;">17.0 %</td>
+<td style="text-align: right;">+3.2 Points de pourcentage</td>
 </tr>
 <tr class="odd">
-<td>Proportion effectif (2.1 %)</td>
-<td>-6.4 Prozentpunkte</td>
+<td>Proportion effectif</td>
+<td style="text-align: right;">2.1 %</td>
+<td style="text-align: right;">-1.3 Points de pourcentage</td>
 </tr>
 <tr class="even">
-<td>Proportion utilisée (80.9 %)</td>
-<td>+2.2 Prozentpunkte</td>
+<td>Proportion utilisée</td>
+<td style="text-align: right;">80.9 %</td>
+<td style="text-align: right;">-1.9 Points de pourcentage</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -410,7 +486,7 @@ Exemple de lecture
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Au premier trimestre 2024, Swisstransplant a autorisées 47 personnes de Suisse pour un don d’organe après la mort. Ce sont 11 de moins qu’au trimestre précédent. Le taux d’utilisation était de 80,9%.</p>
+<p>Au premier trimestre 2024, Swisstransplant a approuvées 47 personnes en Suisse pour un don d’organe après le décès. Ce sont 11 de moins qu’au trimestre précédent. Le taux d’utilisation était de 80.9%.</p>
 </div>
 </div>
 </section>
@@ -419,38 +495,41 @@ Exemple de lecture
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig2.2-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Fig. 2.2</strong> Nombre de donneurs décédés en Suisse. DBD: don en état de mort cérébrale, DCD: don en état de mort cérébrale après un arrêt cardio-circulatoire. Un donneur est défini comme toute personne ayant subi une intervention chirurgicale pour prélever des organes à des fins de transplantation.</figcaption>
+<figcaption><strong>Fig. 2.2</strong> Donneurs décédés en Suisse. DBD: don en état de mort cérébrale, DCD: don en état de mort cérébrale après un arrêt cardio-circulatoire. Est considérée comme donneur toute personne décédée qui a subi une intervention chirurgicale dans l’intention d’un prélèvement d’organes aux fins d’une transplantation.</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 48%">
-<col style="width: 51%">
+<col style="width: 38%">
+<col style="width: 20%">
+<col style="width: 40%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Indicateur</th>
-<th>Changement par rapport au trimestre précédent</th>
+<th style="text-align: right;">Trimestre actuel</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Nombre de donneurs (tous)</td>
-<td>-11 (-22.0 %)</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">-11 donneurs (-22.0 %)</td>
 </tr>
 <tr class="even">
-<td>DBD</td>
-<td>-4 (+15.4 %)</td>
+<td>DCD</td>
+<td style="text-align: right;">17 (43.6 %)</td>
+<td style="text-align: right;">-7 donneurs (-29.2 %)</td>
 </tr>
 <tr class="odd">
-<td>DCD</td>
-<td>-7 (-29.2 %)</td>
+<td>DBD</td>
+<td style="text-align: right;">22 (56.4 %)</td>
+<td style="text-align: right;">-4 donneurs (+15.4 %)</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -461,7 +540,7 @@ Exemple de lecture
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Au premier trimestre 2024, 39 personnes ont fait don de leurs organes après leur décès en Suisse. Par rapport au trimestre précédent, cela représente 11 personnes de moins (-22,0 %).</p>
+<p>Au premier trimestre 2024, 39 personnes ont fait don de leurs organes après leur décès en Suisse. Par rapport au trimestre précédent, cela représente 11 personnes de moins (-22,0 %). Parmi ces 39 personnes décédées, 17 (43,6 %) étaient en état de mort cérébrale après un arrêt cardio-vasculaire.</p>
 </div>
 </div>
 </section>
@@ -470,50 +549,56 @@ Exemple de lecture
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig2.3-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Fig 2.3</strong> Organes transplantés en Suisse de donneurs décédés (incluant les organes importés de l’étranger), total et par organe</figcaption>
+<figcaption><strong>Fig 2.3</strong> Organes transplantés en Suisse de donneurs décédés (incluant les organes provenant de l’étranger), total et par organe.</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 51%">
-<col style="width: 48%">
+<col style="width: 38%">
+<col style="width: 20%">
+<col style="width: 40%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Indicateur</th>
-<th>Changement par rapport au trimestre précédent</th>
+<th style="text-align: right;">Trimestre actuel</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Organes transplantés (tous)</td>
-<td>-16 (-13.6 %)</td>
+<td>Nombre d’organes transplantés (tous)</td>
+<td style="text-align: right;">104</td>
+<td style="text-align: right;">-38 organes (-26.7 %)</td>
 </tr>
 <tr class="even">
 <td>Cœur</td>
-<td>+1 patient (+2.4 %)</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">-2 organes (-18.2 %)</td>
 </tr>
 <tr class="odd">
 <td>Poumons</td>
-<td>-4 patients (-8.7 %)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">-3 organes (-60.0 %)</td>
 </tr>
 <tr class="even">
 <td>Fois</td>
-<td>+13 patients (+4.9 %)</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">-5 organes (-15.6 %)</td>
 </tr>
 <tr class="odd">
-<td>Rein</td>
-<td>-16 patients (-1.7 %)</td>
+<td>Reins</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">-22 organes (-28.6 %)</td>
 </tr>
 <tr class="even">
 <td>Pancréas/îlots de Langerhans</td>
-<td>-1 patient (-7.1 %)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">+/-0 organe (+0.0 %)</td>
 </tr>
 </tbody>
 </table>
-</div>
 <div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -524,7 +609,7 @@ Exemple de lecture
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Au premier trimestre 2024, 104 organes ont été transplantés en Suisse de donneurs décédés. Par rapport au trimestre précédent, cela représente 38 (-26.7 %) organes de moins.</p>
+<p>Au premier trimestre 2024, 104 organes ont été transplantés en Suisse de donneurs décédés. Par rapport au trimestre précédent, cela représente 38 organes de moins (-26.7 %).</p>
 </div>
 </div>
 </section>
@@ -537,45 +622,48 @@ Exemple de lecture
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 48%">
-<col style="width: 51%">
+<col style="width: 38%">
+<col style="width: 18%">
+<col style="width: 42%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Indicateur</th>
-<th>Changement par rapport au trimestre précédent</th>
+<th style="text-align: right;">Trimestre actuel</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Organes par donneur (DBD et DCD)</td>
-<td>-0.4 organes</td>
+<td>Organes par donneur (tous )</td>
+<td style="text-align: right;">2.4</td>
+<td style="text-align: right;">-0.4 organes</td>
 </tr>
 <tr class="even">
 <td>DBD</td>
-<td>-0.1 organes</td>
+<td style="text-align: right;">2.8</td>
+<td style="text-align: right;">-0.1 organes</td>
 </tr>
 <tr class="odd">
 <td>DCD</td>
-<td>-0.7 organes</td>
+<td style="text-align: right;">2.0</td>
+<td style="text-align: right;">-0.7 organes</td>
 </tr>
 </tbody>
 </table>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="Lesebeispiel">
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Lesebeispiel
+Exemple de lecture
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Im ersten Quartal 2024 wurden in der Schweiz durchschnittlich 2.4 Organe pro spendende verstorbene Person transplantiert. Im Vergleich zum Vorquartal sind das 0.3 Organe weniger. Insbesondere wurden weniger Organe pro spendende verstorbene Persone im Hirntod nach Herz-Kreislauf-Stillstand transplantiert.</p>
+<p>Au premier trimestre 2024, 2,4 organes ont été transplantés en moyenne en Suisse par donneur décédé. Par rapport au trimestre précédent, cela représente 0,4 organe de moins. En particulier, moins d’organes ont été transplantés par donneur décédé en état de mort cérébrale après un arrêt cardio-vasculaire.</p>
 </div>
 </div>
 </section>
@@ -584,127 +672,502 @@ Lesebeispiel
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig2.5-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Fig 2.5</strong> Traduction…</figcaption>
+<figcaption><strong>Fig 2.5</strong> Donneurs vivants en Suisse, au total et par organe. Pour les dons de donneurs vivants, le nombre de donneurs est égal au nombre d’organes transplantés.</figcaption>
 </figure>
 </div>
 <p><br></p>
-<div style="font-size: 85%;">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 40%">
+<col style="width: 39%">
 <col style="width: 18%">
 <col style="width: 41%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Indicateur</th>
-<th>Dernier trimestre</th>
-<th>Changement par rapport au trimestre précédent</th>
+<th style="text-align: right;">Trimestre actuel</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Nombre de donneurs vivants (tous)</td>
-<td>38</td>
-<td>+2 Personnes</td>
+<td style="text-align: right;">38</td>
+<td style="text-align: right;">+2 donneurs</td>
 </tr>
 <tr class="even">
 <td>Fois</td>
-<td>1</td>
-<td>+/-0 Personnes</td>
+<td style="text-align: right;">1 (2.6 %)</td>
+<td style="text-align: right;">+/-0 donneurs</td>
 </tr>
 <tr class="odd">
 <td>Rein</td>
-<td>37</td>
-<td>+2 Personnes</td>
+<td style="text-align: right;">37 (97.4 %)</td>
+<td style="text-align: right;">+2 donneurs</td>
 </tr>
 </tbody>
 </table>
-</div>
-<div class="callout callout-style-default callout-note callout-titled" title="Lesebeispiel">
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Lesebeispiel
+Exemple de lecture
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Au premier trimestre 2024, 38 personnes vivantes en Suisse ont donné un de leurs reins et 1 personne a donné une partie de son foie. Cela représente 2 dons de reins entre vifs de plus qu’au dernier trimestre 2023.</p>
+<p>Au premier trimestre 2024, 38 personnes vivantes en Suisse ont donnée un de leurs reins et 1 personne a donnée une partie de son foie. Cela représente 2 dons de reins de plus par rapport au trimestre précédent.</p>
 </div>
 </div>
 </section>
 </section>
 <section id="transplantations" class="level1">
 <h1>3. Transplantations</h1>
-<section id="personnes-transplantées-en-suisse" class="level2">
-<h2 class="anchored" data-anchor-id="personnes-transplantées-en-suisse">3.1 Personnes transplantées en Suisse</h2>
+<p>Vous trouverez ici les chiffres clés sur les patients qui ont reçu un organe d’un donneur décédé. Il s’agit d’une part de patients en Suisse qui ont reçu un organe d’un donneur décédé en Suisse ou à l’étranger. D’autre part, il s’agit de personnes à l’étranger qui ont reçu un organe d’une personne décédée en Suisse, lorsqu’aucune personne compatible n’a pu être trouvée en Suisse pour un organe. Vous trouverez les chiffres clés concernant le don de rein et de foie par des donneurs vivants au point 2.5.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="L'essentiel en bref">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+L’essentiel en bref
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au premier trimestre 2024, 102 personnes ont reçu en Suisse un ou plusieurs organes de donneurs décédées. Par rapport au trimestre précédent, cela représente 36 transplantations de moins (environ 26 %). Parmi les 102 patients, 9 ont reçu un organe provenant de l’étranger.</p>
+</div>
+</div>
+<section id="patients-transplantés-en-suisse" class="level2">
+<h2 class="anchored" data-anchor-id="patients-transplantés-en-suisse">3.1 Patients transplantés en Suisse</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig3.1-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Fig. 3.1</strong> Traduction…</figcaption>
+<figcaption><strong>Fig. 3.1</strong> Patients transplantés en Suisse qui ont reçu un organe d’un donneur décédé, au total et par type de transplantation. « Multiorganes » signifie qu’un patient a reçu plus d’un organe à la fois. Les organes de donneurs décédés provenant de l’étranger sont inclus, les organes provenant de donneurs vivants ne sont pas inclus.</figcaption>
 </figure>
 </div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 37%">
+<col style="width: 20%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Trimestre actuel</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de patients transplantés (tous)</td>
+<td style="text-align: right;">102</td>
+<td style="text-align: right;">-36 patients (-26.1 %)</td>
+</tr>
+<tr class="even">
+<td>Multiorgan</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">-2 patients (-50.0 %)</td>
+</tr>
+<tr class="odd">
+<td>Cœur</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">-2 patients (-18.2 %)</td>
+</tr>
+<tr class="even">
+<td>Poumons</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">-6 patients (-35.3 %)</td>
+</tr>
+<tr class="odd">
+<td>Fois</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">-5 patients (-15.7 %)</td>
+</tr>
+<tr class="even">
+<td>Reins</td>
+<td style="text-align: right;">53</td>
+<td style="text-align: right;">-20 patients (-27.4 %)</td>
+</tr>
+<tr class="odd">
+<td>Pancréas/îlots de Langerhans</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+/-0 patients (+0.0 %)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au premier trimestre 2024, 102 personnes ont reçu en Suisse un ou plusieurs organes de donneurs décédés. Par rapport au trimestre précédent, cela représente 36 transplantations de moins (environ 26 %). Au premier trimestre, 2 personnes ont reçu un rein et un pancréas (transplantation multiorgan).</p>
+</div>
+</div>
+</section>
+<section id="patients-transplantés-en-suisse-avec-organes-de-létranger" class="level2">
+<h2 class="anchored" data-anchor-id="patients-transplantés-en-suisse-avec-organes-de-létranger">3.2 Patients transplantés en Suisse avec organes de l’étranger</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig3.2-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Fig. 3.2</strong> Traduction…</figcaption>
+<figcaption><strong>Fig. 3.2</strong> Patients transplantés en Suisse qui ont reçu un organe d’un donneur décédée de l’étranger, total et par type de transplantation.</figcaption>
 </figure>
 </div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 41%">
+<col style="width: 21%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Trimestre actuel</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de patients transplantés avec des organes provenant de l’étranger</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">-3 Personen (-25.0 %)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au premier trimestre 2024, 9 patients ont reçu en Suisse des organes provenant de donneurs décédés à l’étranger. Par rapport au trimestre précédent, cela représente 3 transplantations de moins (-25 %).</p>
+</div>
+</div>
 </section>
-<section id="personnes-transplantées-à-létranger" class="level2">
-<h2 class="anchored" data-anchor-id="personnes-transplantées-à-létranger">3.3 Personnes transplantées à l’étranger</h2>
+<section id="patients-transplantés-à-létranger" class="level2">
+<h2 class="anchored" data-anchor-id="patients-transplantés-à-létranger">3.3 Patients transplantés à l’étranger</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig3.3-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Fig. 3.3</strong></figcaption>
+<figcaption><strong>Fig. 3.3</strong> Patients transplantés à l’étranger qui ont reçu un organe d’un donneur décédée en Suisse, total et par type de transplantation.</figcaption>
 </figure>
 </div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 44%">
+<col style="width: 18%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Trimestre actuel</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de patients transplantés à l’étranger</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">-9 Personen (-100.0 %)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au premier trimestre 2024, aucun patient n’a reçu à l’étranger d’organes provenant de donneurs décédés en Suisse. Au trimestre précédent, il s’agissait de 9 patients.</p>
+</div>
+</div>
 </section>
-<section id="transplantation-de-cœur" class="level2">
-<h2 class="anchored" data-anchor-id="transplantation-de-cœur">3.4 Transplantation de cœur</h2>
+<section id="transplantations-du-cœur" class="level2">
+<h2 class="anchored" data-anchor-id="transplantations-du-cœur">3.4 Transplantations du cœur</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig3.4-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Fig. 3.4</strong> Nombre de transplantations du cœur en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont comprises. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.</figcaption>
+<figcaption><strong>Fig. 3.4</strong> Transplantations du cœur en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont inclus. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.</figcaption>
 </figure>
 </div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 22%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Trimestre actuel</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de transplantations du coeur</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">-2 Transplantationen (-18.2 %)</td>
+</tr>
+<tr class="even">
+<td>DCD</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">-1 Transplantation (-50.0 %)</td>
+</tr>
+<tr class="odd">
+<td>DBD</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">-1 Transplantation (-11.1 %)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au premier trimestre 2024, 9 personnes ont reçu une transplantation cardiaque en Suisse. Par rapport au trimestre précédent, cela représente 2 transplantations cardiaques de moins (-18,2 %).</p>
+</div>
+</div>
 </section>
-<section id="transplantation-de-poumons" class="level2">
-<h2 class="anchored" data-anchor-id="transplantation-de-poumons">3.5 Transplantation de poumons</h2>
+<section id="transplantations-de-poumons" class="level2">
+<h2 class="anchored" data-anchor-id="transplantations-de-poumons">3.5 Transplantations de poumons</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig3.5-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Fig. 3.5</strong> Nombre de transplantations du poumons en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont comprises. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.</figcaption>
+<figcaption><strong>Fig. 3.5</strong> Transplantations de poumons en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont inclus DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.</figcaption>
 </figure>
 </div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 22%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Trimestre actuel</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de transplantations de poumons</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">-6 Transplantationen (-35.3 %)</td>
+</tr>
+<tr class="even">
+<td>DCD</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">-3 Transplantationen (-50.0 %)</td>
+</tr>
+<tr class="odd">
+<td>DBD</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">-3 Transplantationen (-27.3 %)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au premier trimestre 2024, 11 personnes ont reçu une transplantation poulmonaire en Suisse. Par rapport au trimestre précédent, cela représente 6 transplantations pulmonaires de moins (-35,3 %).</p>
+</div>
+</div>
 </section>
-<section id="transplantation-de-foie" class="level2">
-<h2 class="anchored" data-anchor-id="transplantation-de-foie">3.6 Transplantation de foie</h2>
+<section id="transplantations-du-foie" class="level2">
+<h2 class="anchored" data-anchor-id="transplantations-du-foie">3.6 Transplantations du foie</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig3.6-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Fig. 3.6</strong> Nombre de transplantations du foie des donneurs decédés en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont comprises. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.</figcaption>
+<figcaption><strong>Fig. 3.6</strong> Transplantations du foie des donneurs decédés en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont inclus. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.</figcaption>
 </figure>
 </div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 22%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Trimestre actuel</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de transplantations du foie (tous)</td>
+<td style="text-align: right;">27</td>
+<td style="text-align: right;">-5 Transplantationen (-15.6 %)</td>
+</tr>
+<tr class="even">
+<td>DCD</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">-4 Transplantationen (-36.4 %)</td>
+</tr>
+<tr class="odd">
+<td>DBD</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">-1 Transplantation (-4.8 %)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au premier trimestre 2024, 27 personnes ont reçu une transplantation hépatique en Suisse, provenant d’un don d’organe après le décès. Par rapport au trimestre précédent, cela représente 5 transplantations hépatiques de moins (-15,6 %).</p>
+</div>
+</div>
 </section>
-<section id="transplantation-de-reins" class="level2">
-<h2 class="anchored" data-anchor-id="transplantation-de-reins">3.7 Transplantation de reins</h2>
+<section id="transplantations-de-reins" class="level2">
+<h2 class="anchored" data-anchor-id="transplantations-de-reins">3.7 Transplantations de reins</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig3.7-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Fig. 3.7</strong> Nombre de transplantations du don de rein de donneur decédé en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont comprises. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.</figcaption>
+<figcaption><strong>Fig. 3.7</strong> Transplantations de reins de donneur decédé en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont inclus. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.</figcaption>
 </figure>
 </div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 22%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Trimestre actuel</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de transplantations de reins (tous)</td>
+<td style="text-align: right;">55</td>
+<td style="text-align: right;">-22 Transplantationen (-28.6 %)</td>
+</tr>
+<tr class="even">
+<td>DCD</td>
+<td style="text-align: right;">24</td>
+<td style="text-align: right;">-18 Transplantationen (-42.9 %)</td>
+</tr>
+<tr class="odd">
+<td>DBD</td>
+<td style="text-align: right;">31</td>
+<td style="text-align: right;">-4 Transplantationen (-11.4 %)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au premier trimestre 2024, 55 personnes ont reçu une transplantation rénale en Suisse, provenant d’un don d’organe après le décès. Par rapport au trimestre précédent, cela représente 22 transplantations rénales de moins (-28,6 %).</p>
+</div>
+</div>
 </section>
-<section id="transplantations-de-pancréas-et-dîlots" class="level2">
-<h2 class="anchored" data-anchor-id="transplantations-de-pancréas-et-dîlots">3.8 Transplantations de pancréas et d’îlots</h2>
+<section id="transplantations-de-pancréas-et-dîlots-de-langerhans" class="level2">
+<h2 class="anchored" data-anchor-id="transplantations-de-pancréas-et-dîlots-de-langerhans">3.8 Transplantations de pancréas et d’îlots de Langerhans</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Fig3.8-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
-<figcaption><strong>Fig. 3.8</strong> Nombre de transplantations du pancréas et d’îlots, réparties en dons DBD et DCD. Les transplantations combinées sont comprises. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.</figcaption>
+<figcaption><strong>Fig. 3.8</strong> Transplantations de pancréas et d’îlots, réparties en dons DBD et DCD. Les transplantations combinées sont inclus. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.</figcaption>
 </figure>
+</div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 49%">
+<col style="width: 22%">
+<col style="width: 27%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Trimestre actuel</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de transplantations de pancréas et d’îlots (tous)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">-3 Transplantationen (-60.0 %)</td>
+</tr>
+<tr class="even">
+<td>DCD</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">-1 Transplantationen (-50.0 %)</td>
+</tr>
+<tr class="odd">
+<td>DBD</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">-2 Transplantationen (-66.7 %)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au cours du premier trimestre 2024, 2 personnes ont reçu une transplantation de pancréas/d’îlots en Suisse. Par rapport au trimestre précédent, cela représente 3 transplantations de moins (-60 %).</p>
+</div>
 </div>
 
 
