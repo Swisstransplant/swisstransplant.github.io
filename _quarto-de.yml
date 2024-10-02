@@ -29,8 +29,8 @@ website:
     right:
       - text: "FR"
         href: ./fr
-      - text: "EN"
-        href: ./en
+#      - text: "EN"
+#        href: ./en
         
   page-footer:
     left: '© 2023, 2024 Swisstransplant'

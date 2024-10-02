@@ -559,7 +559,7 @@ Im letzten Quartal erhielten in der Schweiz 13 Personen eine Herztransplantation
 |--------------------------------------------|------------------------:|---------------------------------------:|
 |Anzahl Lungentransplantationen (alle)       |22                       |+11 Transplantationen (+100 %)          |
 |DCD                                         |6                        |+3 Transplantationen (+100 %)          |
-|DBD                                         |16                       |+8 Transplantationen (+50 %)          |
+|DBD                                         |16                       |+8 Transplantationen (+100 %)          |
 
 ::: {.callout-note title="Lesebeispiel"}
 Im letzten Quartal erhielten in der Schweiz 22 Personen eine Lungentransplantation. Im Vergleich zum Vorquartal sind das doppelt so viele Lungentransplantationen.
@@ -574,11 +574,11 @@ Im letzten Quartal erhielten in der Schweiz 22 Personen eine Lungentransplantati
 |Indikator                                   |Letztes Quartal         |Veränderung zum Vorquartal            |
 |--------------------------------------------|-----------------------:|---------------------------------------:|
 |Anzahl Lebertransplantationen (alle)        |35                      |+8 Transplantationen (+29.6 %)          |
-|DCD                                         |13                      |+5 Transplantationen (-36.4 %)          |
-|DBD                                         |22                      |+2 Transplantation (-4.8 %)           |
+|DCD                                         |13                      |+5 Transplantationen (+38.5 %)          |
+|DBD                                         |22                      |+2 Transplantation (+10 %)           |
 
 ::: {.callout-note title="Lesebeispiel"}
-Im letzten Quartal 2024 erhielten in der Schweiz 27 Personen eine Lebertransplantation aus einer Organspende nach dem Tod. Im Vergleich zum Vorquartal sind das 5 Lebertransplantationen weniger (-15.6 %).
+Im letzten Quartal erhielten in der Schweiz 35 Personen eine Lebertransplantation aus einer Organspende nach dem Tod. Im Vergleich zum Vorquartal sind das 8 Lebertransplantationen mehr (+29.6 %).
 :::
 
 ## 3.7 Nierentransplantationen

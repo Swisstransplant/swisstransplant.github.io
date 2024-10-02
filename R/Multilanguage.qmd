@@ -26,6 +26,8 @@ This script needs to be applied after rendering the <https://www.swtdata.org> we
 ## About page to English
 
 ```{r}
+#| eval: false
+
 file = "../docs/en/about/index.html"
 page = readLines(file, warn = FALSE)
 
@@ -58,6 +60,8 @@ writeLines(page, con=file)
 ## Listing page to English
 
 ```{r}
+#| eval: false
+
 file = "../docs/en/posts.html"
 page = readLines(file, warn = FALSE)
 
@@ -106,6 +110,8 @@ writeLines(page, con=file)
 ## Statistical Reports to English
 
 ```{r}
+#| eval: false
+
 file = "../docs/en/posts/2024-Q1/index.html"
 page = readLines(file, warn = FALSE)
 
@@ -131,6 +137,20 @@ page = gsub(x = page,
 page = gsub(x = page,
             pattern = "<h1 class=\"title\">1. Quartal 2024</h1>", 
             replace = "<h1 class=\"title\">1er trimestre 2024</h1>")
+
+writeLines(page, con=file)
+```
+
+```{r}
+file = "../docs/fr/posts/2024-Q2/index.html"
+page = readLines(file, warn = FALSE)
+
+page = gsub(x = page,
+            pattern = "<title>2. Quartal 2024 – Swisstransplant Data Science</title>", 
+            replace = "<title>2e trimestre 2024 – Swisstransplant Data Science</title>")
+page = gsub(x = page,
+            pattern = "<h1 class=\"title\">2. Quartal 2024</h1>", 
+            replace = "<h1 class=\"title\">2e trimestre 2024</h1>")
 
 writeLines(page, con=file)
 ```
