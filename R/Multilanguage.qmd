@@ -82,6 +82,10 @@ page = gsub(x = page,
             pattern = "2. Quartal 2024", 
             replace = "2e trimestre 2024")
 
+page = gsub(x = page,
+            pattern = "3. Quartal 2024", 
+            replace = "3e trimestre 2024")
+
 writeLines(page, con=file)
 ```
 

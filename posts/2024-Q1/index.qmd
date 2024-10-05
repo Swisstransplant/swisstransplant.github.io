@@ -7,7 +7,6 @@ categories: false
 image: "NotfallzentrumDraussen_26-400.jpg"
 title-block-banner: true
 df-print: kable
-
 execute:
   echo: false
 ---
@@ -26,7 +25,7 @@ Die Wartezeiten bis zur Transplantation werden nicht mehr pro Quartal ausgewiese
 :::
 
 ::: {.content-visible when-profile="fr"}
-Les chiffres trimestriels comprennent les principaux chiffres clés de la liste d'attente et de l'activité de don d'organes et de transplantation en Suisse. Toutes les données viennent du « Swiss Organ Allocation System »([SOAS](https://www.bag.admin.ch/bag/fr/home/medizin-und-forschung/transplantationsmedizin/transplantieren-von-organen-geweben-Zellen/zuteilung-organe-gewebe-blut-stammzellen/soas.html){target="_blank"}), géré par l'OFSP.
+Moins de personnes décédées qui font un don, moins d'organes transplantés, beaucoup de décès sur la liste d'attente.
 
 ::: {.callout-warning title="Attention"}
 **Cette page est encore en cours de développement.**

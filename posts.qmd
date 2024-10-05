@@ -16,7 +16,7 @@ Die Quartalszahlen beinhalten die wichtigsten Kennzahlen zur Warteliste sowie zu
 :::
 
 ::: {.content-visible when-profile="en"}
-TThe quarterly figures contain the most important key figures on the wait list and organ donation and transplantation activity in Switzerland. All data originate from the Swiss Organ Allocation System ([SOAS](https://www.bag.admin.ch/bag/de/home/medizin-und-forschung/transplantationsmedizin/transplantieren-von-organen-geweben-Zellen/zuteilung-organe-gewebe-blut-stammzellen/soas.html){target="_blank"})) operated by the FOPH.
+The quarterly figures contain the most important key figures on the wait list and organ donation and transplantation activity in Switzerland. All data originate from the Swiss Organ Allocation System ([SOAS](https://www.bag.admin.ch/bag/de/home/medizin-und-forschung/transplantationsmedizin/transplantieren-von-organen-geweben-Zellen/zuteilung-organe-gewebe-blut-stammzellen/soas.html){target="_blank"})) operated by the FOPH.
 :::
 
 ::: {.content-visible when-profile="fr"}

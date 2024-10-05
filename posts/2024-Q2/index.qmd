@@ -1,6 +1,5 @@
 ---
 title: "2. Quartal 2024"
-description: "Mehr spendende verstorbene Personen und transplantierte Organe."
 draft: false
 author: "Swisstransplant"
 date: "2024-07-07"
@@ -13,6 +12,7 @@ execute:
 ---
 
 ::: {.content-visible when-profile="de"}
+Mehr spendende verstorbene Personen und transplantierte Organe.
 
 ::: {.callout-warning title="Achtung"}
 **Diese Seite befindet sich noch in Entwicklung.**
@@ -25,6 +25,7 @@ Die Wartezeiten bis zur Transplantation werden nicht mehr pro Quartal ausgewiese
 :::
 
 ::: {.content-visible when-profile="fr"}
+Plus de personnes décédées donneuses et d'organes transplantés.
 
 ::: {.callout-warning title="Attention"}
 **Cette page est encore en cours de développement.**
