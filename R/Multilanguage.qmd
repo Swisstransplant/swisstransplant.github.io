@@ -21,9 +21,27 @@ format:
 This script needs to be applied after rendering the <https://www.swtdata.org> website. A step-by-step instruction see README at <https://github.com/Swisstransplant/swtdata>.
 :::
 
-# Relpacing titles
+# About page
 
-## About page to English
+The titles of the About page need translation.
+
+## French
+
+```{r}
+file = "../docs/fr/about/index.html"
+page = readLines(file, warn = FALSE)
+
+page = gsub(x = page,
+            pattern = "<title>Über uns – Swisstransplant Data Science</title>",
+            replace = "<title>Qui sommes-nous? – Swisstransplant Data Science</title>")
+page = gsub(x = page,
+            pattern = "<h1 class=\"title\">Über uns</h1>", 
+            replace = "<h1 class=\"title\">Qui sommes-nous?</h1>")
+
+writeLines(page, con=file)
+```
+
+## English
 
 ```{r}
 #| eval: false
@@ -41,23 +59,33 @@ page = gsub(x = page,
 writeLines(page, con=file)
 ```
 
-## About page to French
+# Listing page for posts
+
+## French
 
 ```{r}
-file = "../docs/fr/about/index.html"
+file = "../docs/fr/posts.html"
 page = readLines(file, warn = FALSE)
 
 page = gsub(x = page,
-            pattern = "<title>Über uns – Swisstransplant Data Science</title>",
-            replace = "<title>Qui sommes-nous? – Swisstransplant Data Science</title>")
+            pattern = "<title>Statistiken – Swisstransplant Data Science</title>",
+            replace = "<title>Rapports statistiques – Swisstransplant Data Science</title>")
 page = gsub(x = page,
-            pattern = "<h1 class=\"title\">Über uns</h1>", 
-            replace = "<h1 class=\"title\">Qui sommes-nous?</h1>")
+            pattern = "<h1 class=\"title\">Statistiken</h1>", 
+            replace = "<h1 class=\"title\">Rapports statistiques</h1>")
+
+page = gsub(x = page,
+            pattern = "1. Quartal 2024", 
+            replace = "1er trimestre 2024")
+
+page = gsub(x = page,
+            pattern = "2. Quartal 2024", 
+            replace = "2e trimestre 2024")
 
 writeLines(page, con=file)
 ```
 
-## Listing page to English
+## English
 
 ```{r}
 #| eval: false
@@ -83,49 +111,9 @@ page = gsub(x = page,
 writeLines(page, con=file)
 ```
 
-## Listing page to French
+# Posts and Statistical Reports
 
-```{r}
-file = "../docs/fr/posts.html"
-page = readLines(file, warn = FALSE)
-
-page = gsub(x = page,
-            pattern = "<title>Statistiken – Swisstransplant Data Science</title>",
-            replace = "<title>Rapports statistiques – Swisstransplant Data Science</title>")
-page = gsub(x = page,
-            pattern = "<h1 class=\"title\">Statistiken</h1>", 
-            replace = "<h1 class=\"title\">Rapports statistiques</h1>")
-
-page = gsub(x = page,
-            pattern = "1. Quartal 2024", 
-            replace = "1er trimestre 2024")
-
-page = gsub(x = page,
-            pattern = "2. Quartal 2024", 
-            replace = "2e trimestre 2024")
-
-writeLines(page, con=file)
-```
-
-## Statistical Reports to English
-
-```{r}
-#| eval: false
-
-file = "../docs/en/posts/2024-Q1/index.html"
-page = readLines(file, warn = FALSE)
-
-page = gsub(x = page,
-            pattern = "<title>1. Quartal 2024 – Swisstransplant Data Science</title>",
-            replace = "<title>1st quarter 2024 – Swisstransplant Data Science</title>")
-page = gsub(x = page,
-            pattern = "<h1 class=\"title\">1. Quartal 2024</h1>", 
-            replace = "<h1 class=\"title\">1st quarter 2024</h1>")
-
-writeLines(page, con=file)
-```
-
-## Statistical Reports to French
+## French
 
 ```{r}
 file = "../docs/fr/posts/2024-Q1/index.html"
@@ -151,6 +139,38 @@ page = gsub(x = page,
 page = gsub(x = page,
             pattern = "<h1 class=\"title\">2. Quartal 2024</h1>", 
             replace = "<h1 class=\"title\">2e trimestre 2024</h1>")
+
+writeLines(page, con=file)
+```
+
+```{r}
+file = "../docs/fr/posts/2024-Q3/index.html"
+page = readLines(file, warn = FALSE)
+
+page = gsub(x = page,
+            pattern = "<title>3. Quartal 2024 – Swisstransplant Data Science</title>", 
+            replace = "<title>3e trimestre 2024 – Swisstransplant Data Science</title>")
+page = gsub(x = page,
+            pattern = "<h1 class=\"title\">3. Quartal 2024</h1>", 
+            replace = "<h1 class=\"title\">3e trimestre 2024</h1>")
+
+writeLines(page, con=file)
+```
+
+## English
+
+```{r}
+#| eval: false
+
+file = "../docs/en/posts/2024-Q1/index.html"
+page = readLines(file, warn = FALSE)
+
+page = gsub(x = page,
+            pattern = "<title>1. Quartal 2024 – Swisstransplant Data Science</title>",
+            replace = "<title>1st quarter 2024 – Swisstransplant Data Science</title>")
+page = gsub(x = page,
+            pattern = "<h1 class=\"title\">1. Quartal 2024</h1>", 
+            replace = "<h1 class=\"title\">1st quarter 2024</h1>")
 
 writeLines(page, con=file)
 ```

@@ -9,7 +9,9 @@ Landing page for Swisstransplant Data Science.
 First, we need to render all profiles, it is important to first render the German version.
 
     quarto render --profile de
+
     quarto render --profile fr
+
     quarto render --profile en
     
 The preview option can also be used to render and also display the page.
@@ -31,7 +33,9 @@ Let's review all changes.
 If all if fine, commit all changes and push a new version of the website.
 
     git add --all
+
     git commit -m "update Q1 2024"
+
     git push
     
     
