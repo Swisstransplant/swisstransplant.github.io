@@ -25,7 +25,7 @@ Die Wartezeiten bis zur Transplantation werden nicht mehr pro Quartal ausgewiese
 :::
 
 ::: {.content-visible when-profile="fr"}
-Moins de personnes décédées qui font un don, moins d'organes transplantés, beaucoup de décès sur la liste d'attente.
+Moins de donneurs décédés, moins d'organes transplantés, beaucoup de décès sur la liste d'attente.
 
 ::: {.callout-warning title="Attention"}
 **Cette page est encore en cours de développement.**

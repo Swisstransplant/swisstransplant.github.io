@@ -12,11 +12,7 @@ execute:
 ---
 
 ::: {.content-visible when-profile="de"}
-Die drei wesentlichsten Entwicklungen im letzten Quartal.
-
-::: {.callout-warning title="Achtung"}
-**Diese Seite befindet sich noch in Entwicklung.**
-:::
+Mehr spendende verstorbene Personen und transplantierte Patientinnen und Patienten.
 
 ::: {.callout-warning title="Hinweis"}
 Die Wartezeiten bis zur Transplantation werden nicht mehr pro Quartal ausgewiesen, sondern neu nur noch einmal pro Jahr. Die Berechnung erfolgt nach einer neuen Methodik ([siehe Abb. 4.13 Jahresbericht 2023](https://www.swisstransplant.org/fileadmin/user_upload/Bilder/Home/Organ-_und_Gewebespende/Fakten_und_Zahlen/Jahreszahlen/2023_ersetzt/Abb_4.13_2023_DE.jpg){target="_blank"}). Die Kennzahlen zu den Wartezeiten pro Organ werden auf dieser Website publiziert.
@@ -25,7 +21,7 @@ Die Wartezeiten bis zur Transplantation werden nicht mehr pro Quartal ausgewiese
 :::
 
 ::: {.content-visible when-profile="fr"}
-Les trois principales évolutions au cours du dernier trimestre.
+Plus de donneurs décédés et de patients transplantés.
 
 ::: {.callout-warning title="Attention"}
 **Cette page est encore en cours de développement.**
@@ -261,7 +257,7 @@ Im zweiten Quartal 2024 haben in der Schweiz 55 Personen ihre Organe nach dem To
 
 
 ::: {.callout-note title="Lesebeispiel"}
-Im letzten Quartal hat Swisstransplant 62 Personen aus der Schweiz für eine Organspende nach dem Tod freigegeben. Das sind 8 mehr als im Vorquartal. Die Utilisierungsrate betrug 85 %.
+Im letzten Quartal hat Swisstransplant 62 Personen aus der Schweiz für eine Organspende nach dem Tod freigegeben. Das sind 8 Personen mehr als im Vorquartal. Die Utilisierungsrate betrug 85 %.
 :::
 
 ## 2.2 Spendende verstorbene Personen
@@ -272,12 +268,12 @@ Im letzten Quartal hat Swisstransplant 62 Personen aus der Schweiz für eine Org
 
 |Indikator                                 |Letztes Quartal   |Veränderung zum Vorquartal    |
 |------------------------------------------|-------------------:|-----------------------------:|
-|Anzahl spendende Personen (alle)          |55                  |+7 (+18 %)         |
+|Anzahl spendende Personen (alle)          |55                  |+7 (+15 %)         |
 |DCD                                       |29 (53 %)           |+7 (+32 %)         |
 |DBD                                       |26 (47 %)           |+/- 0              |
 
 ::: {.callout-note title="Lesebeispiel"}
-Im letzten Quartal haben in der Schweiz 55 Personen ihre Organe nach dem Tod gespendet. Im Vergleich zum Vorquartal sind das 7 Personen mehr (+18 %). Der Anstieg ist auf die Spende im Hirntod nach Herz-Kreislauf-Stillstand (DCD) zurückzuführen. Von den 55 spendenden verstorbenen Personen waren 29 (53 %) DCD.
+Im letzten Quartal haben in der Schweiz 55 Personen ihre Organe nach dem Tod gespendet. Im Vergleich zum Vorquartal sind das 7 Personen mehr (+15 %). Der Anstieg ist auf die Spende im Hirntod nach Herz-Kreislauf-Stillstand (DCD) zurückzuführen. Von den 55 spendenden verstorbenen Personen waren 29 (53 %) DCD.
 :::
 
 ## 2.3 Transplantierte Organe von spendenden verstorbenen Personen
@@ -366,13 +362,13 @@ Au dernier trimestre, Swisstransplant a approuvées 62 personnes en Suisse pour 
 
 |Indicateur                                  |Dernier trimestre       |Changement par rapport au trimestre précédent |
 |--------------------------------------------|----------------------:|---------------------------------------------:|
-|Nombre de donneurs (tous)                   |55                     |+7 (+18 %)                       |
+|Nombre de donneurs (tous)                   |55                     |+7 (+15 %)                       |
 |DCD                                         |29 (53 %)              |+7 (+32 %)                        |
 |DBD                                         |26 (47 %) 	           |+/- 0                        |
 
 
 ::: {.callout-note title="Exemple de lecture"}
-Au dernier trimestre, 55 personnes ont fait don de leurs organes après leur décès en Suisse. Par rapport au trimestre précédent, cela représente 7 personnes de plus (+18 %). L'augmentation est due au don en état de mort cérébrale après un arrêt cardio-circulatoire (DCD). Parmi ces 55 personnes décédées, 29 (53 %) étaient DCD.
+Au dernier trimestre, 55 personnes ont fait don de leurs organes après leur décès en Suisse. Par rapport au trimestre précédent, cela représente 7 personnes de plus (+15 %). L'augmentation est due au don en état de mort cérébrale après un arrêt cardio-circulatoire (DCD). Parmi ces 55 personnes décédées, 29 (53 %) étaient DCD.
 :::
 
 ## 2.3 Organes transplantés de donneurs décédés
