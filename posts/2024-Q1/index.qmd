@@ -14,10 +14,6 @@ execute:
 ::: {.content-visible when-profile="de"}
 Weniger spendende verstorbene Personen, weniger transplantierte Organe, viele Todesfälle auf der Warteliste.
 
-::: {.callout-warning title="Achtung"}
-**Diese Seite befindet sich noch in Entwicklung.**
-:::
-
 ::: {.callout-warning title="Hinweis"}
 Die Wartezeiten bis zur Transplantation werden nicht mehr pro Quartal ausgewiesen, sondern neu nur noch einmal pro Jahr. Die Berechnung erfolgt nach einer neuen Methodik ([siehe Abb. 4.13 Jahresbericht 2023](https://www.swisstransplant.org/fileadmin/user_upload/Bilder/Home/Organ-_und_Gewebespende/Fakten_und_Zahlen/Jahreszahlen/2023_ersetzt/Abb_4.13_2023_DE.jpg){target="_blank"}). Die Kennzahlen zu den Wartezeiten pro Organ werden auf dieser Website publiziert.
 :::
@@ -56,7 +52,7 @@ Die Wartezeiten bis zur Transplantation werden nicht mehr pro Quartal ausgewiese
 Hier finden Sie Kennzahlen zur Warteliste der Personen, die in der Schweiz auf ein Organ von spendenden verstorbenen Personen warten. Personen, die für eine Lebendspende gelistet waren, sind in diesem Abschnitt nicht mitberücksichtigt.
 
 ::: {.callout-tip title="Das Wichtigste in Kürze"}
-Ende März 2024 warteten in der Schweiz 1326 Personen auf eines oder mehrere Organe von verstorbenen spendenden Personen. Im Vergleich zum Vorquartal sind das 9 Personen weniger (-1 %). 27 Personen sind im ersten Quartal 2024 auf der Warteliste verstorben.
+Ende März 2024 warteten in der Schweiz 1326 Personen auf eines oder mehrere Organe von verstorbenen spendenden Personen. Im Vergleich zu Ende Dezember 2023 sind das 9 Personen weniger (-1 %). 27 Personen sind im ersten Quartal 2024 auf der Warteliste verstorben.
 :::
 
 ## 1.1 Personen auf der Warteliste
@@ -503,7 +499,7 @@ Im letzten Quartal erhielten in der Schweiz 102 Personen eines oder mehrere Orga
 <br>
 
 |Indikator                                      |Letztes Quartal       |Veränderung zum Vorquartal              |
-|-----------------------------------------------|-----------------------:|---------------------------------------:|
+|-----------------------------------------------|-----------------------:|-------------------------------------:|
 |Anzahl transplantierte Personen mit Organen aus dem Ausland |9          |-3 (-25 %)                   |
 
 

@@ -239,7 +239,7 @@ In the first quarter of 2024, 102 patients in Switzerland received one or more o
 Hier finden Sie Kennzahlen zur Organspende nach dem Tod und zur Organ-Lebendspende in der Schweiz.
 
 ::: {.callout-tip title="Das Wichtigste in Kürze"}
-Im zweiten Quartal 2024 haben in der Schweiz 55 Personen ihre Organe nach dem Tod gespendet. Im Vergleich zum Vorquartal sind das 7 Personen mehr (+18 %). Von den 55 Personen waren 29 (53 %) im Hirntod nach Herz-Kreislauf-Stillstand. 160 Organe von verstorbenen spendenden Personen wurden in der Schweiz transplantiert, das sind 8 mehr (+5 %) als im Vorquartal. Mit 2.9 Organen ist die durchschnittliche Anzahl transplantierter Organe pro spendende verstorbene Person leicht gesunken.
+Im dritten Quartal 2024 haben in der Schweiz 55 Personen ihre Organe nach dem Tod gespendet. Im Vergleich zum Vorquartal sind das 7 Personen mehr (+18 %). Von den 55 Personen waren 29 (53 %) im Hirntod nach Herz-Kreislauf-Stillstand. 160 Organe von verstorbenen spendenden Personen wurden in der Schweiz transplantiert, das sind 8 mehr (+5 %) als im Vorquartal. Mit 2.9 Organen ist die durchschnittliche Anzahl transplantierter Organe pro spendende verstorbene Person leicht gesunken.
 :::
 
 ## 2.1 Für eine Organspende nach dem Tod freigegebene Personen
@@ -457,7 +457,7 @@ Au cours du dernier trimestre, 24 personnes vivantes en Suisse ont fait don d'un
 Hier finden Sie Kennzahlen zu Personen, die ein Organ von einer spendenden verstorbenen Person erhielten. Einerseits sind dies Personen in der Schweiz, die ein Organ von einer spendenden verstorbenen Person aus der Schweiz oder aus dem Ausland erhielten. Andererseits sind dies Personen im Ausland, die ein Organ von einer verstorbenen Person aus der Schweiz erhielten, wenn in der Schweiz für ein Organ keine passende Person gefunden werden konnte. Kennzahlen zur Lebendspende von Niere und Leber finden Sie unter 2.5.
 
 ::: {.callout-tip title="Das Wichtigste in Kürze"}
-Im zweiten Quartal 2024 erhielten in der Schweiz 155 Personen eines oder mehrere Organe von spendenen verstorbenen Personen. Im Vergleich zum Vorquartal sind das 11 Transplantationen mehr(+8 %). Von den 155 Personen erhielten 14 Personen ein Organ aus dem Ausland.
+Im dritten Quartal 2024 erhielten in der Schweiz 155 Personen eines oder mehrere Organe von spendenen verstorbenen Personen. Im Vergleich zum zweiten sind das 11 Transplantationen mehr (+8 %). Von den 155 Personen erhielten 14 Personen ein Organ aus dem Ausland.
 :::
 
 ## 3.1 In der Schweiz transplantierte Personen
