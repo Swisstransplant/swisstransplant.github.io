@@ -27,10 +27,6 @@ Die Wartezeiten bis zur Transplantation werden nicht mehr pro Quartal ausgewiese
 ::: {.content-visible when-profile="fr"}
 Plus de donneurs décédés et d'organes transplantés.
 
-::: {.callout-warning title="Attention"}
-**Cette page est encore en cours de développement.**
-:::
-
 ::: {.callout-warning title="Remarque"}
 Les temps d’attente jusqu’à la transplantation ne sont plus indiqués par trimestre, mais seulement une fois par an. Le calcul est effectué selon une nouvelle méthodologie ([voir fig. 4.13 du rapport annuel 2023](https://www.swisstransplant.org/fileadmin/user_upload/Bilder/Home/Organ-_und_Gewebespende/Fakten_und_Zahlen/Jahreszahlen/2023_ersetzt/FR_2023/Ill_4.13_2023_FR.jpg){target="_blank"}). Les chiffres clés concernant les temps d'attente par organe seront publiés sur ce site.
 :::
@@ -67,10 +63,10 @@ Ende Juni 2024 warteten in der Schweiz 1310 Personen auf eines oder mehrere Orga
 |Indikator                                   |Letztes Quartal | Veränderung zum Vorquartal    |
 |--------------------------------------------|----------------:|-------------------------------:|
 |Anzahl Personen auf der Warteliste          |1310             |-16 Personen (-1 %)           |
-|Anteil inaktive                             |48 %             |- 1 Prozentpunkt              |
+|Anteil inaktive                             |51 %             |- 1 Prozentpunkt              |
 
 ::: {.callout-note title="Lesebeispiel"}
-Ende letztes Quartal warteten in der Schweiz 1310 Personen auf eines oder mehrere Organe von verstorbenen spendenden Personen. Im Vergleich zum Vorquartal sind das 16 Personen weniger (-1 %). Fast die Hälfte (48 %) der Personen auf der Warteliste war im inaktiven Status.
+Ende letztes Quartal warteten in der Schweiz 1310 Personen auf eines oder mehrere Organe von verstorbenen spendenden Personen. Im Vergleich zum Vorquartal sind das 16 Personen weniger (-1 %). Über die Hälfte (51 %) der Personen auf der Warteliste war im inaktiven Status.
 :::
 
 ## 1.2 Personen auf der Warteliste nach Organ
@@ -131,11 +127,11 @@ Fin juin 2024, 1310 personnes attendaient en Suisse un ou plusieurs organes de d
 |Indicateur                                  |Dernier trimestre |Changement par rapport au trimestre précédent       |
 |--------------------------------------------|----------------:|---------------------------------------------------:|
 |Nombre de patients en liste d'attente       |1310             |-16 patients (-1 %)                                |
-|Part dans état inactif                      |48 %             |-1 point de pourcentage                          |
+|Part dans état inactif                      |51 %             |-1 point de pourcentage                          |
 
 
 ::: {.callout-note title="Exemple de lecture"}
-A la fin du dernier trimestre, 1310 personnes attendaient en Suisse un ou plusieurs organes de donneurs décédés. Par rapport au trimestre précédent, cela représente 16 personnes de moins (-1 %). Près de la moitié (48 %) des personnes sur la liste d'attente etait dans l'état inactif.
+A la fin du dernier trimestre, 1310 personnes attendaient en Suisse un ou plusieurs organes de donneurs décédés. Par rapport au trimestre précédent, cela représente 16 personnes de moins (-1 %). Plus de la moitié (51 %) des personnes sur la liste d'attente etait dans l'état inactif.
 :::
 
 ## 1.2 Personnes en liste d'attente par organe
@@ -588,14 +584,13 @@ Im letzen Quartal erhielten in der Schweiz 76 Personen eine Nierentransplantatio
 
 |Indikator                                             |Letztes Quartal          |Veränderung zum Vorquartal     |
 |------------------------------------------------------|------------------------:|------------------------------:|
-|Anzahl Pankreas-/Inselzellen-Transplantationen (alle) |7                        |+5 (+250 %)                  |
-|DCD                                                   |1 (14 %)                 |+/- 0                          |
-|DBD                                                   |6 (86 %)                 |+5                             |
+|Anzahl Pankreas-/Inselzellen-Transplantationen (alle) |6                        |+4 (+200 %)                  |
+|DCD                                                   |0 (0 %)                  |-1                          |
+|DBD                                                   |6 (100 %)                |+5                             |
 
 ::: {.callout-note title="Lesebeispiel"}
-Im letzten Quartal erhielten in der Schweiz 7 Personen eine Pankreas/Inselzellen-Transplantation. Im Vergleich zum Vorquartal sind das 5 Transplantationen mehr (+250 %).
+Im letzten Quartal erhielten in der Schweiz 7 Personen eine Pankreas/Inselzellen-Transplantation. Im Vergleich zum Vorquartal sind das 4 Transplantationen mehr (+200 %).
 :::
-
 
 :::
 
@@ -728,12 +723,12 @@ Au dernier trimestre, 76 personnes ont reçu une transplantation rénale en Suis
 
 |Indicateur                                  |Dernier trimestre    |Changement par rapport au trimestre précédent |
 |------------------------------------------------------|------------------------:|-----------------------------:|
-|Nombre de transplantations de pancréas et d’îlots (tous) |7                     |+5 (+250 %)                   |
-|DCD                                                   |1 (14 % )                |+/- 0                         |
-|DBD                                                   |6 (86 %)                 |+5                            |
+|Nombre de transplantations de pancréas et d’îlots (tous) |6                     |+4 (+200 %)                   |
+|DCD                                                   |0 (0 % )                 |-1                            |
+|DBD                                                   |6 (100 %)                |+5                            |
 
 ::: {.callout-note title="Exemple de lecture"}
-Au dernier trimestre, 7 personnes ont reçu une transplantation de pancréas/d’îlots en Suisse. Par rapport au trimestre précédent, cela représente 5 transplantations de plus (+250 %).
+Au dernier trimestre, 7 personnes ont reçu une transplantation de pancréas/d’îlots en Suisse. Par rapport au trimestre précédent, cela représente 4 transplantations de plus (+200 %).
 :::
 
 :::

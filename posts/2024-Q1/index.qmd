@@ -23,9 +23,6 @@ Die Wartezeiten bis zur Transplantation werden nicht mehr pro Quartal ausgewiese
 ::: {.content-visible when-profile="fr"}
 Moins de donneurs décédés, moins d'organes transplantés, beaucoup de décès sur la liste d'attente.
 
-::: {.callout-warning title="Attention"}
-**Cette page est encore en cours de développement.**
-:::
 
 ::: {.callout-warning title="Remarque"}
 Les temps d’attente jusqu’à la transplantation ne sont plus indiqués par trimestre, mais seulement une fois par an. Le calcul est effectué selon une nouvelle méthodologie ([voir fig. 4.13 du rapport annuel 2023](https://www.swisstransplant.org/fileadmin/user_upload/Bilder/Home/Organ-_und_Gewebespende/Fakten_und_Zahlen/Jahreszahlen/2023_ersetzt/FR_2023/Ill_4.13_2023_FR.jpg){target="_blank"}). Les chiffres clés concernant les temps d'attente par organe seront publiés sur ce site.
@@ -64,11 +61,10 @@ Ende März 2024 warteten in der Schweiz 1326 Personen auf eines oder mehrere Org
 |Indikator                                   |Letztes Quartal | Veränderung zum Vorquartal    |
 |--------------------------------------------|----------------:|-------------------------------:|
 |Anzahl Personen auf der Warteliste          |1326             |-9 Personen (-1 %)           |
-|Anteil inaktive                             |49 %             |-1 Prozentpunkte
-
+|Anteil inaktive                             |52 %             |+/- 0 Prozentpunkte          |
 
 ::: {.callout-note title="Lesebeispiel"}
-Ende letztes Quartal warteten in der Schweiz 1326 Personen auf eines oder mehrere Organe von verstorbenen spendenden Personen. Im Vergleich zum Vorquartal sind das 9 Personen weniger (-1 %). Fast die Hälfte (49 %) der Personen auf der Warteliste war im inaktiven Status.
+Ende letztes Quartal warteten in der Schweiz 1326 Personen auf eines oder mehrere Organe von verstorbenen spendenden Personen. Im Vergleich zum Vorquartal sind das 9 Personen weniger (-1 %). Über die Hälfte (52 %) der Personen auf der Warteliste war im inaktiven Status.
 :::
 
 ## 1.2 Personen auf der Warteliste nach Organ
@@ -122,17 +118,17 @@ Fin Mars 2024, 1326 personnes attendaient en Suisse un ou plusieurs organes de d
 
 ## 1.1 Personnes en liste d'attente
 
-![**Fig. 1.1** Personnes en liste d'attente pour un organe à la fin de chaque trimestre, au total et en statut inactif. Parfois, les personnes sur la liste d’attente ne peuvent temporairement pas bénéficier d’une transplantation pour des raisons de santé ou de logistique. Dans cet état inactif, elles ne reçoivent pas d'offre d’organes. Les personnes listées pour un don de donneur vivant ne sont pas iclus.](Fig1.1-fr.png){width=80%}
+![**Fig. 1.1** Personnes en liste d'attente pour un organe à la fin de chaque trimestre, au total et en statut inactif. Parfois, les personnes sur la liste d’attente ne peuvent temporairement pas bénéficier d’une transplantation pour des raisons de santé ou de logistique. Dans cet état inactif, elles ne reçoivent pas d'offre d’organes. Les personnes listées pour un don de donneur vivant ne sont pas inclus.](Fig1.1-fr.png){width=80%}
 
 <br>
 
 |Indicateur                                  |Dernier trimestre |Changement par rapport au trimestre précédent       |
 |--------------------------------------------|----------------:|---------------------------------------------------:|
 |Nombre de patients en liste d'attente       |1326             |-9 patients (-1 %)                                |
-|Part dans état inactif                      |49 %             |-1 points de pourcentage                          |
+|Part dans état inactif                      |52 %             |+/- 0 points de pourcentage     |
 
 ::: {.callout-note title="Exemple de lecture"}
-Fin du dernier trimestre, 1326 personnes attendaient en Suisse un ou plusieurs organes de donneurs décédés. Par rapport au trimestre précédent, cela représente 9 personnes de moins (-1 %). Près de la moitié (49 %) des personnes sur la liste d'attente etait dans l'état inactif.
+Fin du dernier trimestre, 1326 personnes attendaient en Suisse un ou plusieurs organes de donneurs décédés. Par rapport au trimestre précédent, cela représente 9 personnes de moins (-1 %). Plus de la moitié (52 %) des personnes sur la liste d'attente etait dans l'état inactif.
 :::
 
 ## 1.2 Personnes en liste d'attente par organe
