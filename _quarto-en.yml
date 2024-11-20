@@ -24,6 +24,8 @@ website:
           href: https://swisstransplant.shinyapps.io/EXAM/
           icon: "box-arrow-up-right"
           target: _blank
+        - text: "Publications"
+          href: publications/index.qmd
       - text: "About"
         href: about/index.qmd
     right:

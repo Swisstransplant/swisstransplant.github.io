@@ -74,7 +74,7 @@
                 <date variable="accessed">
                   <date-part name="month" suffix=" "/>
                   <date-part name="day" suffix=", "/>
-                  <date-part name="year"/>
+                  <date-part name="year" font-weight="bold"/>
                 </date>
               </group>
               <text variable="URL"/>
@@ -87,14 +87,14 @@
   <macro name="title">
     <choose>
       <if type="bill book graphic legal_case legislation motion_picture report song thesis" match="any">
-        <text variable="title" font-style="italic" text-case="title"/>
+        <text variable="title" font-style="italic" text-case="title" font-weight="bold"/>
       </if>
       <else>
-        <text variable="title"/>
+        <text variable="title" font-weight="bold"/>
       </else>
     </choose>
-  </macro>
-  <macro name="publisher">
+  </macro> 
+ <macro name="publisher">
     <text variable="publisher"/>
   </macro>
   <macro name="edition">
@@ -140,7 +140,7 @@
           <text macro="publisher" prefix=" "/>
           <group suffix="." prefix="; ">
             <date variable="issued">
-              <date-part name="year"/>
+              <date-part name="year" font-weight="bold"/>
             </date>
             <text variable="page" prefix=":"/>
           </group>
@@ -160,7 +160,7 @@
               <text macro="publisher"/>
               <group suffix="." prefix="; ">
                 <date variable="issued">
-                  <date-part name="year"/>
+                  <date-part name="year" font-weight="bold"/>
                 </date>
                 <text variable="page" prefix=":"/>
               </group>
@@ -177,7 +177,7 @@
                   <date variable="issued">
                     <date-part name="month" suffix=" "/>
                     <date-part name="day" suffix=", "/>
-                    <date-part name="year"/>
+                    <date-part name="year" font-weight="bold"/>
                   </date>
                 </group>
                 <group>
@@ -185,7 +185,7 @@
                   <date variable="accessed">
                     <date-part name="month" suffix=" "/>
                     <date-part name="day" suffix=", "/>
-                    <date-part name="year"/>
+                    <date-part name="year" font-weight="bold"/>
                   </date>
                 </group>
               </group>
@@ -196,7 +196,7 @@
                   <date variable="issued">
                     <date-part name="month" suffix=" "/>
                     <date-part name="day" suffix=", "/>
-                    <date-part name="year"/>
+                    <date-part name="year" font-weight="bold"/>
                   </date>
                 </group>
                 <text variable="page"/>
@@ -216,7 +216,7 @@
           <group prefix="(" suffix=")." delimiter=" ">
             <text variable="authority"/>
             <date variable="issued">
-              <date-part name="year"/>
+              <date-part name="year" font-weight="bold"/>
             </date>
           </group>
         </else-if>
@@ -241,7 +241,7 @@
               <date delimiter=" " variable="issued">
                 <date-part name="month"/>
                 <date-part name="day" suffix=","/>
-                <date-part name="year"/>
+                <date-part name="year" font-weight="bold"/>
               </date>
             </group>
             <text variable="event-place"/>
@@ -252,7 +252,7 @@
             <text variable="genre"/>
             <group delimiter="; ">
               <text variable="publisher"/>
-              <date date-parts="year" form="text" variable="issued"/>
+              <date date-parts="year" form="text" variable="issued" font-weight="bold"/>
             </group>
           </group>
         </else-if>
@@ -264,13 +264,13 @@
               <choose>
                 <if variable="issue volume" match="any">
                   <date variable="issued">
-                    <date-part name="year"/>
+                    <date-part name="year" font-weight="bold"/>
                   </date>
                 </if>
                 <else>
                   <group delimiter=" ">
                     <text value="Published online"/>
-                    <date form="text" date-parts="year-month-day" variable="issued"/>
+                    <date form="text" date-parts="year-month-day" variable="issued" font-weight="bold"/>
                   </group>
                 </else>
               </choose>

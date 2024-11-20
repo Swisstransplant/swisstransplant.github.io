@@ -1,6 +1,7 @@
 ---
 title: "Publications"
 bibliography: swt.bib
+css: custom.css
 csl: american-medical-association-no-et-al.csl
 nocite: |
   @*
@@ -10,5 +11,5 @@ link-external-newwindow: true
 
 Below is a list of research publications with Swisstransplant involvement. Please find the latest publications directly on [Europe PMC](https://europepmc.org/search?query=%28AFF%3A%22Swisstransplant%22%29&page=1&sortBy=FIRST_PDATE_D%2Bdesc).
 
-::: {#refs}
+::: {#refs entry-spacing="1"}
 :::
