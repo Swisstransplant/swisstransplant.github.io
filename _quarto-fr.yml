@@ -21,9 +21,7 @@ website:
         - text: "KIDMO"
           href: kidmo/index.qmd
         - text: "EXAM"
-          href: https://swisstransplant.shinyapps.io/EXAM/
-          icon: "box-arrow-up-right"
-          target: _blank
+          href: exam/index.qmd
         - text: "Publications"
           href: publications/index.qmd
       - text: "Qui sommes-nous?"
@@ -45,3 +43,5 @@ format:
       - cosmo
       - custom.scss
     toc: true
+    link-external-icon: true
+    link-external-newwindow: true

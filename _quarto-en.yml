@@ -45,3 +45,5 @@ format:
       - cosmo
       - custom.scss
     toc: true
+    link-external-icon: true
+    link-external-newwindow: true

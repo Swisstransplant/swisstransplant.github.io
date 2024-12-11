@@ -329,6 +329,62 @@
     "text": "Acknowledgements\nKIDMO was developed by Swisstransplant and all the Swiss transplant centers. Kidney recipients have been involved in the development of KIDMO."
   },
   {
+    "objectID": "exam/index.html",
+    "href": "exam/index.html",
+    "title": "EXAM—Ex vivo allograft monitoring",
+    "section": "",
+    "text": "EXAM is an dashboard for analyzing hypothermic machine perfusion data in deceased-donor kidney transplantation. EXAM is free software written in the R programming language."
+  },
+  {
+    "objectID": "exam/index.html#what-is-exam",
+    "href": "exam/index.html#what-is-exam",
+    "title": "EXAM—Ex vivo allograft monitoring",
+    "section": "",
+    "text": "EXAM is an dashboard for analyzing hypothermic machine perfusion data in deceased-donor kidney transplantation. EXAM is free software written in the R programming language."
+  },
+  {
+    "objectID": "exam/index.html#how-was-exam-developed",
+    "href": "exam/index.html#how-was-exam-developed",
+    "title": "EXAM—Ex vivo allograft monitoring",
+    "section": "How was EXAM developed?",
+    "text": "How was EXAM developed?\nEXAM was developed by Swisstransplant—the national organisation for organ donation and transplantation in Switzerland in collaboration with three Swiss transplant centers."
+  },
+  {
+    "objectID": "exam/index.html#what-is-exam-used-for",
+    "href": "exam/index.html#what-is-exam-used-for",
+    "title": "EXAM—Ex vivo allograft monitoring",
+    "section": "What is EXAM used for?",
+    "text": "What is EXAM used for?\nEXAM will enable transplant organizations to analyze their data, perform statistics, and conduct quality checks, enabling them to identify potential issues and optimize machine perfusion processes, ultimately benefiting kidney recipients."
+  },
+  {
+    "objectID": "exam/index.html#terms-of-use",
+    "href": "exam/index.html#terms-of-use",
+    "title": "EXAM—Ex vivo allograft monitoring",
+    "section": "Terms of use",
+    "text": "Terms of use\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.\n\n\n\n\n\n\nImportant\n\n\n\n\n\nHypothermic machine perfusion data alone should never be used as the sole basis to discard a kidney allograft."
+  },
+  {
+    "objectID": "exam/index.html#dashboard",
+    "href": "exam/index.html#dashboard",
+    "title": "EXAM—Ex vivo allograft monitoring",
+    "section": "Dashboard",
+    "text": "Dashboard\nHere is the link to the EXAM dashboard."
+  },
+  {
+    "objectID": "exam/index.html#references",
+    "href": "exam/index.html#references",
+    "title": "EXAM—Ex vivo allograft monitoring",
+    "section": "References",
+    "text": "References\nSchwab S, Steck H, Binet I, et al. EXAM: Ex vivo allograft monitoring dashboard for the analysis of hypothermic machine perfusion data in deceased-donor kidney transplantation. Research Square. Published online March 23, 2023. doi:10.21203/rs.3.rs-2713168/v1"
+  },
+  {
+    "objectID": "exam/index.html#acknowledgements",
+    "href": "exam/index.html#acknowledgements",
+    "title": "EXAM—Ex vivo allograft monitoring",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nKIDMO was developed by Swisstransplant and three Swiss transplant centers. Kidney recipients have been involved in the development of KIDMO."
+  },
+  {
     "objectID": "about/index.html",
     "href": "about/index.html",
     "title": "Über uns",
