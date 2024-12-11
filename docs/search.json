@@ -333,28 +333,28 @@
     "href": "exam/index.html",
     "title": "EXAM—Ex vivo allograft monitoring",
     "section": "",
-    "text": "EXAM is an dashboard for analyzing hypothermic machine perfusion data in deceased-donor kidney transplantation. EXAM is free software written in the R programming language."
+    "text": "EXAM is a dashboard for analyzing hypothermic machine perfusion data from the ORS LifePort Kidney Transporter. EXAM is free software written in the R programming language."
   },
   {
     "objectID": "exam/index.html#what-is-exam",
     "href": "exam/index.html#what-is-exam",
     "title": "EXAM—Ex vivo allograft monitoring",
     "section": "",
-    "text": "EXAM is an dashboard for analyzing hypothermic machine perfusion data in deceased-donor kidney transplantation. EXAM is free software written in the R programming language."
+    "text": "EXAM is a dashboard for analyzing hypothermic machine perfusion data from the ORS LifePort Kidney Transporter. EXAM is free software written in the R programming language."
   },
   {
-    "objectID": "exam/index.html#how-was-exam-developed",
-    "href": "exam/index.html#how-was-exam-developed",
+    "objectID": "exam/index.html#who-created-exam",
+    "href": "exam/index.html#who-created-exam",
     "title": "EXAM—Ex vivo allograft monitoring",
-    "section": "How was EXAM developed?",
-    "text": "How was EXAM developed?\nEXAM was developed by Swisstransplant—the national organisation for organ donation and transplantation in Switzerland in collaboration with three Swiss transplant centers."
+    "section": "Who created EXAM?",
+    "text": "Who created EXAM?\nEXAM was developed by Swisstransplant—the Swiss national foundation for organ donation and transplantation, in collaboration with three Swiss transplant centers."
   },
   {
     "objectID": "exam/index.html#what-is-exam-used-for",
     "href": "exam/index.html#what-is-exam-used-for",
     "title": "EXAM—Ex vivo allograft monitoring",
     "section": "What is EXAM used for?",
-    "text": "What is EXAM used for?\nEXAM will enable transplant organizations to analyze their data, perform statistics, and conduct quality checks, enabling them to identify potential issues and optimize machine perfusion processes, ultimately benefiting kidney recipients."
+    "text": "What is EXAM used for?\nEXAM will enable transplant organizations to analyze their data, perform statistics, and conduct quality checks, allowing them to identify potential issues and optimize machine perfusion processes, ultimately benefiting kidney recipients."
   },
   {
     "objectID": "exam/index.html#terms-of-use",
@@ -368,21 +368,21 @@
     "href": "exam/index.html#dashboard",
     "title": "EXAM—Ex vivo allograft monitoring",
     "section": "Dashboard",
-    "text": "Dashboard\nHere is the link to the EXAM dashboard."
+    "text": "Dashboard\nHere is the link to the EXAM dashboard. The EXAM source code is maintained on GitHub. For research purposes, LifePort data can be parsed and processed using the Swisstransplant R package named swt."
   },
   {
     "objectID": "exam/index.html#references",
     "href": "exam/index.html#references",
     "title": "EXAM—Ex vivo allograft monitoring",
     "section": "References",
-    "text": "References\nSchwab S, Steck H, Binet I, et al. EXAM: Ex vivo allograft monitoring dashboard for the analysis of hypothermic machine perfusion data in deceased-donor kidney transplantation. Research Square. Published online March 23, 2023. doi:10.21203/rs.3.rs-2713168/v1"
+    "text": "References\nSchwab S, Steck H, Binet I, et al. EXAM: Ex vivo allograft monitoring dashboard for the analysis of hypothermic machine perfusion data in deceased-donor kidney transplantation. In press, PLOS Digital Health."
   },
   {
-    "objectID": "exam/index.html#acknowledgements",
-    "href": "exam/index.html#acknowledgements",
+    "objectID": "exam/index.html#acknowledgments",
+    "href": "exam/index.html#acknowledgments",
     "title": "EXAM—Ex vivo allograft monitoring",
-    "section": "Acknowledgements",
-    "text": "Acknowledgements\nKIDMO was developed by Swisstransplant and three Swiss transplant centers. Kidney recipients have been involved in the development of KIDMO."
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\nKIDMO was developed by Swisstransplant and three Swiss transplant centers. Kidney recipients have been involved in the development of KIDMO."
   },
   {
     "objectID": "about/index.html",
