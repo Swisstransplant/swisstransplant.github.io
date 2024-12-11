@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://data.swisstransplant.org/tools/index.html</loc>
+    <lastmod>2023-07-24T12:07:53.667Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data.swisstransplant.org/posts/2024-Q3/index.html</loc>
+    <lastmod>2024-10-09T13:35:50.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://data.swisstransplant.org/posts/2024-Q1/index.html</loc>
+    <lastmod>2024-10-09T14:20:03.000Z</lastmod>
+  </url>
+  <url>
     <loc>https://data.swisstransplant.org/kidmo/index.html</loc>
     <lastmod>2024-05-29T07:52:54.267Z</lastmod>
-  </url>
-  <url>
-    <loc>https://data.swisstransplant.org/publications/index.html</loc>
-    <lastmod>2024-11-20T13:43:04.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://data.swisstransplant.org/posts/2024-Q2/index.html</loc>
-    <lastmod>2024-10-09T14:19:31.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://data.swisstransplant.org/posts.html</loc>
-    <lastmod>2024-10-05T08:33:40.346Z</lastmod>
   </url>
   <url>
     <loc>https://data.swisstransplant.org/about/index.html</loc>
@@ -25,15 +25,15 @@
     <lastmod>2024-10-05T08:05:42.928Z</lastmod>
   </url>
   <url>
-    <loc>https://data.swisstransplant.org/posts/2024-Q1/index.html</loc>
-    <lastmod>2024-10-09T14:20:03.000Z</lastmod>
+    <loc>https://data.swisstransplant.org/posts.html</loc>
+    <lastmod>2024-10-05T08:33:40.346Z</lastmod>
   </url>
   <url>
-    <loc>https://data.swisstransplant.org/posts/2024-Q3/index.html</loc>
-    <lastmod>2024-10-09T13:35:50.000Z</lastmod>
+    <loc>https://data.swisstransplant.org/posts/2024-Q2/index.html</loc>
+    <lastmod>2024-10-09T14:19:31.000Z</lastmod>
   </url>
   <url>
-    <loc>https://data.swisstransplant.org/tools/index.html</loc>
-    <lastmod>2023-07-24T12:07:53.667Z</lastmod>
+    <loc>https://data.swisstransplant.org/publications/index.html</loc>
+    <lastmod>2024-11-20T13:43:04.000Z</lastmod>
   </url>
 </urlset>
