@@ -343,18 +343,18 @@
     "text": "EXAM is a dashboard for analyzing hypothermic machine perfusion data from the ORS LifePort Kidney Transporter. EXAM is free software written in the R programming language."
   },
   {
+    "objectID": "exam/index.html#why-is-exam-useful",
+    "href": "exam/index.html#why-is-exam-useful",
+    "title": "EXAM—Ex vivo allograft monitoring",
+    "section": "Why is EXAM useful?",
+    "text": "Why is EXAM useful?\nEXAM will enable transplant organizations to analyze their data, perform statistics, and conduct quality checks, allowing them to identify potential issues and optimize machine perfusion processes, ultimately benefiting kidney recipients."
+  },
+  {
     "objectID": "exam/index.html#who-created-exam",
     "href": "exam/index.html#who-created-exam",
     "title": "EXAM—Ex vivo allograft monitoring",
     "section": "Who created EXAM?",
     "text": "Who created EXAM?\nEXAM was developed by Swisstransplant—the Swiss national foundation for organ donation and transplantation, in collaboration with three Swiss transplant centers."
-  },
-  {
-    "objectID": "exam/index.html#what-is-exam-used-for",
-    "href": "exam/index.html#what-is-exam-used-for",
-    "title": "EXAM—Ex vivo allograft monitoring",
-    "section": "What is EXAM used for?",
-    "text": "What is EXAM used for?\nEXAM will enable transplant organizations to analyze their data, perform statistics, and conduct quality checks, allowing them to identify potential issues and optimize machine perfusion processes, ultimately benefiting kidney recipients."
   },
   {
     "objectID": "exam/index.html#terms-of-use",
