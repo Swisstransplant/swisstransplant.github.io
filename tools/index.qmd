@@ -6,7 +6,7 @@ Research tools enable state-of-the-art data analysis at Swisstransplant.
 
 ## Basic statistics software
 
-The basic statistics software can be downloaded for free in the links provided below.
+The basic statistics software enables statistical reporting for research projects and national statistics about organ donation and transplantation. They also allow the development of statistical tools at Swisstransplant, such as data pipelines or Shiny applications.
 
 -   The R Project for Statistical Computing <https://stat.ethz.ch/CRAN/>
 -   Rstudio Desktop <https://posit.co/download/rstudio-desktop/>
@@ -16,11 +16,18 @@ The basic statistics software can be downloaded for free in the links provided b
 The RStudio desktop installer for Windows 10 requires administrator rights. However, it is possible to download a zip bundle from the download page, unpack the files into a folder, for example, `software`, and create a shortcut with `rstudio.exe` on the desktop or the taskbar.
 :::
 
+### Advanced software
+
+Software for advanced tasks is listed below, for example, for updating this web portal on GitHub, or for R package building.
+
+-   Git version control system <https://git-scm.com/downloads>
+-   RTools <https://cran.r-project.org/bin/windows/Rtools/>
+
 ## Swisstransplant R package
 
-![](../images/swt_hex.png){height="2in" style="float:right; padding:0px"}
+![](../images/hex-swt.png){height="2in" style="float:right; padding:0px"}
 
-The Swisstransplant R package `swt` is the Swiss army knife for data analysis at Swisstransplant. It is under constant developed.
+The Swisstransplant R package `swt` is the Swiss army knife for data analysis at Swisstransplant. It is under constant development.
 
 Statistical Reporting:
 
@@ -35,7 +42,7 @@ Research:
 -   Prognostic models for individual predictions of patients (e.g., KIDMO)
 -   Tools to read and process data from the LifePort kidney transporter
 
-The [source code is developed on GitHub](https://github.com/Swisstransplant/swt) and a [package manual](https://github.com/Swisstransplant/swt/blob/main/manual/swt.pdf) is available. The package `swt` can be installed from within RStudio as follows (requires the package `remotes`):
+The [source code is developed on GitHub](https://github.com/Swisstransplant/swt), and a [package manual](https://github.com/Swisstransplant/swt/blob/main/manual/swt.pdf) is available. The package `swt` can be installed from within RStudio as follows (requires the package `remotes`):
 
 ``` r
 remotes::install_github("Swisstransplant/swt")
