@@ -361,7 +361,7 @@
     "href": "exam/index.html#terms-of-use",
     "title": "EXAM—Ex vivo allograft monitoring",
     "section": "Terms of use",
-    "text": "Terms of use\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.\n\n\n\n\n\n\nImportant\n\n\n\n\n\nHypothermic machine perfusion data alone should never be used as the sole basis to discard a kidney allograft."
+    "text": "Terms of use\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.\n\n\n\n\n\n\nImportant\n\n\n\n\n\nHypothermic machine perfusion data alone should never be used as the sole basis to discard a kidney allograft.\nPlease do not upload personal, sensitive, or patient-identifiable data. Any data uploaded to the application is temporary and will be automatically deleted when the session ends. The developers are not liable for any misuse of the application or the data provided by users."
   },
   {
     "objectID": "exam/index.html#dashboard",
@@ -375,14 +375,14 @@
     "href": "exam/index.html#references",
     "title": "EXAM—Ex vivo allograft monitoring",
     "section": "References",
-    "text": "References\nSchwab S, Steck H, Binet I, et al. EXAM: Ex vivo allograft monitoring dashboard for the analysis of hypothermic machine perfusion data in deceased-donor kidney transplantation. In press, PLOS Digital Health."
+    "text": "References\nSchwab S, Steck H, Binet I, Elmer A, Ender W, Franscini N, Haidar F, Kuhn C, Sidler D, Storni F, Krügel N, Immer F. EXAM: Ex-vivo allograft monitoring dashboard for the analysis of hypothermic machine perfusion data in deceased-donor kidney transplantation. PLOS Digit Health. 2024;3(12):e0000691. doi:10.1371/journal.pdig.0000691"
   },
   {
     "objectID": "exam/index.html#acknowledgments",
     "href": "exam/index.html#acknowledgments",
     "title": "EXAM—Ex vivo allograft monitoring",
     "section": "Acknowledgments",
-    "text": "Acknowledgments\nKIDMO was developed by Swisstransplant and three Swiss transplant centers. Kidney recipients have been involved in the development of KIDMO."
+    "text": "Acknowledgments\nEXAM was developed by Swisstransplant and three Swiss transplant centers."
   },
   {
     "objectID": "about/index.html",
