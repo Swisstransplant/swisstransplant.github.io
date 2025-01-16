@@ -371,11 +371,11 @@
     "text": "Dashboard\nHere is the link to the EXAM dashboard. The EXAM source code is maintained on GitHub. For research purposes, LifePort data can be parsed and processed using the Swisstransplant R package named swt."
   },
   {
-    "objectID": "exam/index.html#references",
-    "href": "exam/index.html#references",
+    "objectID": "exam/index.html#reference",
+    "href": "exam/index.html#reference",
     "title": "EXAM—Ex vivo allograft monitoring",
-    "section": "References",
-    "text": "References\nSchwab S, Steck H, Binet I, Elmer A, Ender W, Franscini N, Haidar F, Kuhn C, Sidler D, Storni F, Krügel N, Immer F. EXAM: Ex-vivo allograft monitoring dashboard for the analysis of hypothermic machine perfusion data in deceased-donor kidney transplantation. PLOS Digit Health. 2024;3(12):e0000691. doi:10.1371/journal.pdig.0000691"
+    "section": "Reference",
+    "text": "Reference\nSchwab S, Steck H, Binet I, Elmer A, Ender W, Franscini N, Haidar F, Kuhn C, Sidler D, Storni F, Krügel N, Immer F. EXAM: Ex-vivo allograft monitoring dashboard for the analysis of hypothermic machine perfusion data in deceased-donor kidney transplantation. PLOS Digit Health. 2024;3(12):e0000691. doi:10.1371/journal.pdig.0000691"
   },
   {
     "objectID": "exam/index.html#acknowledgments",
@@ -396,14 +396,14 @@
     "href": "index.html",
     "title": "Swisstransplant Data Science",
     "section": "",
-    "text": "Swisstransplant Data Science\nSwisstransplant Data Science ist ein Online-Portal für statistisches Reporting und Forschung bei Swisstransplant.\nUm mehr über Swisstransplant zu erfahren, besuchen Sie bitte unsere Website https://www.swisstransplant.org/."
+    "text": "Swisstransplant Data Science\nSwisstransplant Data Science ist ein Online-Portal für statistisches Reporting und Forschung bei Swisstransplant.\nUm mehr über Swisstransplant zu erfahren, besuchen Sie bitte unsere Website swisstransplant.org."
   },
   {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "Statistiken",
     "section": "",
-    "text": "Die Quartalszahlen beinhalten die wichtigsten Kennzahlen zur Warteliste sowie zur Organspende- und Transplantationsaktivität in der Schweiz. Alle Daten stammen aus dem vom BAG betriebenen «Swiss Organ Allocation System» (SOAS).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3. Quartal 2024\n\n\n\n\n\n\n\n\n\n\n\n07.10.2024\n\n\nSwisstransplant\n\n\n\n\n\n\n\n\n\n\n\n\n2. Quartal 2024\n\n\n\n\n\n\n\n\n\n\n\n07.07.2024\n\n\nSwisstransplant\n\n\n\n\n\n\n\n\n\n\n\n\n1. Quartal 2024\n\n\n\n\n\n\n\n\n\n\n\n07.04.2024\n\n\nSwisstransplant\n\n\n\n\n\n\nKeine Treffer"
+    "text": "Hier finden sie die wichtigsten Kennzahlen zur Warteliste sowie zur Organspende- und Transplantationsaktivität in der Schweiz pro Jahr und pro Quartal. Alle Daten stammen aus dem vom BAG betriebenen «Swiss Organ Allocation System» (SOAS).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4. Quartal 2024\n\n\n\n\n\n\n\n\n\n\n\n16.01.2025\n\n\nSwisstransplant\n\n\n\n\n\n\n\n\n\n\n\n\n3. Quartal 2024\n\n\n\n\n\n\n\n\n\n\n\n07.10.2024\n\n\nSwisstransplant\n\n\n\n\n\n\n\n\n\n\n\n\n2. Quartal 2024\n\n\n\n\n\n\n\n\n\n\n\n07.07.2024\n\n\nSwisstransplant\n\n\n\n\n\n\n\n\n\n\n\n\n1. Quartal 2024\n\n\n\n\n\n\n\n\n\n\n\n07.04.2024\n\n\nSwisstransplant\n\n\n\n\n\n\nKeine Treffer"
   },
   {
     "objectID": "posts/2024-Q2/index.html",
@@ -523,6 +523,125 @@
     "title": "2. Quartal 2024",
     "section": "3.8 Pankreas/Inselzellen-Transplantationen",
     "text": "3.8 Pankreas/Inselzellen-Transplantationen\n\n\n\nAbb. 3.8 Pankreas/Inselzellen-Transplantationen in der Schweiz, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.\n\n\n\n\n\n\n\n\n\n\n\nIndikator\nLetztes Quartal\nVeränderung zum Vorquartal\n\n\n\n\nAnzahl Pankreas-/Inselzellen-Transplantationen (alle)\n6\n+4 (+200 %)\n\n\nDCD\n0 (0 %)\n-1\n\n\nDBD\n6 (100 %)\n+5\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nIm letzten Quartal erhielten in der Schweiz 7 Personen eine Pankreas/Inselzellen-Transplantation. Im Vergleich zum Vorquartal sind das 4 Transplantationen mehr (+200 %)."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html",
+    "href": "posts/2024-Q4/index.html",
+    "title": "4. Quartal 2024",
+    "section": "",
+    "text": "Weniger spendende verstorbene Personen und transplantierte Organe, insbesondere bei der Spende im Hirntod (DBD)."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#personen-auf-der-warteliste",
+    "href": "posts/2024-Q4/index.html#personen-auf-der-warteliste",
+    "title": "4. Quartal 2024",
+    "section": "1.1 Personen auf der Warteliste",
+    "text": "1.1 Personen auf der Warteliste\n\n\n\nAbb. 1.1 Personen auf der Warteliste für ein Organ jeweils Ende Quartal, total und im inaktiven Status. Personen auf der Warteliste sind manchmal aus gesundheitlichen oder logistischen Gründen vorübergehend nicht transplantationsfähig. In diesem inaktiven Status erhalten sie keine Organangebote. Personen, die für eine Lebendspende gelistet waren, sind nicht mitgezählt.\n\n\n\n\n\n\n\n\n\n\n\nIndikator\nLetztes Quartal\nVeränderung zum Vorquartal\n\n\n\n\nAnzahl Personen auf der Warteliste\n1283\n+14 Personen (+1 %)\n\n\nAnteil inaktive\n49 %\n- 1 Prozentpunkt\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nEnde letztes Quartal warteten in der Schweiz 1283 Personen auf eines oder mehrere Organe von verstorbenen spendenden Personen. Im Vergleich zum Vorquartal sind das 14 Personen mehr (+1 %). Knapp die Hälfte (49 %) der Personen auf der Warteliste war im inaktiven Status."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#personen-auf-der-warteliste-nach-organ",
+    "href": "posts/2024-Q4/index.html#personen-auf-der-warteliste-nach-organ",
+    "title": "4. Quartal 2024",
+    "section": "1.2 Personen auf der Warteliste nach Organ",
+    "text": "1.2 Personen auf der Warteliste nach Organ\n\n\n\nAbb. 1.2 Personen auf der Warteliste für ein Organ jeweils Ende Quartal, total und nach Organ. Personen, die auf mehr als ein Organ warten, sind bei der Gruppe «Multiorgan» dazugezählt. Personen, die für eine Lebendspende gelistet waren, sind nicht mitgezählt.\n\n\n\n\n\n\n\n\n\n\n\nIndikator\nLetztes Quartal\nVeränderung zum Vorquartal\n\n\n\n\nAnzahl Personen auf der Warteliste (alle)\n1283\n+14 Personen\n\n\nMultiorgan\n34\n+5\n\n\nHerz\n44\n+4\n\n\nLunge\n28\n-7\n\n\nLeber\n289\n+7\n\n\nNiere\n871\n+3\n\n\nPankreas/Inselzellen\n17\n+2\n\n\nDünndarm\n0\n+/- 0\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nVon den 1283 Personen auf der Warteliste wartete die grosse Mehrheit auf eine Niere (871; 68 %) oder eine Leber (289; 23 %). 34 Personen warteten auf mehr als ein Organ."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#ereignisse-auf-der-warteliste",
+    "href": "posts/2024-Q4/index.html#ereignisse-auf-der-warteliste",
+    "title": "4. Quartal 2024",
+    "section": "1.3 Ereignisse auf der Warteliste",
+    "text": "1.3 Ereignisse auf der Warteliste\n\n\n\nAbb. 1.3 Transplantierte Personen und Personen, die auf der Warteliste verstorben sind. Personen, die für eine Lebendspende gelistet waren beziehungsweise eine Lebendspende erhielten, sind nicht mitgezählt.\n\n\n\n\n\n\n\n\n\n\n\nIndikator\nLetztes Quartal\nVeränderung zum Vorquartal\n\n\n\n\nAnzahl transplantierte Personen\n121\n-34 (-22 %)\n\n\nAnzahl verstorbene Personen\n14\n-2\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nIm letzten Quartal erhielten in der Schweiz 121 Personen eines oder mehrere Organe aus einer Organspende nach dem Tod. 14 Personen sind auf der Warteliste verstorben, 2 weniger wie im Vorquartal."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#für-eine-organspende-nach-dem-tod-freigegebene-personen",
+    "href": "posts/2024-Q4/index.html#für-eine-organspende-nach-dem-tod-freigegebene-personen",
+    "title": "4. Quartal 2024",
+    "section": "2.1 Für eine Organspende nach dem Tod freigegebene Personen",
+    "text": "2.1 Für eine Organspende nach dem Tod freigegebene Personen\n\n\n\nAbb. 2.1 In der Schweiz von Swisstransplant für die Organspende nach dem Tod freigegebene verstorbene Personen. Eine Person wird freigegeben, wenn bei aussichtloser Prognose eine Zustimmung zur Organspende vorliegt und sie medizinisch für eine Organspende mindestens eines Organs qualifiziert. «Utilisiert» bedeutet, es konnte mindestens ein Organ transplantiert werden. «Effektiv» bedeutet, ein chirurgischer Eingriff mit der Absicht zur Organentnahme zum Zweck einer Transplantation erfolgte, aber kein Organ konnte transplantiert werden. «Nicht utilisiert» bedeutet, es kam nicht zu einem chirurgischen Eingriff mit der Absicht zur Organentnahme zum Zweck einer Transplantation.\n\n\n\n\n\n\n\n\n\n\n\nIndikator\nLetztes Quartal\nVeränderung zum Vorquartal\n\n\n\n\nAnzahl freigegebene Personen\n50\n-12 Personen (-19 %)\n\n\nAnteil Nicht utilisierte\n10 %\n+1 Prozentpunkt\n\n\nAnteil Effektive\n12 %\n+9 Prozentpunkte\n\n\nAnteil Utilisierte\n78 %\n-7 Prozentpunkte\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nIm letzten Quartal hat Swisstransplant 50 Personen aus der Schweiz für eine Organspende nach dem Tod freigegeben. Das sind 12 Personen weniger als im Vorquartal. Die Utilisierungsrate betrug 78 %."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#spendende-verstorbene-personen",
+    "href": "posts/2024-Q4/index.html#spendende-verstorbene-personen",
+    "title": "4. Quartal 2024",
+    "section": "2.2 Spendende verstorbene Personen",
+    "text": "2.2 Spendende verstorbene Personen\n\n\n\nAbb. 2.2 Spendende verstorbene Personen in der Schweiz. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand. Als spendende Person gilt jede verstorbene Person, bei der ein chirurgischer Eingriff mit der Absicht zur Organentnahme zum Zweck einer Transplantation erfolgt ist.\n\n\n\n\n\n\n\n\n\n\n\nIndikator\nLetztes Quartal\nVeränderung zum Vorquartal\n\n\n\n\nAnzahl spendende Personen (alle)\n45\n-10 (-18 %)\n\n\nDCD\n30 (67 %)\n+1 (+1 %)\n\n\nDBD\n15 (33 %)\n-11 (-42 %)\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nIm letzten Quartal haben in der Schweiz 45 Personen ihre Organe nach dem Tod gespendet. Im Vergleich zum Vorquartal sind das 10 Personen weniger (-18 %). Der Rückgang ist auf die Spende im Hirntod (DCD) zurückzuführen. Von den 45 spendenden verstorbenen Personen waren 30 (67 %) DCD-Spenden."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#transplantierte-organe-von-spendenden-verstorbenen-personen",
+    "href": "posts/2024-Q4/index.html#transplantierte-organe-von-spendenden-verstorbenen-personen",
+    "title": "4. Quartal 2024",
+    "section": "2.3 Transplantierte Organe von spendenden verstorbenen Personen",
+    "text": "2.3 Transplantierte Organe von spendenden verstorbenen Personen\n\n\n\nAbb. 2.3 In der Schweiz transplantierte Organe von spendenden verstorbenen Person (inklusive aus dem Ausland stammende Organe).\n\n\n\n\n\n\n\n\n\n\n\nIndikator\nLetztes Quartal\nVeränderung zum Vorquartal\n\n\n\n\nAnzahl transplantierte Organe (alle)\n123\n-37 (-23 %)\n\n\nHerz\n7\n-11\n\n\nLunge\n16\n+2\n\n\nLeber\n31\n-5\n\n\nNiere\n68\n-20\n\n\nPankreas/Inselzellen\n1\n-3\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nIm letzten Quartal wurden in der Schweiz 123 Organe von spendenden verstorbenen Personen transplantiert. Im Vergleich zum Vorquartal sind das 37 Organe weniger (-23 %)."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#transplantierte-organe-pro-spendende-verstorbene-person",
+    "href": "posts/2024-Q4/index.html#transplantierte-organe-pro-spendende-verstorbene-person",
+    "title": "4. Quartal 2024",
+    "section": "2.4 Transplantierte Organe pro spendende verstorbene Person",
+    "text": "2.4 Transplantierte Organe pro spendende verstorbene Person\n\n\n\nAbb. 2.4 Durchschnittliche Anzahl transplantierte Organe pro spendende verstorbene Person, Mittelwerte (Standardabweichungen). DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.\n\n\n\n\n\n\n\n\n\n\n\nIndikator\nLetztes Quartal\nVeränderung zum Vorquartal\n\n\n\n\nOrgane pro spendende Person (alle)\n2.5\n-0.4\n\n\nDBD\n3.2\n-0.5\n\n\nDCD\n2.1\n+/-0\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nIm letzten Quartal wurden in der Schweiz durchschnittlich 2.5 Organe pro spendende verstorbene Person transplantiert. Im Vergleich zum Vorquartal sind das 0.4 Organe weniger."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#spendende-lebende-personen",
+    "href": "posts/2024-Q4/index.html#spendende-lebende-personen",
+    "title": "4. Quartal 2024",
+    "section": "2.5 Spendende lebende Personen",
+    "text": "2.5 Spendende lebende Personen\n\n\n\nAbb. 2.5 Spendende lebende Personen in der Schweiz, total und nach Organ. Bei Lebendspenden entspricht die Anzahl spendender Personen gleich der Anzahl transplantierter Organe.\n\n\n\n\n\n\n\n\n\n\n\nIndikator\nLetztes Quartal\nVeränderung zum Vorquartal\n\n\n\n\nAnzahl spendende Personen (alle)\n25\n+1 (+4 %)\n\n\nLeber\n2 (8 %)\n+1\n\n\nNiere\n23 (92 %)\n+/-0\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nIm letzten Quartal haben in der Schweiz 25 lebende Personen eine ihrer Nieren oder einen Teil ihrer Leber gespendet. Das ist 1 Lebendspende mehr als im Vorquartal."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#in-der-schweiz-transplantierte-personen",
+    "href": "posts/2024-Q4/index.html#in-der-schweiz-transplantierte-personen",
+    "title": "4. Quartal 2024",
+    "section": "3.1 In der Schweiz transplantierte Personen",
+    "text": "3.1 In der Schweiz transplantierte Personen\n\n\n\nAbb. 3.1 Transplantierte Personen in der Schweiz, die ein Organ von einer spendenden verstorbenen Person erhielten, total und nach Art der Transplantation. «Multiorgan» bedeutet, eine Person erhielt mehr als ein Organ gleichzeitig. Organe von spendenden verstorbenen Personen aus dem Ausland sind miteingerechnet, Organe aus Lebendspenden sind nicht miteingerechnet.\n\n\n\n\n\n\n\n\n\n\n\nIndikator\nLetztes Quartal\nVeränderung zum Vorquartal\n\n\n\n\nAnzahl transplantierte Personen (alle)\n121\n-34 (-22 %)\n\n\nMultiorgan\n1\n-2\n\n\nHerz\n7\n-11\n\n\nLunge\n16\n+2\n\n\nLeber\n31\n-5\n\n\nNiere\n66\n-17\n\n\nPankreas/Inselzellen\n0\n-1\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nIm letzten Quartal erhielten in der Schweiz 121 Personen eines oder mehrere Organe von spendenden verstorbenen Personen. Im Vergleich zum Vorquartal sind das 34 Transplantationen weniger (-22 %). Im letzten Quartal erhielt 1 Personen mehr als 1 Organ gleichzeitig (“Multiorgan”), nämlich eine Niere und eine Bauchspeicheldrüse (Pankreas)."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#in-der-schweiz-transplantierte-personen-mit-organen-aus-dem-ausland",
+    "href": "posts/2024-Q4/index.html#in-der-schweiz-transplantierte-personen-mit-organen-aus-dem-ausland",
+    "title": "4. Quartal 2024",
+    "section": "3.2 In der Schweiz transplantierte Personen mit Organen aus dem Ausland",
+    "text": "3.2 In der Schweiz transplantierte Personen mit Organen aus dem Ausland\n\n\n\nAbb. 3.2 Transplantierte Personen in der Schweiz, die ein Organ von einer spendenden verstorbenen Person aus dem Ausland erhielten, total und nach Art der Transplantation.\n\n\n\n\n\n\n\n\n\n\n\nIndikator\nLetztes Quartal\nVeränderung zum Vorquartal\n\n\n\n\nAnzahl transplantierte Personen mit Organen aus dem Ausland\n13\n-1\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nIm letzten Quartal erhielten in der Schweiz 13 Personen Organe von spendenden verstorbenen Personen aus dem Ausland. Das ist 1 Person weniger wie im Vorquartal."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#im-ausland-transplantierte-personen",
+    "href": "posts/2024-Q4/index.html#im-ausland-transplantierte-personen",
+    "title": "4. Quartal 2024",
+    "section": "3.3 Im Ausland transplantierte Personen",
+    "text": "3.3 Im Ausland transplantierte Personen\n\n\n\nAbb. 3.3 Im Ausland transplantierte Personen, die ein Organ von einer spendenden verstorbenen Person aus der Schweiz erhielten, total und nach Art der Transplantation.\n\n\n\n\n\n\n\n\n\n\n\nIndikator\nLetztes Quartal\nVeränderung zum Vorquartal\n\n\n\n\nAnzahl transplantierte Personen im Ausland\n3\n-9 (-75 %)\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nIm letzten Quartal erhielten im Ausland 3 Patientinnen und Patienten Organe von spendenden verstorbenen Personen aus der Schweiz. Im Vergleich zum Vorquartal sind das 9 Patientinnen und Patienten weniger (-75 %)."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#herztransplantationen",
+    "href": "posts/2024-Q4/index.html#herztransplantationen",
+    "title": "4. Quartal 2024",
+    "section": "3.4 Herztransplantationen",
+    "text": "3.4 Herztransplantationen\n\n\n\nAbb. 3.4 Herztransplantationen in der Schweiz, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.\n\n\n\n\n\n\n\n\n\n\n\nIndikator\nLetztes Quartal\nVeränderung zum Vorquartal\n\n\n\n\nAnzahl Herztransplantationen (alle)\n7\n-11 (-61 %)\n\n\nDCD\n1 (14 %)\n+/-0\n\n\nDBD\n6 (86 %)\n-11\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nIm letzten Quartal erhielten in der Schweiz 7 Personen eine Herztransplantation. Im Vergleich zum Vorquartal sind das 11 Herztransplantationen weniger (+61 %)."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#lungentransplantationen",
+    "href": "posts/2024-Q4/index.html#lungentransplantationen",
+    "title": "4. Quartal 2024",
+    "section": "3.5 Lungentransplantationen",
+    "text": "3.5 Lungentransplantationen\n\n\n\nAbb. 3.5 Lungentransplantationen in der Schweiz, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.\n\n\n\n\n\n\n\n\n\n\n\nIndikator\nLetztes Quartal\nVeränderung zum Vorquartal\n\n\n\n\nAnzahl Lungentransplantationen (alle)\n16\n+2 (+14 %)\n\n\nDCD\n6 (38 %)\n+4\n\n\nDBD\n10 (62 %)\n-2\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nIm letzten Quartal erhielten in der Schweiz 16 Personen eine Lungentransplantation. Im Vergleich zum Vorquartal sind das 2 Lungentransplantationen mehr (+14 %)."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#lebertransplantationen",
+    "href": "posts/2024-Q4/index.html#lebertransplantationen",
+    "title": "4. Quartal 2024",
+    "section": "3.6 Lebertransplantationen",
+    "text": "3.6 Lebertransplantationen\n\n\n\nAbb. 3.6 Lebertransplantationen in der Schweiz aus einer Organspende nach dem Tod, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.\n\n\n\n\n\n\n\n\n\n\n\nIndikator\nLetztes Quartal\nVeränderung zum Vorquartal\n\n\n\n\nAnzahl Lebertransplantationen (alle)\n31\n-5 (-16 %)\n\n\nDCD\n13 (42 %)\n-1\n\n\nDBD\n18 (58 %)\n-4\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nIm letzten Quartal erhielten in der Schweiz 31 Personen eine Lebertransplantation aus einer Organspende nach dem Tod. Im Vergleich zum Vorquartal sind das 5 Lebertransplantation weniger (-16 %)."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#nierentransplantationen",
+    "href": "posts/2024-Q4/index.html#nierentransplantationen",
+    "title": "4. Quartal 2024",
+    "section": "3.7 Nierentransplantationen",
+    "text": "3.7 Nierentransplantationen\n\n\n\nAbb. 3.7 Nierentransplantationen in der Schweiz aus einer Organspende nach dem Tod, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.\n\n\n\n\n\n\n\n\n\n\n\nIndikator\nLetztes Quartal\nVeränderung zum Vorquartal\n\n\n\n\nAnzahl Nierentransplantationen (alle)\n67\n-20 (-23 %)\n\n\nDCD\n42 (63 %)\n+2\n\n\nDBD\n25 (37 %)\n-21\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nIm letzen Quartal erhielten in der Schweiz 67 Personen eine Nierentransplantation aus einer Organspende nach dem Tod. Im Vergleich zum Vorquartal sind das 20 Nierentransplantationen weniger (-23 %)."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#pankreasinselzellen-transplantationen",
+    "href": "posts/2024-Q4/index.html#pankreasinselzellen-transplantationen",
+    "title": "4. Quartal 2024",
+    "section": "3.8 Pankreas/Inselzellen-Transplantationen",
+    "text": "3.8 Pankreas/Inselzellen-Transplantationen\n\n\n\nAbb. 3.8 Pankreas/Inselzellen-Transplantationen in der Schweiz, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.\n\n\n\n\n\n\n\n\n\n\n\nIndikator\nLetztes Quartal\nVeränderung zum Vorquartal\n\n\n\n\nAnzahl Pankreas-/Inselzellen-Transplantationen (alle)\n1\n-3 (-75 %)\n\n\nDCD\n0 (0 %)\n+/-0\n\n\nDBD\n1 (100 %)\n-3\n\n\n\n\n\n\n\n\n\nLesebeispiel\n\n\n\nIm letzten Quartal erhielt in der Schweiz 1 Person eine Pankreas/Inselzellen-Transplantation. Im Vergleich zum Vorquartal sind das 3 Transplantationen weniger (-75 %)."
   },
   {
     "objectID": "publications/index.html",

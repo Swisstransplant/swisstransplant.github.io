@@ -371,11 +371,11 @@
     "text": "Dashboard\nHere is the link to the EXAM dashboard. The EXAM source code is maintained on GitHub. For research purposes, LifePort data can be parsed and processed using the Swisstransplant R package named swt."
   },
   {
-    "objectID": "exam/index.html#references",
-    "href": "exam/index.html#references",
+    "objectID": "exam/index.html#reference",
+    "href": "exam/index.html#reference",
     "title": "EXAM—Ex vivo allograft monitoring",
-    "section": "References",
-    "text": "References\nSchwab S, Steck H, Binet I, Elmer A, Ender W, Franscini N, Haidar F, Kuhn C, Sidler D, Storni F, Krügel N, Immer F. EXAM: Ex-vivo allograft monitoring dashboard for the analysis of hypothermic machine perfusion data in deceased-donor kidney transplantation. PLOS Digit Health. 2024;3(12):e0000691. doi:10.1371/journal.pdig.0000691"
+    "section": "Reference",
+    "text": "Reference\nSchwab S, Steck H, Binet I, Elmer A, Ender W, Franscini N, Haidar F, Kuhn C, Sidler D, Storni F, Krügel N, Immer F. EXAM: Ex-vivo allograft monitoring dashboard for the analysis of hypothermic machine perfusion data in deceased-donor kidney transplantation. PLOS Digit Health. 2024;3(12):e0000691. doi:10.1371/journal.pdig.0000691"
   },
   {
     "objectID": "exam/index.html#acknowledgments",
@@ -396,14 +396,14 @@
     "href": "index.html",
     "title": "Swisstransplant Data Science",
     "section": "",
-    "text": "Swisstransplant Data Science\nSwisstransplant Data Science est un portail en ligne pour les rapports statistiques et la recherche à Swisstransplant.\nPour en savoir plus sur Swisstransplant, veuillez consulter notre site web https://www.swisstransplant.org/."
+    "text": "Swisstransplant Data Science\nSwisstransplant Data Science est un portail en ligne pour les rapports statistiques et la recherche à Swisstransplant.\nPour en savoir plus sur Swisstransplant, veuillez consulter notre site web swisstransplant.org."
   },
   {
     "objectID": "posts.html",
     "href": "posts.html",
     "title": "Statistiken",
     "section": "",
-    "text": "Les chiffres trimestriels comprennent les principaux chiffres clés de la liste d’attente et de l’activité de don d’organes et de transplantation en Suisse. Toutes les données viennent du « Swiss Organ Allocation System »(SOAS), géré par l’OFSP.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n3. Quartal 2024\n\n\n\n\n\n\n\n\n\n\n\n7 oct. 2024\n\n\nSwisstransplant\n\n\n\n\n\n\n\n\n\n\n\n\n2. Quartal 2024\n\n\n\n\n\n\n\n\n\n\n\n7 juil. 2024\n\n\nSwisstransplant\n\n\n\n\n\n\n\n\n\n\n\n\n1. Quartal 2024\n\n\n\n\n\n\n\n\n\n\n\n7 avr. 2024\n\n\nSwisstransplant\n\n\n\n\n\n\nAucun article correspondant"
+    "text": "Vous trouverez ici les principaux chiffres clés concernant la liste d’attente ainsi que l’activité de don et de transplantation d’organes en Suisse par année et par trimestre. Toutes les données viennent du « Swiss Organ Allocation System »(SOAS), géré par l’OFSP.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n4. Quartal 2024\n\n\n\n\n\n\n\n\n\n\n\n16 janv. 2025\n\n\nSwisstransplant\n\n\n\n\n\n\n\n\n\n\n\n\n3. Quartal 2024\n\n\n\n\n\n\n\n\n\n\n\n7 oct. 2024\n\n\nSwisstransplant\n\n\n\n\n\n\n\n\n\n\n\n\n2. Quartal 2024\n\n\n\n\n\n\n\n\n\n\n\n7 juil. 2024\n\n\nSwisstransplant\n\n\n\n\n\n\n\n\n\n\n\n\n1. Quartal 2024\n\n\n\n\n\n\n\n\n\n\n\n7 avr. 2024\n\n\nSwisstransplant\n\n\n\n\n\n\nAucun article correspondant"
   },
   {
     "objectID": "posts/2024-Q2/index.html",
@@ -523,6 +523,125 @@
     "title": "2. Quartal 2024",
     "section": "3.8 Transplantations de pancréas et d’îlots de Langerhans",
     "text": "3.8 Transplantations de pancréas et d’îlots de Langerhans\n\n\n\nFig. 3.8 Transplantations de pancréas et d’îlots, réparties en dons DBD et DCD. Les transplantations combinées sont inclus. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nDernier trimestre\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de transplantations de pancréas et d’îlots (tous)\n6\n+4 (+200 %)\n\n\nDCD\n0 (0 % )\n-1\n\n\nDBD\n6 (100 %)\n+5\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu dernier trimestre, 7 personnes ont reçu une transplantation de pancréas/d’îlots en Suisse. Par rapport au trimestre précédent, cela représente 4 transplantations de plus (+200 %)."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html",
+    "href": "posts/2024-Q4/index.html",
+    "title": "4. Quartal 2024",
+    "section": "",
+    "text": "Moins de donneurs décédés et d’organes transplantés, en particulier pour les dons en état de mort cérébrale (DBD)."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#personnes-en-liste-dattente",
+    "href": "posts/2024-Q4/index.html#personnes-en-liste-dattente",
+    "title": "4. Quartal 2024",
+    "section": "1.1 Personnes en liste d’attente",
+    "text": "1.1 Personnes en liste d’attente\n\n\n\nFig. 1.1 Personnes en liste d’attente pour un organe à la fin de chaque trimestre, au total et en statut inactif. Parfois, les personnes sur la liste d’attente ne peuvent temporairement pas bénéficier d’une transplantation pour des raisons de santé ou de logistique. Dans cet état inactif, elles ne reçoivent pas d’offres d’organes. Les personnes listées pour un don de donneur vivant ne sont pas inclus.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nDernier trimestre\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de patients en liste d’attente\n1283\n+14 patients (+1 %)\n\n\nPart dans état inactif\n49 %\n-1 point de pourcentage\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nA la fin du dernier trimestre, 1283 personnes attendaient en Suisse un ou plusieurs organes de donneurs décédés. Par rapport au trimestre précédent, cela représente 14 personnes de moins (+1 %). Près de la moitié (49 %) des personnes sur la liste d’attente était classé en inactif."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#personnes-en-liste-dattente-par-organe",
+    "href": "posts/2024-Q4/index.html#personnes-en-liste-dattente-par-organe",
+    "title": "4. Quartal 2024",
+    "section": "1.2 Personnes en liste d’attente par organe",
+    "text": "1.2 Personnes en liste d’attente par organe\n\n\n\nFig. 1.2 Personnes en liste d’attente pour un organe à la fin de chaque trimestre, au total et par organe. Les personnes en attente de plus d’un organe sont comptées dans le groupe « multi-organes ». Les personnes listées pour un don de donneur vivant ne sont pas inclus.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nDernier trimestre\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de patients en liste d’attente\n1283\n+14 personnes\n\n\nMulti-organes\n34\n+5\n\n\nCœur\n44\n+4\n\n\nPoumons\n28\n-7\n\n\nFoie\n289\n+7\n\n\nRein\n871\n+3\n\n\nPancréas/îlots de Langerhans\n17\n+2\n\n\nIntestin grêle\n0\n+/- 0\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nSur les 1283 patients en liste d’attente, la grande majorité attendait un rein (871; 68 %) ou un foie (289; 23 %). 34 patients attendaient plus d’un organe."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#événements-sur-la-liste-dattente",
+    "href": "posts/2024-Q4/index.html#événements-sur-la-liste-dattente",
+    "title": "4. Quartal 2024",
+    "section": "1.3 Événements sur la liste d’attente",
+    "text": "1.3 Événements sur la liste d’attente\n\n\n\nFig. 1.3 Patients transplantés et patients décédés sur la liste d’attente. Les patients qui étaient sur la liste pour un don de donneur vivant ou qui ont reçu un don de donneur vivant ne sont pas inclus.\n\n\n\n\n\n\n\n\n\n\nIndicateur\nDernier trimestre\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de patients transplantés\n121\n-34 (-22 %)\n\n\nNombre de patients décédés\n14\n-2\n\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu cours du dernier trimestre, 121 patients en Suisse ont reçu un ou plusieurs organes provenant d’un don d’organe après le décès. 14 patients sont décédés sur la liste d’attente."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#personnes-approuvées-à-faire-un-don-dorganes-après-le-décès",
+    "href": "posts/2024-Q4/index.html#personnes-approuvées-à-faire-un-don-dorganes-après-le-décès",
+    "title": "4. Quartal 2024",
+    "section": "2.1 Personnes approuvées à faire un don d’organes après le décès",
+    "text": "2.1 Personnes approuvées à faire un don d’organes après le décès\n\n\n\nFig. 2.1 Personnes décédées en Suisse et approuvées par Swisstransplant pour le don d’organes après le décès. Une personne est approuvée si, en cas de pronostic sans espoir, elle a donné son consentement au don d’organes et qu’elle est médicalement qualifiée pour le don d’au moins un organe. « Utilisées » signifie qu’au moins un organe a pu être transplanté. « Effectives » signifie qu’une intervention chirurgicale a eu lieu avec l’intention de prélever un organe en vue d’une transplantation, mais qu’aucun organe n’a pu être transplanté. « Non utilisées » signifie qu’il n’y a pas eu d’intervention chirurgicale dans l’intention d’un prélèvement d’organes aux fins d’une transplantation.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nDernier trimestre\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de personnes approuvées\n50\n-12 personnes (-19 %)\n\n\nProportion de personnes non utilisées\n10 %\n+1 point de pourcentage\n\n\nProportion de personnes effectives\n12 %\n+9 points de pourcentage\n\n\nProportion de personnes utilisées\n78 %\n-7 points de pourcentage\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu dernier trimestre, Swisstransplant a approuvé 50 personnes en Suisse pour un don d’organe après le décès. Ce sont 12 personnes de moins qu’au trimestre précédent. Le taux d’utilisation était de 78 %."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#donneurs-décédés",
+    "href": "posts/2024-Q4/index.html#donneurs-décédés",
+    "title": "4. Quartal 2024",
+    "section": "2.2 Donneurs décédés",
+    "text": "2.2 Donneurs décédés\n\n\n\nFig. 2.2 Donneurs décédés en Suisse. DBD: don en état de mort cérébrale, DCD: don en état de mort cérébrale après un arrêt cardio-circulatoire. Est considérée comme donneur toute personne décédée qui a subi une intervention chirurgicale dans l’intention d’un prélèvement d’organes aux fins d’une transplantation.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nDernier trimestre\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de donneurs (tous)\n45\n-10 (-18 %)\n\n\nDCD\n30 (67 %)\n+1 (+1 %)\n\n\nDBD\n15 (33 %)\n-11 (-42 %)\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu dernier trimestre, 45 personnes ont fait don de leurs organes après leur décès en Suisse. Par rapport au trimestre précédent, cela représente 10 personnes de moins (-18 %). Cette diminution s’explique par le don en état de mort cérébrale après un arrêt cardio-circulatoire (DCD). Parmi ces 45 personnes décédées, 30 (67 %) étaient des donners DCD."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#organes-transplantés-de-donneurs-décédés",
+    "href": "posts/2024-Q4/index.html#organes-transplantés-de-donneurs-décédés",
+    "title": "4. Quartal 2024",
+    "section": "2.3 Organes transplantés de donneurs décédés",
+    "text": "2.3 Organes transplantés de donneurs décédés\n\n\n\nFig 2.3 Organes transplantés en Suisse de donneurs décédés (incluant les organes provenant de l’étranger), total et par organe.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nDernier trimestre\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre d’organes transplantés (tous)\n123\n-37 (-23 %)\n\n\nCœur\n7\n-11\n\n\nPoumons\n16\n+2\n\n\nFoie\n31\n-5\n\n\nReins\n68\n-20\n\n\nPancréas/îlots de Langerhans\n1\n-3\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu dernier trimestre, 123 organes ont été transplantés en Suisse de donneurs décédés. Par rapport au trimestre précédent, cela représente 37 organes de moins (-23 %)."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#organes-transplantés-par-donneur-décédé",
+    "href": "posts/2024-Q4/index.html#organes-transplantés-par-donneur-décédé",
+    "title": "4. Quartal 2024",
+    "section": "2.4 Organes transplantés par donneur décédé",
+    "text": "2.4 Organes transplantés par donneur décédé\n\n\n\nFig 2.4 Nombre d’organes transplantés par donneur décédé (moyenne et écart-type). DBD: don en état de mort cérébrale, DCD: don en état de mort cérébrale après un arrêt cardio-circulatoire.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nDernier trimestre\nChangement par rapport au trimestre précédent\n\n\n\n\nOrganes par donneur (tous)\n2.5\n-0.4\n\n\nDBD\n3.2\n-0.5\n\n\nDCD\n2.1\n+/-0\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu dernier trimestre, 2.5 organes ont été transplantés en moyenne en Suisse par donneur décédé. Par rapport au trimestre précédent, cela représente 0.4 organe de moins."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#donneurs-vivants",
+    "href": "posts/2024-Q4/index.html#donneurs-vivants",
+    "title": "4. Quartal 2024",
+    "section": "2.5 Donneurs vivants",
+    "text": "2.5 Donneurs vivants\n\n\n\nFig 2.5 Donneurs vivants en Suisse, au total et par organe. Pour les dons de donneurs vivants, le nombre de donneurs est égal au nombre d’organes transplantés.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nDernier trimestre\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de donneurs vivants (tous)\n25\n+1 (+4 %)\n\n\nFoie\n2 (8 %)\n+1\n\n\nRein\n23 (92 %)\n+/-0\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu cours du dernier trimestre, 25 personnes vivantes en Suisse ont fait don d’un de leurs reins ou d’une partie de leur foie. Cela représente 1 don d’organes par des personnes vivantes de plus qu’au trimestre précédent."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#patients-transplantés-en-suisse",
+    "href": "posts/2024-Q4/index.html#patients-transplantés-en-suisse",
+    "title": "4. Quartal 2024",
+    "section": "3.1 Patients transplantés en Suisse",
+    "text": "3.1 Patients transplantés en Suisse\n\n\n\nFig. 3.1 Patients transplantés en Suisse qui ont reçu un organe d’un donneur décédé, au total et par type de transplantation. « Multi-organes » signifie qu’un patient a reçu plus d’un organe à la fois. Les organes de donneurs décédés provenant de l’étranger sont inclus, les organes provenant de donneurs vivants ne sont pas inclus.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nDernier trimestre\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de patients transplantés (tous)\n121\n-34 (-22 %)\n\n\nMulti-organes\n1\n-2\n\n\nCœur\n7\n-11\n\n\nPoumons\n16\n+2\n\n\nFoie\n31\n-5\n\n\nReins\n66\n-17\n\n\nPancréas/îlots de Langerhans\n0\n-1\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu dernier trimestre, 121 personnes ont reçu en Suisse un ou plusieurs organes de donneurs décédés. Par rapport au trimestre précédent, cela représente 34 transplantations de moins (-22 %). 1 personne a reçu un foie et un pancréas (transplantation multi-organes)."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#patients-transplantés-en-suisse-avec-des-organes-de-létranger",
+    "href": "posts/2024-Q4/index.html#patients-transplantés-en-suisse-avec-des-organes-de-létranger",
+    "title": "4. Quartal 2024",
+    "section": "3.2 Patients transplantés en Suisse avec des organes de l’étranger",
+    "text": "3.2 Patients transplantés en Suisse avec des organes de l’étranger\n\n\n\nFig. 3.2 Patients transplantés en Suisse qui ont reçu un organe d’un donneur décédée de l’étranger, total et par type de transplantation.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nDernier trimestre\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de patients transplantés avec des organes provenant de l’étranger\n13\n-1\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu dernier trimestre, 13 patients ont reçu en Suisse des organes provenant de donneurs décédés à l’étranger. C’est 1 personne de moins qu’au trimestre précédent."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#patients-transplantés-à-létranger",
+    "href": "posts/2024-Q4/index.html#patients-transplantés-à-létranger",
+    "title": "4. Quartal 2024",
+    "section": "3.3 Patients transplantés à l’étranger",
+    "text": "3.3 Patients transplantés à l’étranger\n\n\n\nFig. 3.3 Patients transplantés à l’étranger qui ont reçu un organe d’un donneur décédée en Suisse, total et par type de transplantation.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nDernier trimestre\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de patients transplantés à l’étranger\n3\n-9 (-75 %)\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu dernier trimestre, 3 patients ont reçu à l’étranger des organes provenant de donneurs décédés en Suisse. Par rapport au trimestre précédent, cela représente 9 transplantations de moins (-75 %)."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#transplantations-du-cœur",
+    "href": "posts/2024-Q4/index.html#transplantations-du-cœur",
+    "title": "4. Quartal 2024",
+    "section": "3.4 Transplantations du cœur",
+    "text": "3.4 Transplantations du cœur\n\n\n\nFig. 3.4 Transplantations du cœur en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont inclus. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nDernier trimestre\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de transplantations du coeur\n7\n-11 (-61 %)\n\n\nDCD\n1 (14 %)\n+/-0\n\n\nDBD\n6 (86 %)\n-11\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu dernier trimestre, 7 personnes ont reçu une transplantation cardiaque en Suisse. Par rapport au trimestre précédent, cela représente 11 transplantations cardiaques de moins (-61 %)."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#transplantations-de-poumons",
+    "href": "posts/2024-Q4/index.html#transplantations-de-poumons",
+    "title": "4. Quartal 2024",
+    "section": "3.5 Transplantations de poumons",
+    "text": "3.5 Transplantations de poumons\n\n\n\nFig. 3.5 Transplantations de poumons en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont inclus DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nDernier trimestre\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de transplantations de poumons\n16\n+2 (+14 %)\n\n\nDCD\n6 (38 %)\n+4\n\n\nDBD\n10 (62 %)\n-2\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu dernier trimestre, 16 personnes ont reçu une transplantation pulmonaires en Suisse. Par rapport au trimestre précédent, cela représente 2 transplantations pulmonaires de moins (+14 %)."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#transplantations-du-foie",
+    "href": "posts/2024-Q4/index.html#transplantations-du-foie",
+    "title": "4. Quartal 2024",
+    "section": "3.6 Transplantations du foie",
+    "text": "3.6 Transplantations du foie\n\n\n\nFig. 3.6 Transplantations du foie des donneurs decédés en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont inclus. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nDernier trimestre\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de transplantations du foie (tous)\n31\n-5 (-16 %)\n\n\nDCD\n13 (42 %)\n-1\n\n\nDBD\n18 (58 %)\n-4\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu dernier trimestre, 31 personnes ont reçu une transplantation hépatique en Suisse, provenant d’un don d’organe après le décès. Par rapport au trimestre précédent, cela représente 5 transplantation hépatique de moins (-16 %)."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#transplantations-de-reins",
+    "href": "posts/2024-Q4/index.html#transplantations-de-reins",
+    "title": "4. Quartal 2024",
+    "section": "3.7 Transplantations de reins",
+    "text": "3.7 Transplantations de reins\n\n\n\nFig. 3.7 Transplantations de reins de donneurs décédés en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont inclus. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nDernier trimestre\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de transplantations de reins (tous)\n67\n-20 (-23 %)\n\n\nDCD\n42 (63 %)\n+2\n\n\nDBD\n25 (37 %)\n-21\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu dernier trimestre, 67 personnes ont reçu une transplantation rénale en Suisse, provenant d’un don d’organe après le décès. Par rapport au trimestre précédent, cela représente 20 transplantations rénales de moins (-23 %)."
+  },
+  {
+    "objectID": "posts/2024-Q4/index.html#transplantations-de-pancréas-et-dîlots-de-langerhans",
+    "href": "posts/2024-Q4/index.html#transplantations-de-pancréas-et-dîlots-de-langerhans",
+    "title": "4. Quartal 2024",
+    "section": "3.8 Transplantations de pancréas et d’îlots de Langerhans",
+    "text": "3.8 Transplantations de pancréas et d’îlots de Langerhans\n\n\n\nFig. 3.8 Transplantations de pancréas et d’îlots, réparties en dons DBD et DCD. Les transplantations combinées sont inclus. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.\n\n\n\n\n\n\n\n\n\n\n\nIndicateur\nDernier trimestre\nChangement par rapport au trimestre précédent\n\n\n\n\nNombre de transplantations de pancréas et d’îlots (tous)\n1\n-3 (-75 %)\n\n\nDCD\n0 (0 %)\n+/-0\n\n\nDBD\n1 (100 %)\n-3\n\n\n\n\n\n\n\n\n\nExemple de lecture\n\n\n\nAu dernier trimestre, 1 personne a reçu une transplantation de pancréas/d’îlots en Suisse. Par rapport au trimestre précédent, cela représente 3 transplantations de moins (-75 %)."
   },
   {
     "objectID": "publications/index.html",

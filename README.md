@@ -12,7 +12,7 @@ First, we need to render all profiles, it is important to first render the Germa
     quarto render --profile fr
     quarto render --profile en
     
-The preview option can also be used to render and also display the page.
+The preview option can also be used to render and also display the page. Don't preview the website in case you have drafts because preview will render them.
 
     quarto preview --profile de
 
