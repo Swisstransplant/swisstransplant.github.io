@@ -548,12 +548,12 @@ Im letzten Quartal erhielten in der Schweiz 16 Personen eine Lungentransplantati
 
 |Indikator                                   |Letztes Quartal         |Veränderung zum Vorquartal              |
 |--------------------------------------------|-----------------------:|---------------------------------------:|
-|Anzahl Lebertransplantationen (alle)        |31                      |-5 (-16 %)                              |
+|Anzahl Lebertransplantationen (alle)        |31                      |-5 (-14 %)                              |
 |DCD                                         |13 (42 %)               |-1                                      |
 |DBD                                         |18 (58 %)               |-4                                      |
 
 ::: {.callout-note title="Lesebeispiel"}
-Im letzten Quartal erhielten in der Schweiz 31 Personen eine Lebertransplantation aus einer Organspende nach dem Tod. Im Vergleich zum Vorquartal sind das 5 Lebertransplantation weniger (-16 %).
+Im letzten Quartal erhielten in der Schweiz 31 Personen eine Lebertransplantation aus einer Organspende nach dem Tod. Im Vergleich zum Vorquartal sind das 5 Lebertransplantation weniger (-14 %).
 :::
 
 ## 3.7 Nierentransplantationen
@@ -564,13 +564,13 @@ Im letzten Quartal erhielten in der Schweiz 31 Personen eine Lebertransplantatio
 
 |Indikator                                   |Letztes Quartal         |Veränderung zum Vorquartal              |
 |--------------------------------------------|-----------------------:|---------------------------------------:|
-|Anzahl Nierentransplantationen (alle)       |67                      |-20 (-23 %)                             |
+|Anzahl Nierentransplantationen (alle)       |67                      |-19 (-22 %)                             |
 |DCD                                         |42 (63 %)               |+2                                      |
 |DBD                                         |25 (37 %)               |-21                                     |
 
 
 ::: {.callout-note title="Lesebeispiel"}
-Im letzen Quartal erhielten in der Schweiz 67 Personen eine Nierentransplantation aus einer Organspende nach dem Tod. Im Vergleich zum Vorquartal sind das 20 Nierentransplantationen weniger (-23 %).
+Im letzen Quartal erhielten in der Schweiz 67 Personen eine Nierentransplantation aus einer Organspende nach dem Tod. Im Vergleich zum Vorquartal sind das 19 Nierentransplantationen weniger (-22 %).
 :::
 
 ## 3.8 Pankreas/Inselzellen-Transplantationen
@@ -688,12 +688,12 @@ Au dernier trimestre, 16 personnes ont reçu une transplantation pulmonaires en 
 
 |Indicateur                                  |Dernier trimestre    |Changement par rapport au trimestre précédent |
 |--------------------------------------------|-----------------------:|---------------------------------------:|
-|Nombre de transplantations du foie (tous)   |31                      |-5 (-16 %)                              |
+|Nombre de transplantations du foie (tous)   |31                      |-5 (-14 %)                              |
 |DCD                                         |13 (42 %)               |-1                                      |
 |DBD                                         |18 (58 %) 	            |-4                                      |
 
 ::: {.callout-note title="Exemple de lecture"}
-Au dernier trimestre, 31 personnes ont reçu une transplantation hépatique en Suisse, provenant d'un don d'organe après le décès. Par rapport au trimestre précédent, cela représente 5 transplantation hépatique de moins (-16 %).
+Au dernier trimestre, 31 personnes ont reçu une transplantation hépatique en Suisse, provenant d'un don d'organe après le décès. Par rapport au trimestre précédent, cela représente 5 transplantation hépatique de moins (-14 %).
 :::
 
 ## 3.7 Transplantations de reins
@@ -704,12 +704,12 @@ Au dernier trimestre, 31 personnes ont reçu une transplantation hépatique en S
 
 |Indicateur                                  |Dernier trimestre    |Changement par rapport au trimestre précédent |
 |--------------------------------------------|-----------------------:|---------------------------------------:|
-|Nombre de transplantations de reins (tous)  |67                      |-20 (-23 %)                           |
+|Nombre de transplantations de reins (tous)  |67                      |-19 (-22 %)                           |
 |DCD                                         |42 (63 %)               |+2                                      |
 |DBD                                         |25 (37 %)               |-21                                     |
 
 ::: {.callout-note title="Exemple de lecture"}
-Au dernier trimestre, 67 personnes ont reçu une transplantation rénale en Suisse, provenant d'un don d'organe après le décès. Par rapport au trimestre précédent, cela représente 20 transplantations rénales de moins (-23 %).
+Au dernier trimestre, 67 personnes ont reçu une transplantation rénale en Suisse, provenant d'un don d'organe après le décès. Par rapport au trimestre précédent, cela représente 19 transplantations rénales de moins (-22 %).
 :::
 
 ## 3.8 Transplantations de pancréas et d’îlots de Langerhans
