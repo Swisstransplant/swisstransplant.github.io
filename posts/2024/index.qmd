@@ -1,6 +1,6 @@
 ---
 title: "Jahreszahlen 2024"
-draft: true
+draft: false
 author: "Swisstransplant"
 date: "2025-01-21"
 categories: false
@@ -12,7 +12,7 @@ execute:
 ---
 
 ::: {.content-visible when-profile="de"}
-Fazit über alle Kennzahlen für das gesamte Jahr 2024, analog zu Quartalszahlen.
+Zweithöchste Anzahl spendender verstorbener Personen nach dem Rekordjahr 2023. Erstmals überstieg die Anzahl Organspenden im Hirntod nach Herz-Kreislauf-Stillstand (DCD) die Organspenden im Hirntod (DBD).
 
 ::: {.callout-warning title="Hinweis"}
 Die Kennzahlen zu den Wartezeiten bis zur Transplantation werden neu separat ausgewiesen. Die Berechnung erfolgt nach einer neuen Methodik, die alle Personen auf der Warteliste berücksichtigt, nicht mehr nur Personen, die ein Organ erhielten. Eine Grafik zu den durchschnittlichen Wartezeiten pro Organ finden sie im Swisstransplant Jahresbericht 2023 ([siehe Abb. 4.13](https://www.swisstransplant.org/fileadmin/user_upload/Bilder/Home/Organ-_und_Gewebespende/Fakten_und_Zahlen/Jahreszahlen/2023_ersetzt/Abb_4.13_2023_DE.jpg){target="_blank"}). Die Entwicklung der Wartezeiten über die letzten 5 Jahre wird auch auf dieser Website publiziert werden.
@@ -21,7 +21,7 @@ Die Kennzahlen zu den Wartezeiten bis zur Transplantation werden neu separat aus
 :::
 
 ::: {.content-visible when-profile="fr"}
-Hier kommt ein Fazit über alle Kennzahlen, das wichtigste aus allen 3 Kapiteln.
+Deuxième plus grand nombre de donneurs décédés après l'année record de 2023. Pour la première fois, le nombre de dons d'organes en état de mort cérébrale après un arrêt cardio-circulatoire (DCD) a dépassé celui des dons d'organes en état de mort cérébrale (DBD).
 
 ::: {.callout-warning title="Remarque"}
 Les chiffres clés concernant les temps d'attente jusqu’à la transplantation sont maintenant présentés séparément. Le calcul est effectué selon une nouvelle méthodologie qui prend en compte toutes les personnes sur la liste d'attente et non plus seulement les personnes qui ont reçu un organe. Vous trouverez un graphique sur les temps d'attente moyens par organe dans le rapport annuel 2023 de Swisstransplant. ([voir fig. 4.13](https://www.swisstransplant.org/fileadmin/user_upload/Bilder/Home/Organ-_und_Gewebespende/Fakten_und_Zahlen/Jahreszahlen/2023_ersetzt/FR_2023/Ill_4.13_2023_FR.jpg){target="_blank"}). L'évolution des temps d'attente au cours des cinq dernières années sera également publiée sur ce site.
@@ -45,10 +45,10 @@ To be translated..
 ::: {.content-visible when-profile="de"}
 # 1. Warteliste
 
-Hier finden Sie Kennzahlen zur Warteliste der Personen, die in der Schweiz auf ein Organ von spendenden verstorbenen Personen warten. Personen, die für eine Lebendspende gelistet waren, sind in diesem Abschnitt nicht mitberücksichtigt.
+Hier finden Sie Kennzahlen zur Warteliste der Personen, die in der Schweiz auf ein Organ von spendenden verstorbenen Personen warten. **Falls nicht anders vermerkt sind Personen, die für eine Lebendspende gelistet waren, in diesem Abschnitt nicht mitberücksichtigt.**
 
 ::: {.callout-tip title="Das Wichtigste in Kürze"}
-Ende 2024 warteten in der Schweiz 1283 Personen auf eines oder mehrere Organe von verstorbenen spendenden Personen. Im Vergleich zu Ende 2023 sind das 52 Personen weniger (-4 %). 73 Personen sind 2024 auf der Warteliste verstorben, das sind 19 Personen weniger wie im Vorjahr.
+Ende 2024 warteten in der Schweiz 1283 Personen auf eines oder mehrere Organe von verstorbenen spendenden Personen. Im Vergleich zu Ende 2023 sind das 52 Personen weniger (-4 %). 73 Personen sind 2024 auf der Warteliste verstorben, das sind 19 Personen weniger wie im Vorjahr. Zusätzlich sind 2024 zwei Personen verstorben, die für eine Lebendspende gelistet waren.
 :::
 
 ## 1.1 Personen auf der Warteliste
@@ -90,7 +90,7 @@ Von den 1283 Personen auf der Warteliste wartete die grosse Mehrheit auf eine Ni
 
 ## 1.3 Ereignisse auf der Warteliste
 
-![**Abb. 1.3** Transplantierte Personen und Personen, die auf der Warteliste verstorben sind. Personen, die für eine Lebendspende gelistet waren beziehungsweise eine Lebendspende erhielten, sind nicht mitgezählt.](Fig1.3-de.png){width=80%}
+![**Abb. 1.3** Transplantierte Personen und Personen, die auf der Warteliste verstorben sind. Personen, die für eine Lebendspende gelistet waren beziehungsweise eine Lebendspende erhielten, sind nicht mitgezählt. * Zusätzlich sind 2024 zwei Personen verstorben, die für eine Lebendspende gelistet waren.](Fig1.3-de.png){width=80%}
 
 <br>
 
@@ -101,7 +101,7 @@ Von den 1283 Personen auf der Warteliste wartete die grosse Mehrheit auf eine Ni
 
 
 ::: {.callout-note title="Lesebeispiel"}
-Im letzten Jahr erhielten in der Schweiz 522 Personen eines oder mehrere Organe aus einer Organspende nach dem Tod. 73 Personen sind auf der Warteliste verstorben, 19 weniger (-21 %) wie im Vorjahr.
+Im letzten Jahr erhielten in der Schweiz 522 Personen eines oder mehrere Organe aus einer Organspende nach dem Tod. 73 Personen sind auf der Warteliste verstorben, 19 weniger (-21 %) wie im Vorjahr. Zusätzlich sind 2024 zwei Personen verstorben, die für eine Lebendspende gelistet waren.
 :::
 
 :::
@@ -109,10 +109,10 @@ Im letzten Jahr erhielten in der Schweiz 522 Personen eines oder mehrere Organe 
 ::: {.content-visible when-profile="fr"}
 # 1. Liste d'attente
 
-Vous trouverez ici les chiffres clés sur la liste d'attente des personnes en attente d'un organe en Suisse. Les personnes listées pour un don de donneur vivant ne sont pas prises en compte dans cette section.
+Vous trouverez ici les chiffres clés sur la liste d'attente des personnes en attente d'un organe en Suisse. **Sauf mention contraire, les personnes listées pour un don de donneur vivant ne sont pas prises en compte dans cette section.**
 
 ::: {.callout-tip title="L'essentiel en bref"}
-Fin 2024, 1283 personnes attendaient en Suisse un ou plusieurs organes de donneurs décédés. Par rapport à la fin du 2023, cela représente 52 personnes de moins (-4 %). 73 personnes sont décédées en 2024 sur la liste d'attente, soit 19 personnes de moins que l'année précédente.
+Fin 2024, 1283 personnes attendaient en Suisse un ou plusieurs organes de donneurs décédés. Par rapport à la fin du 2023, cela représente 52 personnes de moins (-4 %). 73 personnes sont décédées en 2024 sur la liste d'attente, soit 19 personnes de moins que l'année précédente. En outre, deux personnes listées pour un don de donneur vivant sont décédées en 2024.
 :::
 
 ## 1.1 Personnes en liste d'attente
@@ -156,17 +156,17 @@ Sur les 1283 patients en liste d'attente, la grande majorité attendait un rein 
 
 ## 1.3 Événements sur la liste d'attente
 
-![**Fig. 1.3** Patients transplantés et patients décédés sur la liste d'attente. Les patients qui étaient sur la liste pour un don de donneur vivant ou qui ont reçu un don de donneur vivant ne sont pas inclus.](Fig1.3-fr.png){width=80%}
+![**Fig. 1.3** Patients transplantés et patients décédés sur la liste d'attente. Les patients qui étaient sur la liste pour un don de donneur vivant ou qui ont reçu un don de donneur vivant ne sont pas inclus. * En outre, deux personnes listées pour un don de donneur vivant sont décédées en 2024.](Fig1.3-fr.png){width=80%}
 
 |Indicateur                          |Dernière année                 |Changement par rapport à l'année précédente  |
 |------------------------------------|------------------------------:|--------------------------------------------:|
 |Nombre de patients transplantés     |522                            |-43 (-8 %)                                   |
-|Nombre de patients décédés          |73                             |-19 (-21 %)                                   |
+|Nombre de patients décédés          |73*                            |-19 (-21 %)                                   |
 
 <br>
 
 ::: {.callout-note title="Exemple de lecture"}
-En 2024, 522 patients en Suisse ont reçu un ou plusieurs organes provenant d'un don d'organe après le décès. 73 patients sont décédés sur la liste d'attente, soit 19 de moins (-21 %) que l'année précédente.
+En 2024, 522 patients en Suisse ont reçu un ou plusieurs organes provenant d'un don d'organe après le décès. 73 patients sont décédés sur la liste d'attente, soit 19 de moins (-21 %) que l'année précédente. En outre, deux personnes listées pour un don de donneur vivant sont décédées en 2024.
 :::
 
 :::
@@ -236,7 +236,7 @@ In the first quarter of 2024, 102 patients in Switzerland received one or more o
 Hier finden Sie Kennzahlen zur Organspende nach dem Tod und zur Organ-Lebendspende in der Schweiz.
 
 ::: {.callout-tip title="Das Wichtigste in Kürze"}
-2024 haben in der Schweiz 187 Personen ihre Organe nach dem Tod gespendet. Im Vergleich zu 2023 sind das 13 Personen weniger (-7 %), nach dem Rekordjahr 2023 ist es jedoch die zweithöchste Zahl spendender verstorbener Personen. Von den 187 spendenden Personen waren 98 (52 %) im Hirntod nach Herz-Kreislauf-Stillstand (DCD). Damit waren erstmals mehr als die Hälfte DCD-Organspenden. 539 Organe von spendenden verstorbenen Personen wurden 2024 in der Schweiz transplantiert, das sind 45 weniger (-8 %) als 2023. Mit 2.7 Organen ist die durchschnittliche Anzahl transplantierter Organe pro spendende verstorbene Person leicht gesunken.
+2024 haben in der Schweiz 187 Personen ihre Organe nach dem Tod gespendet. Im Vergleich zu 2023 sind das 13 Personen weniger (-7 %), nach dem Rekordjahr 2023 ist dies jedoch die zweithöchste Zahl spendender verstorbener Personen. Von den 187 spendenden Personen waren 98 (52 %) im Hirntod nach Herz-Kreislauf-Stillstand (DCD). Damit waren erstmals mehr als die Hälfte DCD-Organspenden. 539 Organe von spendenden verstorbenen Personen wurden 2024 in der Schweiz transplantiert, das sind 45 weniger (-8 %) als 2023. Mit 2.7 Organen ist die durchschnittliche Anzahl transplantierter Organe pro spendende verstorbene Person leicht gesunken.
 :::
 
 ## 2.1 Für eine Organspende nach dem Tod freigegebene Personen
@@ -248,13 +248,13 @@ Hier finden Sie Kennzahlen zur Organspende nach dem Tod und zur Organ-Lebendspen
 |Indikator                               |Letztes Jahr             |Veränderung zum Vorjahr                       |
 |----------------------------------------|------------------------:|---------------------------------------------:|
 |Anzahl freigegebene Personen            |213                      |-12 Personen (-5 %)                           |
-|Anteil Nicht utilisierte                |12 %                     |-1 Prozentpunkt                              |
+|Anteil Nicht utilisierte                |12 %                     |+1 Prozentpunkt                              |
 |Anteil Effektive                        |6 %                      |-1 Prozentpunkt                              |
 |Anteil Utilisierte                      |82 %                     |+/-0 Prozentpunkte                           |
 
 
 ::: {.callout-note title="Lesebeispiel"}
-Im letzten Quartal hat Swisstransplant 213 Personen aus der Schweiz für eine Organspende nach dem Tod freigegeben. Das sind 12 Personen weniger als im Rekordjahr 2023. Die Utilisierungsrate betrug wie bereits im Vorjahr 82 %.
+Im letzten Jahr hat Swisstransplant 213 Personen aus der Schweiz für eine Organspende nach dem Tod freigegeben. Das sind 12 Personen weniger als im Rekordjahr 2023. Die Utilisierungsrate betrug wie bereits im Vorjahr 82 %.
 :::
 
 ## 2.2 Spendende verstorbene Personen
@@ -266,7 +266,7 @@ Im letzten Quartal hat Swisstransplant 213 Personen aus der Schweiz für eine Or
 |Indikator                                 |Letztes Jahr        |Veränderung zum Vorjahr       |
 |------------------------------------------|-------------------:|-----------------------------:|
 |Anzahl spendende Personen (alle)          |187                 |-13 (-7 %)                    |
-|DCD                                       |98 (52 %)           |+2 (+1 %)                     |
+|DCD                                       |98 (52 %)           |+2 (+2 %)                     |
 |DBD                                       |89 (48 %)           |-15 (-14 %)                   |
 
 ::: {.callout-note title="Lesebeispiel"}
@@ -331,7 +331,7 @@ Im letzten Quartal hat Swisstransplant 213 Personen aus der Schweiz für eine Or
 Vous trouverez ici les chiffres clés sur le don d'organes après le décès et le don d'organes de donneurs vivants en Suisse.
 
 ::: {.callout-tip title="L'essentiel en bref"}
-En 2024, 187 personnes ont fait don de leurs organes après leur décès en Suisse. Ce sont 13 personnes de moins (-7 %) comparé à l'année précédente. Après le record de 2023, il s'agit toutefois du deuxième plus grand nombre donneurs décédés. Parmi ces 187 donneurs décédés, 98 (52 %) étaient en état de mort cérébrale après un arrêt cardio-circulatoire. Ainsi, pour la première fois, plus de la moitié étaient des dons d'organes DCD. 539 organes de donneurs décédés ont été transplantés en Suisse en 2024, soit 45 de moins (-8 %) qu'en 2023. Avec 2.7 organes, le nombre moyen d'organes transplantés par donneur décédé a légèrement diminué.
+En 2024, 187 personnes ont fait don de leurs organes après leur décès en Suisse. Ce sont 13 personnes de moins (-7 %) comparé à l'année précédente. Après le record de 2023, il s'agit toutefois du deuxième plus grand nombre de donneurs décédés. Parmi ces 187 donneurs décédés, 98 (52 %) étaient en état de mort cérébrale après un arrêt cardio-circulatoire (DCD). Ainsi, pour la première fois, plus de la moitié étaient des dons d'organes DCD. 539 organes de donneurs décédés ont été transplantés en Suisse en 2024, soit 45 de moins (-8 %) qu'en 2023. Avec 2.7 organes, le nombre moyen d'organes transplantés par donneur décédé a légèrement diminué.
 :::
 
 ## 2.1 Personnes approuvées à faire un don d'organes après le décès
@@ -342,8 +342,8 @@ En 2024, 187 personnes ont fait don de leurs organes après leur décès en Suis
 
 |Indicateur                               |Dernière année          | Changement par rapport à l'année précédente   |
 |-----------------------------------------|-----------------------:|----------------------------------------------:|
-|Nombre de personnes approuvées           |213                      |-12 Personen (-5 %)                           |
-|Proportion de personnes non utilisées    |12 %                    |-1 point de pourcentage                        |
+|Nombre de personnes approuvées           |213                     |-12 Personen (-5 %)                           |
+|Proportion de personnes non utilisées    |12 %                    |+1 point de pourcentage                        |
 |Proportion de personnes effectives       |6 %                     |-1 point de pourcentage                        |
 |Proportion de personnes utilisées        |82 %                    |+/-0 points de pourcentage                     |
 
@@ -360,12 +360,12 @@ En 2024, Swisstransplant a approuvé 213 personnes en Suisse pour un don d'organ
 |Indicateur                                  |Dernière année         |Changement par rapport à l'année précédente   |
 |--------------------------------------------|----------------------:|---------------------------------------------:|
 |Nombre de donneurs (tous)                   |187                    |-13 (-7 %)                                    |
-|DCD                                         |98 (52 %)              |+2 (+1 %)                                     |
+|DCD                                         |98 (52 %)              |+2 (+2 %)                                     |
 |DBD                                         |89 (48 %) 	           |-15 (-14 %)                                   |
 
 
 ::: {.callout-note title="Exemple de lecture"}
-En 2024, 187 personnes ont fait don de leurs organes après leur décès en Suisse. Par rapport à l'année record 2023, cela représente 13 personnes de moins (-7 %). Cette réduction s'explique par une diminution du nombre de dons en état de mort cérébrale (DBD). Parmi les 187 donneurs décédés, 98 (52 %) étaient en état de mort cérébrale (DCD).
+En 2024, 187 personnes ont fait don de leurs organes après leur décès en Suisse. Par rapport à l'année record 2023, cela représente 13 personnes de moins (-7 %). Cette réduction s'explique par une diminution du nombre de dons en état de mort cérébrale (DBD). Parmi les 187 donneurs décédés, 98 (52 %) étaient en état de mort cérébrale après un arrêt cardio-circulatoire (DCD).
 :::
 
 ## 2.3 Organes transplantés de donneurs décédés
@@ -617,7 +617,7 @@ En 2024, 522 personnes ont reçu en Suisse un ou plusieurs organes de donneurs d
 |Pancréas/îlots de Langerhans             |2                     |-4 (-67 %)                                     |
 
 ::: {.callout-note title="Exemple de lecture"}
-En 2024, 522 personnes ont reçu en Suisse un ou plusieurs organes de donneurs décédés. Par rapport à l'année record 2023, cela représente 43 transplantations de plus (-8 %). 14 personnes ont reçu plus d'un organe, 11 personnes ont reçu un rein et un pancréas chacun et 3 personnes ont reçu un rein et un foie chacun (transplantation multi-organes).
+En 2024, 522 personnes ont reçu en Suisse un ou plusieurs organes de donneurs décédés. Par rapport à l'année record 2023, cela représente 43 transplantations de moins (-8 %). 14 personnes ont reçu plus d'un organe, 11 personnes ont reçu un rein et un pancréas chacun et 3 personnes ont reçu un rein et un foie chacun (transplantation multi-organes).
 :::
 
 ## 3.2 Patients transplantés en Suisse avec des organes de l'étranger
@@ -642,10 +642,10 @@ En 2024, 50 patients ont reçu en Suisse des organes provenant de donneurs déc�
 
 |Indicateur                             |Dernière année      |Changement par rapport à l'année précédente |
 |---------------------------------------|-------------------:|-------------------------------------------:|
-|Nombre de patients transplantés à l'étranger     |24                   |-4 (-15 %)                       |
+|Nombre de patients transplantés à l'étranger     |24                   |-2 (-8 %)                       |
 
 ::: {.callout-note title="Exemple de lecture"}
-En 2024, 24 patients ont reçu à l'étranger des organes provenant de donneurs décédés en Suisse. Par rapport à l'année record 2023, cela représente 4 transplantations de moins (-15 %).
+En 2024, 24 patients ont reçu à l'étranger des organes provenant de donneurs décédés en Suisse. Par rapport à l'année record 2023, cela représente 2 transplantations de moins (-8 %).
 :::
 
 ## 3.4 Transplantations du cœur

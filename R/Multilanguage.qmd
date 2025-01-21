@@ -90,6 +90,10 @@ page = gsub(x = page,
             pattern = "4. Quartal 2024", 
             replace = "4e trimestre 2024")
 
+page = gsub(x = page,
+            pattern = "Jahreszahlen 2024", 
+            replace = "Chiffres annuels 2024")
+
 writeLines(page, con=file)
 ```
 
@@ -176,6 +180,20 @@ page = gsub(x = page,
 page = gsub(x = page,
             pattern = "<h1 class=\"title\">4. Quartal 2024</h1>", 
             replace = "<h1 class=\"title\">4e trimestre 2024</h1>")
+
+writeLines(page, con=file)
+```
+
+```{r}
+file = "../docs/fr/posts/2024/index.html"
+page = readLines(file, warn = FALSE)
+
+page = gsub(x = page,
+            pattern = "<title>Jahreszahlen 2024 – Swisstransplant Data Science</title>", 
+            replace = "<title>Chiffres annuels 2024 – Swisstransplant Data Science</title>")
+page = gsub(x = page,
+            pattern = "<h1 class=\"title\">Jahreszahlen 2024</h1>", 
+            replace = "<h1 class=\"title\">Chiffres annuels 2024</h1>")
 
 writeLines(page, con=file)
 ```

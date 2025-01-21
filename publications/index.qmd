@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-bibliography: swt.bib
+bibliography: swt_2025.01.17.bib
 css: custom.css
 csl: american-medical-association-no-et-al.csl
 nocite: |
