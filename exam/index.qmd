@@ -19,17 +19,25 @@ EXAM was developed by [Swisstransplant](https://www.swisstransplant.org/)---the 
 
 ## Terms of use
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.html) for more details.
+By accessing or using this program, you agree to the terms of the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.html) and the following supplements to its sections 15 and 16:
 
-::: {.callout-warning title="Important" collapse=false}
-Hypothermic machine perfusion data alone should never be used as the sole basis to discard a kidney allograft.
+* The program is provided "as is" without warranty or any obligation from Swisstransplant;
+* Swisstransplant excludes liability for damages, losses, or claims arising from program use, to the extent permitted by law; and
+* You are solely responsible for evaluating the program’s functionality, suitability, and safety before use.
 
-Please do not upload personal, sensitive, or patient-identifiable data. Any data uploaded to the application is temporary and will be automatically deleted when the session ends. The developers are not liable for any misuse of the application or the data provided by users.
+::: {.callout-important appearance="simple" collapse=false}
+Hypothermic machine perfusion data should not be used as a basis for discarding a kidney allograft. 
+
+Please refrain from uploading personal, sensitive, or patient-identifiable data. All uploaded data is temporary and will be automatically deleted at the end of the session. The developers assume no liability for any misuse of the application or the data provided by users.
 :::
 
 ## Dashboard
 
-Here is the link to the [EXAM dashboard](https://swisstransplant.shinyapps.io/EXAM/). The EXAM source code is maintained on [GitHub](https://github.com/Swisstransplant/EXAM). For research purposes, LifePort data can be parsed and processed using the Swisstransplant R package named [`swt`](https://github.com/Swisstransplant/swt).
+Here is the link to the [EXAM dashboard](https://swisstransplant.shinyapps.io/EXAM/). The EXAM source code is maintained on [GitHub](https://github.com/Swisstransplant/EXAM).
+
+## Research and data analysis
+
+For research purposes, LifePort data can be loaded and analyzed using the Swisstransplant R package [`swt`](https://github.com/Swisstransplant/swt). A showcase is provided here <https://data.swisstransplant.org/lifeport/>.
 
 ## Reference
 

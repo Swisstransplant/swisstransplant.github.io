@@ -12,7 +12,7 @@ The basic statistics software enables statistical reporting for research project
 -   Rstudio Desktop <https://posit.co/download/rstudio-desktop/>
 -   Quarto <https://quarto.org/docs/download/>
 
-::: callout-note
+::: {.callout-note appearance="simple"}
 The RStudio desktop installer for Windows 10 requires administrator rights. However, it is possible to download a zip bundle from the download page, unpack the files into a folder, for example, `software`, and create a shortcut with `rstudio.exe` on the desktop or the taskbar.
 :::
 

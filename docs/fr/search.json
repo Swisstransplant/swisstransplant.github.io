@@ -11,7 +11,7 @@
     "href": "tools/index.html#basic-statistics-software",
     "title": "Research Tools",
     "section": "Basic statistics software",
-    "text": "Basic statistics software\nThe basic statistics software enables statistical reporting for research projects and national statistics about organ donation and transplantation. They also allow the development of statistical tools at Swisstransplant, such as data pipelines or Shiny applications.\n\nThe R Project for Statistical Computing https://stat.ethz.ch/CRAN/\nRstudio Desktop https://posit.co/download/rstudio-desktop/\nQuarto https://quarto.org/docs/download/\n\n\n\n\n\n\n\nNote\n\n\n\nThe RStudio desktop installer for Windows 10 requires administrator rights. However, it is possible to download a zip bundle from the download page, unpack the files into a folder, for example, software, and create a shortcut with rstudio.exe on the desktop or the taskbar.\n\n\n\nAdvanced software\nSoftware for advanced tasks is listed below, for example, for updating this web portal on GitHub, or for R package building.\n\nGit version control system https://git-scm.com/downloads\nRTools https://cran.r-project.org/bin/windows/Rtools/"
+    "text": "Basic statistics software\nThe basic statistics software enables statistical reporting for research projects and national statistics about organ donation and transplantation. They also allow the development of statistical tools at Swisstransplant, such as data pipelines or Shiny applications.\n\nThe R Project for Statistical Computing https://stat.ethz.ch/CRAN/\nRstudio Desktop https://posit.co/download/rstudio-desktop/\nQuarto https://quarto.org/docs/download/\n\n\n\n\n\n\n\nThe RStudio desktop installer for Windows 10 requires administrator rights. However, it is possible to download a zip bundle from the download page, unpack the files into a folder, for example, software, and create a shortcut with rstudio.exe on the desktop or the taskbar.\n\n\n\n\nAdvanced software\nSoftware for advanced tasks is listed below, for example, for updating this web portal on GitHub, or for R package building.\n\nGit version control system https://git-scm.com/downloads\nRTools https://cran.r-project.org/bin/windows/Rtools/"
   },
   {
     "objectID": "tools/index.html#swisstransplant-r-package",
@@ -480,14 +480,21 @@
     "href": "exam/index.html#terms-of-use",
     "title": "EXAM—Ex vivo allograft monitoring",
     "section": "Terms of use",
-    "text": "Terms of use\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.\n\n\n\n\n\n\nImportant\n\n\n\n\n\nHypothermic machine perfusion data alone should never be used as the sole basis to discard a kidney allograft.\nPlease do not upload personal, sensitive, or patient-identifiable data. Any data uploaded to the application is temporary and will be automatically deleted when the session ends. The developers are not liable for any misuse of the application or the data provided by users."
+    "text": "Terms of use\nBy accessing or using this program, you agree to the terms of the GNU Affero General Public License and the following supplements to its sections 15 and 16:\n\nThe program is provided “as is” without warranty or any obligation from Swisstransplant;\nSwisstransplant excludes liability for damages, losses, or claims arising from program use, to the extent permitted by law; and\nYou are solely responsible for evaluating the program’s functionality, suitability, and safety before use.\n\n\n\n\n\n\n\nHypothermic machine perfusion data should not be used as a basis for discarding a kidney allograft.\nPlease refrain from uploading personal, sensitive, or patient-identifiable data. All uploaded data is temporary and will be automatically deleted at the end of the session. The developers assume no liability for any misuse of the application or the data provided by users."
   },
   {
     "objectID": "exam/index.html#dashboard",
     "href": "exam/index.html#dashboard",
     "title": "EXAM—Ex vivo allograft monitoring",
     "section": "Dashboard",
-    "text": "Dashboard\nHere is the link to the EXAM dashboard. The EXAM source code is maintained on GitHub. For research purposes, LifePort data can be parsed and processed using the Swisstransplant R package named swt."
+    "text": "Dashboard\nHere is the link to the EXAM dashboard. The EXAM source code is maintained on GitHub."
+  },
+  {
+    "objectID": "exam/index.html#research-and-data-analysis",
+    "href": "exam/index.html#research-and-data-analysis",
+    "title": "EXAM—Ex vivo allograft monitoring",
+    "section": "Research and data analysis",
+    "text": "Research and data analysis\nFor research purposes, LifePort data can be loaded and analyzed using the Swisstransplant R package swt. A showcase is provided here https://data.swisstransplant.org/lifeport/."
   },
   {
     "objectID": "exam/index.html#reference",
