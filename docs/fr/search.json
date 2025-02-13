@@ -497,11 +497,11 @@
     "text": "Research and data analysis\nFor research purposes, LifePort data can be loaded and analyzed using the Swisstransplant R package swt. A showcase is provided here https://data.swisstransplant.org/lifeport/."
   },
   {
-    "objectID": "exam/index.html#reference",
-    "href": "exam/index.html#reference",
+    "objectID": "exam/index.html#references",
+    "href": "exam/index.html#references",
     "title": "EXAM—Ex vivo allograft monitoring",
-    "section": "Reference",
-    "text": "Reference\nSchwab S, Steck H, Binet I, Elmer A, Ender W, Franscini N, Haidar F, Kuhn C, Sidler D, Storni F, Krügel N, Immer F. EXAM: Ex-vivo allograft monitoring dashboard for the analysis of hypothermic machine perfusion data in deceased-donor kidney transplantation. PLOS Digit Health. 2024;3(12):e0000691. doi:10.1371/journal.pdig.0000691"
+    "section": "References",
+    "text": "References\nSchwab S, Steck H, Binet I, Elmer A, Ender W, Franscini N, Haidar F, Kuhn C, Sidler D, Storni F, Krügel N, Immer F. EXAM: Ex-vivo allograft monitoring dashboard for the analysis of hypothermic machine perfusion data in deceased-donor kidney transplantation. PLOS Digit Health. 2024;3(12):e0000691. doi:10.1371/journal.pdig.0000691\nEXAM: Ex Vivo Allograft Monitoring Dashboard. Github; 2025. Accessed February 13, 2025. https://github.com/Swisstransplant/EXAM\nSchwab S. swt: Swisstransplant R Package. Github; 2024. Accessed February 13, 2025. https://github.com/Swisstransplant/swt"
   },
   {
     "objectID": "exam/index.html#acknowledgments",
