@@ -3,6 +3,7 @@ title: "1. Quartal 2024"
 draft: false
 author: "Swisstransplant"
 date: "2024-04-07"
+date-modified: last-modified
 categories: false
 image: "NotfallzentrumDraussen_26-400.jpg"
 title-block-banner: true
@@ -15,17 +16,16 @@ execute:
 Weniger spendende verstorbene Personen, weniger transplantierte Organe, viele Todesfälle auf der Warteliste.
 
 ::: {.callout-warning title="Hinweis"}
-Die Wartezeiten bis zur Transplantation werden nicht mehr pro Quartal ausgewiesen, sondern neu nur noch einmal pro Jahr. Die Berechnung erfolgt nach einer neuen Methodik ([siehe Abb. 4.13 Jahresbericht 2023](https://www.swisstransplant.org/fileadmin/user_upload/Bilder/Home/Organ-_und_Gewebespende/Fakten_und_Zahlen/Jahreszahlen/2023_ersetzt/Abb_4.13_2023_DE.jpg){target="_blank"}). Die Kennzahlen zu den Wartezeiten pro Organ werden auf dieser Website publiziert.
+Die Wartezeiten bis zur Transplantation werden nicht mehr pro Quartal ausgewiesen, sondern nur noch einmal pro Jahr. Die Berechnung erfolgt nach einer neuen Methodik (["Wie lange muss man auf ein Spendeorgan warten?"](https://data.swisstransplant.org/posts/2024-WL/){target="_blank"}).
 :::
 
 :::
 
 ::: {.content-visible when-profile="fr"}
-Moins de donneurs décédés, moins d'organes transplantés, beaucoup de décès sur la liste d'attente.
-
+Moins de donneurs décédés, moins d’organes transplantés, beaucoup de décès sur la liste d’attente.
 
 ::: {.callout-warning title="Remarque"}
-Les temps d’attente jusqu’à la transplantation ne sont plus indiqués par trimestre, mais seulement une fois par an. Le calcul est effectué selon une nouvelle méthodologie ([voir fig. 4.13 du rapport annuel 2023](https://www.swisstransplant.org/fileadmin/user_upload/Bilder/Home/Organ-_und_Gewebespende/Fakten_und_Zahlen/Jahreszahlen/2023_ersetzt/FR_2023/Ill_4.13_2023_FR.jpg){target="_blank"}). Les chiffres clés concernant les temps d'attente par organe seront publiés sur ce site.
+Les temps d’attente jusqu’à la transplantation ne sont plus indiqués par trimestre, mais seulement une fois par an. Le calcul est effectué selon une nouvelle méthodologie (["Combien de temps faut-il attendre pour recevoir un organe ?"](https://data.swisstransplant.org/fr/posts/2024-WL/){target="_blank"}).
 :::
 
 :::
@@ -38,7 +38,7 @@ The quarterly figures contain the most important key figures on the wait list an
 :::
 
 ::: {.callout-warning title="Please note"}
-Die Wartezeiten bis zur Transplantation werden nicht mehr pro Quartal ausgewiesen, sondern nur noch einmal pro Jahr. Die Berechnung erfolgt nach einer neuen Methodik ([siehe Abb. 4.13 Jahresbericht](https://www.swisstransplant.org/fileadmin/user_upload/Bilder/Home/Organ-_und_Gewebespende/Fakten_und_Zahlen/Jahreszahlen/2023_ersetzt/Abb_4.13_2023_DE.jpg){target="_blank"}). Die Kennzahlen zu den Wartezeiten pro Organ werden auf dieser Website publiziert.
+To be translated...
 :::
 
 :::
@@ -502,18 +502,18 @@ Im letzten Quartal erhielten in der Schweiz 102 Personen eines oder mehrere Orga
 Im letzten Quartal erhielten in der Schweiz 9 Personen Organe von spendenden verstorbenen Personen aus dem Ausland. Im Vergleich zum Vorquartal sind das 3 Transplantationen weniger (-25 %).
 :::
 
-## 3.3 Im Ausland transplantierte Personen
+## 3.3 Im Ausland transplantierte Organe
 
-![**Abb. 3.3** Im Ausland transplantierte Personen, die ein Organ von einer spendenden verstorbenen Person aus der Schweiz erhielten, total und nach Art der Transplantation.](Fig3.3-de.png){width=80%}
+![**Abb. 3.3** Im Ausland transplantierte Organe von einer spendenden verstorbenen Person aus der Schweiz, total und nach Art der Transplantation.](Fig3.3-de.png){width=80%}
 
 <br>
 
 |Indikator                                         |Letztes Quartal     |Veränderung zum Vorquartal            |
 |--------------------------------------------------|-------------------:|---------------------------------------:|
-|Anzahl transplantierte Personen im Ausland        |0                   |-9 (-100 %)                  |
+|Anzahl transplantierte Organe im Ausland          |0                   |-9 (-100 %)                  |
 
 ::: {.callout-note title="Lesebeispiel"}
-Im letzten Quartal erhielten im Ausland keine Patientinnen und Patienten Organe von spendenden verstorbenen Personen aus der Schweiz. Im Vorquartal waren es 9 Patientinnen und Patienten.
+Im letzten Quartal wurden im Ausland keine Organe von spendenden verstorbenen Personen aus der Schweiz transplantiert. Im Vorquartal waren es 9 Organe.
 :::
 
 ## 3.4 Herztransplantationen
@@ -644,18 +644,18 @@ Au dernier trimestre, 102 personnes ont reçu en Suisse un ou plusieurs organes 
 Au dernier trimestre, 9 patients ont reçu en Suisse des organes provenant de donneurs décédés à l'étranger. Par rapport au trimestre précédent, cela représente 3 transplantations de moins (-25 %).
 :::
 
-## 3.3 Patients transplantés à l'étranger
+## 3.3 Organes transplantés à l'étranger
 
-![**Fig. 3.3** Patients transplantés à l'étranger qui ont reçu un organe d'un donneur décédée en Suisse, total et par type de transplantation.](Fig3.3-fr.png){width=80%}
+![**Fig. 3.3** Organes transplantés à l'étranger d'un donneur décédée en Suisse, total et par type de transplantation.](Fig3.3-fr.png){width=80%}
 
 <br>
 
 |Indicateur                                       |Dernier trimestre    |Changement par rapport au trimestre précédent |
 |-------------------------------------------------|-------------------:|---------------------------------------:|
-|Nombre de patients transplantés à l'étranger     |0                   |-9 (-100 %)                  |
+|Nombre d'organes transplantés à l'étranger       |0                   |-9 (-100 %)                  |
 
 ::: {.callout-note title="Exemple de lecture"}
-Au dernier trimestre, aucun patient n'a reçu à l'étranger des organes provenant de donneurs décédés en Suisse. Au trimestre précédent, il s'agissait de 9 patients.
+Au dernier trimestre, aucun organe provenant de donneurs décédés en Suisse a été transplanté à l'étranger. Au trimestre précédent, il s'agissait de 9 organes.
 :::
 
 ## 3.4 Transplantations du cœur

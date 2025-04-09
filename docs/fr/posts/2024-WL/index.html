@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.40">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Swisstransplant">
+
+<title>Wie lange muss man auf ein Spendeorgan warten? – Swisstransplant Data Science</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<link href="../../images/SWT_icon_kreis_blau_2020_196x196.png" rel="icon" type="image/png">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-622631b09c8d859db60d7bdc1b25df99.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/SWT_2955_2021.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html"> 
+<span class="menu-text">Rapports statistiques</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-recherche" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Recherche</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-recherche">    
+        <li>
+    <a class="dropdown-item" href="../../tools/index.html">
+ <span class="dropdown-text">Research Tools</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../kidmo/index.html">
+ <span class="dropdown-text">KIDMO</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../exam/index.html">
+ <span class="dropdown-text">EXAM</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../publications/index.html">
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../about/index.html"> 
+<span class="menu-text">Qui sommes-nous?</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../.."> 
+<span class="menu-text">DE</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Wie lange muss man auf ein Spendeorgan warten?</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Auteur·rice</div>
+      <div class="quarto-title-meta-contents">
+               <p>Swisstransplant </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Date de publication</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">9 avril 2025</p>
+      </div>
+    </div>
+    
+      <div>
+      <div class="quarto-title-meta-heading">Modifié</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">9 avril 2025</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#lessentiel-en-bref" id="toc-lessentiel-en-bref" class="nav-link active" data-scroll-target="#lessentiel-en-bref">L’essentiel en bref</a></li>
+  <li><a href="#probabilité-de-la-transplantation" id="toc-probabilité-de-la-transplantation" class="nav-link" data-scroll-target="#probabilité-de-la-transplantation">1. Probabilité de la transplantation</a></li>
+  <li><a href="#temps-dattente-médian-jusquà-la-transplantation-mtt" id="toc-temps-dattente-médian-jusquà-la-transplantation-mtt" class="nav-link" data-scroll-target="#temps-dattente-médian-jusquà-la-transplantation-mtt">2. Temps d’attente médian jusqu’à la transplantation (MTT)</a>
+  <ul class="collapse">
+  <li><a href="#sec-2.1_FR" id="toc-sec-2.1_FR" class="nav-link" data-scroll-target="#sec-2.1_FR">2.1 Variation du temps d’attente médian au fil du temps</a></li>
+  </ul></li>
+  <li><a href="#probabilité-de-lévénement" id="toc-probabilité-de-lévénement" class="nav-link" data-scroll-target="#probabilité-de-lévénement">3. Probabilité de l’événement</a>
+  <ul class="collapse">
+  <li><a href="#liste-dattente-de-cœurs" id="toc-liste-dattente-de-cœurs" class="nav-link" data-scroll-target="#liste-dattente-de-cœurs">Liste d’attente de cœurs</a></li>
+  <li><a href="#liste-dattente-pour-les-poumons" id="toc-liste-dattente-pour-les-poumons" class="nav-link" data-scroll-target="#liste-dattente-pour-les-poumons">Liste d’attente pour les poumons</a></li>
+  <li><a href="#liste-dattente-de-foie" id="toc-liste-dattente-de-foie" class="nav-link" data-scroll-target="#liste-dattente-de-foie">Liste d’attente de foie</a></li>
+  <li><a href="#liste-dattente-pour-les-reins" id="toc-liste-dattente-pour-les-reins" class="nav-link" data-scroll-target="#liste-dattente-pour-les-reins">Liste d’attente pour les reins</a></li>
+  <li><a href="#liste-dattente-de-pancréasîlots-de-langerhans" id="toc-liste-dattente-de-pancréasîlots-de-langerhans" class="nav-link" data-scroll-target="#liste-dattente-de-pancréasîlots-de-langerhans">Liste d’attente de Pancréas/îlots de Langerhans</a></li>
+  </ul></li>
+  <li><a href="#taux-de-transplantation-des-2-dernières-années" id="toc-taux-de-transplantation-des-2-dernières-années" class="nav-link" data-scroll-target="#taux-de-transplantation-des-2-dernières-années">4. Taux de transplantation des 2 dernières années</a></li>
+  <li><a href="#méthodologie" id="toc-méthodologie" class="nav-link" data-scroll-target="#méthodologie">Méthodologie</a></li>
+  <li><a href="#littérature" id="toc-littérature" class="nav-link" data-scroll-target="#littérature">Littérature</a></li>
+  <li><a href="#faq-foire-aux-questions" id="toc-faq-foire-aux-questions" class="nav-link" data-scroll-target="#faq-foire-aux-questions">FAQ – Foire aux questions</a>
+  <ul class="collapse">
+  <li><a href="#pourquoi-le-sujet-de-la-liste-dattente-et-de-son-analyse-est-il-complexe" id="toc-pourquoi-le-sujet-de-la-liste-dattente-et-de-son-analyse-est-il-complexe" class="nav-link" data-scroll-target="#pourquoi-le-sujet-de-la-liste-dattente-et-de-son-analyse-est-il-complexe">Pourquoi le sujet de la liste d’attente et de son analyse est-il complexe ?</a></li>
+  <li><a href="#pourquoi-ne-peut-on-pas-sélectionner-toutes-les-personnes-transplantées-en-2024-et-calculer-rétroactivement-leur-temps-dattente" id="toc-pourquoi-ne-peut-on-pas-sélectionner-toutes-les-personnes-transplantées-en-2024-et-calculer-rétroactivement-leur-temps-dattente" class="nav-link" data-scroll-target="#pourquoi-ne-peut-on-pas-sélectionner-toutes-les-personnes-transplantées-en-2024-et-calculer-rétroactivement-leur-temps-dattente">Pourquoi ne peut-on pas sélectionner toutes les personnes transplantées en 2024 et calculer rétroactivement leur temps d’attente ?</a></li>
+  <li><a href="#comment-interpréter-exactement-le-temps-dattente-médian-jusquà-la-transplantation-mtt" id="toc-comment-interpréter-exactement-le-temps-dattente-médian-jusquà-la-transplantation-mtt" class="nav-link" data-scroll-target="#comment-interpréter-exactement-le-temps-dattente-médian-jusquà-la-transplantation-mtt">Comment interpréter exactement le temps d’attente médian jusqu’à la transplantation (MTT) ?</a></li>
+  <li><a href="#est-il-également-possible-destimer-des-temps-dattente-individuels" id="toc-est-il-également-possible-destimer-des-temps-dattente-individuels" class="nav-link" data-scroll-target="#est-il-également-possible-destimer-des-temps-dattente-individuels">Est-il également possible d’estimer des temps d’attente individuels ?</a></li>
+  <li><a href="#pourquoi-la-période-dinactivité-est-elle-ignorée-dans-le-calcul-du-temps-dattente-médian-jusquà-la-transplantation-mtt" id="toc-pourquoi-la-période-dinactivité-est-elle-ignorée-dans-le-calcul-du-temps-dattente-médian-jusquà-la-transplantation-mtt" class="nav-link" data-scroll-target="#pourquoi-la-période-dinactivité-est-elle-ignorée-dans-le-calcul-du-temps-dattente-médian-jusquà-la-transplantation-mtt">Pourquoi la période d’inactivité est-elle ignorée dans le calcul du temps d’attente médian jusqu’à la transplantation (MTT) ?</a></li>
+  <li><a href="#quel-serait-le-temps-dattente-moyen-pour-un-organe-si-lon-était-nouvellement-listé-aujourdhui" id="toc-quel-serait-le-temps-dattente-moyen-pour-un-organe-si-lon-était-nouvellement-listé-aujourdhui" class="nav-link" data-scroll-target="#quel-serait-le-temps-dattente-moyen-pour-un-organe-si-lon-était-nouvellement-listé-aujourdhui">Quel serait le temps d’attente moyen pour un organe si l’on était nouvellement listé aujourd’hui ?</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="lessentiel-en-bref" class="level2">
+<h2 class="anchored" data-anchor-id="lessentiel-en-bref">L’essentiel en bref</h2>
+<ul>
+<li><p>En Suisse, le temps d’attente médian pour un rein d’une personne nouvellement inscrite entre 2015 et 2024 était d’environ 3 ans. Pour les autres organes, les temps d’attente étaient généralement plus courts et se situent entre 0.7 et 1.6 an.</p></li>
+<li><p>Le temps d’attente médian pour les transplantations cardiaques, pulmonaires et rénales diminue depuis quelques années. Pour les transplantations de foie, le temps d’attente augmente.</p></li>
+<li><p>De nombreux facteurs peuvent influencer le temps d’attente pour un organe, comme la disponibilité des organes, l’urgence médicale ou le groupe sanguin.</p></li>
+</ul>
+<p>Swisstransplant calcule les temps d’attente pour les transplantations avec des organes de donneurs décédés. Les temps d’attente indiqués ici se basent sur toutes les personnes nouvellement inscrites en Suisse entre 2015 et 2024 , mais chaque patiente, chaque patient est différent. Le temps d’attente individuel peut être beaucoup plus court ou plus long. Il dépend de la disponibilité des organes, de l’urgence médicale, du groupe sanguin et, selon l’organe, d’autres facteurs comme l’âge ou le poids.</p>
+</section>
+<section id="probabilité-de-la-transplantation" class="level1">
+<h1>1. Probabilité de la transplantation</h1>
+<p>La probabilité d’une transplantation constitue la base de l’estimation des temps d’attente. Par exemple, si 20 personnes sur 100 en attente sont transplantées dans les cinq premiers mois, la probabilité d’obtenir une transplantation d’ici là est de 20 %. Cette probabilité peut être représentée par une courbe en fonction du temps (courbe d’incidence cumulative) (<a href="#fig-1_FR" class="quarto-xref">Abb.&nbsp;1</a>). La courbe commence avec une probabilité de 0 au moment de l’inscription et augmente au cours de la période d’attente, mais n’atteint jamais la valeur 1, car toutes les personnes ne sont jamais transplantées. Il est possible de lire certaines valeurs sur la courbe, par exemple la probabilité d’être transplanté au cours de la première année ou le temps d’attente après lequel la probabilité d’une transplantation est de 50 % – ce que l’on appelle le temps d’attente médian.</p>
+<div id="fig-1_FR" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-1_FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="WAIT-CI-fr.png" class="img-fluid figure-img" style="width:90.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-1_FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Courbes d’incidence cumulée de l’événement Transplantation pour les différents organes A–E (avec bande de confiance à 95 %). Les courbes indiquent la probabilité qu’une personne soit transplantée dans une période donnée après son inscription sur la liste d’attente. La croix marque le temps d’attente médian jusqu’à la transplantation, c’est-à-dire le temps d’attente après lequel la probabilité d’une transplantation est de 50 %. Période d’observation 2015 – 2024.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="temps-dattente-médian-jusquà-la-transplantation-mtt" class="level1">
+<h1>2. Temps d’attente médian jusqu’à la transplantation (MTT)</h1>
+<p>Si l’on souhaite obtenir une valeur caractéristique unique pour le temps d’attente, le temps d’attente médian jusqu’à la transplantation (median time to transplantation ; MTT) peut être déduit des courbes de la <a href="#fig-1_FR" class="quarto-xref">Abb.&nbsp;1</a>. Il correspond au temps d’attente après lequel la probabilité d’une transplantation est de 50 % et peut être interprété comme un temps d’attente moyen (<a href="#tbl-6_FR" class="quarto-xref">Tab.&nbsp;1</a>). Il ne s’agit pas d’une simple moyenne ou valeur médiane des temps d’attente de tous les transplantés, mais toutes les personnes – transplantées, décédées, retirées de la liste et toujours en attente – sont prises en compte dans le calcul. Le temps d’attente médian est toutefois une valeur moyenne sur l’ensemble de la période d’observation de 2015 à 2024. Pour de nombreux organes, le temps d’attente est aujourd’hui plus court que la valeur MTT indiquée dans la <a href="#fig-1_FR" class="quarto-xref">Abb.&nbsp;1</a> ou le <a href="#tbl-6_FR" class="quarto-xref">Tab.&nbsp;1</a>.</p>
+<div id="tbl-6_FR" class="striped hover quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-6_FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Temps d’attente médian jusqu’à la transplantation (MTT) et intervalle de confiance à 95 % de toutes les personnes nouvellement inscrites sur la liste entre 2015 et 2024. Le MTT est une estimation qui comporte une certaine incertitude. L’intervalle de confiance à 95 % est la zone qui, en cas de nombreuses répétitions de l’étude, contient la vraie valeur dans 95 cas sur 100.
+</figcaption>
+<div aria-describedby="tbl-6_FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table-striped table-hover caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 56%">
+<col style="width: 23%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: right;">Temps d’attente médian jusqu’à la transplantation (MTT) en années</th>
+<th style="text-align: left;">Intervalle de confiance de 95 %</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Cœur</td>
+<td style="text-align: right;">1.13</td>
+<td style="text-align: left;">0.85–1.57</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Poumons</td>
+<td style="text-align: right;">0.74</td>
+<td style="text-align: left;">0.56–0.90</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Foie</td>
+<td style="text-align: right;">1.32</td>
+<td style="text-align: left;">0.83–1.54</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Reins</td>
+<td style="text-align: right;">3.16</td>
+<td style="text-align: left;">2.80–3.63</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Pancréas/îlots de Langerhans</td>
+<td style="text-align: right;">1.57</td>
+<td style="text-align: left;">0.96–1.78</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<section id="sec-2.1_FR" class="level2">
+<h2 class="anchored" data-anchor-id="sec-2.1_FR">2.1 Variation du temps d’attente médian au fil du temps</h2>
+<p>Pour estimer l’évolution du temps d’attente médian jusqu’à la transplantation au fil du temps, on considère le taux de transplantation, c’est-à-dire le nombre de fois où l’événement transplantation se produit dans une période donnée. Ce taux d’événements est également appelé en anglais taux de risque (voir box <em>Qu’est-ce qu’un taux de risque ?</em>). L’évolution du taux de transplantation au cours des dernières années montre une tendance différente selon les organes (<a href="#fig-2_FR" class="quarto-xref">Abb.&nbsp;2</a>). Alors que les listes d’attente pour le cœur, les poumons et les reins affichent une tendance positive, on observe un léger recul du taux de transplantation pour la liste d’attente du foie.</p>
+<p>Cela signifie que, par conséquent, le temps d’attente médian pour un cœur, un poumon ou un rein diminue (depuis 2021 pour le cœur et le poumon), mais que le temps d’attente médian pour un foie augmente depuis 2019. Pour les transplantations de pancréas ou d’îlots de Langerhans, rien n’indique que le taux de transplantation a changé, car l’incertitude est trop grande en raison du peu de données disponibles.</p>
+<div id="fig-2_FR" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-2_FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="WAIT-regdate-fr.png" class="img-fluid figure-img" style="width:90.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-2_FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Évolution du taux de transplantation au cours des dernières années (avec une bande de confiance de 95 %). Pour les transplantations cardiaques, pulmonaires et rénales, on constate une augmentation du taux de transplantation au cours des dernières années, tandis que la tendance est légèrement à la baisse pour les transplantations hépatiques. Pour les transplantations de pancréas ou d’îlots de Langerhans, l’incertitude est trop grande pour en déduire une tendance.
+</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Qu’est-ce qu’un taux de risque ?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Le <strong>taux de risque</strong> dans les statistiques médicales décrit le <strong>taux</strong> auquel un événement tel qu’une transplantation se produit dans un court intervalle de temps – en supposant qu’il ne s’est pas encore produit à ce moment-là.</p>
+<p>Le taux de risque peut être compris comme <strong>l’intensité momentanée</strong> de l’événement. Important : le taux de risque n’est pas une probabilité, mais un taux qui indique combien de fois l’événement est attendu par unité de temps – un peu comme lorsqu’on regarde la vitesse d’une voiture. Il s’agit donc de savoir à quelle vitesse quelque chose est en train de se produire.</p>
+<p>Par exemple, si nous considérons les patients sur la liste d’attente pour une transplantation cardiaque, le taux de risque décrit avec quel taux une personne reçoit un organe de donneur à ce moment précis – en supposant qu’elle attend encore.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="probabilité-de-lévénement" class="level1">
+<h1>3. Probabilité de l’événement</h1>
+<p>La transplantation est l’événement le plus fréquent, mais il peut aussi arriver que des personnes inscrites sur la liste d’attente décèdent ou soient retirées de la liste (delisting).</p>
+<p>Pour chacun de ces trois événements possibles sur la liste d’attente – transplantation, décès et delisting - il est possible d’établir des courbes d’incidence cumulatives à partir desquelles il est possible de lire les probabilités d’événement. Celles-ci sont présentées ci-dessous pour les différents organes et événements survenus au cours des cinq premières années suivant l’inscription sur la liste (<a href="#tbl-1_FR" class="quarto-xref">Tab.&nbsp;2</a>). La somme des probabilités des événements possibles, y compris la probabilité de continuer à attendre un organe, est toujours égale à 1 à tout moment.</p>
+<p>Les probabilités indiquées se basent sur les données des années 2015 – 2024. Les probabilités des personnes listées aujourd’hui peuvent être différentes. Par exemple, les chances de recevoir un organe aujourd’hui sont plus élevées pour de nombreux organes, car les processus de don et d’allocation sont constamment optimisés (voir également le chapitre <a href="#sec-2.1_FR" class="quarto-xref">Section&nbsp;2.1</a>).</p>
+<section id="liste-dattente-de-cœurs" class="level3">
+<h3 class="anchored" data-anchor-id="liste-dattente-de-cœurs">Liste d’attente de cœurs</h3>
+<div id="tbl-1_FR" class="striped hover quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-1_FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Probabilités d’événements sur la liste d’attente cardiaque. La probabilité d’être transplanté au cours de la première année est de 47 %, tandis que le risque de décès est de 10 %.
+</figcaption>
+<div aria-describedby="tbl-1_FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table-striped table-hover caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">1 an</th>
+<th style="text-align: left;">2 ans</th>
+<th style="text-align: left;">3 ans</th>
+<th style="text-align: left;">4 ans</th>
+<th style="text-align: left;">5 ans</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Transplantation</td>
+<td style="text-align: left;">0.47</td>
+<td style="text-align: left;">0.59</td>
+<td style="text-align: left;">0.67</td>
+<td style="text-align: left;">0.71</td>
+<td style="text-align: left;">0.71</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Décès</td>
+<td style="text-align: left;">0.10</td>
+<td style="text-align: left;">0.13</td>
+<td style="text-align: left;">0.15</td>
+<td style="text-align: left;">0.15</td>
+<td style="text-align: left;">0.15</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Delisting</td>
+<td style="text-align: left;">0.04</td>
+<td style="text-align: left;">0.06</td>
+<td style="text-align: left;">0.06</td>
+<td style="text-align: left;">0.08</td>
+<td style="text-align: left;">0.10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Attendre</td>
+<td style="text-align: left;">0.39</td>
+<td style="text-align: left;">0.22</td>
+<td style="text-align: left;">0.12</td>
+<td style="text-align: left;">0.06</td>
+<td style="text-align: left;">0.04</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="liste-dattente-pour-les-poumons" class="level3">
+<h3 class="anchored" data-anchor-id="liste-dattente-pour-les-poumons">Liste d’attente pour les poumons</h3>
+<div id="tbl-2_FR" class="striped hover quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-2_FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: Probabilités d’événements sur la liste d’attente pulmonaire. La probabilité d’être transplanté au cours de la première année est de 58 %, tandis que le risque de décès est de 7 %.
+</figcaption>
+<div aria-describedby="tbl-2_FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table-striped table-hover caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">1 an</th>
+<th style="text-align: left;">2 ans</th>
+<th style="text-align: left;">3 ans</th>
+<th style="text-align: left;">4 ans</th>
+<th style="text-align: left;">5 ans</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Transplantation</td>
+<td style="text-align: left;">0.58</td>
+<td style="text-align: left;">0.76</td>
+<td style="text-align: left;">0.82</td>
+<td style="text-align: left;">0.83</td>
+<td style="text-align: left;">0.83</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Décès</td>
+<td style="text-align: left;">0.07</td>
+<td style="text-align: left;">0.08</td>
+<td style="text-align: left;">0.09</td>
+<td style="text-align: left;">0.10</td>
+<td style="text-align: left;">0.10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Delisting</td>
+<td style="text-align: left;">0.03</td>
+<td style="text-align: left;">0.05</td>
+<td style="text-align: left;">0.05</td>
+<td style="text-align: left;">0.05</td>
+<td style="text-align: left;">0.06</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Attendre</td>
+<td style="text-align: left;">0.32</td>
+<td style="text-align: left;">0.11</td>
+<td style="text-align: left;">0.04</td>
+<td style="text-align: left;">0.02</td>
+<td style="text-align: left;">0.01</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="liste-dattente-de-foie" class="level3">
+<h3 class="anchored" data-anchor-id="liste-dattente-de-foie">Liste d’attente de foie</h3>
+<div id="tbl-3_FR" class="striped hover quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-3_FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;4: Probabilités d’événements sur la liste d’attente de foie. La probabilité d’être transplanté dans la première année est de 40 %, tandis que le risque de décès est de 12 %.
+</figcaption>
+<div aria-describedby="tbl-3_FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table-striped table-hover caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">1 an</th>
+<th style="text-align: left;">2 ans</th>
+<th style="text-align: left;">3 ans</th>
+<th style="text-align: left;">4 ans</th>
+<th style="text-align: left;">5 ans</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Transplantation</td>
+<td style="text-align: left;">0.40</td>
+<td style="text-align: left;">0.61</td>
+<td style="text-align: left;">0.66</td>
+<td style="text-align: left;">0.67</td>
+<td style="text-align: left;">0.67</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Décès</td>
+<td style="text-align: left;">0.12</td>
+<td style="text-align: left;">0.14</td>
+<td style="text-align: left;">0.16</td>
+<td style="text-align: left;">0.17</td>
+<td style="text-align: left;">0.17</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Delisting</td>
+<td style="text-align: left;">0.05</td>
+<td style="text-align: left;">0.09</td>
+<td style="text-align: left;">0.11</td>
+<td style="text-align: left;">0.13</td>
+<td style="text-align: left;">0.14</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Attendre</td>
+<td style="text-align: left;">0.43</td>
+<td style="text-align: left;">0.15</td>
+<td style="text-align: left;">0.07</td>
+<td style="text-align: left;">0.04</td>
+<td style="text-align: left;">0.02</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="liste-dattente-pour-les-reins" class="level3">
+<h3 class="anchored" data-anchor-id="liste-dattente-pour-les-reins">Liste d’attente pour les reins</h3>
+<div id="tbl-4_FR" class="striped hover quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-4_FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;5: Probabilités d’événements sur la liste d’attente de rein. La probabilité d’être transplanté au cours de la première année est de 19 %, tandis que le risque de décès est de 1 %.
+</figcaption>
+<div aria-describedby="tbl-4_FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table-striped table-hover caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">1 an</th>
+<th style="text-align: left;">2 ans</th>
+<th style="text-align: left;">3 ans</th>
+<th style="text-align: left;">4 ans</th>
+<th style="text-align: left;">5 ans</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Transplantation</td>
+<td style="text-align: left;">0.19</td>
+<td style="text-align: left;">0.33</td>
+<td style="text-align: left;">0.48</td>
+<td style="text-align: left;">0.58</td>
+<td style="text-align: left;">0.68</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Décès</td>
+<td style="text-align: left;">0.01</td>
+<td style="text-align: left;">0.03</td>
+<td style="text-align: left;">0.04</td>
+<td style="text-align: left;">0.05</td>
+<td style="text-align: left;">0.06</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Delisting</td>
+<td style="text-align: left;">0.01</td>
+<td style="text-align: left;">0.03</td>
+<td style="text-align: left;">0.05</td>
+<td style="text-align: left;">0.07</td>
+<td style="text-align: left;">0.08</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Attendre</td>
+<td style="text-align: left;">0.79</td>
+<td style="text-align: left;">0.61</td>
+<td style="text-align: left;">0.42</td>
+<td style="text-align: left;">0.30</td>
+<td style="text-align: left;">0.18</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="liste-dattente-de-pancréasîlots-de-langerhans" class="level3">
+<h3 class="anchored" data-anchor-id="liste-dattente-de-pancréasîlots-de-langerhans">Liste d’attente de Pancréas/îlots de Langerhans</h3>
+<div id="tbl-5_FR" class="striped hover quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-5_FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;6: Probabilités d’événements sur la liste d’attente de pancréas/ d’îlots de Langerhans. La probabilité d’être transplanté dans la première année est de 36 %, tandis que le risque de décès est &lt;1 %.
+</figcaption>
+<div aria-describedby="tbl-5_FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table-striped table-hover caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">1 an</th>
+<th style="text-align: left;">2 ans</th>
+<th style="text-align: left;">3 ans</th>
+<th style="text-align: left;">4 ans</th>
+<th style="text-align: left;">5 ans</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Transplantation</td>
+<td style="text-align: left;">0.36</td>
+<td style="text-align: left;">0.59</td>
+<td style="text-align: left;">0.70</td>
+<td style="text-align: left;">0.72</td>
+<td style="text-align: left;">0.76</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Décès</td>
+<td style="text-align: left;">0.00</td>
+<td style="text-align: left;">0.03</td>
+<td style="text-align: left;">0.03</td>
+<td style="text-align: left;">0.03</td>
+<td style="text-align: left;">0.04</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Delisting</td>
+<td style="text-align: left;">0.01</td>
+<td style="text-align: left;">0.04</td>
+<td style="text-align: left;">0.05</td>
+<td style="text-align: left;">0.06</td>
+<td style="text-align: left;">0.10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Attendre</td>
+<td style="text-align: left;">0.62</td>
+<td style="text-align: left;">0.35</td>
+<td style="text-align: left;">0.22</td>
+<td style="text-align: left;">0.18</td>
+<td style="text-align: left;">0.10</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+</section>
+<section id="taux-de-transplantation-des-2-dernières-années" class="level1">
+<h1>4. Taux de transplantation des 2 dernières années</h1>
+<p>Il est possible de comparer les taux de transplantation pour différentes dates d’inscription. Nous calculons la différence entre les personnes inscrites sur la liste d’attente début 2024 et celles inscrites début 2022 (voir l’encadré <em>Qu’est-ce qu’un hazard ratio ?</em>). En ce qui concerne les transplantations cardiaques et pulmonaires, le taux de transplantation pour les personnes listées début 2024 a été multiplié par 1,84 et 1,86, ce qui correspond presque à un doublement. Pour les transplantations rénales, le taux a été multiplié par 1,5. En revanche, le taux de transplantation hépatique a été divisé par 0,78, soit une baisse de 22 %. Pour les transplantations de pancréas et d’îlots de Langerhans, nous n’avons trouvé aucune indication d’une modification du taux de transplantation (<a href="#tbl-7_FR" class="quarto-xref">Tab.&nbsp;7</a>).</p>
+<div id="tbl-7_FR" class="striped hover quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-7_FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;7: Le hazard ratio compare le taux de transplantation pour les inscriptions début 2024 et début 2022. L’intervalle de confiance à 95 % est la zone qui contient souvent la vraie valeur en cas de nombreuses répétitions de l’étude. De très petites valeurs de p indiquent une forte évidence que le taux de transplantation a effectivement changé.
+</figcaption>
+<div aria-describedby="tbl-7_FR-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table-striped table-hover caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 13%">
+<col style="width: 16%">
+<col style="width: 29%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Organe</th>
+<th style="text-align: left;">Différence</th>
+<th style="text-align: left;">Hazard Ratio</th>
+<th style="text-align: left;">Intervalle de confiance de 95 %</th>
+<th style="text-align: left;">Valeur p</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Cœur</td>
+<td style="text-align: left;">2022–2024</td>
+<td style="text-align: left;">1.84</td>
+<td style="text-align: left;">1.41–2.40</td>
+<td style="text-align: left;">&lt; 0.001 ***</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Poumons</td>
+<td style="text-align: left;">2022–2024</td>
+<td style="text-align: left;">1.86</td>
+<td style="text-align: left;">1.42–2.43</td>
+<td style="text-align: left;">&lt; 0.001 ***</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Foie</td>
+<td style="text-align: left;">2022–2024</td>
+<td style="text-align: left;">0.78</td>
+<td style="text-align: left;">0.63–0.95</td>
+<td style="text-align: left;">&lt; 0.001 ***</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Reins</td>
+<td style="text-align: left;">2022–2024</td>
+<td style="text-align: left;">1.52</td>
+<td style="text-align: left;">1.25–1.83</td>
+<td style="text-align: left;">&lt; 0.001 ***</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Pancréas/îlots de Langerhans</td>
+<td style="text-align: left;">2022–2024</td>
+<td style="text-align: left;">0.71</td>
+<td style="text-align: left;">0.36–1.43</td>
+<td style="text-align: left;">0.55</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Qu’est-ce qu’un hazard ratio ?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Le hazard ratio est la proportion des taux de risque entre deux groupes et indique de combien le risque d’un événement (par exemple une transplantation) est plus ou moins élevé dans un groupe par rapport à l’autre. Là encore, l’exemple de la vitesse est utile : si une voiture roule deux fois plus vite qu’une autre, la proportion des vitesses est de 2.</p>
+<p>Exemple : Supposons que le hazard ratio pour les personnes inscrites sur la liste d’attente début 2024 par rapport à celles inscrites début 2022 est de 2. Cela signifie que le taux de transplantation du groupe de 2024 est deux fois plus élevé que celui du groupe de 2022.</p>
+</div>
+</div>
+</section>
+<section id="méthodologie" class="level1">
+<h1>Méthodologie</h1>
+<p>Swisstransplant a évalué toutes les nouvelles personnes inscrites entre 2015 et 2024 : 560 sur la liste d’attente cardiaque, 550 sur la liste d’attente pulmonaire, 2096 sur la liste d’attente hépatique, 2764 sur la liste d’attente rénale et 211 sur la liste d’attente pancréatique/ d’îlots de Langerhans. Fin 2024, 383 personnes ont reçu un cœur, 438 un poumon, 1261 un foie, 1600 un rein et 144 une greffe de pancréas ou d’îlots de Langerhans.</p>
+<p>Pour les résultats des chapitres 1 à 3, des modèles multi-états ont été utilisés avec l’estimateur d’Aalen-Johansen. Des informations plus détaillées sur ces méthodes sont disponibles dans la littérature. Pour les résultats des chapitres 2.1 et 4, des modèles hazard spécifiques aux événements ont été adaptés en utilisant la date d’inscription comme variable explicative, qui pouvait prendre une forme non linéaire.</p>
+</section>
+<section id="littérature" class="level1">
+<h1>Littérature</h1>
+<p>Schwab S, Elmer A, Sidler D, Straumann L, Stürzinger U, Immer F. Selection bias in reporting of median waiting times in organ transplantation. <em>JAMA Netw Open.</em> 2024;7(9):e2432415. <a href="http://dx.doi.org/10.1001/jamanetworkopen.2024.32415">doi:10.1001/jamanetworkopen.2024.32415</a></p>
+</section>
+<section id="faq-foire-aux-questions" class="level1">
+<h1>FAQ – Foire aux questions</h1>
+<p>Le thème de la liste d’attente est très complexe. C’est pourquoi nous répondons aux questions les plus fréquemment posées.</p>
+<section id="pourquoi-le-sujet-de-la-liste-dattente-et-de-son-analyse-est-il-complexe" class="level2">
+<h2 class="anchored" data-anchor-id="pourquoi-le-sujet-de-la-liste-dattente-et-de-son-analyse-est-il-complexe">Pourquoi le sujet de la liste d’attente et de son analyse est-il complexe ?</h2>
+<p>La liste d’attente n’est jamais terminée, car de nouvelles personnes s’y ajoutent constamment. Nous connaissons la date d’inscription de chaque personne, mais il n’existe pas de date à laquelle toutes les personnes peuvent être observées de manière définitive. Pour certaines, nous savons quand la transplantation a eu lieu, pour d’autres, nous savons seulement que cela ne s’est pas encore produit avant une certaine date. C’est ce qu’on appelle des données censurées à droite - cela signifie que le moment exact de l’événement (par exemple une transplantation) est encore inconnu pour certaines personnes.</p>
+<p>De telles données nécessitent des procédures spéciales de biostatistique, notamment à partir de l’analyse des temps de survie. En outre, il existe sur la liste d’attente ce que l’on appelle des risques concurrents : Si une personne est retirée de la liste ou décède, la transplantation ne peut plus se produire comme événement. Cela doit également être pris en compte dans l’analyse, à l’aide de méthodes avancées d’analyse des temps de survie avec des risques concurrents qui permettent plusieurs événements possibles.</p>
+</section>
+<section id="pourquoi-ne-peut-on-pas-sélectionner-toutes-les-personnes-transplantées-en-2024-et-calculer-rétroactivement-leur-temps-dattente" class="level2">
+<h2 class="anchored" data-anchor-id="pourquoi-ne-peut-on-pas-sélectionner-toutes-les-personnes-transplantées-en-2024-et-calculer-rétroactivement-leur-temps-dattente">Pourquoi ne peut-on pas sélectionner toutes les personnes transplantées en 2024 et calculer rétroactivement leur temps d’attente ?</h2>
+<p>Il serait problématique de sélectionner le groupe de patients sur la base du résultat. Ainsi, seules les personnes transplantées seraient prises en compte, alors que toutes celles qui sont encore en attente d’un organe, qui ont été retirées de la liste ou qui sont décédées resteraient exclues. Un tel “biais de sélection” fausserait les résultats - généralement dans le sens d’une estimation trop optimiste des temps d’attente.</p>
+<p>C’est pourquoi nous ne sélectionnons pas la population de l’étude en fonction des résultats ultérieurs, mais en fonction de la date d’inscription sur la liste.</p>
+</section>
+<section id="comment-interpréter-exactement-le-temps-dattente-médian-jusquà-la-transplantation-mtt" class="level2">
+<h2 class="anchored" data-anchor-id="comment-interpréter-exactement-le-temps-dattente-médian-jusquà-la-transplantation-mtt">Comment interpréter exactement le temps d’attente médian jusqu’à la transplantation (MTT) ?</h2>
+<p>Il correspond au temps d’attente après lequel la probabilité d’une transplantation est de 50 %. Pour le rein, le MTT est de 3,1 ans ; on peut donc supposer qu’après environ 3 ans, 50 personnes sur 100 recevront un rein.</p>
+<p>Le MTT ne comporte que quelques hypothèses. Celles-ci sont que la personne en attente n’est pas inscrite pour un don de donneur vivant au moment du référencement ou qu’elle recevra un don de donneur vivant plus tard. Le don d’organe par une personne vivante est généralement un événement facile à planifier. Le temps d’attente est donc différent de celui d’un organe provenant d’une personne décédée.</p>
+<p>En principe, le MTT est le temps d’attente moyen pour une personne dont nous ne savons presque rien – si ce n’est qu’elle a été inscrite sur la liste pour une transplantation d’organe. Nous ne savons pas s’il s’agit d’un enfant ou d’un adulte, quel est le sexe de la personne, s’il y a une grande urgence médicale, quel est le groupe sanguin ou si la personne aura un temps d’attente inactif. Tous ces facteurs influencent considérablement le temps d’attente individuel, de sorte qu’en réalité, celui-ci peut être nettement plus court ou plus long que le MTT.</p>
+</section>
+<section id="est-il-également-possible-destimer-des-temps-dattente-individuels" class="level2">
+<h2 class="anchored" data-anchor-id="est-il-également-possible-destimer-des-temps-dattente-individuels">Est-il également possible d’estimer des temps d’attente individuels ?</h2>
+<p>Il n’est pas possible d’effectuer des estimations complètement individualisées pour des personnes individuelles. Mais des estimations plus spécifiques, tenant compte de facteurs individuels tels que le groupe sanguin, l’âge ou le poids, seront possibles à l’avenir grâce à des modèles étendus. Les facteurs qui influencent le temps d’attente peuvent varier d’un organe à l’autre.</p>
+</section>
+<section id="pourquoi-la-période-dinactivité-est-elle-ignorée-dans-le-calcul-du-temps-dattente-médian-jusquà-la-transplantation-mtt" class="level2">
+<h2 class="anchored" data-anchor-id="pourquoi-la-période-dinactivité-est-elle-ignorée-dans-le-calcul-du-temps-dattente-médian-jusquà-la-transplantation-mtt">Pourquoi la période d’inactivité est-elle ignorée dans le calcul du temps d’attente médian jusqu’à la transplantation (MTT) ?</h2>
+<p>Les personnes sur la liste d’attente peuvent devenir temporairement inactives pour des raisons médicales, par exemple une infection, et ne seront pas transplantées pendant cette période. On pourrait argumenter que l’inclusion des personnes inactives pourrait fausser les temps d’attente, car elles ne sont pas vraiment en attente d’un organe pendant leurs périodes d’inactivité.</p>
+<p>D’autre part, si l’on ne tient compte que du temps d’activité, les temps d’attente semblent trop optimistes. De nombreux patients connaissent des périodes inactives et les ignorer créerait une hypothèse irréaliste. Par conséquent, aucune correction n’est apportée pour la période inactive et le MTT représente une valeur caractéristique neutre, sans faire d’hypothèses sur les périodes inactives, c’est-à-dire si elles peuvent se produire ou non.</p>
+</section>
+<section id="quel-serait-le-temps-dattente-moyen-pour-un-organe-si-lon-était-nouvellement-listé-aujourdhui" class="level2">
+<h2 class="anchored" data-anchor-id="quel-serait-le-temps-dattente-moyen-pour-un-organe-si-lon-était-nouvellement-listé-aujourdhui">Quel serait le temps d’attente moyen pour un organe si l’on était nouvellement listé aujourd’hui ?</h2>
+<p>C’est une question difficile, car elle nécessite de se projeter dans l’avenir. Nous observons les taux de transplantation au fil du temps et étudions leur évolution. En règle générale, les temps d’attente pour la plupart des organes s’améliorent, c’est-à-dire qu’ils raccourcissent. Cependant, en particulier pour les reins, il faut plusieurs années avant que suffisamment de transplantations aient été effectuées pour pouvoir faire une estimation fiable. C’est pourquoi nous ne pouvons pas encore faire d’estimation fiable pour les personnes nouvellement inscrites. Swisstransplant travaille cependant à l’élaboration de méthodes plus avancées qui permettront de faire de telles estimations à l’avenir.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copié");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copié");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/data\.swisstransplant\.org\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2023–2025 Swisstransplant</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

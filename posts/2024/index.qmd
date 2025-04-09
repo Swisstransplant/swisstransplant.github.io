@@ -3,6 +3,7 @@ title: "Jahreszahlen 2024"
 draft: false
 author: "Swisstransplant"
 date: "2025-01-21"
+date-modified: last-modified
 categories: false
 image: "bild ae.jpg"
 title-block-banner: true
@@ -15,7 +16,7 @@ execute:
 Zweithöchste Anzahl spendender verstorbener Personen nach dem Rekordjahr 2023. Erstmals überstieg die Anzahl Organspenden im Hirntod nach Herz-Kreislauf-Stillstand (DCD) die Organspenden im Hirntod (DBD).
 
 ::: {.callout-warning title="Hinweis"}
-Die Kennzahlen zu den Wartezeiten bis zur Transplantation werden neu separat ausgewiesen. Die Berechnung erfolgt nach einer neuen Methodik, die alle Personen auf der Warteliste berücksichtigt, nicht mehr nur Personen, die ein Organ erhielten. Eine Grafik zu den durchschnittlichen Wartezeiten pro Organ finden sie im Swisstransplant Jahresbericht 2023 ([siehe Abb. 4.13](https://www.swisstransplant.org/fileadmin/user_upload/Bilder/Home/Organ-_und_Gewebespende/Fakten_und_Zahlen/Jahreszahlen/2023_ersetzt/Abb_4.13_2023_DE.jpg){target="_blank"}). Die Entwicklung der Wartezeiten über die letzten 5 Jahre wird auch auf dieser Website publiziert werden.
+Die Kennzahlen zu den Wartezeiten bis zur Transplantation werden neu separat ausgewiesen. Die Berechnung erfolgt nach einer neuen Methodik (["Wie lange muss man auf ein Spendeorgan warten?"](https://data.swisstransplant.org/posts/2024-WL/){target="_blank"}).
 :::
 
 :::
@@ -24,7 +25,7 @@ Die Kennzahlen zu den Wartezeiten bis zur Transplantation werden neu separat aus
 Deuxième plus grand nombre de donneurs décédés après l'année record de 2023. Pour la première fois, le nombre de dons d'organes en état de mort cérébrale après un arrêt cardio-circulatoire (DCD) a dépassé celui des dons d'organes en état de mort cérébrale (DBD).
 
 ::: {.callout-warning title="Remarque"}
-Les chiffres clés concernant les temps d'attente jusqu’à la transplantation sont maintenant présentés séparément. Le calcul est effectué selon une nouvelle méthodologie qui prend en compte toutes les personnes sur la liste d'attente et non plus seulement les personnes qui ont reçu un organe. Vous trouverez un graphique sur les temps d'attente moyens par organe dans le rapport annuel 2023 de Swisstransplant. ([voir fig. 4.13](https://www.swisstransplant.org/fileadmin/user_upload/Bilder/Home/Organ-_und_Gewebespende/Fakten_und_Zahlen/Jahreszahlen/2023_ersetzt/FR_2023/Ill_4.13_2023_FR.jpg){target="_blank"}). L'évolution des temps d'attente au cours des cinq dernières années sera également publiée sur ce site.
+Les temps d’attente jusqu’à la transplantation sont désormais présentés séparément. Le calcul est effectué selon une nouvelle méthodologie (["Combien de temps faut-il attendre pour recevoir un organe ?"](https://data.swisstransplant.org/fr/posts/2024-WL/){target="_blank"}).
 :::
 
 :::
