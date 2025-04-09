@@ -99,7 +99,7 @@ page = gsub(x = page,
             replace = "Chiffres annuels 2024")
 
 page = gsub(x = page,
-            pattern = "Wie lange muss man auf ein Spendeorgan warten?", 
+            pattern = "Wie lange muss man auf ein Spendeorgan warten\\?", 
             replace = "Combien de temps faut-il attendre pour recevoir un organe?")
 
 writeLines(page, con=file)
@@ -224,10 +224,10 @@ file = "../docs/fr/posts/2024-WL/index.html"
 page = readLines(file, warn = FALSE)
 
 page = gsub(x = page,
-            pattern = "<title>Wie lange muss man auf ein Spendeorgan warten? – Swisstransplant Data Science</title>", 
+            pattern = "<title>Wie lange muss man auf ein Spendeorgan warten\\? – Swisstransplant Data Science</title>", 
             replace = "<title>Combien de temps faut-il attendre pour recevoir un organe? – Swisstransplant Data Science</title>")
 page = gsub(x = page,
-            pattern = "<h1 class=\"title\">Wie lange muss man auf ein Spendeorgan warten?</h1>", 
+            pattern = "<h1 class=\"title\">Wie lange muss man auf ein Spendeorgan warten\\?</h1>", 
             replace = "<h1 class=\"title\">Combien de temps faut-il attendre pour recevoir un organe?</h1>")
 
 writeLines(page, con=file)
