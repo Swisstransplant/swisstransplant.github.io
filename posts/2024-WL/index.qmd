@@ -18,7 +18,7 @@ execute:
 
 ## Das Wichtigste in Kürze
 
-* Die mediane Wartezeit auf eine Niere von einer zwischen 2015 – 2024 neu gelisteten Person betrug in der Schweiz rund 3 Jahre. Für die anderen Organe waren die Wartezeiten in der Regel kürzer und liegen zwischen 0.7 und 1.6 Jahren.
+* Die mediane Wartezeit auf eine Niere von einer zwischen 2015 und 2024 neu gelisteten Person betrug in der Schweiz rund 3 Jahre. Für die anderen Organe waren die Wartezeiten in der Regel kürzer und liegen zwischen 0.7 und 1.6 Jahren.
 
 * Die mediane Wartezeit für Herz-, Lungen und Nierentransplantationen nimmt seit ein paar Jahren ab. Bei Lebertransplantationen nimmt die Wartezeit zu.
 
@@ -33,21 +33,21 @@ Die Wahrscheinlichkeit einer Transplantation bildet die Grundlage für die Absch
 
 Diese Wahrscheinlichkeit kann als Kurve über der Zeit (kumulative Inzidenzkurve) dargestellt werden ([Abb. @fig-1]). Die Kurve beginnt bei einer Wahrscheinlichkeit von 0 im Moment der Listung und steigt im Laufe der Wartezeit an, erreicht aber nie den Wert 1, da nicht alle Personen transplantiert werden. Aus der Kurve lassen sich einzelne Werte ablesen, z.B. die Wahrscheinlichkeit, innerhalb eines Jahres transplantiert zu werden, oder die Wartezeit, nach der die Wahrscheinlichkeit einer Transplantation 50 % beträgt – die sogenannte mediane Wartezeit.
 
-![Kumulative Inzidenzkurven des Ereignisses Transplantation für die verschiedenen Organe A–E (mit 95 %-Konfidenzband). Die Kurven zeigen die Wahrscheinlichkeit, dass eine Person innerhalb eines bestimmten Zeitraums nach der Aufnahme auf die Warteliste transplantiert wird. Das Kreuz markiert die mediane Wartezeit bis zur Transplantation, d.h. die Wartezeit, nach der die Wahrscheinlichkeit einer Transplantation 50 % beträgt. Beobachtungszeitraum 2015 – 2024.](WAIT-CI-de.png){#fig-1 width=90%}
+![Kumulative Inzidenzkurven des Ereignisses Transplantation für die verschiedenen Organe A–E (mit 95 %-Konfidenzband). Die Kurven zeigen die Wahrscheinlichkeit, dass eine Person innerhalb eines bestimmten Zeitraums nach der Aufnahme auf die Warteliste transplantiert wird. Das Kreuz markiert die mediane Wartezeit bis zur Transplantation, d.h. die Wartezeit, nach der die Wahrscheinlichkeit einer Transplantation 50 % beträgt.](WAIT-CI-de.png){#fig-1 width=90%}
 
 ## 2. Mediane Wartezeit bis zur Transplantation (MTT)
 
-Möchte man einen einzigen Kennwert für die Wartezeit, so lässt sich die mediane Wartezeit bis zur Transplantation (median time to transplantation; MTT) aus den Kurven in [Abb. @fig-1] ablesen. Sie entspricht der Wartezeit, nach der die Wahrscheinlichkeit einer Transplantation 50 % beträgt und kann als mittlere Wartezeit interpretiert werden ([Tab. @tbl-6]). Dabei handelt es sich nicht um einen einfachen Durchschnitt oder Mittelwert der Wartezeiten aller Transplantierten, sondern alle Personen – transplantierte, verstorbene, von der Liste genommene und weiterhin wartende – fliessen in die Berechnung ein. Die mediane Wartezeit ist jedoch ein Mittelwert über den gesamten Beobachtungszeitraum von 2015 – 2024. Bei vielen Organen ist heute die Wartezeit kürzer als der in [Abb. @fig-1] bzw. [Tab. @tbl-6] angegebene MTT-Wert.
+Möchte man einen einzigen Kennwert für die Wartezeit, so lässt sich die mediane Wartezeit bis zur Transplantation (median time to transplantation; MTT) aus den Kurven in [Abb. @fig-1] ablesen. Sie entspricht der Wartezeit, nach der die Wahrscheinlichkeit einer Transplantation 50 % beträgt und kann als mittlere Wartezeit interpretiert werden ([Tab. @tbl-6]). Dabei handelt es sich nicht um einen einfachen Durchschnitt oder Mittelwert der Wartezeiten aller Transplantierten, sondern alle Personen – transplantierte, verstorbene, von der Liste genommene und weiterhin wartende – fliessen in die Berechnung ein. Bei vielen Organen ist heute die Wartezeit kürzer als der in [Abb. @fig-1] bzw. [Tab. @tbl-6] angegebene MTT-Wert.
 
-|                     | Mediane Wartezeit bis zur Transplantation (MTT) in Jahren|95 %-Konfidenzintervall |
-|:--------------------|---------------------------------------------------------:|:-----------------------|
-|Herz                 |                                                      1.13|0.85--1.57              |
-|Lunge                |                                                      0.74|0.56--0.90              |
-|Leber                |                                                      1.32|0.83--1.54              |
-|Niere                |                                                      3.16|2.80--3.63              |
-|Pankreas/Inselzellen |                                                      1.57|0.96--1.78              ||
+|                     | MTT in Jahren | 95 %-KI      |
+|:--------------------|--------------:|:-------------|
+|Herz                 | 1.13          |0.85--1.57    |
+|Lunge                | 0.74          |0.56--0.90    |
+|Leber                | 1.32          |0.83--1.54    |
+|Niere                | 3.16          |2.80--3.63    |
+|Pankreas/Inselzellen | 1.57          |0.96--1.78    |
 
-: Mediane Wartezeit bis zur Transplantation (MTT) und 95 %-Konfidenzintervall aller neu gelisteten Personen zwischen 2015 – 2024. Die MTT ist ein Schätzwert, der mit einer gewissen Unsicherheit behaftet ist. Das 95 %-Konfidenzintervall ist der Bereich, der bei vielen Wiederholungen der Studie den wahren Wert in 95 von 100 Fällen enthält. {#tbl-6 .striped .hover}
+: Mediane Wartezeit bis zur Transplantation (MTT) und 95 %-Konfidenzintervall (KI) aller neu gelisteten Personen zwischen 2015 – 2024. Die MTT ist ein Schätzwert, der mit einer gewissen Unsicherheit behaftet ist. Das 95 %-Konfidenzintervall ist der Bereich, der bei vielen Wiederholungen der Studie den wahren Wert in 95 von 100 Fällen enthält. {#tbl-6 .striped .hover}
 
 ### 2.1 Veränderung der medianen Wartezeit über die Zeit {#sec-2.1}
 
@@ -137,15 +137,15 @@ Es ist möglich, die Transplantationsraten für verschiedene Listungs-Zeitpunkte
 Bei Herz- und Lungentransplantationen stieg die Transplantationsrate für Personen, die Anfang 2024 gelistet wurde, um den Faktor 1.84 und 1.86, was fast einer Verdopplung entspricht. Bei Nierentransplantationen erhöhte sich die Rate um das 1.5-Fache. Im Gegensatz dazu ging die Lebertransplantationsrate um den Faktor 0.78 zurück, was einem Rückgang von 22 % entspricht. Für Pankreas- und Inselzelltransplantationen fanden wir keine Hinweise auf eine Veränderung der Transplantationsrate ([Tab. @tbl-7]).
 
 
-|Organ                |Differenz  |Hazard Ratio |95 %-Konfidenzintervall |p-Wert      |
-|:--------------------|:----------|:------------|:-----------------------|:-----------|
-|Herz                 |2022--2024 |1.84         |1.41--2.40              |< 0.001 *** |
-|Lunge                |2022--2024 |1.86         |1.42--2.43              |< 0.001 *** |
-|Leber                |2022--2024 |0.78         |0.63--0.95              |< 0.001 *** |
-|Niere                |2022--2024 |1.52         |1.25--1.83              |< 0.001 *** |
-|Pankreas/Inselzellen |2022--2024 |0.71         |0.36--1.43              |0.55        |
+|Organ                |Differenz  |Hazard Ratio |95 %-KI |p-Wert |            |
+|:--------------------|:----------|:------------|:---------------|:-----------|
+|Herz                 |2022--2024 |1.84         |1.41--2.40      |< 0.001 *** |
+|Lunge                |2022--2024 |1.86         |1.42--2.43      |< 0.001 *** |
+|Leber                |2022--2024 |0.78         |0.63--0.95      |< 0.001 *** |
+|Niere                |2022--2024 |1.52         |1.25--1.83      |< 0.001 *** |
+|Pankreas/Inselzellen |2022--2024 |0.71         |0.36--1.43      |0.55        |
 
-: Das Hazard Ratio vergleicht die Transplantationsrate für Listungen Anfang 2024 mit Anfang 2022. Das 95 %-Konfidenzintervall ist der Bereich, der bei vielen Wiederholungen der Studie den wahren Wert häufig enthält. Sehr kleine p-Werte weisen auf eine starke Evidenz hin, dass sich die Transplantationsrate tatsächlich verändert hat. {#tbl-7 .striped .hover}
+: Das Hazard Ratio vergleicht die Transplantationsrate für Listungen Anfang 2024 mit Anfang 2022. Das 95 %-Konfidenzintervall  (KI) ist der Bereich, der bei vielen Wiederholungen der Studie den wahren Wert häufig enthält. Sehr kleine p-Werte weisen auf eine starke Evidenz hin, dass sich die Transplantationsrate tatsächlich verändert hat. {#tbl-7 .striped .hover}
 
 ::: {.callout-note appearance="simple"}
 ## Was ist ein Hazard Ratio?
@@ -219,21 +219,21 @@ Swisstransplant calcule les temps d'attente pour les transplantations avec des o
 La probabilité d'une transplantation constitue la base de l'estimation des temps d'attente. Par exemple, si 20 personnes sur 100 en attente sont transplantées dans les cinq premiers mois, la probabilité d'obtenir une transplantation d'ici là est de 20 %.
 Cette probabilité peut être représentée par une courbe en fonction du temps (courbe d'incidence cumulative) ([Abb. @fig-1_FR]). La courbe commence avec une probabilité de 0 au moment de l’inscription et augmente au cours de la période d'attente, mais n'atteint jamais la valeur 1, car toutes les personnes ne sont jamais transplantées. Il est possible de lire certaines valeurs sur la courbe, par exemple la probabilité d'être transplanté au cours de la première année ou le temps d'attente après lequel la probabilité d'une transplantation est de 50 % – ce que l'on appelle le temps d'attente médian.
 
-![Courbes d'incidence cumulée de l'événement Transplantation pour les différents organes A–E (avec bande de confiance à 95 %). Les courbes indiquent la probabilité qu'une personne soit transplantée dans une période donnée après son inscription sur la liste d'attente. La croix marque le temps d'attente médian jusqu'à la transplantation, c'est-à-dire le temps d'attente après lequel la probabilité d'une transplantation est de 50 %. Période d'observation 2015 – 2024.](WAIT-CI-fr.png){#fig-1_FR width=90%}
+![Courbes d'incidence cumulée de l'événement Transplantation pour les différents organes A–E (avec bande de confiance à 95 %). Les courbes indiquent la probabilité qu'une personne soit transplantée dans une période donnée après son inscription sur la liste d'attente. La croix marque le temps d'attente médian jusqu'à la transplantation, c'est-à-dire le temps d'attente après lequel la probabilité d'une transplantation est de 50 %.](WAIT-CI-fr.png){#fig-1_FR width=90%}
 
 ## 2. Temps d'attente médian jusqu'à la transplantation (MTT)
 
-Si l'on souhaite obtenir une valeur caractéristique unique pour le temps d'attente, le temps d'attente médian jusqu'à la transplantation (median time to transplantation ; MTT) peut être déduit des courbes de la [Abb. @fig-1_FR]. Il correspond au temps d'attente après lequel la probabilité d'une transplantation est de 50 % et peut être interprété comme un temps d'attente moyen ([Tab. @tbl-6_FR]). Il ne s'agit pas d'une simple moyenne ou valeur médiane des temps d'attente de tous les transplantés, mais toutes les personnes – transplantées, décédées, retirées de la liste et toujours en attente – sont prises en compte dans le calcul. Le temps d'attente médian est toutefois une valeur moyenne sur l'ensemble de la période d'observation de 2015 à 2024. Pour de nombreux organes, le temps d'attente est aujourd'hui plus court que la valeur MTT indiquée dans la [Abb. @fig-1_FR] ou le [Tab. @tbl-6_FR].
+Si l'on souhaite obtenir une valeur caractéristique unique pour le temps d'attente, le temps d'attente médian jusqu'à la transplantation (median time to transplantation ; MTT) peut être déduit des courbes de la [Abb. @fig-1_FR]. Il correspond au temps d'attente après lequel la probabilité d'une transplantation est de 50 % et peut être interprété comme un temps d'attente moyen ([Tab. @tbl-6_FR]). Il ne s'agit pas d'une simple moyenne ou valeur médiane des temps d'attente de tous les transplantés, mais toutes les personnes – transplantées, décédées, retirées de la liste et toujours en attente – sont prises en compte dans le calcul. Pour de nombreux organes, le temps d'attente est aujourd'hui plus court que la valeur MTT indiquée dans la [Abb. @fig-1_FR] ou le [Tab. @tbl-6_FR].
 
-|                     | Temps d'attente médian jusqu'à la transplantation (MTT) en années| Intervalle de confiance de 95 % |
-|:--------------------|---------------------------------------------------------:|:-----------------------|
-|Cœur                 |                                                      1.13|0.85--1.57              |
-|Poumons                |                                                      0.74|0.56--0.90              |
-|Foie                |                                                      1.32|0.83--1.54              |
-|Reins                |                                                      3.16|2.80--3.63              |
-|Pancréas/îlots de Langerhans |                                                      1.57|0.96--1.78              ||
+|                             | MTT en années| IC de 95 %  |
+|:----------------------------|-------------:|:------------|
+|Cœur                         |1.13          |0.85--1.57   |
+|Poumons                      |0.74          |0.56--0.90   |
+|Foie                         |1.32          |0.83--1.54   |
+|Reins                        |3.16          |2.80--3.63   |
+|Pancréas/îlots de Langerhans |1.57          |0.96--1.78   |
 
-: Temps d'attente médian jusqu'à la transplantation (MTT) et intervalle de confiance à 95 % de toutes les personnes nouvellement inscrites sur la liste entre 2015 et 2024. Le MTT est une estimation qui comporte une certaine incertitude. L'intervalle de confiance à 95 % est la zone qui, en cas de nombreuses répétitions de l'étude, contient la vraie valeur dans 95 cas sur 100. {#tbl-6_FR .striped .hover}
+: Temps d'attente médian jusqu'à la transplantation (MTT) et intervalle de confiance (IC) à 95 % de toutes les personnes nouvellement inscrites sur la liste entre 2015 et 2024. Le MTT est une estimation qui comporte une certaine incertitude. L'intervalle de confiance à 95 % est la zone qui, en cas de nombreuses répétitions de l'étude, contient la vraie valeur dans 95 cas sur 100. {#tbl-6_FR .striped .hover}
 
 ### 2.1 Variation du temps d'attente médian au fil du temps {#sec-2.1_FR}
 
@@ -325,15 +325,15 @@ Il est possible de comparer les taux de transplantation pour différentes dates 
 En ce qui concerne les transplantations cardiaques et pulmonaires, le taux de transplantation pour les personnes listées début 2024 a été multiplié par 1,84 et 1,86, ce qui correspond presque à un doublement. Pour les transplantations rénales, le taux a été multiplié par 1,5. En revanche, le taux de transplantation hépatique a été divisé par 0,78, soit une baisse de 22 %. Pour les transplantations de pancréas et d'îlots de Langerhans, nous n'avons trouvé aucune indication d'une modification du taux de transplantation ([Tab. @tbl-7_FR]).
 
 
-|Organe               |Différence  |Hazard Ratio |Intervalle de confiance de 95 % |Valeur p  |
-|:--------------------|:----------|:------------|:-----------------------|:-----------|
-|Cœur                 |2022--2024 |1.84         |1.41--2.40              |< 0.001 *** |
-|Poumons                |2022--2024 |1.86         |1.42--2.43              |< 0.001 *** |
-|Foie                |2022--2024 |0.78         |0.63--0.95              |< 0.001 *** |
-|Reins                |2022--2024 |1.52         |1.25--1.83              |< 0.001 *** |
-|Pancréas/îlots de Langerhans |2022--2024 |0.71         |0.36--1.43              |0.55        |
+|Organe                       |Différence |Hazard Ratio |IC de 95 % |Valeur p    |
+|:----------------------------|:----------|:------------|:----------|:-----------|
+|Cœur                         |2022--2024 |1.84         |1.41--2.40 |< 0.001 *** |
+|Poumons                      |2022--2024 |1.86         |1.42--2.43 |< 0.001 *** |
+|Foie                         |2022--2024 |0.78         |0.63--0.95 |< 0.001 *** |
+|Reins                        |2022--2024 |1.52         |1.25--1.83 |< 0.001 *** |
+|Pancréas/îlots de Langerhans |2022--2024 |0.71         |0.36--1.43 |0.55        |
 
-: Le hazard ratio compare le taux de transplantation pour les inscriptions début 2024 et début 2022. L'intervalle de confiance à 95 % est la zone qui contient souvent la vraie valeur en cas de nombreuses répétitions de l'étude. De très petites valeurs de p indiquent une forte évidence que le taux de transplantation a effectivement changé. {#tbl-7_FR .striped .hover}
+: Le hazard ratio compare le taux de transplantation pour les inscriptions début 2024 et début 2022. L'intervalle de confiance (IC) à 95 % est la zone qui contient souvent la vraie valeur en cas de nombreuses répétitions de l'étude. De très petites valeurs de p indiquent une forte évidence que le taux de transplantation a effectivement changé. {#tbl-7_FR .striped .hover}
 
 ::: {.callout-note appearance="simple"}
 ## Qu'est-ce qu'un hazard ratio ?
