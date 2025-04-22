@@ -506,7 +506,7 @@ Im letzten Quartal erhielten in der Schweiz 13 Personen Organe von spendenden ve
 |Anzahl transplantierte Organe im Ausland        |3                   |-9 (-75 %)                              |
 
 ::: {.callout-note title="Lesebeispiel"}
-Im letzten Quartal wurden im Ausland 3 Organe von spendenden verstorbenen Personen aus der Schweiz transplantiert. Im Vergleich zum Vorquartal sind das 9 Patientinnen und Patienten weniger (-75 %).
+Im letzten Quartal wurden im Ausland 3 Organe von spendenden verstorbenen Personen aus der Schweiz transplantiert. Im Vergleich zum Vorquartal sind das 9 Organe weniger (-75 %).
 :::
 
 ## 3.4 Herztransplantationen

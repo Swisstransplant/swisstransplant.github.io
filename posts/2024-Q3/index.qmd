@@ -492,18 +492,18 @@ Im letzten Quartal erhielten in der Schweiz 155 Personen eines oder mehrere Orga
 Im letzten Quartal erhielten in der Schweiz 14 Personen Organe von spendenden verstorbenen Personen aus dem Ausland. Das sind gleich viele wie im Vorquartal.
 :::
 
-## 3.3 Im Ausland transplantierte Personen
+## 3.3 Im Ausland transplantierte Organe
 
-![**Abb. 3.3** Im Ausland transplantierte Personen, die ein Organ von einer spendenden verstorbenen Person aus der Schweiz erhielten, total und nach Art der Transplantation.](Fig3.3-de.png){width=80%}
+![**Abb. 3.3** Im Ausland transplantierte Organe von einer spendenden verstorbenen Person aus der Schweiz, total und nach Art der Transplantation.](Fig3.3-de.png){width=80%}
 
 <br>
 
 |Indikator                                         |Letztes Quartal     |Veränderung zum Vorquartal            |
 |--------------------------------------------------|-------------------:|---------------------------------------:|
-|Anzahl transplantierte Personen im Ausland        |12                   |+3 (+33 %)                          |
+|Anzahl transplantierte Organe im Ausland        |12                   |+3 (+33 %)                          |
 
 ::: {.callout-note title="Lesebeispiel"}
-Im letzten Quartal erhielten im Ausland 12 Patientinnen und Patienten Organe von spendenden verstorbenen Personen aus der Schweiz. Im Vergleich zum Vorquartal sind das 3 Patientinnen und Patienten mehr (+33 %).
+Im letzten Quartal wurden im Ausland 12 Organe von spendenden verstorbenen Personen aus der Schweiz transplantiert. Im Vergleich zum Vorquartal sind das 3 Organe mehr (+33 %).
 :::
 
 ## 3.4 Herztransplantationen
@@ -640,7 +640,7 @@ Au dernier trimestre, 14 patients ont reçu en Suisse des organes provenant de d
 
 |Indicateur                                       |Dernier trimestre    |Changement par rapport au trimestre précédent |
 |-------------------------------------------------|-------------------:|---------------------------------------:|
-|Nombre de Organes transplantés à l'étranger     |12                   |+3 (+33 %)                                      |
+|Nombre d'organes transplantés à l'étranger     |12                   |+3 (+33 %)                                      |
 
 ::: {.callout-note title="Exemple de lecture"}
 Au dernier trimestre, 12 organes provenant de donneurs décédés en Suisse ont été transplantés à l'étranger. Par rapport au trimestre précédent, cela représente 3 organes de plus (+33 %).

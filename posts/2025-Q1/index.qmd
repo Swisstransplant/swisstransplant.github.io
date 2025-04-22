@@ -646,7 +646,7 @@ Au dernier trimestre, 14 patients ont reçu en Suisse des organes provenant de d
 |Nombre d'organes transplantés à l'étranger     |8                   |+5 (+167 %)                                      |
 
 ::: {.callout-note title="Exemple de lecture"}
-Au dernier trimestre, 8 patients ont reçu à l'étranger des organes provenant de donneurs décédés en Suisse. Par rapport au trimestre précédent, cela représente 5 transplantations de plus.
+Au dernier trimestre, 8 organes provenant de donneurs décédés en Suisse ont été transplantés à l'étranger. Par rapport au trimestre précédent, cela représente 5 organes de plus.
 :::
 
 ### 3.4 Transplantations du cœur

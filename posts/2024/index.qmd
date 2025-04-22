@@ -497,16 +497,16 @@ Hier finden Sie Kennzahlen zu Personen, die ein Organ von einer spendenden verst
 
 ## 3.3 Im Ausland transplantierte Personen
 
-![**Abb. 3.3** Im Ausland transplantierte Personen, die ein Organ von einer spendenden verstorbenen Person aus der Schweiz erhielten, total und nach Art der Transplantation.](Fig3.3-de.png){width=80%}
+![**Abb. 3.3** Im Ausland transplantierte Organe von einer spendenden verstorbenen Person aus der Schweiz, total und nach Art der Transplantation.](Fig3.3-de.png){width=80%}
 
 <br>
 
 |Indikator                                         |Letztes Jahr        |Veränderung zum Vorjahr                 |
 |--------------------------------------------------|-------------------:|---------------------------------------:|
-|Anzahl transplantierte Personen im Ausland        |24                  |-2 (-8 %)                          |
+|Anzahl transplantierte Organe im Ausland        |24                  |-2 (-8 %)                          |
 
 ::: {.callout-note title="Lesebeispiel"}
-2024 erhielten im Ausland 24 Patientinnen und Patienten ein Organ von spendenden verstorbenen Personen aus der Schweiz. Im Vergleich zu 2023 sind das 2 Patientinnen und Patienten weniger (-8 %).
+2024 wurden im Ausland 24 Organe von spendenden verstorbenen Personen aus der Schweiz transplantiert. Im Vergleich zu 2023 sind das 2 Organe weniger (-8 %).
 :::
 
 ## 3.4 Herztransplantationen
@@ -637,16 +637,16 @@ En 2024, 50 patients ont reçu en Suisse des organes provenant de donneurs déc�
 
 ## 3.3 Patients transplantés à l'étranger
 
-![**Fig. 3.3** Patients transplantés à l'étranger qui ont reçu un organe d'un donneur décédée en Suisse, total et par type de transplantation.](Fig3.3-fr.png){width=80%}
+![**Fig. 3.3** Organes transplantés à l'étranger d'un donneur décédée en Suisse, total et par type de transplantation.](Fig3.3-fr.png){width=80%}
 
 <br>
 
 |Indicateur                             |Dernière année      |Changement par rapport à l'année précédente |
 |---------------------------------------|-------------------:|-------------------------------------------:|
-|Nombre de patients transplantés à l'étranger     |24                   |-2 (-8 %)                       |
+|Nombre d'organes transplantés à l'étranger     |24                   |-2 (-8 %)                       |
 
 ::: {.callout-note title="Exemple de lecture"}
-En 2024, 24 patients ont reçu à l'étranger des organes provenant de donneurs décédés en Suisse. Par rapport à l'année record 2023, cela représente 2 transplantations de moins (-8 %).
+En 2024, 24 organes provenant de donneurs décédés en Suisse ont été transplantés à l'étranger. Par rapport à l'année record 2023, cela représente 2 organes de moins (-8 %).
 :::
 
 ## 3.4 Transplantations du cœur
