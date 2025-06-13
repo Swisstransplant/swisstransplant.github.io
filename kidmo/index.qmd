@@ -2,32 +2,32 @@
 title: "KIDMO---Kidney prediction model"
 subtitle: "Risk calculator for deceased-donor kidney transplantation in Switzerland."
 author: Swisstransplant
-date: "2023-08-07"
+date: "2025-06-12"
 ---
 
 ## What is KIDMO?
 
-KIDMO is a prediction tool that helps clinicians and patients to see how the combination of donor, transplant and recipient clinical characteristics can affect graft survival after deceased-donor kidney transplantation.
+KIDMO is a clinical prediction model designed to help clinicians to better understand how the combination of donor and recipient clinical characteristics influence long-term graft survival in deceased-donor kidney transplantation.
 
-## How was KIDMO developed?
+## Why is KIDMO useful?
 
-KIDMO was developed by [Swisstransplant](https://www.swisstransplant.org/)---the national organisation for organ donation and transplantation in Switzerland and all the six transplant centers.
+While it is not possible to predict the exact timing of organ loss, the high-quality data collected in Switzerland allows us to estimate the risk of kidney graft loss for individual patients based on specific clinical characteristics.
 
-The model is based on follow-up data from the Swiss Transplant Cohort Study (STCS) and information from the Swiss Organ Allocation System (SOAS) from over 2,000 kidney recipients transplanted between 2008 and 2021.
+In the statistical model, the primary outcome was time to graft loss, defined as the interval from the date of transplantation to the occurrence of irreversible graft failure, indicated by a return to dialysis or retransplantation. Patient death was treated as a competing risk.
 
-## What can KIDMO predict?
+The model is based on data from over 2,000 kidney transplant recipients transplanted between 2008 and 2021 from a national multicenter cohort---the [Swiss Transplant Cohort Study (STCS)](https://www.stcs.ch/). Donor clinical information was obtained from the Swiss Organ Allocation System (SOAS).
 
-It is not possible to predict the exact time of organ loss in the future. However, based on all the high-quality data we collected in Switzerland, we can estimate the risk for kidney graft failure for a specific patient conditional on some clinical characteristics.
+More details about the KIDMO study can be found in the published [study protocol](https://doi.org/10.1186/s41512-022-00139-5).
 
-In the statistical model, the primary outcome was graft survival calculated from the date of of transplantation to the date of irreversible graft failure by return to dialysis (or retransplantation).
+## Who created EXAM??
 
-More details about KIDMO can be found in the published [study protocol](https://doi.org/10.1186/s41512-022-00139-5).
+KIDMO was developed by [Swisstransplant](https://www.swisstransplant.org/)---the national organisation for organ donation and transplantation in Switzerland---in collaboration with all six Swiss transplant centers and the Swisstransplant Kidney Working Group (STAN).
 
 ## Terms of use
 
-The KIDMO is currently under development and for FOR RESEARCH PURPOSES ONLY; the program must not be used in clinical practice.
+KIDMO is currently under development and for research purposes only; the program must not be used in clinical practice for decision making.
 
-::: {.callout-important title="More information" collapse=true}
+::: {.callout-important appearance="simple" collapse=true}
 The KIDMO risk calculator (hereinafter referred to as "program") comes with ABSOLUTELY NO WARRANTY and LIMITATION OF LIABILITY. The program is currently under development and FOR RESEARCH PURPOSES ONLY; this program must not be used in clinical practice, including, but not limited to, clinical decision making. This program is provided WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose. In no event unless required by applicable law will any copyright holder, or any other party who uses this program be liable for damages, including any general, special, incidental or consequential damages arising out of the use or inability to use this program.
 :::
 
@@ -39,32 +39,33 @@ The KIDMO risk calculator (hereinafter referred to as "program") comes with ABSO
 
 ## Interpretation
 
-* The **HR** (hazard ratio) shows the relative increase or decrease in the event rate of kidney graft failure for this recipient compared to the median event rate in the reference population. So, a HR > 1 indicates a higher hazard, and a HR < 1 indicated lower hazard and a more favorable outcome as what we observe in average. A recipient with a HR of 1.0 corresponds to the median hazard.
+* The **HR** (hazard ratio) shows the relative increase or decrease in the event rate of kidney graft loss for this recipient compared to the median event rate in the reference population. So, a HR > 1 indicates a higher hazard, and a HR < 1 indicated lower hazard and a more favorable outcome as what we observe in average. A recipient with a HR of 1.0 corresponds to the median hazard in the Swiss reference population of kidney transplant recipients.
 
 * The **rank** is the percentile of the recipients' calculated hazard ratio and is interpreted as the percentage of recipients in the reference population with lower or equal hazard compared to the new recipient. The rank has a range from 0% to 100%, and the lower the score, the more favorable the outcome.
 
-* The **CI** (cumulative incidence) is the probability of occurrence of kidney graft failure over time at 2, 5 and 10 years.
+* The **cum. inc.** (cumulative incidence) is the probability of occurrence of kidney graft failure over time at 2 and 5 years after transplant.
 
 ::: {.callout-note title="Example" collapse=false}
-* A HR of 0.69 means that the recipient may have graft failure at about 0.7-fold the rate of a recipient with median hazard. In other words, there is a decrease of the hazard rate by about 30%.
+* A hazard ratio (HR) of 0.67 means the recipient may have a graft loss rate that is 0.67-times that of a recipient with the median hazard rate. In other words, the hazard rate is reduced by 33%.
 
-* A recipient's rank of 36% indicates that 36% of recipients had a lower or equal hazard rate, and 64% had a higher hazard rate.
+* A recipient's rank of 22% indicates that 22% of recipients had an equal or lower hazard rate, while 88% had a higher hazard rate.
 
-* A 10-year CI of 0.04 indicated that the probability of kidney graft failure for this recipient is 4% over a period of 10 years after transplantation. In other words, 4 in 100 recipients with similar clinical characteristics may experience kidney graft failure after 10 years.
+* A 5-year cumulative incidence (cum. inc.) of 0.05 means the probability of kidney graft loss within five years after transplantation is 5%. In other words, 5 out of 100 recipients with similar clinical characteristics may experience kidney graft loss during that time.
 :::
 
-::: {.callout-note title="Additional information" collapse=true}
-The **hazard rate** is the frequency with which a kidney transplant fails per unit of time. The **reference population** is all the kidney recipients transplanted between 2008 to 2021 at a Swiss transplant center and included in the study. The **reference recipient** is a recipient transplanted in 2015 with all the clinical predictor variables set to the reference levels (median donor age: 54, donor history of diabetes: no, etc.) The risk calculator is initially set to the reference values except the transplantation year is set to 2021.
+::: {.callout-note appearance="simple" collapse=false}
+The **hazard rate** is the frequency at which kidney transplants fail over time. The **reference population** included all the kidney recipients transplanted at Swiss transplant centers between 2008 and 2021 and included in the study. By default, the risk calculator is initialized with the reference values, except for the transplantation year, which is set to the current year.
 :::
 
 ## References
 
 ### Study protocol
-Schwab, S., Sidler, D., Haidar, F., Kuhn, C., Schaub, S., Koller, M., Mellac, K., Stürzinger, U., Tischhauser, B., Binet, I., Golshayan, D., Müller, T., Elmer, A., Franscini, N., Krügel, N., Fehr, T., Immer, F., Swisstransplant Kidney Working Group (STAN), & Swiss Transplant Cohort Study. (2023). Clinical prediction model for prognosis in kidney transplant recipients (KIDMO): study protocol. *Diagnostic and Prognostic Research, 7(1)*, 6. [doi:10.1186/s41512-022-00139-5](https://doi.org/10.1186/s41512-022-00139-5)
+
+Schwab S, Sidler D, Haidar F, et al. Clinical prediction model for prognosis in kidney transplant recipients (KIDMO): study protocol. *Diagn Progn Res.* 2023;7(1):6. [doi:10.1186/s41512-022-00139-5](https://doi.org/10.1186/s41512-022-00139-5)
 
 ## Acknowledgements
 
-KIDMO was developed by Swisstransplant and all the Swiss transplant centers. Kidney recipients have been involved in the development of KIDMO.
+KIDMO was developed by Swisstransplant in collaboration with all six Swiss transplant centers. Kidney transplant recipients were involved in the development of KIDMO.
 
 ![](../images/SWT_2955_2021.png){height=80 style="float:left; padding:16px"}
 ![](../images/CHUV-Centre-hospitalier-universitaire-vaudois_ng_image_full.png){height=80 style="float:left; padding:16px"}
