@@ -19,7 +19,7 @@ The model is based on data from over 2,000 kidney transplant recipients who unde
 
 More details about the KIDMO study can be found in the published [study protocol](https://doi.org/10.1186/s41512-022-00139-5).
 
-## Who created EXAM??
+## Who created EXAM?
 
 KIDMO was developed by [Swisstransplant](https://www.swisstransplant.org/)---the national organisation for organ donation and transplantation in Switzerland---in collaboration with all six Swiss transplant centers and the Swisstransplant Kidney Working Group (STAN).
 
