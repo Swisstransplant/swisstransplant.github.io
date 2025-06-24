@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.30">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,7 +34,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-6a966815a97a87645601341efe2355bb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -181,13 +181,13 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="what-is-kidmo" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-kidmo">What is KIDMO?</h2>
-<p>KIDMO is a clinical prediction model designed to help clinicians to better understand how the combination of donor and recipient clinical characteristics influence long-term graft survival in deceased-donor kidney transplantation.</p>
+<p>KIDMO is a clinical prediction model designed to help clinicians better understand how the combination of donor and recipient clinical characteristics influences long-term graft survival in deceased-donor kidney transplantation.</p>
 </section>
 <section id="why-is-kidmo-useful" class="level2">
 <h2 class="anchored" data-anchor-id="why-is-kidmo-useful">Why is KIDMO useful?</h2>
 <p>While it is not possible to predict the exact timing of organ loss, the high-quality data collected in Switzerland allows us to estimate the risk of kidney graft loss for individual patients based on specific clinical characteristics.</p>
 <p>In the statistical model, the primary outcome was time to graft loss, defined as the interval from the date of transplantation to the occurrence of irreversible graft failure, indicated by a return to dialysis or retransplantation. Patient death was treated as a competing risk.</p>
-<p>The model is based on data from over 2,000 kidney transplant recipients transplanted between 2008 and 2021 from a national multicenter cohort—the <a href="https://www.stcs.ch/">Swiss Transplant Cohort Study (STCS)</a>. Donor clinical information was obtained from the Swiss Organ Allocation System (SOAS).</p>
+<p>The model is based on data from over 2,000 kidney transplant recipients who underwent transplantation between 2008 and 2021, as part of a national multicenter cohort—the <a href="https://www.stcs.ch/">Swiss Transplant Cohort Study (STCS)</a>. Donor clinical information was obtained from the Swiss Organ Allocation System (SOAS).</p>
 <p>More details about the KIDMO study can be found in the published <a href="https://doi.org/10.1186/s41512-022-00139-5">study protocol</a>.</p>
 </section>
 <section id="who-created-exam" class="level2">
@@ -196,28 +196,28 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="terms-of-use" class="level2">
 <h2 class="anchored" data-anchor-id="terms-of-use">Terms of use</h2>
-<p>KIDMO is currently under development and for research purposes only; the program must not be used in clinical practice for decision making.</p>
+<p>KIDMO is currently under development for research purposes only; the program must not be used in clinical practice for decision-making.</p>
 <div class="callout callout-style-simple callout-important">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>The KIDMO risk calculator (hereinafter referred to as “program”) comes with ABSOLUTELY NO WARRANTY and LIMITATION OF LIABILITY. The program is currently under development and FOR RESEARCH PURPOSES ONLY; this program must not be used in clinical practice, including, but not limited to, clinical decision making. This program is provided WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose. In no event unless required by applicable law will any copyright holder, or any other party who uses this program be liable for damages, including any general, special, incidental or consequential damages arising out of the use or inability to use this program.</p>
+<p>The KIDMO risk calculator (hereinafter referred to as “program”) comes with ABSOLUTELY NO WARRANTY and LIMITATION OF LIABILITY. The program is currently under development and FOR RESEARCH PURPOSES ONLY; this program must not be used in clinical practice, including, but not limited to, clinical decision making. This program is provided WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose. In no event, unless required by applicable law, will any copyright holder, or any other party who uses this program, be liable for damages, including any general, special, incidental, or consequential damages arising out of the use or inability to use this program.</p>
 </div>
 </div>
 </div>
 </section>
 <section id="risk-calculator" class="level2">
 <h2 class="anchored" data-anchor-id="risk-calculator">Risk calculator</h2>
-<iframe id="KIDMO" src="https://swisstransplant.shinyapps.io/KIDMO/" style="border: none; width: 100%; height: 670px" frameborder="0"></iframe>
+<iframe id="KIDMO" src="https://swisstransplant.shinyapps.io/KIDMO/" style="border: none; width: 100%; height: 580px" frameborder="0"></iframe>
 </section>
 <section id="interpretation" class="level2">
 <h2 class="anchored" data-anchor-id="interpretation">Interpretation</h2>
 <ul>
-<li><p>The <strong>HR</strong> (hazard ratio) shows the relative increase or decrease in the event rate of kidney graft loss for this recipient compared to the median event rate in the reference population. So, a HR &gt; 1 indicates a higher hazard, and a HR &lt; 1 indicated lower hazard and a more favorable outcome as what we observe in average. A recipient with a HR of 1.0 corresponds to the median hazard in the Swiss reference population of kidney transplant recipients.</p></li>
-<li><p>The <strong>rank</strong> is the percentile of the recipients’ calculated hazard ratio and is interpreted as the percentage of recipients in the reference population with lower or equal hazard compared to the new recipient. The rank has a range from 0% to 100%, and the lower the score, the more favorable the outcome.</p></li>
-<li><p>The <strong>cum. inc.</strong> (cumulative incidence) is the probability of occurrence of kidney graft failure over time at 2 and 5 years after transplant.</p></li>
+<li><p>The <strong>HR</strong> (hazard ratio) shows the relative increase or decrease in the event rate of kidney graft loss for this recipient compared to the median event rate in the reference population from 2008 to 2021. So, an HR &gt; 1 indicates a higher hazard rate, and an HR &lt; 1 indicates lower hazard rate and a more favorable outcome, as we observed on average. A recipient with an HR of 1.0 corresponds to the median hazard rate in the Swiss reference population of kidney transplant recipients.</p></li>
+<li><p>The <strong>Rank</strong> is the percentile of the recipients’ calculated hazard ratio and is interpreted as the percentage of recipients in the reference population with a lower or equal hazard rate compared to the new recipient. The rank has a range from 0% to 100%, and the lower the score, the more favorable the outcome.</p></li>
+<li><p>The <strong>2-yr risk and 5-yr risk</strong> are the cumulative incidence, i.e., the probability of kidney graft failure over time at 2 and 5 years after transplant, respectively.</p></li>
 </ul>
 <div class="callout callout-style-default callout-note callout-titled" title="Example">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
@@ -232,9 +232,9 @@ Example
 <div id="callout-1" class="callout-1-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
 <ul>
-<li><p>A hazard ratio (HR) of 0.67 means the recipient may have a graft loss rate that is 0.67-times that of a recipient with the median hazard rate. In other words, the hazard rate is reduced by 33%.</p></li>
-<li><p>A recipient’s rank of 22% indicates that 22% of recipients had an equal or lower hazard rate, while 88% had a higher hazard rate.</p></li>
-<li><p>A 5-year cumulative incidence (cum. inc.) of 0.05 means the probability of kidney graft loss within five years after transplantation is 5%. In other words, 5 out of 100 recipients with similar clinical characteristics may experience kidney graft loss during that time.</p></li>
+<li><p>An <strong>HR</strong> of 0.52 means the recipient may have a graft loss rate that is 0.52 times that of a recipient with the median hazard rate. In other words, the hazard rate is reduced by 48%.</p></li>
+<li><p>A recipient’s <strong>Rank</strong> of 10% indicates that 10% of recipients had an equal or lower hazard rate in the Swiss population, while 90% had a higher hazard rate.</p></li>
+<li><p>A <strong>2-year risk</strong> of 0.02 and a <strong>5-year risk</strong> of 0.04 correspond to a 2% and 4% probability of kidney graft loss within two and five years after transplantation, respectively. In other words, approximately 2 out of 100 recipients and 4 out of 100 recipients with similar clinical characteristics may experience kidney graft loss within the first two and five years, respectively.</p></li>
 </ul>
 </div>
 </div>
@@ -245,7 +245,7 @@ Example
 <i class="callout-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>The <strong>hazard rate</strong> is the frequency at which kidney transplants fail over time. The <strong>reference population</strong> included all the kidney recipients transplanted at Swiss transplant centers between 2008 and 2021 and included in the study. By default, the risk calculator is initialized with the reference values, except for the transplantation year, which is set to the current year.</p>
+<p>The <strong>hazard rate</strong> is the frequency at which kidney transplants fail over time. The <strong>reference population</strong> included all kidney recipients at Swiss transplant centers between 2008 and 2021 who were included in the study. The <strong>median risk</strong> scenario is defined by a donor age of 65 and a transplant year of 2015, with all other variables set to their reference levels. By default, the risk calculator is initialized with the reference values, except for the transplant year, which is set to the current year.</p>
 </div>
 </div>
 </div>
