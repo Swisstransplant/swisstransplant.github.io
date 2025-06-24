@@ -2,7 +2,7 @@
 title: "KIDMO---Kidney prediction model"
 subtitle: "Risk calculator for deceased-donor kidney transplantation in Switzerland."
 author: Swisstransplant
-date: "2025-06-12"
+date: "2025-06-24"
 ---
 
 ## What is KIDMO?
@@ -34,7 +34,7 @@ The KIDMO risk calculator (hereinafter referred to as "program") comes with ABSO
 ## Risk calculator
 
 ```{=html}
-<iframe id="KIDMO" src="https://swisstransplant.shinyapps.io/KIDMO/" style="border: none; width: 100%; height: 580px" frameborder="0"></iframe>
+<iframe id="KIDMO" src="https://swisstransplant.shinyapps.io/KIDMO/" style="border: none; width: 100%; height: 570px" frameborder="0"></iframe>
 ```
 
 ## Interpretation
@@ -54,7 +54,7 @@ The KIDMO risk calculator (hereinafter referred to as "program") comes with ABSO
 :::
 
 ::: {.callout-note appearance="simple" collapse=false}
-The **hazard rate** is the frequency at which kidney transplants fail over time. The **reference population** included all kidney recipients at Swiss transplant centers between 2008 and 2021 who were included in the study. The **median risk** scenario is defined by a donor age of 65 and a transplant year of 2015, with all other variables set to their reference levels. By default, the risk calculator is initialized with the reference values, except for the transplant year, which is set to the current year.
+The **hazard rate** is the frequency at which kidney transplants fail over time. The **reference population** included all kidney recipients at Swiss transplant centers between 2008 and 2021 who were included in the study. The **median risk** scenario is the median of all kidney transplants between 2008 and 2021 and is defined by a donor age of 65 and a transplant year of 2015, with all other variables set to their reference levels. By default, the risk calculator is initialized with the reference values, except for the transplant year, which is set to the current year.
 :::
 
 ## References
