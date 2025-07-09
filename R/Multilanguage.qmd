@@ -8,24 +8,21 @@ lang: en
 format:
   html:
     toc: true
-    css: swt.css
-    linkcolor: '#E5005C'
+    theme: swt.scss
     df-print: kable
     embed-resources: true
     code-fold: true
-    code-block-bg: '#E6EEF0'
-    code-block-border-left: '#3F698A'
 ---
 
 ::: {.callout-note}
-This script needs to be applied after rendering the <https://www.swtdata.org> website. A step-by-step instruction see README at <https://github.com/Swisstransplant/swtdata>.
+This script needs to be applied after rendering the <https://data.swisstransplant.org> website. For a step-by-step instruction, see README at <https://github.com/Swisstransplant/swtdata>.
 :::
 
-# About page
+## About page
 
 The titles of the About page need translation.
 
-## French
+### French
 
 ```{r}
 file = "../docs/fr/about/index.html"
@@ -41,7 +38,7 @@ page = gsub(x = page,
 writeLines(page, con=file)
 ```
 
-## English
+### English
 
 ```{r}
 #| eval: false
@@ -59,9 +56,9 @@ page = gsub(x = page,
 writeLines(page, con=file)
 ```
 
-# Listing page for posts
+## Listing page for posts
 
-## French
+### French
 
 ```{r}
 file = "../docs/fr/posts.html"
@@ -95,6 +92,10 @@ page = gsub(x = page,
             replace = "1er trimestre 2025")
 
 page = gsub(x = page,
+            pattern = "2. Quartal 2025", 
+            replace = "2e trimestre 2025")
+
+page = gsub(x = page,
             pattern = "Jahreszahlen 2024", 
             replace = "Chiffres annuels 2024")
 
@@ -105,7 +106,7 @@ page = gsub(x = page,
 writeLines(page, con=file)
 ```
 
-## English
+### English
 
 ```{r}
 #| eval: false
@@ -131,9 +132,9 @@ page = gsub(x = page,
 writeLines(page, con=file)
 ```
 
-# Posts and Statistical Reports
+## Posts and Statistical Reports
 
-## French
+### French
 
 ```{r}
 file = "../docs/fr/posts/2024-Q1/index.html"
@@ -206,6 +207,20 @@ writeLines(page, con=file)
 ```
 
 ```{r}
+file = "../docs/fr/posts/2025-Q2/index.html"
+page = readLines(file, warn = FALSE)
+
+page = gsub(x = page,
+            pattern = "<title>2. Quartal 2025 – Swisstransplant Data Science</title>", 
+            replace = "<title>2e trimestre 2025 – Swisstransplant Data Science</title>")
+page = gsub(x = page,
+            pattern = "<h1 class=\"title\">2. Quartal 2025</h1>", 
+            replace = "<h1 class=\"title\">2e trimestre 2025</h1>")
+
+writeLines(page, con=file)
+```
+
+```{r}
 file = "../docs/fr/posts/2024/index.html"
 page = readLines(file, warn = FALSE)
 
@@ -233,7 +248,7 @@ page = gsub(x = page,
 writeLines(page, con=file)
 ```
 
-## English
+### English
 
 ```{r}
 #| eval: false
