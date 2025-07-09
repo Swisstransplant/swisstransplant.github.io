@@ -2,7 +2,7 @@
 title: "2. Quartal 2025"
 draft: false
 author: "Swisstransplant"
-date: "2025-07-08"
+date: "2025-07-09"
 date-modified: last-modified
 categories: false
 image: "Transportbox-400.jpg"
@@ -453,7 +453,7 @@ ENTIRE ENGLISH SECTION NEEDS TRANSLATION AND NUMBERS IN TABLES AER NOT UPDATED!!
 ::: {.content-visible when-profile="de"}
 ## 3. Transplantationen
 
-Hier finden Sie Kennzahlen zu Personen, die ein Organ von einer spendenden verstorbenen Person erhielten. Einerseits sind dies Personen in der Schweiz, die ein Organ von einer spendenden verstorbenen Person aus der Schweiz oder aus dem Ausland erhielten. Andererseits sind dies Personen im Ausland, die ein Organ von einer verstorbenen Person aus der Schweiz erhielten, wenn in der Schweiz für ein Organ keine passende Person gefunden werden konnte. Kennzahlen zur Lebendspende von Niere und Leber finden Sie unter [2.5](### 2.5 Spendende lebende Personen).
+Hier finden Sie Kennzahlen zu Personen, die ein Organ von einer spendenden verstorbenen Person erhielten. Einerseits sind dies Personen in der Schweiz, die ein Organ von einer spendenden verstorbenen Person aus der Schweiz oder aus dem Ausland erhielten. Andererseits sind dies Personen im Ausland, die ein Organ von einer verstorbenen Person aus der Schweiz erhielten, wenn in der Schweiz für ein Organ keine passende Person gefunden werden konnte. Kennzahlen zur Lebendspende von Niere und Leber finden Sie unter [2.5](https://data.swisstransplant.org/posts/2025-Q2/#spendende-lebende-personen).
 
 ::: {.callout-tip title="Das Wichtigste in Kürze"}
 Im zweiten Quartal 2025 erhielten in der Schweiz 117 Personen eines oder mehrere Organe von spendenen verstorbenen Personen. Im Vergleich zum ersten Quartal 2025 sind das 42 Transplantationen weniger (-26 %). Der Rückgang zeigt sich bei allen Organen. Von den 117 Personen erhielten 10 Personen ein Organ aus dem Ausland.
@@ -595,7 +595,7 @@ Im letzten Quartal erhielt in der Schweiz 3 Personen eine Pankreas/Inselzellen-T
 ::: {.content-visible when-profile="fr"}
 ## 3. Transplantations
 
-Vous trouverez ici les chiffres clés sur les patients qui ont reçu un organe d'un donneur décédé. Il s'agit d'une part de patients Suisse qui ont reçu un organe d'un donneur décédé en Suisse ou à l'étranger. D'autre part, il s'agit de personnes à l'étranger qui ont reçu un organe d'une personne décédée en Suisse, lorsqu'aucune personne compatible n'a pu être trouvée en Suisse. Vous trouverez les chiffres clés concernant le don de rein et de foie par des donneurs vivants au point [2.5](### 2.5 Donneurs vivants).
+Vous trouverez ici les chiffres clés sur les patients qui ont reçu un organe d'un donneur décédé. Il s'agit d'une part de patients Suisse qui ont reçu un organe d'un donneur décédé en Suisse ou à l'étranger. D'autre part, il s'agit de personnes à l'étranger qui ont reçu un organe d'une personne décédée en Suisse, lorsqu'aucune personne compatible n'a pu être trouvée en Suisse. Vous trouverez les chiffres clés concernant le don de rein et de foie par des donneurs vivants au point [2.5](https://data.swisstransplant.org/fr/posts/2025-Q2/#donneurs-vivants).
 
 ::: {.callout-tip title="L'essentiel en bref"}
 Au deuxième trimestre 2025, 117 personnes ont reçu en Suisse un ou plusieurs organes de donneurs décédées. Par rapport au trimestre précédent, cela représente 42 transplantations de moins (-26 %). La diminution se manifeste dans tous les organes. Parmi les 117 patients, 10 ont reçu un organe provenant de l'étranger.

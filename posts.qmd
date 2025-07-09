@@ -12,13 +12,13 @@ title-block-banner: false
 ---
 
 ::: {.content-visible when-profile="de"}
-Hier finden sie die wichtigsten Kennzahlen zur Warteliste sowie zur Organspende- und Transplantationsaktivität in der Schweiz pro Jahr und pro Quartal. Alle Daten stammen aus dem vom BAG betriebenen «Swiss Organ Allocation System» ([SOAS](https://www.bag.admin.ch/bag/de/home/medizin-und-forschung/transplantationsmedizin/transplantieren-von-organen-geweben-Zellen/zuteilung-organe-gewebe-blut-stammzellen/soas.html){target="_blank"}). 
+Hier finden sie die wichtigsten Kennzahlen zur Warteliste sowie zur Organspende- und Transplantationsaktivität in der Schweiz pro Jahr und pro Quartal. Alle Daten stammen aus dem vom BAG betriebenen «Swiss Organ Allocation System» ([SOAS](https://www.bag.admin.ch/de/soas-organzuteilung-nach-den-regeln-des-gesetzes){target="_blank"}). 
 :::
 
 ::: {.content-visible when-profile="en"}
-Here you will find the most important key figures on the wait list and organ donation and transplantation activity in Switzerland per year and per quarter. All data originate from the Swiss Organ Allocation System ([SOAS](https://www.bag.admin.ch/bag/de/home/medizin-und-forschung/transplantationsmedizin/transplantieren-von-organen-geweben-Zellen/zuteilung-organe-gewebe-blut-stammzellen/soas.html){target="_blank"})) operated by the FOPH.
+Here you will find the most important key figures on the wait list and organ donation and transplantation activity in Switzerland per year and per quarter. All data originate from the Swiss Organ Allocation System ([SOAS](https://www.bag.admin.ch/de/soas-organzuteilung-nach-den-regeln-des-gesetzes){target="_blank"})) operated by the FOPH.
 :::
 
 ::: {.content-visible when-profile="fr"}
-Vous trouverez ici les principaux chiffres clés concernant la liste d'attente ainsi que l'activité de don et de transplantation d'organes en Suisse par année et par trimestre. Toutes les données viennent du « Swiss Organ Allocation System »([SOAS](https://www.bag.admin.ch/bag/fr/home/medizin-und-forschung/transplantationsmedizin/transplantieren-von-organen-geweben-Zellen/zuteilung-organe-gewebe-blut-stammzellen/soas.html){target="_blank"}), géré par l'OFSP.
+Vous trouverez ici les principaux chiffres clés concernant la liste d'attente ainsi que l'activité de don et de transplantation d'organes en Suisse par année et par trimestre. Toutes les données viennent du « Swiss Organ Allocation System »([SOAS](https://www.bag.admin.ch/fr/logiciel-soas-attribution-des-organes-conforme-a-la-loi){target="_blank"}), géré par l'OFSP.
 :::
