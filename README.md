@@ -2,7 +2,10 @@
 
 Landing page for Swisstransplant Data Science.
 
-## Rendering the website with quarto
+## Rendering the website with Quarto
+
+> [!TIP]
+> Before rendering, it may be a good idea to temporarily pause OneDrive synchronization. The reason is that during rendering, a lot of temporary files are being created and deleted. 
 
 ### 1. Rendering
 
