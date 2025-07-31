@@ -1,15 +1,18 @@
 project:
+  type: website
   output-dir: ./docs
 
 website:
-  title: "Swisstransplant Data Science"
+  title: "Swisstransplant Data"
   site-url: "https://data.swisstransplant.org/"
-  description: "Statistisches Reporting und Forschung bei Swisstransplant."
+  description: "Online-Plattform mit aktuellen Statistiken und Analysetools im Bereich Organspende und Transplantation."
   search: false
+  open-graph: true
   favicon: images/SWT_icon_kreis_blau_2020_196x196.png
   navbar:
-    logo: "images/SWT_2955_2021.png"
     title: false
+    logo: "images/SWT_2955_2021.png"
+    logo-alt: "Swisstransplant logo"
     left:
       - text: "Home"
         href: index.qmd
@@ -29,8 +32,6 @@ website:
     right:
       - text: "FR"
         href: ./fr
-#      - text: "EN"
-#        href: ./en
         
   page-footer:
     left: '© 2023--2025 Swisstransplant'
