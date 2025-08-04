@@ -2,12 +2,54 @@
 title: ""
 ---
 
-# Swisstransplant Data Science
+<style>
+
+.icon-color { 
+  color: #2A548A;
+}
+
+.center-text { 
+  text-align: center;
+}
+
+</style>
+
+# Swisstransplant Data
 
 ::: {.content-visible when-profile="de"}
-Swisstransplant Data Science ist ein Online-Portal für statistisches Reporting und Forschung bei Swisstransplant.
+Swisstransplant Data stellt aktuelle Daten, Statistiken und interaktive Analyse-Tools zur Verfügung und unterstützt so die Forschung und Qualitätssicherung im Bereich Organspende und Transplantation.
 
-Um mehr über Swisstransplant zu erfahren, besuchen Sie bitte unsere Website [swisstransplant.org](https://www.swisstransplant.org/de){target="_blank"}.
+::: {.center-text}
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4} 
+::: {.icon-color}
+{{< fa lightbulb size=2x >}}
+:::
+<span style="color:#2A548A;font-weight:bold;">Informieren</span>
+<p>Wir publizieren transparente und aktuelle Kennzahlen zur Organspende und Transplantation.</p>
+:::
+
+::: {.g-col-12 .g-col-md-4} 
+::: {.icon-color}
+{{< fa user-doctor size=2x >}}
+:::
+<span style="color:#2A548A;font-weight:bold;">Befähigen</span>
+<p>Wir unterstützen medizinisches Fachpersonal und Forschende mit Daten und massgefertigten Analyse-Tools.</p>
+:::
+
+::: {.g-col-12 .g-col-md-4} 
+::: {.icon-color}
+{{< fa rocket size=2x >}}
+:::
+<span style="color:#2A548A;font-weight:bold;">Verbessern</span>
+<p>Wir stärken gemeinsam Qualität und Evidenz in der Transplantationsmedizin.</p>
+:::
+
+:::
+:::
+
+Um mehr über Swisstransplant zu erfahren, besuchen Sie bitte unsere Webseite [swisstransplant.org](https://www.swisstransplant.org/de){target="_blank"}.
 :::
 
 ::: {.content-visible when-profile="en"}
