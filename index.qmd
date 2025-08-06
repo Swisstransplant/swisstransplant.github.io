@@ -43,23 +43,47 @@ Swisstransplant Data stellt aktuelle Daten, Statistiken und interaktive Analyse-
 {{< fa rocket size=2x >}}
 :::
 <span style="color:#2A548A;font-weight:bold;">Verbessern</span>
-<p>Wir stärken gemeinsam Qualität und Evidenz in der Transplantationsmedizin.</p>
+<p>Wir publizieren Fachartikel und stärken gemeinsam Qualität und Evidenz in der Transplantationsmedizin.</p>
 :::
 
 :::
 :::
 
-Um mehr über Swisstransplant zu erfahren, besuchen Sie bitte unsere Webseite [swisstransplant.org](https://www.swisstransplant.org/de){target="_blank"}.
-:::
-
-::: {.content-visible when-profile="en"}
-Swisstransplant Data Science is an online portal for statistical reporting and research at Swisstransplant.
-
-To learn more about Swisstransplant please visit our [website swisstransplant.org](https://www.swisstransplant.org/){target="_blank"}.
+Um mehr über Swisstransplant zu erfahren, besuchen Sie bitte unsere Webseite [www.swisstransplant.org](https://www.swisstransplant.org/de){target="_blank"}.
 :::
 
 ::: {.content-visible when-profile="fr"}
-Swisstransplant Data Science est un portail en ligne pour les rapports statistiques et la recherche à Swisstransplant.
+Swisstransplant Data met à disposition des données actuelles, des statistiques et des outils d'analyse interactifs, soutenant ainsi la recherche et l'assurance qualité dans le domaine du don d'organes et de la transplantation.
 
-Pour en savoir plus sur Swisstransplant, veuillez consulter notre site web [swisstransplant.org](https://www.swisstransplant.org/fr){target="_blank"}.
+::: {.center-text}
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4} 
+::: {.icon-color}
+{{< fa lightbulb size=2x >}}
+:::
+<span style="color:#2A548A;font-weight:bold;">Informer</span>
+<p>Nous publions des chiffres clés transparents et actualisés sur le don d'organes et la transplantation.</p>
+:::
+
+::: {.g-col-12 .g-col-md-4} 
+::: {.icon-color}
+{{< fa user-doctor size=2x >}}
+:::
+<span style="color:#2A548A;font-weight:bold;">Habiliter</span>
+<p>Nous aidons les professionnels de santé et les chercheurs en leur fournissant des données et des outils d'analyse sur mesure.</p>
+:::
+
+::: {.g-col-12 .g-col-md-4} 
+::: {.icon-color}
+{{< fa rocket size=2x >}}
+:::
+<span style="color:#2A548A;font-weight:bold;">Améliorer</span>
+<p>Nous publions des articles spécialisés et renforçons ensemble la qualité et les preuves scientifiques dans le domaine de la médecine de transplantation.</p>
+:::
+
+:::
+:::
+
+Pour en savoir plus sur Swisstransplant, veuillez consulter notre site web [www.swisstransplant.org](https://www.swisstransplant.org/fr).
 :::

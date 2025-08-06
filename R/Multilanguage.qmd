@@ -18,9 +18,11 @@ format:
 This script needs to be applied after rendering the <https://data.swisstransplant.org> website. For a step-by-step instruction, see README at <https://github.com/Swisstransplant/swtdata>.
 :::
 
-## About page
+## Home
 
-The titles of the About page need translation.
+The landing page does not need translation as the header Swisstransplant Data is multilingual.
+
+## About page
 
 ### French
 
@@ -38,20 +40,20 @@ page = gsub(x = page,
 writeLines(page, con=file)
 ```
 
-### English
+## Publications page
+
+### French
 
 ```{r}
-#| eval: false
-
-file = "../docs/en/about/index.html"
+file = "../docs/fr/publications/index.html"
 page = readLines(file, warn = FALSE)
 
 page = gsub(x = page,
-            pattern = "<title>Über uns – Swisstransplant Data</title>",
-            replace = "<title>About – Swisstransplant Data</title>")
+            pattern = "<title>Publikationen – Swisstransplant Data</title>",
+            replace = "<title>Publications – Swisstransplant Data</title>")
 page = gsub(x = page,
-            pattern = "<h1 class=\"title\">Über uns</h1>", 
-            replace = "<h1 class=\"title\">About</h1>")
+            pattern = "<h1 class=\"title\">Publikationen</h1>", 
+            replace = "<h1 class=\"title\">Publications</h1>")
 
 writeLines(page, con=file)
 ```
@@ -106,7 +108,7 @@ page = gsub(x = page,
 writeLines(page, con=file)
 ```
 
-## Posts and Statistical Reports
+## Posts
 
 ### French
 

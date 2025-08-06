@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Simon Schwab">
-<meta name="dcterms.date" content="2025-07-09">
+<meta name="dcterms.date" content="2025-08-06">
 
 <title>Multilanguage Postprocessing</title>
 <style>
@@ -2180,20 +2180,22 @@ vertical-align: -.125em;
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#about-page" id="toc-about-page" class="nav-link active" data-scroll-target="#about-page">About page</a>
+  <li><a href="#home" id="toc-home" class="nav-link active" data-scroll-target="#home">Home</a></li>
+  <li><a href="#about-page" id="toc-about-page" class="nav-link" data-scroll-target="#about-page">About page</a>
   <ul class="collapse">
   <li><a href="#french" id="toc-french" class="nav-link" data-scroll-target="#french">French</a></li>
-  <li><a href="#english" id="toc-english" class="nav-link" data-scroll-target="#english">English</a></li>
+  </ul></li>
+  <li><a href="#publications-page" id="toc-publications-page" class="nav-link" data-scroll-target="#publications-page">Publications page</a>
+  <ul class="collapse">
+  <li><a href="#french-1" id="toc-french-1" class="nav-link" data-scroll-target="#french-1">French</a></li>
   </ul></li>
   <li><a href="#listing-page-for-posts" id="toc-listing-page-for-posts" class="nav-link" data-scroll-target="#listing-page-for-posts">Listing page for posts</a>
   <ul class="collapse">
-  <li><a href="#french-1" id="toc-french-1" class="nav-link" data-scroll-target="#french-1">French</a></li>
-  <li><a href="#english-1" id="toc-english-1" class="nav-link" data-scroll-target="#english-1">English</a></li>
-  </ul></li>
-  <li><a href="#posts-and-statistical-reports" id="toc-posts-and-statistical-reports" class="nav-link" data-scroll-target="#posts-and-statistical-reports">Posts and Statistical Reports</a>
-  <ul class="collapse">
   <li><a href="#french-2" id="toc-french-2" class="nav-link" data-scroll-target="#french-2">French</a></li>
-  <li><a href="#english-2" id="toc-english-2" class="nav-link" data-scroll-target="#english-2">English</a></li>
+  </ul></li>
+  <li><a href="#posts" id="toc-posts" class="nav-link" data-scroll-target="#posts">Posts</a>
+  <ul class="collapse">
+  <li><a href="#french-3" id="toc-french-3" class="nav-link" data-scroll-target="#french-3">French</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -2220,7 +2222,7 @@ vertical-align: -.125em;
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 9, 2025</p>
+      <p class="date">August 6, 2025</p>
     </div>
   </div>
   
@@ -2251,9 +2253,12 @@ Note
 <p>This script needs to be applied after rendering the <a href="https://data.swisstransplant.org" class="uri">https://data.swisstransplant.org</a> website. For a step-by-step instruction, see README at <a href="https://github.com/Swisstransplant/swtdata" class="uri">https://github.com/Swisstransplant/swtdata</a>.</p>
 </div>
 </div>
+<section id="home" class="level2">
+<h2 class="anchored" data-anchor-id="home">Home</h2>
+<p>The landing page does not need translation as the header Swisstransplant Data is multilingual.</p>
+</section>
 <section id="about-page" class="level2">
 <h2 class="anchored" data-anchor-id="about-page">About page</h2>
-<p>The titles of the About page need translation.</p>
 <section id="french" class="level3">
 <h3 class="anchored" data-anchor-id="french">French</h3>
 <div class="cell">
@@ -2263,8 +2268,8 @@ Note
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">readLines</span>(file, <span class="at">warn =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;Über uns – Swisstransplant Data Science&lt;/title&gt;&quot;</span>,</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;Qui sommes-nous? – Swisstransplant Data Science&lt;/title&gt;&quot;</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;Über uns – Swisstransplant Data&lt;/title&gt;&quot;</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;Qui sommes-nous? – Swisstransplant Data&lt;/title&gt;&quot;</span>)</span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;Über uns&lt;/h1&gt;&quot;</span>, </span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;Qui sommes-nous?&lt;/h1&gt;&quot;</span>)</span>
@@ -2273,20 +2278,23 @@ Note
 </details>
 </div>
 </section>
-<section id="english" class="level3">
-<h3 class="anchored" data-anchor-id="english">English</h3>
+</section>
+<section id="publications-page" class="level2">
+<h2 class="anchored" data-anchor-id="publications-page">Publications page</h2>
+<section id="french-1" class="level3">
+<h3 class="anchored" data-anchor-id="french-1">French</h3>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/en/about/index.html&quot;</span></span>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/fr/publications/index.html&quot;</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">readLines</span>(file, <span class="at">warn =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;Über uns – Swisstransplant Data Science&lt;/title&gt;&quot;</span>,</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;About – Swisstransplant Data Science&lt;/title&gt;&quot;</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;Publikationen – Swisstransplant Data&lt;/title&gt;&quot;</span>,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;Publications – Swisstransplant Data&lt;/title&gt;&quot;</span>)</span>
 <span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;Über uns&lt;/h1&gt;&quot;</span>, </span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;About&lt;/h1&gt;&quot;</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;Publikationen&lt;/h1&gt;&quot;</span>, </span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;Publications&lt;/h1&gt;&quot;</span>)</span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="fu">writeLines</span>(page, <span class="at">con=</span>file)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
@@ -2295,8 +2303,8 @@ Note
 </section>
 <section id="listing-page-for-posts" class="level2">
 <h2 class="anchored" data-anchor-id="listing-page-for-posts">Listing page for posts</h2>
-<section id="french-1" class="level3">
-<h3 class="anchored" data-anchor-id="french-1">French</h3>
+<section id="french-2" class="level3">
+<h3 class="anchored" data-anchor-id="french-2">French</h3>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
@@ -2304,8 +2312,8 @@ Note
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">readLines</span>(file, <span class="at">warn =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;Statistiken – Swisstransplant Data Science&lt;/title&gt;&quot;</span>,</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;Rapports statistiques – Swisstransplant Data Science&lt;/title&gt;&quot;</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;Statistiken – Swisstransplant Data&lt;/title&gt;&quot;</span>,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;Rapports statistiques – Swisstransplant Data&lt;/title&gt;&quot;</span>)</span>
 <span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
 <span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;Statistiken&lt;/h1&gt;&quot;</span>, </span>
 <span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;Rapports statistiques&lt;/h1&gt;&quot;</span>)</span>
@@ -2346,50 +2354,39 @@ Note
 </details>
 </div>
 </section>
-<section id="english-1" class="level3">
-<h3 class="anchored" data-anchor-id="english-1">English</h3>
+</section>
+<section id="posts" class="level2">
+<h2 class="anchored" data-anchor-id="posts">Posts</h2>
+<section id="french-3" class="level3">
+<h3 class="anchored" data-anchor-id="french-3">French</h3>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/en/posts.html&quot;</span></span>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/fr/posts/2024-Q1/index.html&quot;</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">readLines</span>(file, <span class="at">warn =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;Statistiken – Swisstransplant Data Science&lt;/title&gt;&quot;</span>,</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;Statistical Reports – Swisstransplant Data Science&lt;/title&gt;&quot;</span>)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;1. Quartal 2024 – Swisstransplant Data&lt;/title&gt;&quot;</span>, </span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;1er trimestre 2024 – Swisstransplant Data&lt;/title&gt;&quot;</span>)</span>
 <span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;Statistiken&lt;/h1&gt;&quot;</span>, </span>
-<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;Statistical Reports&lt;/h1&gt;&quot;</span>)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;1. Quartal 2024&lt;/h1&gt;&quot;</span>, </span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;1er trimestre 2024&lt;/h1&gt;&quot;</span>)</span>
 <span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;1. Quartal 2024&quot;</span>, </span>
-<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;1st quarter 2024&quot;</span>)</span>
-<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;2. Quartal 2024&quot;</span>, </span>
-<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;2nd quarter 2024&quot;</span>)</span>
-<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="fu">writeLines</span>(page, <span class="at">con=</span>file)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="fu">writeLines</span>(page, <span class="at">con=</span>file)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-</section>
-</section>
-<section id="posts-and-statistical-reports" class="level2">
-<h2 class="anchored" data-anchor-id="posts-and-statistical-reports">Posts and Statistical Reports</h2>
-<section id="french-2" class="level3">
-<h3 class="anchored" data-anchor-id="french-2">French</h3>
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/fr/posts/2024-Q1/index.html&quot;</span></span>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/fr/posts/2024-Q2/index.html&quot;</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">readLines</span>(file, <span class="at">warn =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;1. Quartal 2024 – Swisstransplant Data Science&lt;/title&gt;&quot;</span>, </span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;1er trimestre 2024 – Swisstransplant Data Science&lt;/title&gt;&quot;</span>)</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;2. Quartal 2024 – Swisstransplant Data&lt;/title&gt;&quot;</span>, </span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;2e trimestre 2024 – Swisstransplant Data&lt;/title&gt;&quot;</span>)</span>
 <span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;1. Quartal 2024&lt;/h1&gt;&quot;</span>, </span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;1er trimestre 2024&lt;/h1&gt;&quot;</span>)</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;2. Quartal 2024&lt;/h1&gt;&quot;</span>, </span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;2e trimestre 2024&lt;/h1&gt;&quot;</span>)</span>
 <span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="fu">writeLines</span>(page, <span class="at">con=</span>file)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
@@ -2397,15 +2394,15 @@ Note
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/fr/posts/2024-Q2/index.html&quot;</span></span>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/fr/posts/2024-Q3/index.html&quot;</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">readLines</span>(file, <span class="at">warn =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;2. Quartal 2024 – Swisstransplant Data Science&lt;/title&gt;&quot;</span>, </span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;2e trimestre 2024 – Swisstransplant Data Science&lt;/title&gt;&quot;</span>)</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;3. Quartal 2024 – Swisstransplant Data&lt;/title&gt;&quot;</span>, </span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;3e trimestre 2024 – Swisstransplant Data&lt;/title&gt;&quot;</span>)</span>
 <span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;2. Quartal 2024&lt;/h1&gt;&quot;</span>, </span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;2e trimestre 2024&lt;/h1&gt;&quot;</span>)</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;3. Quartal 2024&lt;/h1&gt;&quot;</span>, </span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;3e trimestre 2024&lt;/h1&gt;&quot;</span>)</span>
 <span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="fu">writeLines</span>(page, <span class="at">con=</span>file)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
@@ -2413,15 +2410,15 @@ Note
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/fr/posts/2024-Q3/index.html&quot;</span></span>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/fr/posts/2024-Q4/index.html&quot;</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">readLines</span>(file, <span class="at">warn =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;3. Quartal 2024 – Swisstransplant Data Science&lt;/title&gt;&quot;</span>, </span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;3e trimestre 2024 – Swisstransplant Data Science&lt;/title&gt;&quot;</span>)</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;4. Quartal 2024 – Swisstransplant Data&lt;/title&gt;&quot;</span>, </span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;4e trimestre 2024 – Swisstransplant Data&lt;/title&gt;&quot;</span>)</span>
 <span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;3. Quartal 2024&lt;/h1&gt;&quot;</span>, </span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;3e trimestre 2024&lt;/h1&gt;&quot;</span>)</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;4. Quartal 2024&lt;/h1&gt;&quot;</span>, </span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;4e trimestre 2024&lt;/h1&gt;&quot;</span>)</span>
 <span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a><span class="fu">writeLines</span>(page, <span class="at">con=</span>file)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
@@ -2429,15 +2426,15 @@ Note
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/fr/posts/2024-Q4/index.html&quot;</span></span>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/fr/posts/2025-Q1/index.html&quot;</span></span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">readLines</span>(file, <span class="at">warn =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;4. Quartal 2024 – Swisstransplant Data Science&lt;/title&gt;&quot;</span>, </span>
-<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;4e trimestre 2024 – Swisstransplant Data Science&lt;/title&gt;&quot;</span>)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;1. Quartal 2025 – Swisstransplant Data&lt;/title&gt;&quot;</span>, </span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;1er trimestre 2025 – Swisstransplant Data&lt;/title&gt;&quot;</span>)</span>
 <span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;4. Quartal 2024&lt;/h1&gt;&quot;</span>, </span>
-<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;4e trimestre 2024&lt;/h1&gt;&quot;</span>)</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;1. Quartal 2025&lt;/h1&gt;&quot;</span>, </span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;1er trimestre 2025&lt;/h1&gt;&quot;</span>)</span>
 <span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a><span class="fu">writeLines</span>(page, <span class="at">con=</span>file)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
@@ -2445,15 +2442,15 @@ Note
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/fr/posts/2025-Q1/index.html&quot;</span></span>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/fr/posts/2025-Q2/index.html&quot;</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">readLines</span>(file, <span class="at">warn =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;1. Quartal 2025 – Swisstransplant Data Science&lt;/title&gt;&quot;</span>, </span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;1er trimestre 2025 – Swisstransplant Data Science&lt;/title&gt;&quot;</span>)</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;2. Quartal 2025 – Swisstransplant Data&lt;/title&gt;&quot;</span>, </span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;2e trimestre 2025 – Swisstransplant Data&lt;/title&gt;&quot;</span>)</span>
 <span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;1. Quartal 2025&lt;/h1&gt;&quot;</span>, </span>
-<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;1er trimestre 2025&lt;/h1&gt;&quot;</span>)</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;2. Quartal 2025&lt;/h1&gt;&quot;</span>, </span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;2e trimestre 2025&lt;/h1&gt;&quot;</span>)</span>
 <span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="fu">writeLines</span>(page, <span class="at">con=</span>file)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
@@ -2461,15 +2458,15 @@ Note
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/fr/posts/2025-Q2/index.html&quot;</span></span>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/fr/posts/2024/index.html&quot;</span></span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">readLines</span>(file, <span class="at">warn =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;2. Quartal 2025 – Swisstransplant Data Science&lt;/title&gt;&quot;</span>, </span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;2e trimestre 2025 – Swisstransplant Data Science&lt;/title&gt;&quot;</span>)</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;Jahreszahlen 2024 – Swisstransplant Data&lt;/title&gt;&quot;</span>, </span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;Chiffres annuels 2024 – Swisstransplant Data&lt;/title&gt;&quot;</span>)</span>
 <span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;2. Quartal 2025&lt;/h1&gt;&quot;</span>, </span>
-<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;2e trimestre 2025&lt;/h1&gt;&quot;</span>)</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;Jahreszahlen 2024&lt;/h1&gt;&quot;</span>, </span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;Chiffres annuels 2024&lt;/h1&gt;&quot;</span>)</span>
 <span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a><span class="fu">writeLines</span>(page, <span class="at">con=</span>file)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
@@ -2477,52 +2474,17 @@ Note
 <div class="cell">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/fr/posts/2024/index.html&quot;</span></span>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/fr/posts/2024-WL/index.html&quot;</span></span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">readLines</span>(file, <span class="at">warn =</span> <span class="cn">FALSE</span>)</span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;Jahreszahlen 2024 – Swisstransplant Data Science&lt;/title&gt;&quot;</span>, </span>
-<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;Chiffres annuels 2024 – Swisstransplant Data Science&lt;/title&gt;&quot;</span>)</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;Wie lange muss man auf ein Spendeorgan warten</span><span class="sc">\\</span><span class="st">? – Swisstransplant Data&lt;/title&gt;&quot;</span>, </span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;Combien de temps faut-il attendre pour recevoir un organe? – Swisstransplant Data&lt;/title&gt;&quot;</span>)</span>
 <span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;Jahreszahlen 2024&lt;/h1&gt;&quot;</span>, </span>
-<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;Chiffres annuels 2024&lt;/h1&gt;&quot;</span>)</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;Wie lange muss man auf ein Spendeorgan warten</span><span class="sc">\\</span><span class="st">?&lt;/h1&gt;&quot;</span>, </span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;Combien de temps faut-il attendre pour recevoir un organe?&lt;/h1&gt;&quot;</span>)</span>
 <span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a><span class="fu">writeLines</span>(page, <span class="at">con=</span>file)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-</div>
-<div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/fr/posts/2024-WL/index.html&quot;</span></span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">readLines</span>(file, <span class="at">warn =</span> <span class="cn">FALSE</span>)</span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;Wie lange muss man auf ein Spendeorgan warten</span><span class="sc">\\</span><span class="st">? – Swisstransplant Data Science&lt;/title&gt;&quot;</span>, </span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;Combien de temps faut-il attendre pour recevoir un organe? – Swisstransplant Data Science&lt;/title&gt;&quot;</span>)</span>
-<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;Wie lange muss man auf ein Spendeorgan warten</span><span class="sc">\\</span><span class="st">?&lt;/h1&gt;&quot;</span>, </span>
-<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;Combien de temps faut-il attendre pour recevoir un organe?&lt;/h1&gt;&quot;</span>)</span>
-<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a><span class="fu">writeLines</span>(page, <span class="at">con=</span>file)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-</div>
-</section>
-<section id="english-2" class="level3">
-<h3 class="anchored" data-anchor-id="english-2">English</h3>
-<div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>file <span class="ot">=</span> <span class="st">&quot;../docs/en/posts/2024-Q1/index.html&quot;</span></span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">readLines</span>(file, <span class="at">warn =</span> <span class="cn">FALSE</span>)</span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;title&gt;1. Quartal 2024 – Swisstransplant Data Science&lt;/title&gt;&quot;</span>,</span>
-<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;title&gt;1st quarter 2024 – Swisstransplant Data Science&lt;/title&gt;&quot;</span>)</span>
-<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>page <span class="ot">=</span> <span class="fu">gsub</span>(<span class="at">x =</span> page,</span>
-<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>            <span class="at">pattern =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;1. Quartal 2024&lt;/h1&gt;&quot;</span>, </span>
-<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>            <span class="at">replace =</span> <span class="st">&quot;&lt;h1 class=</span><span class="sc">\&quot;</span><span class="st">title</span><span class="sc">\&quot;</span><span class="st">&gt;1st quarter 2024&lt;/h1&gt;&quot;</span>)</span>
-<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="fu">writeLines</span>(page, <span class="at">con=</span>file)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 </section>

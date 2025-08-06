@@ -1,15 +1,18 @@
 ---
-title: "Publications"
-bibliography: swt_2025.04.03.bib
-css: custom.css
+title: "Publikationen"
+bibliography: swt_20250805-ppile.bib
 csl: american-medical-association-no-et-al.csl
 nocite: |
   @*
-link-external-icon: true
-link-external-newwindow: true
 ---
 
-Below is a list of research publications with Swisstransplant involvement. Please find the latest publications directly on [Europe PMC](https://europepmc.org/search?query=%28AFF%3A%22Swisstransplant%22%29&page=1&sortBy=FIRST_PDATE_D%2Bdesc).
+::: {.content-visible when-profile="de"}
+Nachfolgend finden Sie eine Liste der Forschungsarbeiten, an denen Swisstransplant beteiligt war. Die neuesten Veröffentlichungen finden Sie direkt auf [Europe PMC](https://europepmc.org/search?query=%28AFF%3A%22Swisstransplant%22%29%20OR%20%28EXT_ID%3A%2824935288%29%29&page=1&sortBy=FIRST_PDATE_D%2Bdesc).
+:::
+
+::: {.content-visible when-profile="fr"}
+Vous trouverez ci-dessous une liste des travaux de recherche auxquels Swisstransplant a participé. Les dernières publications sont disponibles directement sur [Europe PMC](https://europepmc.org/search?query=%28AFF%3A%22Swisstransplant%22%29%20OR%20%28EXT_ID%3A%2824935288%29%29&page=1&sortBy=FIRST_PDATE_D%2Bdesc).
+:::
 
 ::: {#refs entry-spacing="1"}
 :::
