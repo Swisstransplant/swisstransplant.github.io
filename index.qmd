@@ -5,7 +5,7 @@ title: ""
 <style>
 
 .icon-color { 
-  color: #2A548A;
+  color: #F2AF5C;
 }
 
 .center-text { 
