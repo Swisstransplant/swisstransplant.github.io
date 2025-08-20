@@ -436,63 +436,63 @@
   {
     "objectID": "exam/index.html",
     "href": "exam/index.html",
-    "title": "EXAM—Ex vivo allograft monitoring",
+    "title": "EXAM—Ex-vivo allograft monitoring",
     "section": "",
     "text": "EXAM is a dashboard for analyzing hypothermic machine perfusion data from the ORS LifePort Kidney Transporter. EXAM is free software written in the R programming language."
   },
   {
     "objectID": "exam/index.html#what-is-exam",
     "href": "exam/index.html#what-is-exam",
-    "title": "EXAM—Ex vivo allograft monitoring",
+    "title": "EXAM—Ex-vivo allograft monitoring",
     "section": "",
     "text": "EXAM is a dashboard for analyzing hypothermic machine perfusion data from the ORS LifePort Kidney Transporter. EXAM is free software written in the R programming language."
   },
   {
     "objectID": "exam/index.html#why-is-exam-useful",
     "href": "exam/index.html#why-is-exam-useful",
-    "title": "EXAM—Ex vivo allograft monitoring",
+    "title": "EXAM—Ex-vivo allograft monitoring",
     "section": "Why is EXAM useful?",
     "text": "Why is EXAM useful?\nEXAM will enable transplant organizations to analyze their data, perform statistics, and conduct quality checks, allowing them to identify potential issues and optimize machine perfusion processes, ultimately benefiting kidney recipients."
   },
   {
     "objectID": "exam/index.html#who-created-exam",
     "href": "exam/index.html#who-created-exam",
-    "title": "EXAM—Ex vivo allograft monitoring",
+    "title": "EXAM—Ex-vivo allograft monitoring",
     "section": "Who created EXAM?",
     "text": "Who created EXAM?\nEXAM was developed by Swisstransplant—the Swiss national foundation for organ donation and transplantation, in collaboration with three Swiss transplant centers."
   },
   {
     "objectID": "exam/index.html#terms-of-use",
     "href": "exam/index.html#terms-of-use",
-    "title": "EXAM—Ex vivo allograft monitoring",
+    "title": "EXAM—Ex-vivo allograft monitoring",
     "section": "Terms of use",
     "text": "Terms of use\nBy accessing or using this program, you agree to the terms of the GNU Affero General Public License and the following supplements to its sections 15 and 16:\n\nThe program is provided “as is” without warranty or any obligation from Swisstransplant;\nSwisstransplant excludes liability for damages, losses, or claims arising from program use, to the extent permitted by law; and\nYou are solely responsible for evaluating the program’s functionality, suitability, and safety before use.\n\n\n\n\n\n\n\nHypothermic machine perfusion data should not be used as a basis for discarding a kidney allograft.\nPlease refrain from uploading personal, sensitive, or patient-identifiable data. All uploaded data is temporary and will be automatically deleted at the end of the session. The developers assume no liability for any misuse of the application or the data provided by users."
   },
   {
     "objectID": "exam/index.html#dashboard",
     "href": "exam/index.html#dashboard",
-    "title": "EXAM—Ex vivo allograft monitoring",
+    "title": "EXAM—Ex-vivo allograft monitoring",
     "section": "Dashboard",
     "text": "Dashboard\nHere is the link to the EXAM dashboard. The EXAM source code is maintained on GitHub."
   },
   {
     "objectID": "exam/index.html#research-and-data-analysis",
     "href": "exam/index.html#research-and-data-analysis",
-    "title": "EXAM—Ex vivo allograft monitoring",
+    "title": "EXAM—Ex-vivo allograft monitoring",
     "section": "Research and data analysis",
     "text": "Research and data analysis\nFor research purposes, LifePort data can be loaded and analyzed using the Swisstransplant R package swt. A showcase is provided here https://data.swisstransplant.org/lifeport/."
   },
   {
     "objectID": "exam/index.html#references",
     "href": "exam/index.html#references",
-    "title": "EXAM—Ex vivo allograft monitoring",
+    "title": "EXAM—Ex-vivo allograft monitoring",
     "section": "References",
-    "text": "References\nSchwab S, Steck H, Binet I, Elmer A, Ender W, Franscini N, Haidar F, Kuhn C, Sidler D, Storni F, Krügel N, Immer F. EXAM: Ex-vivo allograft monitoring dashboard for the analysis of hypothermic machine perfusion data in deceased-donor kidney transplantation. PLOS Digit Health. 2024;3(12):e0000691. doi:10.1371/journal.pdig.0000691\nSchwab S. EXAM: Ex Vivo Allograft Monitoring Dashboard. Github; 2025. Accessed February 13, 2025. https://github.com/Swisstransplant/EXAM\nSchwab S. swt: Swisstransplant R Package. Github; 2024. Accessed February 13, 2025. https://github.com/Swisstransplant/swt"
+    "text": "References\nSchwab S, Steck H, Binet I, Elmer A, Ender W, Franscini N, Haidar F, Kuhn C, Sidler D, Storni F, Krügel N, Immer F. EXAM: Ex-vivo allograft monitoring dashboard for the analysis of hypothermic machine perfusion data in deceased-donor kidney transplantation. PLOS Digit Health. 2024;3(12):e0000691. doi:10.1371/journal.pdig.0000691\nSchwab S. EXAM: Ex-vivo Allograft Monitoring Dashboard. Github; 2025. Accessed February 13, 2025. https://github.com/Swisstransplant/EXAM\nSchwab S. swt: Swisstransplant R Package. Github; 2024. Accessed February 13, 2025. https://github.com/Swisstransplant/swt"
   },
   {
     "objectID": "exam/index.html#acknowledgments",
     "href": "exam/index.html#acknowledgments",
-    "title": "EXAM—Ex vivo allograft monitoring",
+    "title": "EXAM—Ex-vivo allograft monitoring",
     "section": "Acknowledgments",
     "text": "Acknowledgments\nEXAM was developed by Swisstransplant and three Swiss transplant centers."
   },
