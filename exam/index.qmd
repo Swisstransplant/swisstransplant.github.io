@@ -53,7 +53,7 @@ Please refrain from uploading personal, sensitive, or patient-identifiable data.
 
 ## Acknowledgments
 
-EXAM was developed by Swisstransplant and three Swiss transplant centers.
+EXAM was developed by Swisstransplant in collaboration with three Swiss transplant centers.
 
 ![](../images/SWT_2955_2021.png){height=80 style="float:left; padding:16px"}
 
