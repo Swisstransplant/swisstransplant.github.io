@@ -4,6 +4,7 @@ subtitle: "Analysis of machine perfusion data in kidney transplantation."
 author: Swisstransplant
 date: "2024-12-19"
 date-modified: last-modified
+lang: en
 website:
   open-graph:
     image: "lifeport.jpg"
