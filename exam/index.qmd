@@ -21,20 +21,6 @@ EXAM will enable transplant organizations to analyze their data, perform statist
 
 EXAM was developed by [Swisstransplant](https://www.swisstransplant.org/)---the Swiss national foundation for organ donation and transplantation, in collaboration with three Swiss transplant centers.
 
-## Terms of use
-
-By accessing or using this program, you agree to the terms of the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.html) and the following supplements to its sections 15 and 16:
-
-* The program is provided "as is" without warranty or any obligation from Swisstransplant;
-* Swisstransplant excludes liability for damages, losses, or claims arising from program use, to the extent permitted by law; and
-* You are solely responsible for evaluating the program’s functionality, suitability, and safety before use.
-
-::: {.callout-important appearance="simple" collapse=false}
-Hypothermic machine perfusion data should not be used as a basis for discarding a kidney allograft. 
-
-Please refrain from uploading personal, sensitive, or patient-identifiable data. All uploaded data is temporary and will be automatically deleted at the end of the session. The developers assume no liability for any misuse of the application or the data provided by users.
-:::
-
 ## Dashboard
 
 Here is the link to the [EXAM dashboard](https://swisstransplant.shinyapps.io/EXAM/). The EXAM source code is maintained on [GitHub](https://github.com/Swisstransplant/EXAM).
@@ -50,6 +36,20 @@ Schwab S, Steck H, Binet I, Elmer A, Ender W, Franscini N, Haidar F, Kuhn C, Sid
 Schwab S. EXAM: Ex-vivo Allograft Monitoring Dashboard. Github; 2025. Accessed February 13, 2025. <https://github.com/Swisstransplant/EXAM>
 
 Schwab S. swt: Swisstransplant R Package. Github; 2024. Accessed February 13, 2025. <https://github.com/Swisstransplant/swt>
+
+## Terms of use
+
+By accessing or using this program, you agree to the terms of the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.html) and the following supplements to its sections 15 and 16:
+
+* The program is provided "as is" without warranty or any obligation from Swisstransplant;
+* Swisstransplant excludes liability for damages, losses, or claims arising from program use, to the extent permitted by law; and
+* You are solely responsible for evaluating the program’s functionality, suitability, and safety before use.
+
+::: {.callout-important appearance="simple" collapse=false}
+Hypothermic machine perfusion data should not be used as a basis for discarding a kidney allograft. 
+
+Please refrain from uploading personal, sensitive, or patient-identifiable data. All uploaded data is temporary and will be automatically deleted at the end of the session. The developers assume no liability for any misuse of the application or the data provided by users.
+:::
 
 ## Acknowledgments
 
