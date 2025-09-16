@@ -424,7 +424,7 @@
     "href": "index.html",
     "title": "Swisstransplant Data",
     "section": "",
-    "text": "Swisstransplant Data\nSwisstransplant Data met à disposition des données actuelles, des statistiques et des outils d’analyse interactifs, soutenant ainsi la recherche et l’assurance qualité dans le domaine du don d’organes et de la transplantation.\n\n\n\n\n\n\nInformer\n\nNous publions des chiffres clés transparents et actualisés sur le don d’organes et la transplantation.\n\n\n\n\n\n\nHabiliter\n\nNous aidons les professionnels de santé et les chercheurs en leur fournissant des données et des outils d’analyse sur mesure.\n\n\n\n\n\n\nAméliorer\n\nNous publions des articles spécialisés et renforçons ensemble la qualité et les preuves scientifiques dans le domaine de la médecine de transplantation.\n\n\n\n\nPour en savoir plus sur Swisstransplant, veuillez consulter notre site web www.swisstransplant.org."
+    "text": "Swisstransplant Data\nSwisstransplant Data met à disposition des données actuelles, des statistiques et des outils d’analyse interactifs, soutenant ainsi la recherche et l’assurance qualité dans le domaine du don d’organes et de la transplantation.\n\n\n\n\n\n\nInformer\n\nNous publions des chiffres clés transparents et actualisés sur le don d’organes et la transplantation.\n\n\n\n\n\n\nSoutenir\n\nNous aidons les professionnels de santé et les chercheurs en leur fournissant des données et des outils d’analyse sur mesure.\n\n\n\n\n\n\nAméliorer\n\nNous publions des articles spécialisés et renforçons ensemble la qualité et les preuves scientifiques dans le domaine de la médecine de transplantation.\n\n\n\n\nPour en savoir plus sur Swisstransplant, veuillez consulter notre site web www.swisstransplant.org."
   },
   {
     "objectID": "about/index.html",
@@ -518,18 +518,11 @@
     "text": "Why is KIDMO useful?\nWhile it is not possible to predict the exact timing of organ loss, the high-quality data collected in Switzerland allows us to estimate the risk of kidney graft loss for individual patients based on specific clinical characteristics.\nIn the statistical model, the primary outcome was time to graft loss, defined as the interval from the date of transplantation to the occurrence of irreversible graft failure, indicated by a return to dialysis or retransplantation. Patient death was treated as a competing risk.\nThe model is based on data from over 2,000 kidney transplant recipients who underwent transplantation between 2008 and 2021, as part of a national multicenter cohort—the Swiss Transplant Cohort Study (STCS). Donor clinical information was obtained from the Swiss Organ Allocation System (SOAS).\nMore details about the KIDMO study can be found in the published study protocol."
   },
   {
-    "objectID": "kidmo/index.html#who-created-exam",
-    "href": "kidmo/index.html#who-created-exam",
+    "objectID": "kidmo/index.html#who-created-kidmo",
+    "href": "kidmo/index.html#who-created-kidmo",
     "title": "KIDMO—Kidney prediction model",
-    "section": "Who created EXAM?",
-    "text": "Who created EXAM?\nKIDMO was developed by Swisstransplant—the national organisation for organ donation and transplantation in Switzerland—in collaboration with all six Swiss transplant centers and the Swisstransplant Kidney Working Group (STAN)."
-  },
-  {
-    "objectID": "kidmo/index.html#terms-of-use",
-    "href": "kidmo/index.html#terms-of-use",
-    "title": "KIDMO—Kidney prediction model",
-    "section": "Terms of use",
-    "text": "Terms of use\nKIDMO is currently under development for research purposes only; the program must not be used in clinical practice for decision-making.\n\n\n\n\n\n\nThe KIDMO risk calculator (hereinafter referred to as “program”) comes with ABSOLUTELY NO WARRANTY and LIMITATION OF LIABILITY. The program is currently under development and FOR RESEARCH PURPOSES ONLY; this program must not be used in clinical practice, including, but not limited to, clinical decision making. This program is provided WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose. In no event, unless required by applicable law, will any copyright holder, or any other party who uses this program, be liable for damages, including any general, special, incidental, or consequential damages arising out of the use or inability to use this program."
+    "section": "Who created KIDMO?",
+    "text": "Who created KIDMO?\nKIDMO was developed by Swisstransplant—the national organisation for organ donation and transplantation in Switzerland—in collaboration with all six Swiss transplant centers and the Swisstransplant Kidney Working Group (STAN)."
   },
   {
     "objectID": "kidmo/index.html#risk-calculator",
@@ -550,14 +543,21 @@
     "href": "kidmo/index.html#references",
     "title": "KIDMO—Kidney prediction model",
     "section": "References",
-    "text": "References\n\nStudy protocol\nSchwab S, Sidler D, Haidar F, et al. Clinical prediction model for prognosis in kidney transplant recipients (KIDMO): study protocol. Diagn Progn Res. 2023;7(1):6. doi:10.1186/s41512-022-00139-5"
+    "text": "References\nSchwab S, Sidler D, Haidar F, et al. Clinical prediction model for prognosis in kidney transplant recipients (KIDMO): study protocol. Diagn Progn Res. 2023;7(1):6. doi:10.1186/s41512-022-00139-5"
   },
   {
-    "objectID": "kidmo/index.html#acknowledgements",
-    "href": "kidmo/index.html#acknowledgements",
+    "objectID": "kidmo/index.html#terms-of-use",
+    "href": "kidmo/index.html#terms-of-use",
     "title": "KIDMO—Kidney prediction model",
-    "section": "Acknowledgements",
-    "text": "Acknowledgements\nKIDMO was developed by Swisstransplant in collaboration with all six Swiss transplant centers. Kidney transplant recipients were involved in the development of KIDMO."
+    "section": "Terms of use",
+    "text": "Terms of use\nKIDMO is currently under development for research purposes only; the program must not be used in clinical practice for decision-making.\n\n\n\n\n\n\nThe KIDMO risk calculator (hereinafter referred to as “program”) comes with ABSOLUTELY NO WARRANTY and LIMITATION OF LIABILITY. The program is currently under development and FOR RESEARCH PURPOSES ONLY; this program must not be used in clinical practice, including, but not limited to, clinical decision making. This program is provided WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose. In no event, unless required by applicable law, will any copyright holder, or any other party who uses this program, be liable for damages, including any general, special, incidental, or consequential damages arising out of the use or inability to use this program."
+  },
+  {
+    "objectID": "kidmo/index.html#acknowledgments",
+    "href": "kidmo/index.html#acknowledgments",
+    "title": "KIDMO—Kidney prediction model",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\nKIDMO was developed by Swisstransplant in collaboration with all six Swiss transplant centers. Kidney transplant recipients were involved in the development of KIDMO."
   },
   {
     "objectID": "posts/2024-Q1/index.html",

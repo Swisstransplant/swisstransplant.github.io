@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.8.24">
@@ -7,6 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Swisstransplant">
+<meta name="dcterms.date" content="2025-06-24">
 
 <title>KIDMO—Kidney prediction model – Swisstransplant Data</title>
 <style>
@@ -41,17 +42,17 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap-69975326e488daaf04c56892ab150c59.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
-    "search-no-results-text": "Keine Treffer",
-    "search-matching-documents-text": "Treffer",
-    "search-copy-link-title": "Link in die Suche kopieren",
-    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
-    "search-more-match-text": "weitere Treffer in diesem Dokument",
-    "search-more-matches-text": "weitere Treffer in diesem Dokument",
-    "search-clear-button-title": "Zurücksetzen",
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Abbrechen",
-    "search-submit-button-title": "Abschicken",
-    "search-label": "Suchen"
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-NJH1JBVDQV"></script>
@@ -67,10 +68,8 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
 
 <meta property="og:title" content="KIDMO—Kidney prediction model – Swisstransplant Data">
 <meta property="og:description" content="Risk calculator for deceased-donor kidney transplantation in Switzerland.">
-<meta property="og:image" content="https://data.swisstransplant.org/images/SWT_2955_2021.png">
+<meta property="og:image" content="https://data.swisstransplant.org/kidmo/shared_decision.jpg">
 <meta property="og:site_name" content="Swisstransplant Data">
-<meta property="og:image:height" content="174">
-<meta property="og:image:width" content="533">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -85,7 +84,7 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
     <img src="../images/SWT_2955_2021.png" alt="Swisstransplant logo" class="navbar-logo dark-content">
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -144,20 +143,17 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Auf dieser Seite</h2>
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
   <li><a href="#what-is-kidmo" id="toc-what-is-kidmo" class="nav-link active" data-scroll-target="#what-is-kidmo">What is KIDMO?</a></li>
   <li><a href="#why-is-kidmo-useful" id="toc-why-is-kidmo-useful" class="nav-link" data-scroll-target="#why-is-kidmo-useful">Why is KIDMO useful?</a></li>
-  <li><a href="#who-created-exam" id="toc-who-created-exam" class="nav-link" data-scroll-target="#who-created-exam">Who created EXAM?</a></li>
-  <li><a href="#terms-of-use" id="toc-terms-of-use" class="nav-link" data-scroll-target="#terms-of-use">Terms of use</a></li>
+  <li><a href="#who-created-kidmo" id="toc-who-created-kidmo" class="nav-link" data-scroll-target="#who-created-kidmo">Who created KIDMO?</a></li>
   <li><a href="#risk-calculator" id="toc-risk-calculator" class="nav-link" data-scroll-target="#risk-calculator">Risk calculator</a></li>
   <li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation">Interpretation</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a>
-  <ul class="collapse">
-  <li><a href="#study-protocol" id="toc-study-protocol" class="nav-link" data-scroll-target="#study-protocol">Study protocol</a></li>
-  </ul></li>
-  <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#terms-of-use" id="toc-terms-of-use" class="nav-link" data-scroll-target="#terms-of-use">Terms of use</a></li>
+  <li><a href="#acknowledgments" id="toc-acknowledgments" class="nav-link" data-scroll-target="#acknowledgments">Acknowledgments</a></li>
   </ul>
 </nav>
     </div>
@@ -175,19 +171,25 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
 <div class="quarto-title-meta">
 
     <div>
-    <div class="quarto-title-meta-heading">Autor:in</div>
+    <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
              <p>Swisstransplant </p>
           </div>
   </div>
     
     <div>
-    <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
+    <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">24. Juni 2025</p>
+      <p class="date">June 24, 2025</p>
     </div>
   </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">September 16, 2025</p>
+    </div>
+  </div>
     
   </div>
   
@@ -207,23 +209,9 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
 <p>The model is based on data from over 2,000 kidney transplant recipients who underwent transplantation between 2008 and 2021, as part of a national multicenter cohort—the <a href="https://www.stcs.ch/">Swiss Transplant Cohort Study (STCS)</a>. Donor clinical information was obtained from the Swiss Organ Allocation System (SOAS).</p>
 <p>More details about the KIDMO study can be found in the published <a href="https://doi.org/10.1186/s41512-022-00139-5">study protocol</a>.</p>
 </section>
-<section id="who-created-exam" class="level2">
-<h2 class="anchored" data-anchor-id="who-created-exam">Who created EXAM?</h2>
+<section id="who-created-kidmo" class="level2">
+<h2 class="anchored" data-anchor-id="who-created-kidmo">Who created KIDMO?</h2>
 <p>KIDMO was developed by <a href="https://www.swisstransplant.org/">Swisstransplant</a>—the national organisation for organ donation and transplantation in Switzerland—in collaboration with all six Swiss transplant centers and the Swisstransplant Kidney Working Group (STAN).</p>
-</section>
-<section id="terms-of-use" class="level2">
-<h2 class="anchored" data-anchor-id="terms-of-use">Terms of use</h2>
-<p>KIDMO is currently under development for research purposes only; the program must not be used in clinical practice for decision-making.</p>
-<div class="callout callout-style-simple callout-important">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>The KIDMO risk calculator (hereinafter referred to as “program”) comes with ABSOLUTELY NO WARRANTY and LIMITATION OF LIABILITY. The program is currently under development and FOR RESEARCH PURPOSES ONLY; this program must not be used in clinical practice, including, but not limited to, clinical decision making. This program is provided WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose. In no event, unless required by applicable law, will any copyright holder, or any other party who uses this program, be liable for damages, including any general, special, incidental, or consequential damages arising out of the use or inability to use this program.</p>
-</div>
-</div>
-</div>
 </section>
 <section id="risk-calculator" class="level2">
 <h2 class="anchored" data-anchor-id="risk-calculator">Risk calculator</h2>
@@ -242,7 +230,7 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Hinweis</span>Example
+<span class="screen-reader-only">Note</span>Example
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -269,13 +257,24 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
-<section id="study-protocol" class="level3">
-<h3 class="anchored" data-anchor-id="study-protocol">Study protocol</h3>
 <p>Schwab S, Sidler D, Haidar F, et al.&nbsp;Clinical prediction model for prognosis in kidney transplant recipients (KIDMO): study protocol. <em>Diagn Progn Res.</em> 2023;7(1):6. <a href="https://doi.org/10.1186/s41512-022-00139-5">doi:10.1186/s41512-022-00139-5</a></p>
 </section>
+<section id="terms-of-use" class="level2">
+<h2 class="anchored" data-anchor-id="terms-of-use">Terms of use</h2>
+<p>KIDMO is currently under development for research purposes only; the program must not be used in clinical practice for decision-making.</p>
+<div class="callout callout-style-simple callout-important">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>The KIDMO risk calculator (hereinafter referred to as “program”) comes with ABSOLUTELY NO WARRANTY and LIMITATION OF LIABILITY. The program is currently under development and FOR RESEARCH PURPOSES ONLY; this program must not be used in clinical practice, including, but not limited to, clinical decision making. This program is provided WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose. In no event, unless required by applicable law, will any copyright holder, or any other party who uses this program, be liable for damages, including any general, special, incidental, or consequential damages arising out of the use or inability to use this program.</p>
+</div>
+</div>
+</div>
 </section>
-<section id="acknowledgements" class="level2">
-<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<section id="acknowledgments" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgments">Acknowledgments</h2>
 <p>KIDMO was developed by Swisstransplant in collaboration with all six Swiss transplant centers. Kidney transplant recipients were involved in the development of KIDMO.</p>
 <p><img src="../images/SWT_2955_2021.png" style="float:left; padding:16px" height="80"> <img src="../images/CHUV-Centre-hospitalier-universitaire-vaudois_ng_image_full.png" style="float:left; padding:16px" height="80"></p>
 <p><img src="../images/HUG.png" style="float:left; padding:16px" height="80"> <img src="../images/Insel.png" style="float:left; padding:16px" height="80"> <img src="../images/KSSG.png" style="float:left; padding:16px" height="80"></p>
@@ -310,12 +309,12 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Kopiert");
+      button.setAttribute("title", "Copied!");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Kopiert");
+        button.setAttribute("data-bs-title", "Copied!");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",

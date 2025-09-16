@@ -34,7 +34,7 @@ Swisstransplant Data stellt aktuelle Daten, Statistiken und interaktive Analyse-
 ::: {.icon-color}
 {{< fa user-doctor size=2x >}}
 :::
-<span style="color:#2A548A;font-weight:bold;">Befähigen</span>
+<span style="color:#2A548A;font-weight:bold;">Unterstützen</span>
 <p>Wir unterstützen medizinisches Fachpersonal und Forschende mit Daten und massgefertigten Analyse-Tools.</p>
 :::
 
@@ -70,7 +70,7 @@ Swisstransplant Data met à disposition des données actuelles, des statistiques
 ::: {.icon-color}
 {{< fa user-doctor size=2x >}}
 :::
-<span style="color:#2A548A;font-weight:bold;">Habiliter</span>
+<span style="color:#2A548A;font-weight:bold;">Soutenir</span>
 <p>Nous aidons les professionnels de santé et les chercheurs en leur fournissant des données et des outils d'analyse sur mesure.</p>
 :::
 

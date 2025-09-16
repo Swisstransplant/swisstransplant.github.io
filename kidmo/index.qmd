@@ -3,6 +3,11 @@ title: "KIDMO---Kidney prediction model"
 subtitle: "Risk calculator for deceased-donor kidney transplantation in Switzerland."
 author: Swisstransplant
 date: "2025-06-24"
+date-modified: last-modified
+lang: en
+website:
+  open-graph:
+    image: "shared_decision.jpg"
 ---
 
 ## What is KIDMO?
@@ -19,17 +24,9 @@ The model is based on data from over 2,000 kidney transplant recipients who unde
 
 More details about the KIDMO study can be found in the published [study protocol](https://doi.org/10.1186/s41512-022-00139-5).
 
-## Who created EXAM?
+## Who created KIDMO?
 
 KIDMO was developed by [Swisstransplant](https://www.swisstransplant.org/)---the national organisation for organ donation and transplantation in Switzerland---in collaboration with all six Swiss transplant centers and the Swisstransplant Kidney Working Group (STAN).
-
-## Terms of use
-
-KIDMO is currently under development for research purposes only; the program must not be used in clinical practice for decision-making.
-
-::: {.callout-important appearance="simple" collapse=true}
-The KIDMO risk calculator (hereinafter referred to as "program") comes with ABSOLUTELY NO WARRANTY and LIMITATION OF LIABILITY. The program is currently under development and FOR RESEARCH PURPOSES ONLY; this program must not be used in clinical practice, including, but not limited to, clinical decision making. This program is provided WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose. In no event, unless required by applicable law, will any copyright holder, or any other party who uses this program, be liable for damages, including any general, special, incidental, or consequential damages arising out of the use or inability to use this program.
-:::
 
 ## Risk calculator
 
@@ -59,11 +56,17 @@ The **hazard rate** is the frequency at which kidney transplants fail over time.
 
 ## References
 
-### Study protocol
-
 Schwab S, Sidler D, Haidar F, et al. Clinical prediction model for prognosis in kidney transplant recipients (KIDMO): study protocol. *Diagn Progn Res.* 2023;7(1):6. [doi:10.1186/s41512-022-00139-5](https://doi.org/10.1186/s41512-022-00139-5)
 
-## Acknowledgements
+## Terms of use
+
+KIDMO is currently under development for research purposes only; the program must not be used in clinical practice for decision-making.
+
+::: {.callout-important appearance="simple" collapse=true}
+The KIDMO risk calculator (hereinafter referred to as "program") comes with ABSOLUTELY NO WARRANTY and LIMITATION OF LIABILITY. The program is currently under development and FOR RESEARCH PURPOSES ONLY; this program must not be used in clinical practice, including, but not limited to, clinical decision making. This program is provided WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose. In no event, unless required by applicable law, will any copyright holder, or any other party who uses this program, be liable for damages, including any general, special, incidental, or consequential damages arising out of the use or inability to use this program.
+:::
+
+## Acknowledgments
 
 KIDMO was developed by Swisstransplant in collaboration with all six Swiss transplant centers. Kidney transplant recipients were involved in the development of KIDMO.
 
