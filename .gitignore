@@ -7,3 +7,4 @@
 .Ruserdata
 .DS_Store
 desktop.ini
+**/*.quarto_ipynb
