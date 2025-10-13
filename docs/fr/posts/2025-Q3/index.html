@@ -1,0 +1,1610 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Swisstransplant">
+
+<title>3. Quartal 2025 – Swisstransplant Data</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<link href="../../images/SWT_icon_kreis_blau_2020_196x196.png" rel="icon" type="image/png">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-69975326e488daaf04c56892ab150c59.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-NJH1JBVDQV"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
+</script>
+
+
+<meta property="og:title" content="3. Quartal 2025 – Swisstransplant Data">
+<meta property="og:description" content="Plateforme en ligne proposant des statistiques actuelles et des outils d’analyse dans le domaine du don d’organes et de la transplantation.">
+<meta property="og:image" content="https://data.swisstransplant.org/posts/2025-Q3/AAA_1_Quelle_Andrea Russo_400.jpg">
+<meta property="og:site_name" content="Swisstransplant Data">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/SWT_2955_2021.png" alt="Logo Swisstransplant" class="navbar-logo light-content">
+    <img src="../../images/SWT_2955_2021.png" alt="Logo Swisstransplant" class="navbar-logo dark-content">
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html"> 
+<span class="menu-text">Rapports statistiques</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-recherche" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Recherche</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-recherche">    
+        <li>
+    <a class="dropdown-item" href="../../tools/index.html">
+ <span class="dropdown-text">Research Tools</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../kidmo/index.html">
+ <span class="dropdown-text">KIDMO</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../exam/index.html">
+ <span class="dropdown-text">EXAM</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../publications/index.html">
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../about/index.html"> 
+<span class="menu-text">Qui sommes-nous?</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../.."> 
+<span class="menu-text">DE</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">3. Quartal 2025</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Auteur·rice</div>
+      <div class="quarto-title-meta-contents">
+               <p>Swisstransplant </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Date de publication</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">13 octobre 2025</p>
+      </div>
+    </div>
+    
+      <div>
+      <div class="quarto-title-meta-heading">Modifié</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">13 octobre 2025</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#liste-dattente" id="toc-liste-dattente" class="nav-link active" data-scroll-target="#liste-dattente">1. Liste d’attente</a>
+  <ul class="collapse">
+  <li><a href="#personnes-en-liste-dattente" id="toc-personnes-en-liste-dattente" class="nav-link" data-scroll-target="#personnes-en-liste-dattente">1.1 Personnes en liste d’attente</a></li>
+  <li><a href="#personnes-en-liste-dattente-par-organe" id="toc-personnes-en-liste-dattente-par-organe" class="nav-link" data-scroll-target="#personnes-en-liste-dattente-par-organe">1.2 Personnes en liste d’attente par organe</a></li>
+  <li><a href="#événements-sur-la-liste-dattente" id="toc-événements-sur-la-liste-dattente" class="nav-link" data-scroll-target="#événements-sur-la-liste-dattente">1.3 Événements sur la liste d’attente</a></li>
+  </ul></li>
+  <li><a href="#don-dorganes" id="toc-don-dorganes" class="nav-link" data-scroll-target="#don-dorganes">2. Don d’organes</a>
+  <ul class="collapse">
+  <li><a href="#personnes-approuvées-à-faire-un-don-dorganes-après-le-décès" id="toc-personnes-approuvées-à-faire-un-don-dorganes-après-le-décès" class="nav-link" data-scroll-target="#personnes-approuvées-à-faire-un-don-dorganes-après-le-décès">2.1 Personnes approuvées à faire un don d’organes après le décès</a></li>
+  <li><a href="#donneurs-décédés" id="toc-donneurs-décédés" class="nav-link" data-scroll-target="#donneurs-décédés">2.2 Donneurs décédés</a></li>
+  <li><a href="#organes-transplantés-de-donneurs-décédés" id="toc-organes-transplantés-de-donneurs-décédés" class="nav-link" data-scroll-target="#organes-transplantés-de-donneurs-décédés">2.3 Organes transplantés de donneurs décédés</a></li>
+  <li><a href="#organes-transplantés-par-donneur-décédé" id="toc-organes-transplantés-par-donneur-décédé" class="nav-link" data-scroll-target="#organes-transplantés-par-donneur-décédé">2.4 Organes transplantés par donneur décédé</a></li>
+  <li><a href="#donneurs-vivants" id="toc-donneurs-vivants" class="nav-link" data-scroll-target="#donneurs-vivants">2.5 Donneurs vivants</a></li>
+  </ul></li>
+  <li><a href="#transplantations" id="toc-transplantations" class="nav-link" data-scroll-target="#transplantations">3. Transplantations</a>
+  <ul class="collapse">
+  <li><a href="#patients-transplantés-en-suisse" id="toc-patients-transplantés-en-suisse" class="nav-link" data-scroll-target="#patients-transplantés-en-suisse">3.1 Patients transplantés en Suisse</a></li>
+  <li><a href="#patients-transplantés-en-suisse-avec-des-organes-de-létranger" id="toc-patients-transplantés-en-suisse-avec-des-organes-de-létranger" class="nav-link" data-scroll-target="#patients-transplantés-en-suisse-avec-des-organes-de-létranger">3.2 Patients transplantés en Suisse avec des organes de l’étranger</a></li>
+  <li><a href="#organes-transplantés-à-létranger" id="toc-organes-transplantés-à-létranger" class="nav-link" data-scroll-target="#organes-transplantés-à-létranger">3.3 Organes transplantés à l’étranger</a></li>
+  <li><a href="#transplantations-du-cœur" id="toc-transplantations-du-cœur" class="nav-link" data-scroll-target="#transplantations-du-cœur">3.4 Transplantations du cœur</a></li>
+  <li><a href="#transplantations-de-poumons" id="toc-transplantations-de-poumons" class="nav-link" data-scroll-target="#transplantations-de-poumons">3.5 Transplantations de poumons</a></li>
+  <li><a href="#transplantations-du-foie" id="toc-transplantations-du-foie" class="nav-link" data-scroll-target="#transplantations-du-foie">3.6 Transplantations du foie</a></li>
+  <li><a href="#transplantations-de-reins" id="toc-transplantations-de-reins" class="nav-link" data-scroll-target="#transplantations-de-reins">3.7 Transplantations de reins</a></li>
+  <li><a href="#transplantations-de-pancréas-et-dcellules-des-îlots" id="toc-transplantations-de-pancréas-et-dcellules-des-îlots" class="nav-link" data-scroll-target="#transplantations-de-pancréas-et-dcellules-des-îlots">3.8 Transplantations de pancréas et d’cellules des îlots</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<p>Augmentation du nombre de personnes transplantées, notamment grâce à un plus grand nombre d’organes provenant de donneurs étrangers.</p>
+<div class="callout callout-style-default callout-warning callout-titled" title="Remarque">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Avertissement</span>Remarque
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Les temps d’attente jusqu’à la transplantation ne sont plus indiqués par trimestre, mais seulement un foie par an. Le calcul est effectué selon une nouvelle méthodologie (<a href="https://data.swisstransplant.org/fr/posts/2024-WL/" target="_blank">voir “Combien de temps faut-il attendre pour recevoir un organe ?”</a>).</p>
+</div>
+</div>
+<section id="liste-dattente" class="level2">
+<h2 class="anchored" data-anchor-id="liste-dattente">1. Liste d’attente</h2>
+<p>Vous trouverez ici les chiffres clés sur la liste d’attente des personnes en attente d’un organe en Suisse. Les personnes listées pour un don de donneur vivant ne sont pas prises en compte dans cette section.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="L'essentiel en bref">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Astuce</span>L’essentiel en bref
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Fin septembre 2025, 1275 personnes attendaient en Suisse un ou plusieurs organes de donneurs décédés. Par rapport à la fin de juin 2025, cela représente 13 personnes de plus (+1 %). 13 personnes sont décédées sur la liste d’attente au troisième trimestre 2025, soit 11 personnes de moins (- 46 %) qu’au deuxième trimestre de la même année.</p>
+</div>
+</div>
+<section id="personnes-en-liste-dattente" class="level3">
+<h3 class="anchored" data-anchor-id="personnes-en-liste-dattente">1.1 Personnes en liste d’attente</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Fig1.1-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption><strong>Fig. 1.1</strong> Personnes en liste d’attente pour un organe à la fin de chaque trimestre, au total et en statut inactif. Parfois, les personnes sur la liste d’attente ne peuvent temporairement pas bénéficier d’une transplantation pour des raisons de santé ou de logistique. Dans cet état inactif, elles ne reçoivent pas d’offres d’organes. Les personnes listées pour un don de donneur vivant ne sont pas inclus.</figcaption>
+</figure>
+</div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 38%">
+<col style="width: 15%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Dernier trimestre</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de patients en liste d’attente</td>
+<td style="text-align: right;">1275</td>
+<td style="text-align: right;">+13 patients (+1 %)</td>
+</tr>
+<tr class="even">
+<td>Part dans état inactif</td>
+<td style="text-align: right;">49 %</td>
+<td style="text-align: right;">-1 point de pourcentage</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A la fin du dernier trimestre, 1275 personnes attendaient en Suisse un ou plusieurs organes de donneurs décédés. Par rapport au trimestre précédent, cela représente 13 personnes de plus (+1 %). Environ la moitié (49 %) des personnes sur la liste d’attente était classé en inactif.</p>
+</div>
+</div>
+</section>
+<section id="personnes-en-liste-dattente-par-organe" class="level3">
+<h3 class="anchored" data-anchor-id="personnes-en-liste-dattente-par-organe">1.2 Personnes en liste d’attente par organe</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Fig1.2-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption><strong>Fig. 1.2</strong> Personnes en liste d’attente pour un organe à la fin de chaque trimestre, au total et par organe. Les personnes en attente de plus d’un organe sont comptées dans le groupe « multi-organes ». Les personnes listées pour un don de donneur vivant ne sont pas inclus.</figcaption>
+</figure>
+</div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 39%">
+<col style="width: 19%">
+<col style="width: 41%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Dernier trimestre</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de patients en liste d’attente</td>
+<td style="text-align: right;">1275</td>
+<td style="text-align: right;">+13 (+1 %)</td>
+</tr>
+<tr class="even">
+<td>Multi-organes</td>
+<td style="text-align: right;">34</td>
+<td style="text-align: right;">+4 (+13 %)</td>
+</tr>
+<tr class="odd">
+<td>Cœur</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">+5 (+14 %)</td>
+</tr>
+<tr class="even">
+<td>Poumons</td>
+<td style="text-align: right;">45</td>
+<td style="text-align: right;">+2 (+5 %)</td>
+</tr>
+<tr class="odd">
+<td>Foie</td>
+<td style="text-align: right;">282</td>
+<td style="text-align: right;">-5 (-2 %)</td>
+</tr>
+<tr class="even">
+<td>Rein</td>
+<td style="text-align: right;">860</td>
+<td style="text-align: right;">+3 (+0 %)</td>
+</tr>
+<tr class="odd">
+<td>Pancréas/cellules des îlots</td>
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">+4 (+40 %)</td>
+</tr>
+<tr class="even">
+<td>Intestin grêle</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">+/- 0</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Sur les 1275 patients en liste d’attente, la grande majorité attendait un rein (860; 67 %) ou un foie (282; 22 %). 34 patients attendaient plus d’un organe.</p>
+</div>
+</div>
+</section>
+<section id="événements-sur-la-liste-dattente" class="level3">
+<h3 class="anchored" data-anchor-id="événements-sur-la-liste-dattente">1.3 Événements sur la liste d’attente</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Fig1.3-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption><strong>Fig. 1.3</strong> Patients transplantés et patients décédés sur la liste d’attente. Les patients qui étaient sur la liste pour un don de donneur vivant ou qui ont reçu un don de donneur vivant ne sont pas inclus.</figcaption>
+</figure>
+</div>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 31%">
+<col style="width: 27%">
+<col style="width: 41%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Dernier trimestre</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de patients transplantés</td>
+<td style="text-align: right;">136</td>
+<td style="text-align: right;">+19 (+16 %)</td>
+</tr>
+<tr class="even">
+<td>Nombre de patients décédés</td>
+<td style="text-align: right;">13</td>
+<td style="text-align: right;">-11 (-46 %)</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au cours du dernier trimestre, 136 patients en Suisse ont reçu un ou plusieurs organes provenant d’un don d’organe après le décès, cela représente 19 personnes de plus (+16 %). 13 patients sont décédés sur la liste d’attente, soit 11 de moins (-46 %) qu’au trimestre précédent.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="don-dorganes" class="level2">
+<h2 class="anchored" data-anchor-id="don-dorganes">2. Don d’organes</h2>
+<p>Vous trouverez ici les chiffres clés sur le don d’organes après le décès et le don d’organes de donneurs vivants en Suisse.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="L'essentiel en bref">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Astuce</span>L’essentiel en bref
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au troisième trimestre 2025, 44 personnes ont fait don de leurs organes après leur décès en Suisse. Ce sont 2 personnes de moins (-4 %) comparé au trimestre précédent. Parmi ces 44 personnes décédées, 20 (45 %) étaient en état de mort cérébrale après un arrêt cardio-circulatoire (DCD). 138 organes de donneurs décédés ont été transplantés en Suisse, soit 16 de plus (+13 %) qu’au trimestre précédent. Avec 2.7 organes, le nombre moyen d’organes transplantés par donneur décédé a de nouveau légèrement augmenté par rapport au trimestre précédent.</p>
+</div>
+</div>
+<section id="personnes-approuvées-à-faire-un-don-dorganes-après-le-décès" class="level3">
+<h3 class="anchored" data-anchor-id="personnes-approuvées-à-faire-un-don-dorganes-après-le-décès">2.1 Personnes approuvées à faire un don d’organes après le décès</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Fig2.1-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption><strong>Fig. 2.1</strong> Personnes décédées en Suisse et approuvées par Swisstransplant pour le don d’organes après le décès. Une personne est approuvée si, en cas de pronostic sans espoir, elle a donné son consentement au don d’organes et qu’elle est médicalement qualifiée pour le don d’au moins un organe. « Utilisées » signifie qu’au moins un organe a pu être transplanté. « Effectives » signifie qu’une intervention chirurgicale a eu lieu avec l’intention de prélever un organe en vue d’une transplantation, mais qu’aucun organe n’a pu être transplanté. « Non utilisées » signifie qu’il n’y a pas eu d’intervention chirurgicale dans l’intention d’un prélèvement d’organes aux fins d’une transplantation.</figcaption>
+</figure>
+</div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 36%">
+<col style="width: 21%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Dernier trimestre</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de personnes approuvées</td>
+<td style="text-align: right;">54</td>
+<td style="text-align: right;">-4 personnes (-7 %)</td>
+</tr>
+<tr class="even">
+<td>Proportion de personnes non utilisées</td>
+<td style="text-align: right;">19 %</td>
+<td style="text-align: right;">-2 points de pourcentage</td>
+</tr>
+<tr class="odd">
+<td>Proportion de personnes effectives</td>
+<td style="text-align: right;">7 %</td>
+<td style="text-align: right;">+4 points de pourcentage</td>
+</tr>
+<tr class="even">
+<td>Proportion de personnes utilisées</td>
+<td style="text-align: right;">74 %</td>
+<td style="text-align: right;">-2 points de pourcentage</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au dernier trimestre, Swisstransplant a approuvé 54 personnes en Suisse pour un don d’organe après le décès. Ce sont 4 personnes de moins (-7 %) qu’au trimestre précédent. Le taux d’utilisation était de 74 %.</p>
+</div>
+</div>
+</section>
+<section id="donneurs-décédés" class="level3">
+<h3 class="anchored" data-anchor-id="donneurs-décédés">2.2 Donneurs décédés</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Fig2.2-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption><strong>Fig. 2.2</strong> Donneurs décédés en Suisse. DBD: don en état de mort cérébrale, DCD: don en état de mort cérébrale après un arrêt cardio-circulatoire. Est considérée comme donneur toute personne décédée qui a subi une intervention chirurgicale dans l’intention d’un prélèvement d’organes aux fins d’une transplantation.</figcaption>
+</figure>
+</div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 38%">
+<col style="width: 20%">
+<col style="width: 41%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Dernier trimestre</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de donneurs (tous)</td>
+<td style="text-align: right;">44</td>
+<td style="text-align: right;">-2 (-4 %)</td>
+</tr>
+<tr class="even">
+<td>DCD</td>
+<td style="text-align: right;">20 (45 %)</td>
+<td style="text-align: right;">-1</td>
+</tr>
+<tr class="odd">
+<td>DBD</td>
+<td style="text-align: right;">24 (55 %)</td>
+<td style="text-align: right;">-1</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au dernier trimestre, 44 personnes ont fait don de leurs organes après leur décès en Suisse. Par rapport au trimestre précédent, cela représente 2 personnes de moins (-4 %). Parmi ces 44 personnes décédées, 20 (45 %) étaient des donners en état de mort cérébrale après un arrêt cardio-circulatoire (DCD).</p>
+</div>
+</div>
+</section>
+<section id="organes-transplantés-de-donneurs-décédés" class="level3">
+<h3 class="anchored" data-anchor-id="organes-transplantés-de-donneurs-décédés">2.3 Organes transplantés de donneurs décédés</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Fig2.3-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption><strong>Fig 2.3</strong> Organes transplantés en Suisse de donneurs décédés (incluant les organes provenant de l’étranger), total et par organe.</figcaption>
+</figure>
+</div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 38%">
+<col style="width: 20%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Dernier trimestre</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre d’organes transplantés (tous)</td>
+<td style="text-align: right;">138</td>
+<td style="text-align: right;">+16 (+13 %)</td>
+</tr>
+<tr class="even">
+<td>Cœur</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">+1 (+9 %)</td>
+</tr>
+<tr class="odd">
+<td>Poumons</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">+8 (+89 %)</td>
+</tr>
+<tr class="even">
+<td>Foie</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">+8 (+28 %)</td>
+</tr>
+<tr class="odd">
+<td>Reins</td>
+<td style="text-align: right;">69</td>
+<td style="text-align: right;">-1 (-1 %)</td>
+</tr>
+<tr class="even">
+<td>Pancréas/cellules des îlots</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">+/-0 (+/-0 %)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au dernier trimestre, 138 organes ont été transplantés en Suisse de donneurs décédés. Par rapport au trimestre précédent, cela représente 16 organes de plus (+13 %). En particulier, le nombre de transplantations de poumons et de foies a de nouveau augmenté.</p>
+</div>
+</div>
+</section>
+<section id="organes-transplantés-par-donneur-décédé" class="level3">
+<h3 class="anchored" data-anchor-id="organes-transplantés-par-donneur-décédé">2.4 Organes transplantés par donneur décédé</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Fig2.4-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption><strong>Fig 2.4</strong> Nombre d’organes transplantés par donneur décédé (moyenne et écart-type). DBD: don en état de mort cérébrale, DCD: don en état de mort cérébrale après un arrêt cardio-circulatoire.</figcaption>
+</figure>
+</div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 37%">
+<col style="width: 18%">
+<col style="width: 43%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Dernier trimestre</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Organes par donneur (tous)</td>
+<td style="text-align: right;">2.7</td>
+<td style="text-align: right;">+0.2</td>
+</tr>
+<tr class="even">
+<td>DBD</td>
+<td style="text-align: right;">3.2</td>
+<td style="text-align: right;">+0.2</td>
+</tr>
+<tr class="odd">
+<td>DCD</td>
+<td style="text-align: right;">2.1</td>
+<td style="text-align: right;">+0.1</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au dernier trimestre, 2.7 organes ont été transplantés en moyenne en Suisse par donneur décédé. Par rapport au trimestre précédent, cela représente 0.2 organe de plus.</p>
+</div>
+</div>
+</section>
+<section id="donneurs-vivants" class="level3">
+<h3 class="anchored" data-anchor-id="donneurs-vivants">2.5 Donneurs vivants</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Fig2.5-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption><strong>Fig 2.5</strong> Donneurs vivants en Suisse, au total et par organe. Pour les dons de donneurs vivants, le nombre de donneurs est égal au nombre d’organes transplantés.</figcaption>
+</figure>
+</div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 39%">
+<col style="width: 18%">
+<col style="width: 41%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Dernier trimestre</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de donneurs vivants (tous)</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">-7 (-26 %)</td>
+</tr>
+<tr class="even">
+<td>Foie</td>
+<td style="text-align: right;">1 (5 %)</td>
+<td style="text-align: right;">+/-0</td>
+</tr>
+<tr class="odd">
+<td>Rein</td>
+<td style="text-align: right;">19 (95 %)</td>
+<td style="text-align: right;">-7 (-27 %)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au cours du dernier trimestre, 20 personnes vivantes en Suisse ont fait don d’un de leurs reins (dans 95 % des cas) ou d’une partie de leur foie (dans 5 % des cas). Cela représente 7 dons de personnes vivantes de moins qu’au trimestre précédent.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="transplantations" class="level2">
+<h2 class="anchored" data-anchor-id="transplantations">3. Transplantations</h2>
+<p>Vous trouverez ici les chiffres clés sur les patients qui ont reçu un organe d’un donneur décédé. Il s’agit d’une part de patients Suisse qui ont reçu un organe d’un donneur décédé en Suisse ou à l’étranger. D’autre part, il s’agit de personnes à l’étranger qui ont reçu un organe d’une personne décédée en Suisse, lorsqu’aucune personne compatible n’a pu être trouvée en Suisse. Vous trouverez les chiffres clés concernant le don de rein et de foie par des donneurs vivants au point <a href="https://data.swisstransplant.org/fr/posts/2025-Q2/#donneurs-vivants">2.5</a>.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="L'essentiel en bref">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Astuce</span>L’essentiel en bref
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au troisième trimestre 2025, 136 personnes ont reçu en Suisse un ou plusieurs organes de donneurs décédées. Par rapport au trimestre précédent, cela représente 19 transplantations de plus (+16 %). Le troisième trimestre a notamment été marqué par une augmentation du nombre de transplantations pulmonaires et hépatiques. Parmi les 136 patients, 25 (18 %) ont reçu un organe provenant de l’étranger. Jamais autant de personnes n’avaient pu bénéficier d’une transplantation grâce à un organe provenant de l’étranger en Suisse au cours d’un trimestre.</p>
+</div>
+</div>
+<section id="patients-transplantés-en-suisse" class="level3">
+<h3 class="anchored" data-anchor-id="patients-transplantés-en-suisse">3.1 Patients transplantés en Suisse</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Fig3.1-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption><strong>Fig. 3.1</strong> Patients transplantés en Suisse qui ont reçu un organe d’un donneur décédé, au total et par type de transplantation. « Multi-organes » signifie qu’un patient a reçu plus d’un organe à la fois. Les organes de donneurs décédés provenant de l’étranger sont inclus, les organes provenant de donneurs vivants ne sont pas inclus.</figcaption>
+</figure>
+</div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 37%">
+<col style="width: 20%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Dernier trimestre</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de patients transplantés (tous)</td>
+<td style="text-align: right;">136</td>
+<td style="text-align: right;">+19 (+16 %)</td>
+</tr>
+<tr class="even">
+<td>Multi-organes</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">-3 (-60 %)</td>
+</tr>
+<tr class="odd">
+<td>Cœur</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">+1 (+9 %)</td>
+</tr>
+<tr class="even">
+<td>Poumons</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">+8 (+89 %)</td>
+</tr>
+<tr class="odd">
+<td>Foie</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">+11 (+42 %)</td>
+</tr>
+<tr class="even">
+<td>Reins</td>
+<td style="text-align: right;">67</td>
+<td style="text-align: right;">+2 (+3 %)</td>
+</tr>
+<tr class="odd">
+<td>Pancréas/cellules des îlots</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">+/- 0 (+/- 0%)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au dernier trimestre, 136 personnes ont reçu en Suisse un ou plusieurs organes de donneurs décédés. Par rapport au trimestre précédent, cela représente 19 transplantations de plus (+16 %). 2 personnes ont reçu plus d’un organe à la fois (« Multi-organes »), chacune d’elles ayant reçu un rein et un pancréas / des cellules des îlots.</p>
+</div>
+</div>
+</section>
+<section id="patients-transplantés-en-suisse-avec-des-organes-de-létranger" class="level3">
+<h3 class="anchored" data-anchor-id="patients-transplantés-en-suisse-avec-des-organes-de-létranger">3.2 Patients transplantés en Suisse avec des organes de l’étranger</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Fig3.2-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption><strong>Fig. 3.2</strong> Patients transplantés en Suisse qui ont reçu un organe d’un donneur décédée de l’étranger, total et par type de transplantation.</figcaption>
+</figure>
+</div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 41%">
+<col style="width: 22%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Dernier trimestre</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de patients transplantés avec des organes provenant de l’étranger</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">+15 (+150 %)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au dernier trimestre, 25 patients ont reçu en Suisse des organes provenant de donneurs décédés à l’étranger. Cela fait 15 personnes de plus (+150 %) qu’au trimestre précédent. Jamais auparavant autant de personnes n’avaient pu bénéficier d’une transplantation grâce à un organe provenant de l’étranger en Suisse au cours d’un trimestre.</p>
+</div>
+</div>
+</section>
+<section id="organes-transplantés-à-létranger" class="level3">
+<h3 class="anchored" data-anchor-id="organes-transplantés-à-létranger">3.3 Organes transplantés à l’étranger</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Fig3.3-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption><strong>Fig. 3.3</strong> Organes transplantés à l’étranger d’un donneur décédée en Suisse, total et par organe.</figcaption>
+</figure>
+</div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 42%">
+<col style="width: 17%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Dernier trimestre</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre d’organes transplantés à l’étranger</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">+1 (+25 %)</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au dernier trimestre, 5 organes provenant de donneurs décédés en Suisse ont été transplantés à l’étranger. Par rapport au trimestre précédent, cela représente 1 organ de plus.</p>
+</div>
+</div>
+</section>
+<section id="transplantations-du-cœur" class="level3">
+<h3 class="anchored" data-anchor-id="transplantations-du-cœur">3.4 Transplantations du cœur</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Fig3.4-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption><strong>Fig. 3.4</strong> Transplantations du cœur en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont inclus. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.</figcaption>
+</figure>
+</div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 22%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Dernier trimestre</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de transplantations du coeur</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">+1 (+9 %)</td>
+</tr>
+<tr class="even">
+<td>DCD</td>
+<td style="text-align: right;">3 (25 %)</td>
+<td style="text-align: right;">+1</td>
+</tr>
+<tr class="odd">
+<td>DBD</td>
+<td style="text-align: right;">9 (75 %)</td>
+<td style="text-align: right;">+/- 0</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au dernier trimestre, 12 personnes ont reçu une transplantation cardiaque en Suisse. Par rapport au trimestre précédent, cela représente 1 transplantation cardiaque de plus (+9 %).</p>
+</div>
+</div>
+</section>
+<section id="transplantations-de-poumons" class="level3">
+<h3 class="anchored" data-anchor-id="transplantations-de-poumons">3.5 Transplantations de poumons</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Fig3.5-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption><strong>Fig. 3.5</strong> Transplantations de poumons en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont inclus DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.</figcaption>
+</figure>
+</div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 22%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Dernier trimestre</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de transplantations de poumons</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">+8 (+89 %)</td>
+</tr>
+<tr class="even">
+<td>DCD</td>
+<td style="text-align: right;">5 (29 %)</td>
+<td style="text-align: right;">+4</td>
+</tr>
+<tr class="odd">
+<td>DBD</td>
+<td style="text-align: right;">12 (71 %)</td>
+<td style="text-align: right;">+4</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au dernier trimestre, 17 personnes ont reçu une transplantation pulmonaires en Suisse. Par rapport au trimestre précédent, cela représente 8 transplantations pulmonaires de plus (+89 %).</p>
+</div>
+</div>
+</section>
+<section id="transplantations-du-foie" class="level3">
+<h3 class="anchored" data-anchor-id="transplantations-du-foie">3.6 Transplantations du foie</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Fig3.6-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption><strong>Fig. 3.6</strong> Transplantations du foie des donneurs decédés en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont inclus. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.</figcaption>
+</figure>
+</div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 39%">
+<col style="width: 21%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Dernier trimestre</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de transplantations du foie (tous)</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">+8 (+28 %)</td>
+</tr>
+<tr class="even">
+<td>DCD</td>
+<td style="text-align: right;">10 (27 %)</td>
+<td style="text-align: right;">+/- 0</td>
+</tr>
+<tr class="odd">
+<td>DBD</td>
+<td style="text-align: right;">27 (73 %)</td>
+<td style="text-align: right;">+8</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au dernier trimestre, 37 personnes ont reçu une transplantation hépatique en Suisse, provenant d’un don d’organe après le décès. Par rapport au trimestre précédent, cela représente 8 transplantations hépatiques de plus (+28 %).</p>
+</div>
+</div>
+</section>
+<section id="transplantations-de-reins" class="level3">
+<h3 class="anchored" data-anchor-id="transplantations-de-reins">3.7 Transplantations de reins</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Fig3.7-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption><strong>Fig. 3.7</strong> Transplantations de reins de donneurs décédés en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont inclus. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.</figcaption>
+</figure>
+</div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 39%">
+<col style="width: 21%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Dernier trimestre</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de transplantations de reins (tous)</td>
+<td style="text-align: right;">69</td>
+<td style="text-align: right;">-1 (-1 %)</td>
+</tr>
+<tr class="even">
+<td>DCD</td>
+<td style="text-align: right;">27 (39 %)</td>
+<td style="text-align: right;">-2</td>
+</tr>
+<tr class="odd">
+<td>DBD</td>
+<td style="text-align: right;">42 (61 %)</td>
+<td style="text-align: right;">+1</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au dernier trimestre, 69 personnes ont reçu une transplantation rénale en Suisse, provenant d’un don d’organe après le décès. Par rapport au trimestre précédent, cela représente 1 transplantation rénale de moins (-1 %).</p>
+</div>
+</div>
+</section>
+<section id="transplantations-de-pancréas-et-dcellules-des-îlots" class="level3">
+<h3 class="anchored" data-anchor-id="transplantations-de-pancréas-et-dcellules-des-îlots">3.8 Transplantations de pancréas et d’cellules des îlots</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Fig3.8-fr.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption><strong>Fig. 3.8</strong> Transplantations de pancréas et d’îlots, réparties en dons DBD et DCD. Les transplantations combinées sont inclus. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.</figcaption>
+</figure>
+</div>
+<p><br></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 48%">
+<col style="width: 22%">
+<col style="width: 28%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Indicateur</th>
+<th style="text-align: right;">Dernier trimestre</th>
+<th style="text-align: right;">Changement par rapport au trimestre précédent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nombre de transplantations de pancréas et d’îlots (tous)</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">+/- 0</td>
+</tr>
+<tr class="even">
+<td>DCD</td>
+<td style="text-align: right;">0 (0 %)</td>
+<td style="text-align: right;">+/- 0</td>
+</tr>
+<tr class="odd">
+<td>DBD</td>
+<td style="text-align: right;">3 (100 %)</td>
+<td style="text-align: right;">+/- 0</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-default callout-note callout-titled" title="Exemple de lecture">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Exemple de lecture
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Au dernier trimestre, 3 personnes ont reçu une transplantation de pancréas/d’îlots en Suisse, soit autant qu’au trimestre précédent.</p>
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/data\.swisstransplant\.org\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2023–2025 Swisstransplant</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
