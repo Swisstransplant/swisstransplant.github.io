@@ -538,7 +538,7 @@ Im letzten Quartal erhielten in der Schweiz 11 Personen eine Herztransplantation
 |DBD                                         |8 (89 %)                 |-6                                      |
 
 ::: {.callout-note title="Lesebeispiel"}
-Im letzten Quartal erhielten in der Schweiz 11 Personen eine Lungentransplantation. Im Vergleich zum Vorquartal sind das 11 Lungentransplantationen weniger.
+Im letzten Quartal erhielten in der Schweiz 9 Personen eine Lungentransplantation. Im Vergleich zum Vorquartal sind das 11 Lungentransplantationen weniger.
 :::
 
 ### 3.6 Lebertransplantationen

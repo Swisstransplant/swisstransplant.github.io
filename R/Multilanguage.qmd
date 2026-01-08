@@ -102,12 +102,16 @@ page = gsub(x = page,
             replace = "3e trimestre 2025")
 
 page = gsub(x = page,
+            pattern = "4. Quartal 2025", 
+            replace = "4e trimestre 2025")
+
+page = gsub(x = page,
             pattern = "Jahreszahlen 2024", 
             replace = "Chiffres annuels 2024")
 
 page = gsub(x = page,
-            pattern = "Wie lange muss man auf ein Spendeorgan warten\\?", 
-            replace = "Combien de temps faut-il attendre pour recevoir un organe?")
+            pattern = "Wie lange wartet man auf ein Spendeorgan\\?", 
+            replace = "Combien de temps faut-il attendre pour recevoir un organe ?")
 
 writeLines(page, con=file)
 ```
@@ -215,6 +219,20 @@ writeLines(page, con=file)
 ```
 
 ```{r}
+file = "../docs/fr/posts/2025-Q4/index.html"
+page = readLines(file, warn = FALSE)
+
+page = gsub(x = page,
+            pattern = "<title>4. Quartal 2025 – Swisstransplant Data</title>", 
+            replace = "<title>4e trimestre 2025 – Swisstransplant Data</title>")
+page = gsub(x = page,
+            pattern = "<h1 class=\"title\">4. Quartal 2025</h1>", 
+            replace = "<h1 class=\"title\">4e trimestre 2025</h1>")
+
+writeLines(page, con=file)
+```
+
+```{r}
 file = "../docs/fr/posts/2024/index.html"
 page = readLines(file, warn = FALSE)
 
@@ -229,15 +247,15 @@ writeLines(page, con=file)
 ```
 
 ```{r}
-file = "../docs/fr/posts/2024-WL/index.html"
+file = "../docs/fr/posts/2025-WL/index.html"
 page = readLines(file, warn = FALSE)
 
 page = gsub(x = page,
-            pattern = "<title>Wie lange muss man auf ein Spendeorgan warten\\? – Swisstransplant Data</title>", 
-            replace = "<title>Combien de temps faut-il attendre pour recevoir un organe? – Swisstransplant Data</title>")
+            pattern = "<title>Wie lange wartet man auf ein Spendeorgan\\? – Swisstransplant Data</title>", 
+            replace = "<title>Combien de temps faut-il attendre pour recevoir un organe ? – Swisstransplant Data</title>")
 page = gsub(x = page,
-            pattern = "<h1 class=\"title\">Wie lange muss man auf ein Spendeorgan warten\\?</h1>", 
-            replace = "<h1 class=\"title\">Combien de temps faut-il attendre pour recevoir un organe?</h1>")
+            pattern = "<h1 class=\"title\">Wie lange wartet man auf ein Spendeorgan\\?</h1>", 
+            replace = "<h1 class=\"title\">Combien de temps faut-il attendre pour recevoir un organe ?</h1>")
 
 writeLines(page, con=file)
 ```
