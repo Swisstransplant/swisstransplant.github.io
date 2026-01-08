@@ -220,13 +220,13 @@ La valeur médiane du temps d'attente jusqu'à la transplantation (MTT) peut êt
 | Reins                        |          2.94 | 2.60--3.32 |
 | Pancréas/îlots de Langerhans |          1.57 | 0.92--1.87 |
 
-: Temps d'attente médian jusqu'à la transplantation (MTT) et intervalle de confiance (IC) à 95 % pour toutes les personnes nouvellement inscrites entre 2016 et 2025. {#tbl-1 .striped .hover}
+: Temps d'attente médian jusqu'à la transplantation (MTT) et intervalle de confiance (IC) à 95 % pour toutes les personnes nouvellement inscrites entre 2016 et 2025. {#tbl-1 .striped .hover}
 
 ## 3. Évolution du temps d'attente au fil du temps
 
 Le taux de transplantation (taux de défaillance, voir encadré) est utilisé pour évaluer l'évolution du temps d'attente ([fig. @fig-2]). Il montre des tendances différentes selon les organes : une tendance positive est observable pour le cœur, les poumons, les reins et le pancréas/les cellules des îlots pancréatiques, tandis qu'une tendance défavorable a été observée ces dernières années pour le foie, qui semble désormais se stabiliser.
 
-![Development of the transplantation rate in recent years (with 95 % confidence interval). An increase in the transplantation rate has been recorded for hearts, lungs, kidneys, and pancreas/islet cells, which has had a positive effect on waiting times.](WAIT-regdate-fr.png){#fig-2 width="90%"}
+![Évolution du taux de transplantation au cours des dernières années (avec un intervalle de confiance de 95 %). On constate une augmentation du taux de transplantation pour le cœur, les poumons, les reins et le pancréas/les cellules insulaires, ce qui a un effet favorable sur les délais d'attente.](WAIT-regdate-fr.png){#fig-2 width="90%"}
 
 ::: {.callout-note appearance="simple"}
 ## Qu'est-ce qu'un taux de défaillance ?
@@ -238,7 +238,7 @@ Le taux de défaillance n'est pas une probabilité, mais un taux qui indique la 
 
 ## 4. Probabilité des différents événements
 
-La transplantation est l'événement le plus fréquent, mais il peut également arriver que des personnes inscrites sur la liste d'attente décèdent ou soient retirées de la liste (delisting). Pour ces trois événements, il est possible de créer des courbes à partir desquelles les probabilités peuvent être lues. Les tableaux [@tbl-2] à [-@tbl-6] indiquent les valeurs pour les 5 premières années suivant l'inscription sur la liste.
+La transplantation est l'événement le plus fréquent, mais il peut également arriver que des personnes inscrites sur la liste d'attente décèdent ou soient retirées de la liste (delisting). Pour ces trois événements, il est possible de créer des courbes à partir desquelles les probabilités peuvent être lues. [Tab. @tbl-2] à [-@tbl-6] indiquent les valeurs pour les 5 premières années suivant l'inscription sur la liste.
 
 Les probabilités indiquées se basent sur toutes les personnes nouvellement inscrites entre 2016 et 2025. La probabilité pour les personnes récemment inscrites peut être plus élevée, car les processus de don et d'attribution sont optimisés en permanence.
 
@@ -349,7 +349,7 @@ C'est pourquoi nous ne sélectionnons pas la population étudiée en fonction du
 
 ### Comment interpréter exactement le temps d'attente médian jusqu'à la transplantation (MTT) ?
 
-Il correspond au temps d'attente après lequel la probabilité d'une transplantation est de 50 %. Pour les reins, le MTT est d'un peu moins de 3 ans ; on peut donc supposer qu'après environ 3 ans, 50 personnes sur 100 recevront un rein.
+Il correspond au temps d'attente après lequel la probabilité d'une transplantation est de 50 %. Pour les reins, le MTT est d'un peu moins de 3 ans ; on peut donc supposer qu'après environ 3 ans, 50 personnes sur 100 recevront un rein.
 
 En principe, le MTT est le temps d'attente moyen pour une personne dont nous ne savons pratiquement rien, si ce n'est qu'elle a été inscrite sur la liste d'attente pour une transplantation d'organe. Nous ne savons pas s'il s'agit d'un enfant ou d'un adulte, quel est le sexe de la personne, s'il y a une urgence médicale élevée, quel est son groupe sanguin ou si la personne aura un temps d'attente inactif. Tous ces facteurs influencent considérablement le temps d'attente individuel, qui peut donc être nettement plus court ou plus long que le MTT dans la réalité.
 

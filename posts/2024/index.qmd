@@ -16,7 +16,7 @@ execute:
 Zweithöchste Anzahl spendender verstorbener Personen nach dem Rekordjahr 2023. Erstmals überstieg die Anzahl Organspenden im Hirntod nach Herz-Kreislauf-Stillstand (DCD) die Organspenden im Hirntod (DBD).
 
 ::: {.callout-warning title="Hinweis"}
-Die Kennzahlen zu den Wartezeiten bis zur Transplantation werden neu separat ausgewiesen. Die Berechnung erfolgt nach einer neuen Methodik (["Wie lange muss man auf ein Spendeorgan warten?"](https://data.swisstransplant.org/posts/2024-WL/){target="_blank"}).
+Die Kennzahlen zu den Wartezeiten bis zur Transplantation werden neu separat ausgewiesen. Die Berechnung erfolgt nach einer neuen Methodik (["Wie lange muss man auf ein Spendeorgan warten?"](https://data.swisstransplant.org/posts/2025-WL/){target="_blank"}).
 :::
 
 :::

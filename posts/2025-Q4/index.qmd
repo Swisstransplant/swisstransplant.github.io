@@ -17,7 +17,7 @@ execute:
 Ähnlich viele spendende verstorbene Personen und transplantierte Personen in der Schweiz wie im Vorquartal.
 
 ::: {.callout-warning title="Hinweis"}
-Die Wartezeiten bis zur Transplantation werden nicht mehr pro Quartal ausgewiesen, sondern neu nur noch einmal pro Jahr. Die Berechnung erfolgt nach einer neuen Methodik ([siehe "Wie lange muss man auf ein Spendeorgan warten?"](https://data.swisstransplant.org/posts/2024-WL/){target="_blank"}).
+Die Wartezeiten bis zur Transplantation werden nicht mehr pro Quartal ausgewiesen, sondern neu nur noch einmal pro Jahr. Die Berechnung erfolgt nach einer neuen Methodik ([siehe "Wie lange muss man auf ein Spendeorgan warten?"](https://data.swisstransplant.org/posts/2025-WL/){target="_blank"}).
 :::
 
 :::

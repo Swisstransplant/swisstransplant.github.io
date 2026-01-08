@@ -16,7 +16,7 @@ execute:
 Wieder mehr spendende Personen, insbesondere bei der Spende nach dem Hirntod. Noch nie wurden in der Schweiz so viele Personen mit Organen von spendenden verstorbenen Personen transplantiert.
 
 ::: {.callout-warning title="Hinweis"}
-Die Wartezeiten bis zur Transplantation werden nicht mehr pro Quartal ausgewiesen, sondern neu nur noch einmal pro Jahr. Die Berechnung erfolgt nach einer neuen Methodik ([siehe "Wie lange muss man auf ein Spendeorgan warten?"](https://data.swisstransplant.org/posts/2024-WL/){target="_blank"}).
+Die Wartezeiten bis zur Transplantation werden nicht mehr pro Quartal ausgewiesen, sondern neu nur noch einmal pro Jahr. Die Berechnung erfolgt nach einer neuen Methodik ([siehe "Wie lange muss man auf ein Spendeorgan warten?"](https://data.swisstransplant.org/posts/2025-WL/){target="_blank"}).
 :::
 
 :::
