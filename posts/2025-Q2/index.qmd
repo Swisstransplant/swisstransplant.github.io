@@ -25,7 +25,7 @@ Die Wartezeiten bis zur Transplantation werden nicht mehr pro Quartal ausgewiese
 Moins de donneurs décédés et d’organes transplantés, en particulier pour les dons en état de mort cérébrale après un arrêt cardio-circulatoire (DCD).
 
 ::: {.callout-warning title="Remarque"}
-Les temps d’attente jusqu’à la transplantation ne sont plus indiqués par trimestre, mais seulement un foie par an. Le calcul est effectué selon une nouvelle méthodologie ([voir "Combien de temps faut-il attendre pour recevoir un organe ?"](https://data.swisstransplant.org/fr/posts/2024-WL/){target="_blank"}).
+Les temps d’attente jusqu’à la transplantation ne sont plus indiqués par trimestre, mais seulement un foie par an. Le calcul est effectué selon une nouvelle méthodologie ([voir "Combien de temps faut-il attendre pour recevoir un organe ?"](https://data.swisstransplant.org/fr/posts/2025-WL/){target="_blank"}).
 :::
 
 :::

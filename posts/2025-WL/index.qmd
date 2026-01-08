@@ -61,7 +61,7 @@ Die Hazard-Rate ist keine Wahrscheinlichkeit, sondern eine Rate, die angibt, wie
 
 ## 4. Wahrscheinlichkeit der verschiedenen Ereignisse
 
-Die Transplantation ist das häufigste Ereignis, aber es kann auch vorkommen, dass Personen auf der Warteliste versterben oder von der Liste  werden (Delisting). Für diese drei Ereignisse lassen sich Kurven erstellen, aus denen die Wahrscheinlichkeiten abgelesen werden können. [Tab. @tbl-2] bis [-@tbl-6] zeigen die Werte für die ersten 5 Jahre nach Listung.
+Die Transplantation ist das häufigste Ereignis, aber es kann auch vorkommen, dass Personen auf der Warteliste versterben oder von der Liste genommen werden (Delisting). Für diese drei Ereignisse lassen sich Kurven erstellen, aus denen die Wahrscheinlichkeiten abgelesen werden können. [Tab. @tbl-2] bis [-@tbl-6] zeigen die Werte für die ersten 5 Jahre nach Listung.
 
 Die angegebenen Wahrscheinlichkeiten basieren auf allen in den Jahren 2016–2025 neu gelisteten Personen. Die Wahrscheinlichkeit von kürzlich gelisteten Personen können besser sein, da Spende- und Allokationsprozesse kontinuierlich optimiert werden.
 
@@ -193,7 +193,7 @@ Das ist eine schwierige Frage, da sie einen Blick in die Zukunft erfordert. Wir 
 ::: {.callout-note appearance="simple"}
 ## L'essentiel en bref
 
-- En Suisse, le temps d'attente médian pour une greffe de rein était de près de 3 ans pour les personnes nouvellement inscrites sur la liste d'attente entre 2016 et 2025. Pour les autres organes, les temps d'attente étaient généralement plus courts, compris entre 0,6 et 1,6 an.
+- En Suisse, le temps d'attente médian pour une greffe de rein était de près de 3 ans pour les personnes nouvellement inscrites sur la liste d'attente entre 2016 et 2025. Pour les autres organes, les temps d'attente étaient généralement plus courts, compris entre 0.6 et 1.6 an.
 
 - Le temps d'attente médian pour les transplantations cardiaques, pulmonaires et rénales a diminué au cours des 12 derniers mois. Pour les transplantations hépatiques, le temps d'attente est resté inchangé.
 
@@ -237,7 +237,6 @@ Le taux de défaillance n'est pas une probabilité, mais un taux qui indique la 
 :::
 
 ## 4. Probabilité des différents événements
-
 La transplantation est l'événement le plus fréquent, mais il peut également arriver que des personnes inscrites sur la liste d'attente décèdent ou soient retirées de la liste (delisting). Pour ces trois événements, il est possible de créer des courbes à partir desquelles les probabilités peuvent être lues. [Tab. @tbl-2] à [-@tbl-6] indiquent les valeurs pour les 5 premières années suivant l'inscription sur la liste.
 
 Les probabilités indiquées se basent sur toutes les personnes nouvellement inscrites entre 2016 et 2025. La probabilité pour les personnes récemment inscrites peut être plus élevée, car les processus de don et d'attribution sont optimisés en permanence.
