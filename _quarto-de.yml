@@ -20,13 +20,13 @@ website:
         href: posts.qmd
       - text: "Forschung"
         menu:
-        - tools/index.qmd
-        - text: "KIDMO"
-          href: kidmo/index.qmd
         - text: "EXAM"
           href: exam/index.qmd
+        - text: "KIDMO"
+          href: kidmo/index.qmd
         - text: "Publikationen"
           href: publications/index.qmd
+        - tools/index.qmd
       - text: "Über uns"
         href: about/index.qmd
     right:
@@ -34,7 +34,7 @@ website:
         href: ./fr
         
   page-footer:
-    left: '© 2023--2025 Swisstransplant'
+    left: '© 2023--2026 Swisstransplant'
   google-analytics:
     tracking-id: "G-NJH1JBVDQV"
     anonymize-ip: true
