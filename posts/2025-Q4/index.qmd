@@ -454,7 +454,7 @@ ENTIRE ENGLISH SECTION NEEDS TRANSLATION AND NUMBERS IN TABLES AER NOT UPDATED!!
 ::: {.content-visible when-profile="de"}
 ## 3. Transplantationen
 
-Hier finden Sie Kennzahlen zu Personen, die ein Organ von einer spendenden verstorbenen Person erhielten. Einerseits sind dies Personen in der Schweiz, die ein Organ von einer spendenden verstorbenen Person aus der Schweiz oder aus dem Ausland erhielten. Andererseits sind dies Personen im Ausland, die ein Organ von einer verstorbenen Person aus der Schweiz erhielten, wenn in der Schweiz für ein Organ keine passende Person gefunden werden konnte. Kennzahlen zur Lebendspende von Niere und Leber finden Sie unter [2.5](https://data.swisstransplant.org/posts/2025-Q3/#spendende-lebende-personen).
+Hier finden Sie Kennzahlen zu Personen, die ein Organ von einer spendenden verstorbenen Person erhielten. Einerseits sind dies Personen in der Schweiz, die ein Organ von einer spendenden verstorbenen Person aus der Schweiz oder aus dem Ausland erhielten. Andererseits sind dies Personen im Ausland, die ein Organ von einer verstorbenen Person aus der Schweiz erhielten, wenn in der Schweiz für ein Organ keine passende Person gefunden werden konnte. Kennzahlen zur Lebendspende von Niere und Leber finden Sie unter [2.5](https://data.swisstransplant.org/posts/2025-Q4/#spendende-lebende-personen).
 
 ::: {.callout-tip title="Das Wichtigste in Kürze"}
 Im vierten Quartal 2025 erhielten in der Schweiz 135 Personen eines oder mehrere Organe von spendenen verstorbenen Personen. Im Vergleich zum dritten Quartal 2025 ist das 1 Transplantation weniger (-1 %). Von den 135 Personen erhielten 18 Personen (13 %) ein Organ aus dem Ausland.
