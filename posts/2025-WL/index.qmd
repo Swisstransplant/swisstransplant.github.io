@@ -18,12 +18,12 @@ execute:
 
 - Die mediane Wartezeit auf eine Niere für eine zwischen 2016 und 2025 neu gelistete Person betrug in der Schweiz knapp 3 Jahre. Für andere Organe waren die Wartezeiten in der Regel kürzer und lagen zwischen 0.6 und 1.6 Jahren.
 
-- Die mediane Wartezeit für Herz-, Lungen- und Nierentransplantationen nahm in den letzten 12 Monaten ab. Bei Lebertransplantationen blieb die Wartezeit unverändert.
+- Die mediane Wartezeit für Herz-, Lungen- und Nierentransplantationen nahm im Jahr 2025 ab. Bei Lebertransplantationen blieb die Wartezeit unverändert.
 
 - Es gibt viele Faktoren, welche die Wartezeit auf ein Organ beeinflussen können, wie z.B. die Organverfügbarkeit, die medizinische Dringlichkeit oder die Blutgruppe.
 :::
 
-Swisstransplant beobachtet die Entwicklung der Warteliste und berechnet die Wartezeiten für Transplantationen mit Organen von spendenden verstorbenen Personen. Die hier angegebenen Wartezeiten basieren auf allen von 2016 bis 2025 in der Schweiz neu gelisteten Personen, aber jede Patientin, jeder Patient ist anders. Die individuelle Wartezeit kann deutlich kürzer oder länger sein. Sie hängt von der Organverfügbarkeit, der medizinischen Dringlichkeit, der Blutgruppe und je nach Organ von weiteren Faktoren wie Alter oder Gewicht ab.
+Swisstransplant beobachtet die Entwicklung der nationalen Warteliste für ein Spendeorgan von spendenden verstorbenen Personen und berechnet die Wartezeiten bis zur Transplantation. Die hier angegebenen Wartezeiten basieren auf den Daten aller von 2016–2025 in der Schweiz neu gelisteten Personen, aber jede Patientin, jeder Patient ist anders. Die individuelle Wartezeit kann deutlich kürzer oder länger sein. Sie hängt von der Organverfügbarkeit, der medizinischen Dringlichkeit, der Blutgruppe und je nach Organ von weiteren Faktoren wie Alter oder Gewicht ab.
 
 ## 1. Wahrscheinlichkeit der Transplantation
 
@@ -33,7 +33,7 @@ Die Wahrscheinlichkeit einer Transplantation kann als Kurve über die Zeit darge
 
 ## 2. Mediane Wartezeit bis zur Transplantation (MTT)
 
-Als einzelner Kennwert lässt sich die mediane Wartezeit bis zur Transplantation (MTT) aus den vorherigen Kurven ablesen ([Tab. @tbl-1]). Sie entspricht der Wartezeit, bis zu der die Hälfte der Personen ein Organ erhielten und berücksichtigt alle gelisteten Personen, nicht nur Transplantierte. Für viele Organe ist die aktuelle Wartezeit inzwischen kürzer als der angegebene MTT-Wert, da sich der Trend günstig entwickelt.
+Als einzelner Kennwert lässt sich die mediane Wartezeit bis zur Transplantation (MTT) aus den vorherigen Kurven ablesen ([Tab. @tbl-1]). Sie entspricht der Wartezeit, bis zu der die Hälfte der Personen ein Organ erhielten und berücksichtigt alle gelisteten Personen, nicht nur Transplantierte. Für viele Organe ist die Wartezeit inzwischen kürzer als der angegebene MTT-Wert, da wir einen Anstieg der Transplantationsrate beobachten.
 
 |                      | MTT in Jahren | 95 %-KI    |
 |:---------------------|--------------:|:-----------|
@@ -47,7 +47,7 @@ Als einzelner Kennwert lässt sich die mediane Wartezeit bis zur Transplantation
 
 ## 3. Veränderung der Wartezeit über die Zeit
 
-Zur Beurteilung der zeitlichen Entwicklung der Wartezeit wird die Transplantationsrate (Hazard-Rate, siehe Box) herangezogen ([Abb. @fig-2]). Sie zeigt je nach Organ unterschiedliche Trends: Für Herz, Lunge, Niere und Pankreas/Inselzellen ist ein positiver Trend erkennbar, während bei der Leber in den letzten Jahren ein ungünstiger Trend zu beobachten war, der sich inzwischen zu stabilisieren scheint.
+Zur Beurteilung der zeitlichen Entwicklung der Wartezeit wird die Transplantationsrate (Hazard-Rate, siehe Box) herangezogen ([Abb. @fig-2]). Sie zeigt je nach Organ unterschiedliche Trends: Für Herz, Lunge, Niere und Pankreas/Inselzellen beobachten wir einen Anstieg der Transplantationsrate, bei der Leber war in den letzten Jahren ein Rückgang zu beobachten, der sich inzwischen etwas zu stabilisieren scheint.
 
 ![Entwicklung der Transplantationsrate in den letzten Jahren (mit 95 %-Konfidenzband). Bei Herz, Lunge, Niere, und Pankreas/Inselzellen ist ein Anstieg der Transplantationsrate zu verzeichnen, der sich günstig auf die Wartezeiten auswirkt.](WAIT-regdate-de.png){#fig-2 width="90%"}
 
@@ -56,14 +56,14 @@ Zur Beurteilung der zeitlichen Entwicklung der Wartezeit wird die Transplantatio
 
 Die **Hazard-Rate** in der medizinischen Statistik beschreibt die **Rate**, mit der ein Ereignis wie eine Transplantation in einem kurzen Zeitintervall eintritt – unter der Voraussetzung, dass es bis zu diesem Zeitpunkt noch nicht eingetreten ist. Die Hazard-Rate kann als die **momentane Intensität** des Ereignisses verstanden werden.
 
-Die Hazard-Rate ist keine Wahrscheinlichkeit, sondern eine Rate, die angibt, wie oft das Ereignis pro Zeiteinheit erwartet wird – ähnlich wie beim Betrachten der Geschwindigkeit eines Autos. Es geht also darum, wie schnell etwas gerade passiert. Wenn wir Patienten auf der Warteliste für eine Herztransplantation betrachten, beschreibt die Hazard-Rate, mit welcher Rate eine Person genau in diesem Moment ein Spenderorgan erhält – unter der Voraussetzung, dass sie noch wartet.
+Die Hazard-Rate ist keine Wahrscheinlichkeit, sondern eine Rate, die angibt, wie oft das Ereignis pro Zeiteinheit erwartet wird – ähnlich wie beim Betrachten der Geschwindigkeit eines Autos. Es geht also darum, wie schnell etwas gerade passiert. Wenn wir Patientinnen und Patienten auf der Warteliste für eine Herztransplantation betrachten, beschreibt die Hazard-Rate, mit welcher Rate eine Person genau in diesem Moment ein Spendeorgan erhält – unter der Voraussetzung, dass sie noch wartet.
 :::
 
 ## 4. Wahrscheinlichkeit der verschiedenen Ereignisse
 
 Die Transplantation ist das häufigste Ereignis, aber es kann auch vorkommen, dass Personen auf der Warteliste versterben oder von der Liste genommen werden (Delisting). Für diese drei Ereignisse lassen sich Kurven erstellen, aus denen die Wahrscheinlichkeiten abgelesen werden können. [Tab. @tbl-2] bis [-@tbl-6] zeigen die Werte für die ersten 5 Jahre nach Listung.
 
-Die angegebenen Wahrscheinlichkeiten basieren auf allen in den Jahren 2016–2025 neu gelisteten Personen. Die Wahrscheinlichkeit von kürzlich gelisteten Personen können besser sein, da Spende- und Allokationsprozesse kontinuierlich optimiert werden.
+Die angegebenen Ereigniswahrscheinlichkeiten basieren auf den Daten aller in den Jahren 2016–2025 neu gelisteten Personen. Die Wahrscheinlichkeiten von kürzlich gelisteten Personen können günstiger sein, da Spende- und Allokationsprozesse kontinuierlich optimiert werden.
 
 ### Herz-Warteliste
 
@@ -124,7 +124,7 @@ Die angegebenen Wahrscheinlichkeiten basieren auf allen in den Jahren 2016–202
 
 Es ist möglich, die Transplantationsraten für verschiedene Listungszeitpunkte zu vergleichen. Wir berechnen den Unterschied zwischen Personen, die Mitte 2025 und Mitte 2024 gelistet wurden (Hazard Ratio, siehe Box).
 
-Bei Herz- und Lungen stieg die Transplantationsrate für Mitte 2025 gelistete Personen um den Faktor 1.34 bzw. 1.29, was einer Erhöhung um 34 % bzw. 29 % entspricht. Bei Nierentransplantationen lag die Steigerung bei 17 %, während die Lebertransplantationsrate unverändert blieb. Für Pankreas- und Inselzelltransplantationen gibt es nur schwache Hinweise auf eine Verbesserung, da die Unsicherheit aufgrund der geringen Fallzahlen hoch ist ([Tab. @tbl-7]).
+Bei Herzen und Lungen stieg die Transplantationsrate für Mitte 2025 gelistete Personen um den Faktor 1.34 bzw. 1.29, was einer Erhöhung um 34 % bzw. 29 % entspricht. Bei Nierentransplantationen lag die Steigerung bei 17 %, während die Lebertransplantationsrate unverändert blieb. Für Pankreas- und Inselzelltransplantationen gibt es nur schwache Hinweise auf eine Verbesserung, da die Unsicherheit aufgrund der geringen Fallzahlen hoch ist ([Tab. @tbl-7]).
 
 | Organ                | Differenz      | Hazard Ratio | 95 %-KI    |
 |:---------------------|:---------------|:-------------|:-----------|
@@ -146,7 +146,7 @@ Beispiel: Angenommen, das Hazard Ratio für Personen, die Mitte 2025 gelistet wu
 
 ## Methodik
 
-Swisstransplant hat alle zwischen Anfang 2016 und Ende 2025 neu gelisteten Personen ausgewertet: 548 auf der Herz-Warteliste, 585 auf der Lungen-, 2102 auf der Leber-, 2790 auf der Nieren- und 208 auf der Pankreas/Inselzellen-Warteliste. Bis Ende 2025 haben 396 Personen ein Herz, 461 eine Lunge, 1261 eine Leber, 1653 eine Niere und 143 Personen eine Pankreas- oder Inselzellen-Transplantation erhalten.
+Swisstransplant hat Daten aller zwischen Anfang 2016 und Ende 2025 neu gelisteten Personen ausgewertet: 548 auf der Herz-Warteliste, 585 auf der Lungen-, 2102 auf der Leber-, 2790 auf der Nieren- und 208 auf der Pankreas/Inselzellen-Warteliste. Bis Ende 2025 haben 396 Personen ein Herz, 461 eine Lunge, 1261 eine Leber, 1653 eine Niere und 143 Personen eine Pankreas- oder Inselzellen-Transplantation erhalten.
 
 Für die Ergebnisse in den Kapiteln 1, 2 und 4 wurden Mehrstadienmodelle mit dem Aalen-Johansen-Schätzer verwendet. Für die Ergebnisse in den Kapiteln 3 und 5 wurden ereignisspezifische Hazard-Modelle angepasst, wobei das Listungsdatum als erklärende Variable diente.
 
@@ -160,9 +160,9 @@ Das Thema Warteliste ist sehr komplex. Daher beantworten wir die häufig gestell
 
 ### Wieso ist das Thema Warteliste und deren Analyse komplex?
 
-Die Warteliste ist nie abgeschlossen, da ständig neue Personen hinzukommen. Wir kennen für jede Person das Listungsdatum, aber es gibt keinen Zeitpunkt, an dem alle Personen abschliessend beobachtet werden können. Für einige wissen wir, wann die Transplantation eingetreten ist, für andere nur, dass es bis zu einem bestimmten Zeitpunkt noch nicht passiert ist. Dies nennt man rechtszensierte Daten – das bedeutet, dass der genaue Zeitpunkt des Ereignisses (z. B. einer Transplantation) für manche Personen noch unbekannt ist.
+Die Warteliste ist nie abgeschlossen, da ständig neue Personen hinzukommen. Wir kennen für jede Person das Listungsdatum, aber es gibt keinen Zeitpunkt, an dem alle Personen abschliessend beobachtet werden können. Für einige wissen wir, wann die Transplantation eingetreten ist, für andere nur, dass es bis zu einem bestimmten Zeitpunkt noch nicht passiert ist. Dies nennt man rechtszensierte Daten. Das bedeutet, dass der genaue Zeitpunkt des Ereignisses (z. B. einer Transplantation) für manche Personen noch unbekannt ist.
 
-Solche Daten erfordern spezielle Verfahren der Biostatistik, insbesondere aus der Analyse von Überlebenszeiten. Zudem gibt es auf der Warteliste sogenannte konkurrierende Risiken: Wenn eine Person von der Liste entfernt wird oder verstirbt, kann die Transplantation nicht mehr als Ereignis eintreten. Auch dies muss in der Analyse berücksichtigt werden, mithilfe erweiterter Verfahren der Überlebenszeitanalyse mit konkurrierenden Risiken, die mehrere mögliche Ereignisse erlauben.
+Solche Daten erfordern spezielle Verfahren der Biostatistik, insbesondere aus der Analyse von Überlebenszeiten. Zudem gibt es auf der Warteliste sogenannte konkurrierende Risiken: Wenn eine Person von der Liste entfernt wird oder verstirbt, kann die Transplantation nicht mehr als Ereignis eintreten. Auch dies muss in der Analyse berücksichtigt werden, indem erweiterte Verfahren der Überlebenszeitanalyse mit konkurrierenden Risiken verwendet werden, die mehrere mögliche Ereignisse erlauben.
 
 ### Warum kann man nicht alle in einem bestimmten Jahr transplantierten Personen auswählen und rückwirkend deren Wartezeit berechnen?
 
@@ -172,7 +172,7 @@ Deshalb wählen wir die Studienpopulation nicht nach dem späteren Outcome, sond
 
 ### Wie ist die mediane Wartezeit bis zur Transplantation (MTT) genau zu interpretieren?
 
-Sie entspricht der Wartezeit, nach der die Wahrscheinlichkeit einer Transplantation 50 % beträgt. Bei der Niere ist die MTT knapp 3 Jahre; es kann also davon ausgegangen werden, dass nach ca. 3 Jahren 50 von 100 Personen eine Niere erhalten.
+Die MTT entspricht der Wartezeit, nach der die Wahrscheinlichkeit einer Transplantation 50 % beträgt. Bei der Niere ist die MTT knapp 3 Jahre; es kann also davon ausgegangen werden, dass nach ca. 3 Jahren 50 von 100 Personen eine Niere erhalten.
 
 Im Prinzip ist die MTT die mittlere Wartezeit für eine Person, über die wir kaum etwas wissen – ausser dass sie für eine Organtransplantation gelistet wurde. Wir wissen nicht, ob es sich um ein Kind oder einen Erwachsenen handelt, welches Geschlecht die Person hat, ob eine hohe medizinische Dringlichkeit besteht, welche Blutgruppe vorliegt, oder ob die Person inaktive Wartezeit haben wird. All diese Faktoren beeinflussen die individuelle Wartezeit erheblich, sodass diese in der Realität deutlich kürzer oder länger als die MTT sein kann.
 
@@ -182,7 +182,7 @@ Eine individuelle Abschätzung, die Faktoren wie Blutgruppe, Alter oder Gewicht 
 
 ### Warum wird die inaktive Zeit bei der Berechnung der medianen Wartezeit bis zur Transplantation (MTT) ignoriert?
 
-Personen auf der Warteliste können aus medizinischen Gründen, z.B. einer Infektion, vorübergehend inaktiv werden und werden in dieser Zeit nicht transplantiert. Bei der Analyse der nur aktiven Zeit würden die Wartezeiten zu optimistisch ausfallen. Viele Patienten erleben inaktive Phasen, und diese zu ignorieren würde eine unrealistische Annahme schaffen. Daher wird für die inaktive Zeit nicht korrigiert.
+Personen auf der Warteliste können aus medizinischen Gründen, z.B. einer Infektion, vorübergehend inaktiv werden und werden in dieser Zeit nicht transplantiert. Bei der Analyse der nur aktiven Zeit würden die Wartezeiten zu optimistisch ausfallen. Viele Patientinnen und Patienten erleben inaktive Phasen. Diese zu ignorieren würde eine unrealistische Annahme schaffen. Daher wird für die inaktive Zeit nicht korrigiert.
 
 ### Wie lang wäre die mediane Wartezeit bis zur Transplantation (MTT) für Personen, die heute neu gelistet werden?
 
@@ -195,12 +195,12 @@ Das ist eine schwierige Frage, da sie einen Blick in die Zukunft erfordert. Wir 
 
 - En Suisse, le temps d'attente médian pour une greffe de rein était de près de 3 ans pour les personnes nouvellement inscrites sur la liste d'attente entre 2016 et 2025. Pour les autres organes, les temps d'attente étaient généralement plus courts, compris entre 0.6 et 1.6 an.
 
-- Le temps d'attente médian pour les transplantations cardiaques, pulmonaires et rénales a diminué au cours des 12 derniers mois. Pour les transplantations hépatiques, le temps d'attente est resté inchangé.
+- Le temps d'attente médian pour les transplantations cardiaques, pulmonaires et rénales a diminué en 2025. Pour les transplantations hépatiques, le temps d'attente est resté inchangé.
 
 - De nombreux facteurs peuvent influencer le temps d'attente pour un organe, tels que la disponibilité des organes, l'urgence médicale ou le groupe sanguin.
 :::
 
-Swisstransplant observe l'évolution de la liste d'attente et calcule les temps d'attente pour les transplantations d'organes provenant de donneurs décédés. Les délais d'attente indiqués ici sont basés sur toutes les personnes nouvellement inscrites en Suisse entre 2016 et 2025, mais chaque patient est différent. Le délai d'attente individuel peut être nettement plus court ou plus long. Il dépend de la disponibilité des organes, de l'urgence médicale, du groupe sanguin et, selon l'organe, d'autres facteurs tels que l'âge ou le poids.
+Swisstransplant observe l'évolution de la liste d'attente nationale pour les organes provenant de donneurs décédés et calcule les temps d'attente jusqu'à la transplantation. Les temps d'attente indiqués ici sont basés sur les données de toutes les personnes nouvellement inscrites en Suisse entre 2016–2025, mais chaque patient est différent. Le temps d'attente individuel peut être nettement plus court ou plus long. Il dépend de la disponibilité des organes, de l'urgence médicale, du groupe sanguin et, en fonction de l'organe, d'autres facteurs tels que l'âge ou le poids.
 
 ## 1. Probabilité de la transplantation
 
@@ -210,7 +210,7 @@ La probabilité d'une transplantation peut être représentée sous forme de cou
 
 ## 2. Temps d'attente médian jusqu'à la transplantation (MTT)
 
-La valeur médiane du temps d'attente jusqu'à la transplantation (MTT) peut être lue à partir des courbes précédentes ([tab. @tbl-1]). Elle correspond au temps d'attente jusqu'auquel la moitié des personnes ont reçu un organe et prend en compte toutes les personnes inscrites sur la liste, pas seulement celles qui ont bénéficié d'une transplantation. Pour de nombreux organes, le temps d'attente actuel est désormais inférieur à la valeur MTT indiquée, car la tendance évolue favorablement.
+La valeur médiane du temps d'attente jusqu'à la transplantation (MTT) peut être lue à partir des courbes précédentes ([tab. @tbl-1]). Elle correspond au temps d'attente jusqu'auquel la moitié des personnes ont reçu un organe et prend en compte toutes les personnes inscrites sur la liste, pas seulement celles qui ont bénéficié d'une transplantation. Pour de nombreux organes, le temps d'attente est désormais inférieur à la valeur MTT indiquée, car nous observons une augmentation du taux de transplantation.
 
 |                              | MTT en années | IC de 95 % |
 |:-----------------------------|--------------:|:-----------|
@@ -220,13 +220,13 @@ La valeur médiane du temps d'attente jusqu'à la transplantation (MTT) peut êt
 | Reins                        |          2.94 | 2.60--3.32 |
 | Pancréas/îlots de Langerhans |          1.57 | 0.92--1.87 |
 
-: Temps d'attente médian jusqu'à la transplantation (MTT) et intervalle de confiance (IC) à 95 % pour toutes les personnes nouvellement inscrites entre 2016 et 2025. {#tbl-1 .striped .hover}
+: Temps d'attente médian jusqu'à la transplantation (MTT) et intervalle de confiance (IC) à 95 % pour toutes les personnes nouvellement inscrites 2016–2025. {#tbl-1 .striped .hover}
 
 ## 3. Évolution du temps d'attente au fil du temps
 
-Le taux de transplantation (taux de défaillance, voir encadré) est utilisé pour évaluer l'évolution du temps d'attente ([fig. @fig-2]). Il montre des tendances différentes selon les organes : une tendance positive est observable pour le cœur, les poumons, les reins et le pancréas/les cellules des îlots pancréatiques, tandis qu'une tendance défavorable a été observée ces dernières années pour le foie, qui semble désormais se stabiliser.
+Le taux de transplantation (taux de défaillance, voir encadré) est utilisé pour évaluer l'évolution du temps d'attente ([fig. @fig-2]). Il montre des tendances différentes selon les organes : pour le cœur, les poumons, les reins et le pancréas/les cellules des îlots pancréatiques, nous observons une augmentation du taux de transplantation, tandis que pour le foie, une baisse a été observée ces dernières années, qui semble désormais se stabiliser quelque peu.
 
-![Évolution du taux de transplantation au cours des dernières années (avec un intervalle de confiance de 95 %). On constate une augmentation du taux de transplantation pour le cœur, les poumons, les reins et le pancréas/les cellules insulaires, ce qui a un effet favorable sur les délais d'attente.](WAIT-regdate-fr.png){#fig-2 width="90%"}
+![Évolution du taux de transplantation au cours des dernières années (avec un intervalle de confiance de 95 %). On constate une augmentation du taux de transplantation pour le cœur, les poumons, les reins et le pancréas/les cellules insulaires, ce qui a un effet favorable sur les temps d'attente.](WAIT-regdate-fr.png){#fig-2 width="90%"}
 
 ::: {.callout-note appearance="simple"}
 ## Qu'est-ce qu'un taux de défaillance ?
@@ -239,7 +239,7 @@ Le taux de défaillance n'est pas une probabilité, mais un taux qui indique la 
 ## 4. Probabilité des différents événements
 La transplantation est l'événement le plus fréquent, mais il peut également arriver que des personnes inscrites sur la liste d'attente décèdent ou soient retirées de la liste (delisting). Pour ces trois événements, il est possible de créer des courbes à partir desquelles les probabilités peuvent être lues. [Tab. @tbl-2] à [-@tbl-6] indiquent les valeurs pour les 5 premières années suivant l'inscription sur la liste.
 
-Les probabilités indiquées se basent sur toutes les personnes nouvellement inscrites entre 2016 et 2025. La probabilité pour les personnes récemment inscrites peut être plus élevée, car les processus de don et d'attribution sont optimisés en permanence.
+Les probabilités d'événements indiquées sont basées sur les données de toutes les personnes nouvellement inscrites entre 2016–2025. Les probabilités pour les personnes récemment inscrites peuvent être plus favorables, car les processus de don et d'attribution sont optimisés en permanence.
 
 ### Liste d'attente de cœurs
 
@@ -300,7 +300,7 @@ Les probabilités indiquées se basent sur toutes les personnes nouvellement ins
 
 Il est possible de comparer les taux de transplantation pour différentes dates d'inscription sur la liste d'attente. Nous calculons la différence entre les personnes inscrites sur la liste d'attente à la mi-2025 et celles inscrites à la mi-2024 (hazard ratio, voir encadré).
 
-Pour les transplantations cardiaques et pulmonaires, le taux de transplantation pour les personnes inscrites sur la liste à la mi-2025 a augmenté respectivement d'un facteur 1.34 et 1.29, ce qui correspond à une augmentation de 34 % et 29 %. Pour les transplantations rénales, l'augmentation a été de 17 %, tandis que le taux de transplantation hépatique est resté inchangé. Pour les transplantations pancréatiques et d'îlots pancréatiques, les indications d'une amélioration sont faibles, car l'incertitude est élevée en raison du faible nombre de cas ([tab. @tbl-7]).
+Pour les transplantations cardiaques et pulmonaires, le taux de transplantation pour les personnes inscrites sur la liste à la mi-2025 a augmenté respectivement d'un facteur 1.34 et 1.29, ce qui correspond à une augmentation de 34 % et 29 %. Pour les transplantations rénales, l'augmentation a été de 17 %, tandis que le taux de transplantation hépatique est resté inchangé. Pour les transplantations pancréatiques et d'îlots pancréatiques, les indications d'une amélioration sont faibles, car l'incertitude est élevée en raison du petit nombre de cas ([tab. @tbl-7]).
 
 |Organe                       |Différence     |Hazard  Ratio |IC de 95 % |
 |:----------------------------|:--------------|:-------------|:----------|
@@ -322,7 +322,7 @@ Exemple : supposons que le  hazard ratio pour les personnes inscrites sur la lis
 
 ## Méthodologie
 
-Swisstransplant a évalué toutes les personnes nouvellement inscrites entre début 2016 et fin 2025 : 548 sur la liste d'attente pour une greffe cardiaque, 585 pour une greffe pulmonaire, 2102 pour une greffe hépatique, 2790 pour une greffe rénale et 208 pour une greffe pancréatique/des cellules des îlots pancréatiques. D'ici fin 2025, 396 personnes auront reçu une greffe cardiaque, 461 une greffe pulmonaire, 1261 une greffe hépatique, 1653 une greffe rénale et 143 une greffe pancréatique ou d'îlots pancréatiques.
+Swisstransplant a évalué les données de toutes les personnes nouvellement inscrites entre début 2016 et fin 2025 : 548 sur la liste d'attente pour une greffe cardiaque, 585 pour une greffe pulmonaire, 2102 pour une greffe hépatique, 2790 pour une greffe rénale et 208 pour une greffe pancréatique/des cellules des îlots pancréatiques. D'ici fin 2025, 396 personnes auront reçu une greffe cardiaque, 461 une greffe pulmonaire, 1261 une greffe hépatique, 1653 une greffe rénale et 143 une greffe pancréatique ou d'îlots pancréatiques.
 
 Pour les résultats présentés dans les chapitres 1, 2 et 4, des modèles à plusieurs étapes avec l'estimateur d'Aalen-Johansen ont été utilisés. Pour les résultats présentés dans les chapitres 3 et 5, des modèles de risque spécifiques à l'événement ont été adaptés, la date d'inscription sur la liste servant de variable explicative.
 
@@ -336,9 +336,9 @@ Le sujet de la liste d'attente est très complexe. C'est pourquoi nous répondon
 
 ### Pourquoi le sujet de la liste d'attente et son analyse sont-ils complexes ?
 
-La liste d'attente n'est jamais complète, car de nouvelles personnes s'y ajoutent constamment. Nous connaissons la date d'inscription de chaque personne, mais il n'y a pas de moment où toutes les personnes peuvent être observées de manière définitive. Pour certaines, nous savons quand la transplantation a eu lieu, pour d'autres, nous savons seulement qu'elle n'a pas encore eu lieu à une date donnée. C'est ce qu'on appelle des données censurées à droite, ce qui signifie que la date exacte de l'événement (par exemple une transplantation) est encore inconnue pour certaines personnes.
+La liste d'attente n'est jamais complète, car de nouvelles personnes s'y ajoutent constamment. Nous connaissons la date d'inscription de chaque personne, mais il n'y a pas de moment où toutes les personnes peuvent être observées de manière définitive. Pour certaines, nous savons quand la transplantation a eu lieu, pour d'autres, nous savons seulement qu'elle n'a pas encore eu lieu à une date donnée. C'est ce qu'on appelle des données censurées à droite. Cela signifie que la date exacte de l'événement (par exemple une transplantation) est encore inconnue pour certaines personnes.
 
-Ces données nécessitent des procédures biostatistiques spéciales, notamment issues de l'analyse des durées de survie. De plus, il existe des risques dits « concurrents » sur la liste d'attente : lorsqu'une personne est retirée de la liste ou décède, la transplantation ne peut plus avoir lieu. Cela doit également être pris en compte dans l'analyse, à l'aide de procédures avancées d'analyse de la durée de survie avec risques concurrents, qui permettent plusieurs événements possibles.
+Ces données nécessitent des méthodes biostatistiques spéciales, notamment issues de l'analyse des durées de survie. De plus, il existe des risques dits « concurrents » sur la liste d'attente : lorsqu'une personne est retirée de la liste ou décède, la transplantation ne peut plus avoir lieu. Cet aspect doit également être pris en compte dans l'analyse en utilisant des méthodes avancées d'analyse de la durée de survie avec risques concurrents, qui permettent plusieurs événements possibles.
 
 ### Pourquoi ne peut-on pas sélectionner toutes les personnes transplantées au cours d'une année donnée et calculer rétrospectivement leur temps d'attente ?
 
@@ -348,7 +348,7 @@ C'est pourquoi nous ne sélectionnons pas la population étudiée en fonction du
 
 ### Comment interpréter exactement le temps d'attente médian jusqu'à la transplantation (MTT) ?
 
-Il correspond au temps d'attente après lequel la probabilité d'une transplantation est de 50 %. Pour les reins, le MTT est d'un peu moins de 3 ans ; on peut donc supposer qu'après environ 3 ans, 50 personnes sur 100 recevront un rein.
+Le MTT correspond au temps d'attente après lequel la probabilité d'une transplantation est de 50 %. Pour les reins, le MTT est d'un peu moins de 3 ans ; on peut donc supposer qu'après environ 3 ans, 50 personnes sur 100 recevront un rein.
 
 En principe, le MTT est le temps d'attente moyen pour une personne dont nous ne savons pratiquement rien, si ce n'est qu'elle a été inscrite sur la liste d'attente pour une transplantation d'organe. Nous ne savons pas s'il s'agit d'un enfant ou d'un adulte, quel est le sexe de la personne, s'il y a une urgence médicale élevée, quel est son groupe sanguin ou si la personne aura un temps d'attente inactif. Tous ces facteurs influencent considérablement le temps d'attente individuel, qui peut donc être nettement plus court ou plus long que le MTT dans la réalité.
 

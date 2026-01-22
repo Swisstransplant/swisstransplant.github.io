@@ -1,0 +1,761 @@
+---
+title: "Jahreszahlen 2025"
+draft: false
+author: "Swisstransplant"
+date: "2026-01-22"
+date-modified: last-modified
+categories: false
+image: "bild ae.jpg"
+title-block-banner: true
+df-print: kable
+execute:
+  echo: false
+---
+
+::: {.content-visible when-profile="de"}
+Mehr transplantierte Organe trotz weniger spendenden verstorbenen Personen aus der Schweiz – dank mehr Organen aus dem Ausland. Zum dritten Mal in Folge ist die Anzahl Personen auf der Warteliste gesunken.
+
+:::
+
+::: {.content-visible when-profile="fr"}
+Plus d'organes transplantés malgré une diminution du nombre de donneurs décédés en Suisse, grâce à un nombre accru d'organes provenant de l'étranger. Pour la troisième année de suite, le nombre de personnes sur liste d'attente a diminué.
+
+:::
+
+::: {.content-visible when-profile="en"}
+To be tranlated..
+
+::: {.callout-warning title="Please note"}
+**This page is still under development.**
+:::
+
+::: {.callout-warning title="Please note"}
+To be translated..
+:::
+
+:::
+
+::: {.content-visible when-profile="de"}
+# 1. Warteliste
+
+Hier finden Sie Kennzahlen zur Warteliste der Personen, die in der Schweiz auf ein Organ von spendenden verstorbenen Personen warten. **Falls nicht anders vermerkt sind Personen, die für eine Lebendspende gelistet waren, in diesem Abschnitt nicht mitberücksichtigt.**
+
+::: {.callout-tip title="Das Wichtigste in Kürze"}
+Ende 2025 warteten in der Schweiz 1260 Personen auf eines oder mehrere Organe von verstorbenen spendenden Personen. Im Vergleich zu Ende 2024 sind das 23 Personen weniger (-2 %). 65 Personen sind 2025 auf der Warteliste verstorben, das sind 8 Personen weniger wie im Vorjahr und so wenige wie noch nie in den letzten 5 Jahren.
+:::
+
+## 1.1 Personen auf der Warteliste
+
+![**Abb. 1.1** Personen auf der Warteliste für ein Organ jeweils Ende Jahr, total und im inaktiven Status. Personen auf der Warteliste sind manchmal aus gesundheitlichen oder logistischen Gründen vorübergehend nicht transplantationsfähig. In diesem inaktiven Status erhalten sie keine Organangebote. Personen, die für eine Lebendspende gelistet waren, sind nicht mitgezählt.](Fig1.1-de.png){width=80%}
+
+<br>
+
+|Indikator                                   |Letztes Jahr     | Veränderung zum Vorjahr        |
+|--------------------------------------------|----------------:|-------------------------------:|
+|Anzahl Personen auf der Warteliste          |1260             |-23 Personen (-2 %)             |
+|Anteil inaktive                             |52 %             |+3 Prozentpunkte                |
+
+::: {.callout-note title="Lesebeispiel"}
+Ende 2025 warteten in der Schweiz 1260 Personen auf eines oder mehrere Organe von verstorbenen spendenden Personen. Im Vergleich zum Vorjahr sind das 23 Personen weniger (-2 %). Mehr als die Hälfte (52 %) der Personen auf der Warteliste war Ende Jahr im inaktiven Status.
+:::
+
+## 1.2 Personen auf der Warteliste nach Organ
+
+![**Abb. 1.2** Personen auf der Warteliste für ein Organ jeweils Ende Jahr, total und nach Organ. Personen, die auf mehr als ein Organ warten, sind bei der Gruppe «Multiorgan» dazugezählt. Personen, die für eine Lebendspende gelistet waren, sind nicht mitgezählt.](Fig1.2-de.png){width=80%}
+
+<br>
+
+|Indikator                                       |Letztes Jahr     |    Veränderung zum Vorjahr   |
+|------------------------------------------------|----------------:|-----------------------------:|
+|Anzahl Personen auf der Warteliste (alle)       |1260             |-23 (-2 %)                    |           
+|Multiorgan                                      |35               |+1 (+3 %)                    |
+|Herz                                            |37               |-7 (-16 %)                     |
+|Lunge                                           |42               |+14 (+50 %)                   |
+|Leber                                           |280              |-9 (-3 %)                    |
+|Niere                                           |850              |-21 (-2 %)                    |
+|Pankreas/Inselzellen                            |16               |-1 (-6 %)                    |
+|Dünndarm                                        |0                |+/-0                          |
+
+
+::: {.callout-note title="Lesebeispiel"}
+Von den 1260 Personen auf der Warteliste wartete die grosse Mehrheit auf eine Niere (850; 67 %) oder eine Leber <br />(280; 22 %). 35 Personen warteten auf mehr als ein Organ.
+:::
+
+## 1.3 Ereignisse auf der Warteliste
+
+![**Abb. 1.3** Transplantierte Personen und Personen, die auf der Warteliste verstorben sind. Personen, die für eine Lebendspende gelistet waren beziehungsweise eine Lebendspende erhielten, sind nicht mitgezählt. * Zusätzlich sind 2024 und 2025 je zwei Personen verstorben, die für eine Lebendspende gelistet waren.](Fig1.3-de.png){width=80%}
+
+<br>
+
+|Indikator                              |Letztes Jahr        |Veränderung zum Vorjahr            |
+|---------------------------------------|-------------------:|----------------------------------:|
+|Anzahl transplantierte Personen        |547                 |+25 (+5 %)                         |
+|Anzahl verstorbene Personen            |65                  |-8 (-11 %)                         |
+
+
+::: {.callout-note title="Lesebeispiel"}
+Im letzten Jahr erhielten in der Schweiz 547 Personen eines oder mehrere Organe aus einer Organspende nach dem Tod. 65 Personen sind auf der Warteliste verstorben, das sind 8 weniger (-11 %) wie im Vorjahr.
+:::
+
+:::
+
+::: {.content-visible when-profile="fr"}
+# 1. Liste d'attente
+
+Vous trouverez ici les chiffres clés sur la liste d'attente des personnes en attente d'un organe en Suisse. **Sauf mention contraire, les personnes listées pour un don de donneur vivant ne sont pas prises en compte dans cette section.**
+
+::: {.callout-tip title="L'essentiel en bref"}
+Fin 2025, 1260 personnes attendaient en Suisse un ou plusieurs organes de donneurs décédés. Par rapport à la fin du 2024, cela représente 23 personnes de moins (-2 %). 65 personnes sont décédées en 2025 sur la liste d'attente, soit 8 personnes de moins que l'année précédente et le nombre le plus bas jamais enregistré au cours des cinq dernières années.
+:::
+
+## 1.1 Personnes en liste d'attente
+
+![**Fig. 1.1** Personnes en liste d'attente pour un organe à la fin de chaque année, au total et en statut inactif. Parfois, les personnes sur la liste d’attente ne peuvent temporairement pas bénéficier d’une transplantation pour des raisons de santé ou de logistique. Dans cet état inactif, elles ne reçoivent pas d'offres d’organes. Les personnes listées pour un don de donneur vivant ne sont pas inclus.](Fig1.1-fr.png){width=80%}
+
+<br>
+
+|Indicateur                                  |Dernière année   |Changement par rapport à l'année précédente         |
+|--------------------------------------------|----------------:|---------------------------------------------------:|
+|Nombre de patients en liste d'attente       |1260             |-23  patients (-2 %)                                |
+|Part dans état inactif                      |52 %             |+3 points de pourcentage                          |
+
+
+::: {.callout-note title="Exemple de lecture"}
+A la fin du 2025, 1260 personnes attendaient en Suisse un ou plusieurs organes de donneurs décédés. Par rapport à l'année précédente, cela représente 23 personnes de moins (-2 %). Plus de la moitié (52 %) des personnes sur la liste d'attente était classé en inactif.
+:::
+
+## 1.2 Personnes en liste d'attente par organe
+
+![**Fig. 1.2** Personnes en liste d'attente pour un organe à la fin de chaque année, au total et par organe. Les personnes en attente de plus d'un organe sont comptées dans le groupe « multi-organes ». Les personnes listées pour un don de donneur vivant ne sont pas inclus.](Fig1.2-fr.png){width=80%}
+
+<br>
+
+
+|Indicateur                                  |Dernière année        |Changement par rapport à l'année précédente    |
+|--------------------------------------------|---------------------:|----------------------------------------------:|
+|Nombre de patients en liste d'attente       |1260                  |-23 (-2 %)                                     |
+|Multi-organes                               |35                    |+1 (+3 %)                                     |
+|Cœur                                        |37                    |-7 (-16 %)                                      |
+|Poumons                                     |42                    |+14 (+50 %)                                    |
+|Foie                                        |280                   |-9 (-3 %)                                     |
+|Rein                                        |850                   |-21 (-2 %)                                     |
+|Pancréas/îlots de Langerhans                |16                    |-1 (-6 %)                                     |
+|Intestin grêle                              |0                     |+/- 0                                          |
+
+
+::: {.callout-note title="Exemple de lecture"}
+Sur les 1260 patients en liste d'attente, la grande majorité attendait un rein (850; 67 %) ou un foie (280; 22 %). 35 patients attendaient plus d'un organe.
+:::
+
+## 1.3 Événements sur la liste d'attente
+
+![**Fig. 1.3** Patients transplantés et patients décédés sur la liste d'attente. Les patients qui étaient sur la liste pour un don de donneur vivant ou qui ont reçu un don de donneur vivant ne sont pas inclus. * En outre, deux personnes listées pour un don de donneur vivant sont décédées en 2024 et deux autres en 2025.](Fig1.3-fr.png){width=80%}
+
+|Indicateur                          |Dernière année                 |Changement par rapport à l'année précédente  |
+|------------------------------------|------------------------------:|--------------------------------------------:|
+|Nombre de patients transplantés     |547                            |+25 (+5 %)                                   |
+|Nombre de patients décédés          |65                             |-8 (-11 %)                                   |
+
+<br>
+
+::: {.callout-note title="Exemple de lecture"}
+En 2025, 547 patients en Suisse ont reçu un ou plusieurs organes provenant d'un don d'organe après le décès. 65 patients sont décédés sur la liste d'attente, soit 8 de moins (-11 %) que l'année précédente.
+:::
+
+:::
+
+::: {.content-visible when-profile="en"}
+# 1. Wait list
+
+ENTIRE ENGLISH SECTION NEEDS TRANSLATION AND NUMBERS IN TABLES AER NOT UPDATED!!!
+
+Here you will find key figures on the wait list of people in Switzerland waiting for an organ transplant from deceased donors. People who were listed for a living donation are not included in this section.
+
+::: {.callout-tip title="Most important facts in brief"}
+To be translated..
+:::
+
+## 1.1 People on the wait list
+
+![**Fig. 1.1** Translation to be added..](Fig1.1-en.png){width=80%}
+
+<br>
+
+|Indicator                                   |Current year     |Change on previous year                             |
+|--------------------------------------------|----------------:|---------------------------------------------------:|
+|Number of patients on wait list             |1326             |-9 patients (-0.7 %)                                |
+|Percentage inactive                         |48.8 %           |-1.1 percentage points                              |
+
+## 1.2 People on the wait list by organ
+
+![**Fig. 1.2** Translation to be added..](Fig1.2-en.png){width=80%}
+
+<br>
+
+|Indicator                                   |Current year          |Change on previous year                       |
+|--------------------------------------------|---------------------:|---------------------------------------------:|
+|Number of patients on wait list:            |1326                  |-9 patients (-0.7 %)                          |
+|Multi-Organ                                 |40                    |-2 patients (-4.8 %)                          |
+|Heart                                       |43                    |+1 patient (+2.4 %)                           |
+|Lung                                        |42                    |-4 patients (-8.7 %)                          |
+|Liver                                       |281                   |+13 patients (+4.9 %)                         |
+|Kidney                                      |907                   |-16 patients (-1.7 %)                         |
+|Pancreas/islets                             |13                    |-1 patient (-7.1 %)                           |
+|Small bowel                                 |0                     |+/- 0 patients                                |
+
+
+## 1.3 Events on the wait list
+
+![**Fig. 1.3** Translation to be added...](Fig1.3-en.png){width=80%}
+
+<br>
+
+|Indicator                                   |Current year           |Change on previous year                        |
+|--------------------------------------------|----------------------:|----------------------------------------------:|
+|Number of patients transplanted             |102                    |-36 patients (-26.1 %)                         |
+|Number of patients deceased                 |27                     |+8 patients (+29.6 %)                          |
+
+
+::: {.callout-note title="Exemple de lecture"}
+In the first quarter of 2024, 102 patients in Switzerland received one or more organs from deceased organ donation. 27 patients died on the waiting list.
+:::
+
+:::
+
+::: {.content-visible when-profile="de"}
+
+# 2. Organspende
+
+Hier finden Sie Kennzahlen zur Organspende nach dem Tod und zur Organ-Lebendspende in der Schweiz.
+
+::: {.callout-tip title="Das Wichtigste in Kürze"}
+2025 haben in der Schweiz 185 Personen ihre Organe nach dem Tod gespendet. Im Vergleich zu 2024 sind das 2 Personen weniger (-1 %), nach dem Rekordjahr 2023 ist dies jedoch die dritthöchste Zahl spendender verstorbener Personen. Von den 185 spendenden Personen waren 90 (49 %) im Hirntod nach Herz-Kreislauf-Stillstand (DCD). 569 Organe von spendenden verstorbenen Personen wurden 2025 in der Schweiz transplantiert, das sind 30 mehr (+6 %) als 2024. Mit 2.8 Organen ist die durchschnittliche Anzahl transplantierter Organe pro spendende verstorbene Person wieder leicht gestigen.
+:::
+
+## 2.1 Für eine Organspende nach dem Tod freigegebene Personen
+
+![**Abb. 2.1** In der Schweiz von Swisstransplant für die Organspende nach dem Tod freigegebene verstorbene Personen. Eine Person wird freigegeben, wenn bei aussichtloser Prognose eine Zustimmung zur Organspende vorliegt und sie medizinisch für eine Organspende mindestens eines Organs qualifiziert. «Utilisiert» bedeutet, es konnte mindestens ein Organ transplantiert werden. «Effektiv» bedeutet, ein chirurgischer Eingriff mit der Absicht zur Organentnahme zum Zweck einer Transplantation erfolgte, aber kein Organ konnte transplantiert werden. «Nicht utilisiert» bedeutet, es kam nicht zu einem chirurgischen Eingriff mit der Absicht zur Organentnahme zum Zweck einer Transplantation.](Fig2.1-de.png){width=80%}
+
+<br>
+
+|Indikator                               |Letztes Jahr             |Veränderung zum Vorjahr                       |
+|----------------------------------------|------------------------:|---------------------------------------------:|
+|Anzahl freigegebene Personen            |220                      |+7 Personen (+3 %)                           |
+|Anteil Nicht utilisierte                |16 %                     |+4 Prozentpunkte                              |
+|Anteil Effektive                        |5 %                      |-1 Prozentpunkt                              |
+|Anteil Utilisierte                      |79 %                     |-3 Prozentpunkte                           |
+
+
+::: {.callout-note title="Lesebeispiel"}
+2025 hat Swisstransplant 220 Personen aus der Schweiz für eine Organspende nach dem Tod freigegeben. Das sind 7 Personen mehr als im Vorjahr. Die Utilisierungsrate ging um 3 Prozentpunkte zurück, auf 79 %.
+:::
+
+## 2.2 Spendende verstorbene Personen
+
+![**Abb. 2.2** Spendende verstorbene Personen in der Schweiz. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand. Als spendende Person gilt jede verstorbene Person, bei der ein chirurgischer Eingriff mit der Absicht zur Organentnahme zum Zweck einer Transplantation erfolgt ist.](Fig2.2-de.png){width=80%}
+
+<br>
+
+|Indikator                                 |Letztes Jahr        |Veränderung zum Vorjahr       |
+|------------------------------------------|-------------------:|-----------------------------:|
+|Anzahl spendende Personen (alle)          |185                 |-2 (-1 %)                    |
+|DCD                                       |90 (49 %)           |-8 (-8 %)                     |
+|DBD                                       |95 (51 %)           |+6 (+7 %)                   |
+
+::: {.callout-note title="Lesebeispiel"}
+2025 haben in der Schweiz 185 Personen ihre Organe nach dem Tod gespendet. Im Vergleich zum Vorjahr sind das 2 Personen weniger (-1 %). Der Rückgang ist auf weniger Spenden im Hirntod nach Herz-Kreislauf-Stillstand (DCD) zurückzuführen. Von den 185 spendenden verstorbenen Personen waren 90 (49 %) DCD.
+:::
+
+## 2.3 Transplantierte Organe von spendenden verstorbenen Personen
+
+![**Abb. 2.3** In der Schweiz transplantierte Organe von spendenden verstorbenen Person (inklusive aus dem Ausland stammende Organe).](Fig2.3-de.png){width=80%}
+
+<br>
+
+|Indikator                                 |Letztes Jahr         |Veränderung zum Vorjahr     |
+|------------------------------------------|--------------------:|---------------------------:|
+|Anzahl transplantierte Organe (alle)      |569                  |+30 (+6 %)                  |
+|Herz                                      |53                   |+6 (+13 %)                 |
+|Lunge                                     |67                   |+4  (+6 %)                 |
+|Leber                                     |133                  |+4 (+3 %)                 |
+|Niere                                     |295                  |+8 (+3 %)                   |
+|Pankreas/Inselzellen                      |21                   |+8 (+62 %)                  |
+
+::: {.callout-note title="Lesebeispiel"}
+2025 wurden in der Schweiz 569 Organe von spendenden verstorbenen Personen transplantiert. Im Vergleich zu 2024 sind das 30 Organe mehr (+6 %).
+:::
+
+## 2.4 Transplantierte Organe pro spendende verstorbene Person
+
+![**Abb. 2.4** Durchschnittliche Anzahl transplantierte Organe pro spendende verstorbene Person, Mittelwerte (Standardabweichungen). DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.](Fig2.4-de.png){width=80%}
+
+<br>
+
+|Indikator                                |Letztes Jahr        |Veränderung zum Vorjahr                |
+|-----------------------------------------|-------------------:|--------------------------------------:|
+|Organe pro spendende Person (alle)       |2.8                 |+0.1                                   |
+|DBD                                      |3.4                 |+0.1                                   |
+|DCD                                      |2.3                 |+0.1                                   |
+
+::: {.callout-note title="Lesebeispiel"}
+2025 wurden in der Schweiz durchschnittlich 2.8 Organe pro spendende verstorbene Person transplantiert. Im Vergleich zum Vorjahr sind das 0.1 Organe mehr.
+:::
+
+## 2.5 Spendende lebende Personen
+
+![**Abb. 2.5** Spendende lebende Personen in der Schweiz, total und nach Organ. Bei Lebendspenden entspricht die Anzahl spendender Personen gleich der Anzahl transplantierter Organe.](Fig2.5-de.png){width=80%} 
+
+<br>
+
+|Indikator                                   |Letztes Jahr        |Veränderung zum Vorjahr         |
+|--------------------------------------------|-------------------:|-------------------------------:|
+|Anzahl spendende Personen (alle)            |96                  |-19 (-17 %)                       |
+|Leber                                       |4 (4 %)             |+/-0                              |
+|Niere                                       |92 (96 %)           |-19 (-17 %)                      |
+
+::: {.callout-note title="Lesebeispiel"}
+2025 haben in der Schweiz 96 lebende Personen eine ihrer Nieren (in 96 % der Fälle) oder einen Teil ihrer Leber (in 4 % der Fälle) gespendet. Das sind 19 Lebendspenden weniger (-17 %) als im Vorjahr.
+:::
+
+:::
+
+::: {.content-visible when-profile="fr"}
+# 2. Don d'organes
+Vous trouverez ici les chiffres clés sur le don d'organes après le décès et le don d'organes de donneurs vivants en Suisse.
+
+::: {.callout-tip title="L'essentiel en bref"}
+En 2025, 185 personnes ont fait don de leurs organes après leur décès en Suisse. Ce sont 2 personnes de moins (-1 %) comparé à l'année précédente. Après le record de 2023, il s'agit toutefois du troisième plus grand nombre de donneurs décédés. Parmi ces 185 donneurs décédés, 90 (49 %) étaient en état de mort cérébrale après un arrêt cardio-circulatoire (DCD). 569 organes de donneurs décédés ont été transplantés en Suisse en 2025, soit 30 de plus (+6 %) qu'en 2024. Avec 2.8 organes, le nombre moyen d'organes transplantés par donneur décédé a de nouveau légèrement augmenté.
+:::
+
+## 2.1 Personnes approuvées à faire un don d'organes après le décès
+
+![**Fig. 2.1** Personnes décédées en Suisse et approuvées par Swisstransplant pour le don d'organes après le décès. Une personne est approuvée si, en cas de pronostic sans espoir, elle a donné son consentement au don d'organes et qu'elle est médicalement qualifiée pour le don d'au moins un organe. « Utilisées » signifie qu'au moins un organe a pu être transplanté. « Effectives » signifie qu'une intervention chirurgicale a eu lieu avec l'intention de prélever un organe en vue d'une transplantation, mais qu'aucun organe n'a pu être transplanté. « Non utilisées » signifie qu'il n'y a pas eu d'intervention chirurgicale dans l’intention d’un prélèvement d’organes aux fins d’une transplantation.](Fig2.1-fr.png){width=80%}
+
+<br>
+
+|Indicateur                               |Dernière année          | Changement par rapport à l'année précédente   |
+|-----------------------------------------|-----------------------:|----------------------------------------------:|
+|Nombre de personnes approuvées           |220                     |+7 Personen (+3 %)                             |
+|Proportion de personnes non utilisées    |16 %                    |+4 points de pourcentage                       |
+|Proportion de personnes effectives       |5 %                     |-1 point de pourcentage                        |
+|Proportion de personnes utilisées        |79 %                    |-3 points de pourcentage                       |
+
+::: {.callout-note title="Exemple de lecture"}
+En 2025, Swisstransplant a approuvé 220 personnes en Suisse pour un don d'organe après le décès. C'est 7 personnes de plus que lors de l'année précédente. Le taux d'utilisation a baissé de 3 points de pourcentage pour s'établir à 79 %.
+:::
+
+## 2.2 Donneurs décédés
+
+![**Fig. 2.2** 	Donneurs décédés en Suisse. DBD: don en état de mort cérébrale, DCD: don en état de mort cérébrale après un arrêt cardio-circulatoire. Est considérée comme donneur toute personne décédée qui a subi une intervention chirurgicale dans l’intention d’un prélèvement d’organes aux fins d’une transplantation.](Fig2.2-fr.png){width=80%}
+
+<br>
+
+|Indicateur                                  |Dernière année         |Changement par rapport à l'année précédente   |
+|--------------------------------------------|----------------------:|---------------------------------------------:|
+|Nombre de donneurs (tous)                   |185                    |-2 (-1 %)                                    |
+|DCD                                         |90 (49 %)              |-8 (-8 %)                                     |
+|DBD                                         |95 (51 %) 	           |+6 (+7 %)                                     |
+
+
+::: {.callout-note title="Exemple de lecture"}
+En 2025, 185 personnes ont fait don de leurs organes après leur décès en Suisse. Par rapport à l'année 2024, cela représente 2 personnes de moins (-1 %). Cette diminution s'explique par une baisse du nombre de dons en état de mort cérébrale après un arrêt cardio-circulatoire (DCD). Parmi les 185 donneurs décédés, 90 (49 %) étaient en DCD.
+:::
+
+## 2.3 Organes transplantés de donneurs décédés
+
+![**Fig 2.3** Organes transplantés en Suisse de donneurs décédés (incluant les organes provenant de l'étranger), total et par organe.](Fig2.3-fr.png){width=80%}
+
+<br>
+
+|Indicateur                                  |Dernière année         |Changement par rapport au trimestre précédent |
+|--------------------------------------------|----------------------:|---------------------------------------------:|
+|Nombre d'organes transplantés (tous)        |569                    |+30 (+6 %)                                    |
+|Cœur                                        |53                     |+6 (+13 %)                                   |
+|Poumons                                     |67                     |+4 (+6 %)                                    |
+|Foie                                        |133                    |+4 (+3 %)                                   |
+|Reins                                       |295                    |+8 (+3 %)                                     |
+|Pancréas/îlots de Langerhans                |21                     |+8 (+62 %)                                    |
+
+::: {.callout-note title="Exemple de lecture"}
+En 2025, 569 organes ont été transplantés en Suisse de donneurs décédés. Par rapport à l'année 2024, cela représente 30 organes de plus (+6 %).
+:::
+
+## 2.4 Organes transplantés par donneur décédé
+
+![**Fig 2.4** Nombre d’organes transplantés par donneur décédé (moyenne et écart-type). DBD: don en état de mort cérébrale, DCD: don en état de mort cérébrale après un arrêt cardio-circulatoire.](Fig2.4-fr.png){width=80%}
+
+<br>
+
+|Indicateur                               |Dernière année      |Changement par rapport à l'année précédente   |
+|-----------------------------------------|-------------------:|---------------------------------------------:|
+|Organes par donneur (tous)               |2.8                 |+0.1                                   |
+|DBD                                      |3.4                 |+0.1                                   |
+|DCD                                      |2.3                 |+0.1                                   |
+
+
+::: {.callout-note title="Exemple de lecture"}
+En 2025, 2.8 organes ont été transplantés en moyenne en Suisse par donneur décédé. Par rapport à l'année précédente, cela représente 0.1 organes de plus.
+:::
+
+## 2.5 Donneurs vivants
+
+![**Fig 2.5** Donneurs vivants en Suisse, au total et par organe. Pour les dons de donneurs vivants, le nombre de donneurs est égal au nombre d'organes transplantés.](Fig2.5-fr.png){width=80%}
+
+<br>
+
+|Indicateur                                  |Dernière année       |Changement par rapport à l'année précédente   |
+|--------------------------------------------|--------------------:|---------------------------------------------:|
+|Nombre de donneurs vivants (tous)           |96                   |-19 (-17 %)                                     |
+|Foie                                        |4 (4 %)              |+/-0                                            |
+|Rein                                        |92 (96 %)            |-19 (-17 %)                                     |
+
+::: {.callout-note title="Exemple de lecture"}
+Au cours de l'année dernière, 96 personnes vivantes en Suisse ont fait don d'un de leurs reins (dans 96 % des cas) ou d’une partie de leur foie (dans 4 % des cas). Cela représente 19 don d'organes par des personnes vivantes de moins (-17 %) que l'année précédente.
+:::
+
+:::
+
+::: {.content-visible when-profile="en"}
+# 2. Organ donation
+
+ENTIRE ENGLISH SECTION NEEDS TRANSLATION AND NUMBERS IN TABLES AER NOT UPDATED!!!
+
+## 2.1 People approved for deceased organ donation
+
+![**Fig. 2.1** Translation...](Fig2.1-en.png){width=80%}
+
+## 2.2 Deceased donors
+
+![**Fig. 2.2** Translation...](Fig2.2-en.png){width=80%}
+
+## 2.3 Organs transplanted from deceased donors
+
+![**Fig. 2.3** Organs transplanted in Switzerland from deceased donors, including organs from deceased donors abroad.](Fig2.3-en.png){width=80%}
+
+## 2.4 Organs transplanted per deceased donor
+
+![**Fig. 2.4** Translation needed...](Fig2.4-en.png){width=80%}
+
+## 2.5 Living donors
+
+![**Fig 2.5** Translation to be added...](Fig2.5-en.png){width=80%}
+
+:::
+
+::: {.content-visible when-profile="de"}
+# 3. Transplantationen
+
+Hier finden Sie Kennzahlen zu Personen, die ein Organ von einer spendenden verstorbenen Person erhielten. Einerseits sind dies Personen in der Schweiz, die ein Organ von einer spendenden verstorbenen Person aus der Schweiz oder aus dem Ausland erhielten. Andererseits sind dies Personen im Ausland, die ein Organ von einer verstorbenen Person aus der Schweiz erhielten, wenn in der Schweiz für ein Organ keine passende Person gefunden werden konnte. Kennzahlen zur Lebendspende von Niere und Leber finden Sie unter 2.5.
+
+::: {.callout-tip title="Das Wichtigste in Kürze"}
+2025 erhielten in der Schweiz 547 Personen eines oder mehrere Organe von spendenen verstorbenen Personen. Im Vergleich zum Vorjahr sind das 25 Transplantationen mehr (+5 %). Von den 547 Personen erhielten 67 Personen ein Organ aus dem Ausland, so viele wie noch nie zuvor.
+:::
+
+## 3.1 In der Schweiz transplantierte Personen
+
+![**Abb. 3.1** Transplantierte Personen in der Schweiz, die ein Organ von einer spendenden verstorbenen Person erhielten, total und nach Art der Transplantation. «Multiorgan» bedeutet, eine Person erhielt mehr als ein Organ gleichzeitig. Organe von spendenden verstorbenen Personen aus dem Ausland sind miteingerechnet, Organe aus Lebendspenden sind nicht miteingerechnet.](Fig3.1-de.png){width=80%}
+
+<br>
+
+|Indikator                                    |Letztes Jahr          |Veränderung zum Vorjahr                 |
+|---------------------------------------------|---------------------:|---------------------------------------:|
+|Anzahl transplantierte Personen (alle)       |547                   |+25 (+5 %)                              |
+|Multiorgan                                   |19                    |+5 (+36 %)                              |
+|Herz                                         |53                    |+6 (+13 %)                              |
+|Lunge                                        |67                    |+4 (+6 %)                              |
+|Leber                                        |126                   |+/-0                                   |
+|Niere                                        |273                   |+3 (+1 %)                               |
+|Pankreas/Inselzellen                         |9                     |+7 (+350 %)                              |
+
+
+::: {.callout-note title="Lesebeispiel"}
+2025 erhielten in der Schweiz 547 Personen eines oder mehrere Organe von spendenden verstorbenen Personen. Im Vergleich zum Vorjahr sind das 25 Transplantationen mehr (+5 %). 19 Personen erhielten mehr als 1 Organ, davon erhielten 12 Personen je eine Niere und eine Bauchspeicheldrüse (Pankreas) und 7 Personen erhielten je eine Niere und eine Leber.
+:::
+
+## 3.2 In der Schweiz transplantierte Personen mit Organen aus dem Ausland
+
+![**Abb. 3.2** Transplantierte Personen in der Schweiz, die ein Organ von einer spendenden verstorbenen Person aus dem Ausland erhielten, total und nach Art der Transplantation.](Fig3.2-de.png){width=80%}
+
+<br>
+
+|Indikator                                      |Letztes Jahr            |Veränderung zum Vorjahr                 |
+|-----------------------------------------------|-----------------------:|---------------------------:|
+|Anzahl transplantierte Personen mit Organen aus dem Ausland |67         |+17 (+34 %)                  |
+
+
+::: {.callout-note title="Lesebeispiel"}
+2025 erhielten in der Schweiz 67 Personen ein Organ von spendenden verstorbenen Personen aus dem Ausland. Das sind 17 Personen mehr (+34 %) als im Vorjahr
+:::
+
+## 3.3 Im Ausland transplantierte Organe
+
+![**Abb. 3.3** Im Ausland transplantierte Organe von einer spendenden verstorbenen Person aus der Schweiz, total und nach Art der Transplantation.](Fig3.3-de.png){width=80%}
+
+<br>
+
+|Indikator                                         |Letztes Jahr        |Veränderung zum Vorjahr                 |
+|--------------------------------------------------|-------------------:|---------------------------------------:|
+|Anzahl transplantierte Organe im Ausland        |25                  |+1 (+4 %)                          |
+
+::: {.callout-note title="Lesebeispiel"}
+2025 wurden im Ausland 25 Organe von spendenden verstorbenen Personen aus der Schweiz transplantiert. Im Vergleich zum Vorjahr ist das 1 Organ mehr (+4 %).
+:::
+
+## 3.4 Herztransplantationen
+
+![**Abb. 3.4** Herztransplantationen in der Schweiz, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.](Fig3.4-de.png){width=80%}
+
+<br>
+
+|Indikator                                   |Letztes Jahr             |Veränderung zum Vorjahr                |
+|--------------------------------------------|------------------------:|--------------------------------------:|
+|Anzahl Herztransplantationen (alle)         |53                       |+6 (+13 %)                            |
+|DCD                                         |15 (28 %)                |+9                                     |
+|DBD                                         |38 (72 %)                |-3                                     |
+
+::: {.callout-note title="Lesebeispiel"}
+2025 erhielten in der Schweiz 53 Personen eine Herztransplantation. Im Vergleich zum Vorjahr sind das 6 Herztransplantationen mehr (+13 %). Der Anteil der DCD-Spende ist von 13 % auf 28 % gestiegen.
+:::
+
+## 3.5 Lungentransplantationen
+
+![**Abb. 3.5** Lungentransplantationen in der Schweiz, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand. ](Fig3.5-de.png){width=80%}
+
+<br>
+
+|Indikator                                   |Letztes Jahr             |Veränderung zum Vorjahr    |
+|--------------------------------------------|------------------------:|--------------------------:|
+|Anzahl Lungentransplantationen (alle)       |67                       |+4 (+6 %)                 |
+|DCD                                         |15 (22 %)                |-2                        |
+|DBD                                         |52 (78 %)                |+6                        |
+
+::: {.callout-note title="Lesebeispiel"}
+2025 erhielten in der Schweiz 67 Personen eine Lungentransplantation. Im Vergleich zum Vorjahr sind das 4 Lungentransplantationen mehr (+6 %).
+:::
+
+## 3.6 Lebertransplantationen
+
+![**Abb. 3.6** Lebertransplantationen in der Schweiz aus einer Organspende nach dem Tod, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand. ](Fig3.6-de.png){width=80%}
+
+<br>
+
+|Indikator                                   |Letztes Jahr            |Veränderung zum Vorjahr                 |
+|--------------------------------------------|-----------------------:|---------------------------------------:|
+|Anzahl Lebertransplantationen (alle)        |133                     |+4 (+3 %)                               |
+|DCD                                         |45 (34 %)               |-2                                      |
+|DBD                                         |88 (66 %)               |+6                                      |
+
+::: {.callout-note title="Lesebeispiel"}
+2025 erhielten in der Schweiz 133 Personen eine Lebertransplantation aus einer Organspende nach dem Tod. Im Vergleich zum Vorjahr sind das 4 Lebertransplantationen mehr (+3 %).
+:::
+
+## 3.7 Nierentransplantationen
+
+![**Abb. 3.7** Nierentransplantationen in der Schweiz aus einer Organspende nach dem Tod, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.](Fig3.7-de.png){width=80%}
+
+<br>
+
+|Indikator                                   |Letztes Jahr            |Veränderung zum Vorjahr                 |
+|--------------------------------------------|-----------------------:|---------------------------------------:|
+|Anzahl Nierentransplantationen (alle)       |292                     |+8 (+3 %)                               |
+|DCD                                         |127 (43 %)              |-12                                      |
+|DBD                                         |165 (57 %)              |+20                                     |
+
+
+::: {.callout-note title="Lesebeispiel"}
+2025 erhielten in der Schweiz 292 Personen eine Nierentransplantation aus einer Organspende nach dem Tod. Im Vergleich zum Vorjahr sind das 8 Nierentransplantationen mehr (+3 %).
+:::
+
+## 3.8 Pankreas/Inselzellen-Transplantationen
+
+![**Abb. 3.8** Pankreas/Inselzellen-Transplantationen in der Schweiz, aufgeteilt nach DBD- und DCD-Spende. Multiorgantransplantationen sind mitgezählt. DBD: Spende im Hirntod, DCD: Spende im Hirntod nach Herz-Kreislauf-Stillstand.](Fig3.8-de.png){width=80%}
+
+<br>
+
+|Indikator                                             |Letztes Jahr             |Veränderung zum Vorjahr        |
+|------------------------------------------------------|------------------------:|------------------------------:|
+|Anzahl Pankreas-/Inselzellen-Transplantationen (alle) |21                       |+8 (+62 %)                     |
+|DCD                                                   |6 (29 %)                 |+5                             |
+|DBD                                                   |15 (71 %)                |+3                             |
+
+::: {.callout-note title="Lesebeispiel"}
+2025 erhielten in der Schweiz 21 Personen eine Pankreas/Inselzellen-Transplantation. Im Vergleich zum Vorjahr sind das 8 Transplantationen mehr (+62 %).
+:::
+
+:::
+
+::: {.content-visible when-profile="fr"}
+# 3. Transplantations
+
+Vous trouverez ici les chiffres clés sur les patients qui ont reçu un organe d'un donneur décédé. Il s'agit d'une part de patients Suisse qui ont reçu un organe d'un donneur décédé en Suisse ou à l'étranger. D'autre part, il s'agit de personnes à l'étranger qui ont reçu un organe d'une personne décédée en Suisse, lorsqu'aucune personne compatible n'a pu être trouvée en Suisse. Vous trouverez les chiffres clés concernant le don de rein et de foie par des donneurs vivants au point 2.5.
+
+::: {.callout-tip title="L'essentiel en bref"}
+En 2025, 547 personnes ont reçu en Suisse un ou plusieurs organes provenant de donneurs décédés. Cela représente 25 transplantations de plus que l'année précédente (+5 %). Parmi ces 547 personnes, 67 ont reçu un organe provenant de l'étranger, un chiffre jamais vu auparavant.
+:::
+
+## 3.1 Patients transplantés en Suisse
+
+![**Fig. 3.1** Patients transplantés en Suisse qui ont reçu un organe d'un donneur décédé, au total et par type de transplantation. « Multi-organes » signifie qu'un patient a reçu plus d'un organe à la fois. Les organes de donneurs décédés provenant de l'étranger sont inclus, les organes provenant de donneurs vivants ne sont pas inclus.](Fig3.1-fr.png){width=80%}
+
+<br>
+
+|Indicateur                               |Dernière année        | Changement par rapport à l'année précédente   |
+|-----------------------------------------|---------------------:|----------------------------------------------:|
+|Nombre de patients transplantés (tous)   |547                   |+25 (+5 %)                                     |
+|Multi-organes                            |19                    |+5 (+36 %)                                     |
+|Cœur                                     |53                    |+6 (+13 %)                                    |
+|Poumons                                  |67                    |+4 (+6 %)                                     |
+|Foie                                     |126                   |+/-0                                     |
+|Reins                                    |273                   |+3 (+1 %)                                      |
+|Pancréas/îlots de Langerhans             |9                     |+7 (+350 %)                                     |
+
+::: {.callout-note title="Exemple de lecture"}
+En 2025, 547 personnes ont reçu en Suisse un ou plusieurs organes de donneurs décédés. Par rapport à l'année 2024, cela représente 25 transplantations de plus (+5 %). 19 personnes ont reçu plus d'un organe, 12 personnes ont reçu un rein et un pancréas chacun et 7 personnes ont reçu un rein et un foie chacun (transplantation multi-organes).
+:::
+
+## 3.2 Patients transplantés en Suisse avec des organes de l'étranger
+
+![**Fig. 3.2** Patients transplantés en Suisse qui ont reçu un organe d'un donneur décédée de l'étranger, total et par type de transplantation.](Fig3.2-fr.png){width=80%}
+
+<br>
+
+|Indicateur                   |Dernière année           |Changement par rapport à l'année précédente |
+|-----------------------------|------------------------:|-------------------------------------------:|
+|Nombre de patients transplantés avec des organes provenant de l'étranger |67            |+17 (+34 %) |
+
+::: {.callout-note title="Exemple de lecture"}
+En 2025, 67 patients ont reçu en Suisse des organes provenant de donneurs décédés à l'étranger. Par rapport à l'année 2024, cela représente 17 organes de plus (+34 %).
+:::
+
+## 3.3 Organes transplantés à l'étranger
+
+![**Fig. 3.3** Organes transplantés à l'étranger d'un donneur décédée en Suisse, total et par type de transplantation.](Fig3.3-fr.png){width=80%}
+
+<br>
+
+|Indicateur                             |Dernière année      |Changement par rapport à l'année précédente |
+|---------------------------------------|-------------------:|-------------------------------------------:|
+|Nombre d'organes transplantés à l'étranger     |25                   |+1 (+4 %)                       |
+
+::: {.callout-note title="Exemple de lecture"}
+En 2025, 25 organes provenant de donneurs décédés en Suisse ont été transplantés à l'étranger. Par rapport à l'année 2024, cela représente 1 organe de plus (+4 %).
+:::
+
+## 3.4 Transplantations du cœur
+
+![**Fig. 3.4** Transplantations du cœur en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont inclus. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.](Fig3.4-fr.png){width=80%}
+
+<br>
+
+|Indicateur                   |Dernière année          |Changement par rapport à l'année précédente |
+|-----------------------------|-----------------------:|-------------------------------------------:|
+|Nombre de transplantations du coeur         |53                      |+6 (+13 %)                  |
+|DCD                                         |15 (28 %)               |+9                           |
+|DBD                                         |38 (72 %)               |-3                           |
+
+::: {.callout-note title="Exemple de lecture"}
+En 2025, 53 personnes ont reçu une transplantation cardiaque en Suisse. Par rapport à l'année 2024, cela représente 6 transplantations cardiaques de plus (+13 %). La proportion des dons de DCD est passée de 13 % à 28 %.
+:::
+
+## 3.5 Transplantations de poumons
+
+![**Fig. 3.5** Transplantations de poumons en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont inclus DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.](Fig3.5-fr.png){width=80%}
+
+<br>
+
+|Indicateur                                  |Dernière année           |Changement par rapport à l'année précédente |
+|--------------------------------------------|------------------------:|---------------------------------------:|
+|Nombre de transplantations de poumons       |67                       |+4 (+6 %)                              |
+|DCD                                         |15 (22 %)                |-2                                     |
+|DBD                                         |52 (78 %)                |+6                                      |
+
+::: {.callout-note title="Exemple de lecture"}
+En 2025, 67 personnes ont reçu une transplantation pulmonaires en Suisse. Par rapport à l'année 2024, cela représente 4 transplantations pulmonaires de plus (+6 %).
+:::
+
+## 3.6 Transplantations du foie
+
+![**Fig. 3.6** Transplantations du foie des donneurs decédés en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont inclus. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.](Fig3.6-fr.png){width=80%}
+
+<br>
+
+|Indicateur                                  |Dernière année          |Changement par rapport à l'année précédente |
+|--------------------------------------------|-----------------------:|---------------------------------------:|
+|Nombre de transplantations du foie (tous)   |133                     |+4 (+3 %)                             |
+|DCD                                         |45 (34 %)               |-2                                    |
+|DBD                                         |88 (66 %) 	            |+6                                     |
+
+::: {.callout-note title="Exemple de lecture"}
+En 2025, 133 personnes ont reçu une transplantation hépatique en Suisse, provenant d'un don d'organe après le décès. Par rapport à l'année 2024, cela représente 4 transplantation hépatique de plus (+3 %).
+:::
+
+## 3.7 Transplantations de reins
+
+![**Fig. 3.7** Transplantations de reins de donneurs décédés en Suisse, réparties en dons DBD et DCD. Les transplantations combinées sont inclus. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.](Fig3.7-fr.png){width=80%}
+
+<br>
+
+|Indicateur                                  |Dernière année          |Changement par rapport à l'année précédente |
+|--------------------------------------------|-----------------------:|---------------------------------------:|
+|Nombre de transplantations de reins (tous)  |292                      |+8 (+3 %)                              |
+|DCD                                         |127 (43 %)               |-12                                     |
+|DBD                                         |165 (57 %)               |+20                                    |
+
+::: {.callout-note title="Exemple de lecture"}
+En 2025, 292 personnes ont reçu une transplantation rénale en Suisse, provenant d'un don d'organe après le décès. Par rapport à l'année 2024, cela représente 8 transplantations rénales de moins (+3 %).
+:::
+
+## 3.8 Transplantations de pancréas et d’îlots de Langerhans
+
+![**Fig. 3.8** Transplantations de pancréas et d’îlots, réparties en dons DBD et DCD. Les transplantations combinées sont inclus. DBD : donneurs en état de mort cérébrale, DCD : donneurs en état de mort cérébrale après un arrêt cardio-circulatoire.](Fig3.8-fr.png){width=80%}
+
+<br>
+
+|Indicateur                               |Dernière année        |Changement par rapport à l'année précédente |
+|-----------------------------------------|---------------------:|-------------------------------------------:|
+|Nombre de transplantations de pancréas et d’îlots (tous) |21                    |+8 (+62 %)                  |
+|DCD                                                      |6 (29 %)              |+5                          |
+|DBD                                                      |15 (71 %)             |+3                          |
+
+::: {.callout-note title="Exemple de lecture"}
+En 2025 , 21 personnes ont reçu une transplantation de pancréas/d’îlots en Suisse. Par rapport à l'année 2024, cela représente 8 transplantations de plus (+62 %).
+:::
+
+:::
+
+::: {.content-visible when-profile="en"}
+# 3. Transplants
+
+ENTIRE SECTION NEEDS TO BE TRANSLATED AND NUMBERS ARE NOT UPDATED!!!
+
+## 3.1 Patients transplanted in Switzerland
+
+![**Fig. 3.1** Translation needed...](Fig3.1-en.png){width=80%}
+## 3.2 Patients transplanted in Switzerland with organs from abroad
+
+![**Fig. 3.2** Translation needed...](Fig3.2-en.png){width=80%}
+
+## 3.3 Grafts transplanted abroad
+
+![**Fig. 3.3** Translation needed...](Fig3.3-en.png){width=80%}
+
+## 3.4 Heart transplants
+
+![*Fig. 3.4** Translation needed...](Fig3.4-en.png){width=80%}
+
+## 3.5 Lung transplants
+
+![**Fig. 3.5** Translation needed..](Fig3.5-en.png){width=80%}
+
+## 3.6 Liver transplants
+
+![*Fig. 3.6** Translation needed...](Fig3.6-en.png){width=80%}
+
+## 3.7 Kidney transplants
+
+![**Fig. 3.7** Translation needed...](Fig3.7-en.png){width=80%}
+
+## 3.8 Pancreas/islet cell transplants
+
+![**Fig. 3.8** Translation needed...](Fig3.8-en.png){width=80%}
+:::
