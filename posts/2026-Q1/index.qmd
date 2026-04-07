@@ -5,7 +5,7 @@ author: "Swisstransplant"
 date: "2026-04-07"
 date-modified: last-modified
 categories: false
-image: "_JAG8946_400.png"
+image: "_JAG8946_400.jpg"
 caption: false
 title-block-banner: true
 df-print: kable
