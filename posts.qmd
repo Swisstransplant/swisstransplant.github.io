@@ -12,7 +12,7 @@ title-block-banner: false
 ---
 
 ::: {.content-visible when-profile="de"}
-Hier finden sie die wichtigsten Kennzahlen zur Warteliste sowie zur Organspende- und Transplantationsaktivität in der Schweiz pro Jahr und pro Quartal. Alle Daten stammen aus dem vom BAG betriebenen «Swiss Organ Allocation System» ([SOAS](https://www.bag.admin.ch/de/soas-organzuteilung-nach-den-regeln-des-gesetzes){target="_blank"}). 
+Hier finden Sie die wichtigsten Kennzahlen zur Warteliste sowie zur Organspende- und Transplantationsaktivität in der Schweiz pro Jahr und pro Quartal. Alle Daten stammen aus dem vom BAG betriebenen «Swiss Organ Allocation System» ([SOAS](https://www.bag.admin.ch/de/soas-organzuteilung-nach-den-regeln-des-gesetzes){target="_blank"}). 
 :::
 
 ::: {.content-visible when-profile="en"}
