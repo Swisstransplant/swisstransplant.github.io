@@ -223,3 +223,9 @@ page = gsub(x = page,
 
 writeLines(page, con=file)
 ```
+
+## Computing information
+
+```{r}
+sessionInfo()
+```

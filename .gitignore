@@ -8,3 +8,4 @@
 .DS_Store
 desktop.ini
 **/*.quarto_ipynb
+.positai

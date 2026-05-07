@@ -1,21 +1,31 @@
+// swt theme for data website by Simon Schwab
+
 /*-- scss:defaults --*/
 
-// base document colors
-$navbar-bg: #e6eef0;
-$navbar-fg: #003764;
-$navbar-hl: #e5005c;
+// Global fonts
+$font-family-sans-serif: "Segoe UI", Arial, "Helvetica Neue", Helvetica, sans-serif !default;
+$font-family-monospace: Consolas, "Courier New", monospace !default;
 
+// Base document colors / dahsboard
+$navbar-bg: #E6EEF0;
+$navbar-fg: #003764;
+$navbar-hl: #E5005C;
+
+// Global colors
 $link-color: #e5005c;
+$code-block-bg: #E6EEF0 !default;
+$code-block-border-left: #3F698A !default;
 
 $dropdown-link-color: #003764;
-$dropdown-bg: #e6eef0;
-$dropdown-link-hover-color: #e5005c;
+$dropdown-bg: #E6EEF0;
+$dropdown-link-hover-color: #E5005C;
 
-$footer-bg: #e6eef0;
+$footer-bg: #E6EEF0;
 
 /*-- scss:rules --*/
 h1, h2, h3, h4, h5, h6 {
   color: #003764;
+  font-weight: bold;
 }
 
 body {
