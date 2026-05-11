@@ -263,28 +263,28 @@
     "href": "kidmo/index.html",
     "title": "KIDMO—Kidney prediction model",
     "section": "",
-    "text": "KIDMO is a clinical prediction model designed to help clinicians better understand how the combination of donor and recipient clinical characteristics influences long-term graft survival in deceased-donor kidney transplantation.\nKIDMO (Kidney prediction model) is a clinical risk prediction tool designed to estimate the risk of graft loss in deceased-donor kidney transplantation. It provides individualized absolute risk estimates at 2 and 5 years using a small set of routinely available donor and recipient characteristics. Unlike many existing scores, KIDMO specifically predicts graft loss while appropriately accounting for death as a competing risk, making its predictions more clinically relevant at the time of organ offer."
+    "text": "KIDMO (Kidney prediction model) is a clinical risk prediction tool designed to estimate the risk of graft loss in deceased-donor kidney transplantation. It provides individualized absolute risk estimates at 2 and 5 years using a small set of routinely available donor and recipient characteristics. Unlike many existing scores, KIDMO specifically predicts graft loss while appropriately accounting for death as a competing risk, making its predictions more clinically relevant at the time of organ offer."
   },
   {
     "objectID": "kidmo/index.html#what-is-kidmo",
     "href": "kidmo/index.html#what-is-kidmo",
     "title": "KIDMO—Kidney prediction model",
     "section": "",
-    "text": "KIDMO is a clinical prediction model designed to help clinicians better understand how the combination of donor and recipient clinical characteristics influences long-term graft survival in deceased-donor kidney transplantation.\nKIDMO (Kidney prediction model) is a clinical risk prediction tool designed to estimate the risk of graft loss in deceased-donor kidney transplantation. It provides individualized absolute risk estimates at 2 and 5 years using a small set of routinely available donor and recipient characteristics. Unlike many existing scores, KIDMO specifically predicts graft loss while appropriately accounting for death as a competing risk, making its predictions more clinically relevant at the time of organ offer."
+    "text": "KIDMO (Kidney prediction model) is a clinical risk prediction tool designed to estimate the risk of graft loss in deceased-donor kidney transplantation. It provides individualized absolute risk estimates at 2 and 5 years using a small set of routinely available donor and recipient characteristics. Unlike many existing scores, KIDMO specifically predicts graft loss while appropriately accounting for death as a competing risk, making its predictions more clinically relevant at the time of organ offer."
   },
   {
     "objectID": "kidmo/index.html#why-is-kidmo-useful",
     "href": "kidmo/index.html#why-is-kidmo-useful",
     "title": "KIDMO—Kidney prediction model",
     "section": "Why is KIDMO useful?",
-    "text": "Why is KIDMO useful?\nKIDMO supports clinical decision-making at the moment an organ is offered by providing transparent, personalized risk estimates of graft loss. This helps transplant teams and patients weigh the benefits and risks of accepting a specific kidney, enabling more informed and shared decisions. By focusing on absolute risk rather than relative scores, and by separating graft loss from mortality, KIDMO offers improved clinical utility compared to existing tools, potentially leading to better organ utilization and patient outcomes.\nThe model is based on data from over 2,000 kidney transplant recipients who underwent transplantation between 2008 and 2021, as part of a national multicenter cohort—the Swiss Transplant Cohort Study (STCS).\nMore details about the KIDMO study can be found in the published study protocol."
+    "text": "Why is KIDMO useful?\nKIDMO supports clinical decision-making at the moment an organ is offered by providing transparent, personalized risk estimates of graft loss. This helps transplant teams and patients weigh the benefits and risks of accepting a specific kidney, enabling more informed and shared decisions. By focusing on absolute risk rather than relative scores, and by separating graft loss from mortality, KIDMO offers improved clinical utility compared to existing tools, potentially leading to better organ utilization and patient outcomes.\nMore details about the KIDMO study can be found in the published study protocol."
   },
   {
     "objectID": "kidmo/index.html#who-created-kidmo",
     "href": "kidmo/index.html#who-created-kidmo",
     "title": "KIDMO—Kidney prediction model",
     "section": "Who created KIDMO?",
-    "text": "Who created KIDMO?\nKIDMO was developed by an interdisciplinary team of statisticians, researchers, patient representatives, and clinicians from all six Swiss kidney transplant centers."
+    "text": "Who created KIDMO?\nKIDMO was developed by Swisstransplant and an interdisciplinary team of statisticians, researchers, patient representatives, and clinicians from all six Swiss kidney transplant centers."
   },
   {
     "objectID": "kidmo/index.html#risk-calculator",
