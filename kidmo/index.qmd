@@ -1,6 +1,6 @@
 ---
 title: "KIDMO---Kidney prediction model"
-subtitle: "Risk calculator for deceased-donor kidney transplantation in Switzerland."
+subtitle: "A risk calculator for graft loss in deceased-donor kidney transplantation in Switzerland."
 author: Swisstransplant
 date: "2025-06-24"
 date-modified: last-modified
@@ -14,19 +14,19 @@ website:
 
 KIDMO is a clinical prediction model designed to help clinicians better understand how the combination of donor and recipient clinical characteristics influences long-term graft survival in deceased-donor kidney transplantation.
 
+KIDMO (Kidney prediction model) is a clinical risk prediction tool designed to estimate the risk of graft loss in deceased-donor kidney transplantation. It provides individualized absolute risk estimates at 2 and 5 years using a small set of routinely available donor and recipient characteristics. Unlike many existing scores, KIDMO specifically predicts graft loss while appropriately accounting for death as a competing risk, making its predictions more clinically relevant at the time of organ offer.
+
 ## Why is KIDMO useful?
 
-While it is not possible to predict the exact timing of organ loss, the high-quality data collected in Switzerland allows us to estimate the risk of kidney graft loss for individual patients based on specific clinical characteristics.
+KIDMO supports clinical decision-making at the moment an organ is offered by providing transparent, personalized risk estimates of graft loss. This helps transplant teams and patients weigh the benefits and risks of accepting a specific kidney, enabling more informed and shared decisions. By focusing on absolute risk rather than relative scores, and by separating graft loss from mortality, KIDMO offers improved clinical utility compared to existing tools, potentially leading to better organ utilization and patient outcomes.
 
-In the statistical model, the primary outcome was time to graft loss, defined as the interval from the date of transplantation to the occurrence of irreversible graft failure, indicated by a return to dialysis or retransplantation. Patient death was treated as a competing risk.
-
-The model is based on data from over 2,000 kidney transplant recipients who underwent transplantation between 2008 and 2021, as part of a national multicenter cohort---the [Swiss Transplant Cohort Study (STCS)](https://www.stcs.ch/). Donor clinical information was obtained from the Swiss Organ Allocation System (SOAS).
+The model is based on data from over 2,000 kidney transplant recipients who underwent transplantation between 2008 and 2021, as part of a national multicenter cohort---the [Swiss Transplant Cohort Study (STCS)](https://www.stcs.ch/).
 
 More details about the KIDMO study can be found in the published [study protocol](https://doi.org/10.1186/s41512-022-00139-5).
 
 ## Who created KIDMO?
 
-KIDMO was developed by [Swisstransplant](https://www.swisstransplant.org/)---the national organisation for organ donation and transplantation in Switzerland---in collaboration with all six Swiss transplant centers and the Swisstransplant Kidney Working Group (STAN).
+KIDMO was developed by an interdisciplinary team of statisticians, researchers, patient representatives, and clinicians from all six Swiss kidney transplant centers.
 
 ## Risk calculator
 
