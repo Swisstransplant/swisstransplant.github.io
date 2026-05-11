@@ -185,10 +185,10 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
   <ul>
   <li><a href="#basic-statistics-software" id="toc-basic-statistics-software" class="nav-link active" data-scroll-target="#basic-statistics-software">Basic statistics software</a>
   <ul class="collapse">
-  <li><a href="#advanced-software" id="toc-advanced-software" class="nav-link" data-scroll-target="#advanced-software">Advanced software</a></li>
+  <li><a href="#additional-software" id="toc-additional-software" class="nav-link" data-scroll-target="#additional-software">Additional software</a></li>
   </ul></li>
   <li><a href="#swisstransplant-r-package" id="toc-swisstransplant-r-package" class="nav-link" data-scroll-target="#swisstransplant-r-package">Swisstransplant R package</a></li>
-  <li><a href="#r-cookbook" id="toc-r-cookbook" class="nav-link" data-scroll-target="#r-cookbook">R cookbook</a></li>
+  <li><a href="#r-cookbook" id="toc-r-cookbook" class="nav-link" data-scroll-target="#r-cookbook">R Cookbook</a></li>
   </ul>
 </nav>
     </div>
@@ -214,16 +214,17 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
 </header>
 
 
-<p>Research tools enable state-of-the-art data analysis at Swisstransplant.</p>
+<p>Below is a list of research software available for download that enables state-of-the-art data analysis at Swisstransplant.</p>
 <section id="basic-statistics-software" class="level2">
 <h2 class="anchored" data-anchor-id="basic-statistics-software">Basic statistics software</h2>
 <p>The basic statistics software enables statistical reporting for research projects and national statistics about organ donation and transplantation. They also allow the development of statistical tools at Swisstransplant, such as data pipelines or Shiny applications.</p>
+<p>The core statistical software supports statistical reporting for research projects and national organ donation and transplantation statistics. It also enables the development of analytical tools at Swisstransplant, including dashboards applications.</p>
 <ul>
 <li>The R Project for Statistical Computing <a href="https://stat.ethz.ch/CRAN/" class="uri">https://stat.ethz.ch/CRAN/</a></li>
-<li>Rstudio Desktop <a href="https://posit.co/download/rstudio-desktop/" class="uri">https://posit.co/download/rstudio-desktop/</a></li>
+<li>RStudio Desktop <a href="https://posit.co/download/rstudio-desktop/" class="uri">https://posit.co/download/rstudio-desktop/</a></li>
 <li>Quarto <a href="https://quarto.org/docs/download/" class="uri">https://quarto.org/docs/download/</a></li>
 </ul>
-<div class="callout callout-style-simple callout-note">
+<div class="callout callout-style-simple callout-tip">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -233,9 +234,9 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
 </div>
 </div>
 </div>
-<section id="advanced-software" class="level3">
-<h3 class="anchored" data-anchor-id="advanced-software">Advanced software</h3>
-<p>Software for advanced tasks is listed below, for example, for updating this web portal on GitHub, or for R package building.</p>
+<section id="additional-software" class="level3">
+<h3 class="anchored" data-anchor-id="additional-software">Additional software</h3>
+<p>Software for additonal tasks is listed below, for example, for updating this web portal on GitHub, or for R package building.</p>
 <ul>
 <li>Git version control system <a href="https://git-scm.com/downloads" class="uri">https://git-scm.com/downloads</a></li>
 <li>RTools <a href="https://cran.r-project.org/bin/windows/Rtools/" class="uri">https://cran.r-project.org/bin/windows/Rtools/</a></li>
@@ -245,26 +246,25 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
 <section id="swisstransplant-r-package" class="level2">
 <h2 class="anchored" data-anchor-id="swisstransplant-r-package">Swisstransplant R package</h2>
 <p><img src="../images/hex-swt.png" style="float:right; padding:0px;height:2in"></p>
-<p>The Swisstransplant R package <code>swt</code> is the Swiss army knife for data analysis at Swisstransplant. It is under constant development.</p>
-<p>Statistical Reporting:</p>
+<p>The Swisstransplant R package <code>swt</code> is the Swiss army knife for data analysis at Swisstransplant. It is under constant development. It can be installed in R as follows:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"Swisstransplant/swt"</span>)</span></code></pre></div><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Statistical reporting:</p>
 <ul>
-<li>A Quarto statistical report template in the Swisstransplant in-house style</li>
-<li>Swisstransplant color scheme <code>swt_colors()</code></li>
-<li>A ggplot style called <code>swt_style()</code> for data figures styling</li>
-<li>Tidy functions to nicely format <em>p</em>-values, regression models, and descriptive statistics</li>
+<li>A Swisstransplant Quarto project template for documents and presentations</li>
+<li>The Swisstransplant color scheme <code>swt_colors()</code> and a ggplot2 style <code>swt_style()</code></li>
+<li>Tidy helper functions for descriptive statistics, missing data, regression models, and format <em>p</em>-values</li>
 </ul>
 <p>Research:</p>
 <ul>
 <li>HLA mismatch calculator designed for the antigens format as found in SOAS</li>
-<li>Prognostic models for individual predictions of patients (e.g., KIDMO)</li>
+<li>Calculators for KIDMO, eGFR, US and UK KDRI</li>
 <li>Tools to read and process data from the LifePort kidney transporter</li>
 </ul>
-<p>The <a href="https://github.com/Swisstransplant/swt">source code is developed on GitHub</a>, and a <a href="https://github.com/Swisstransplant/swt/blob/main/manual/swt.pdf">package manual</a> is available. The package <code>swt</code> can be installed from within RStudio as follows (requires the package <code>remotes</code>):</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"Swisstransplant/swt"</span>)</span></code></pre></div><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The <a href="https://github.com/Swisstransplant/swt">source code is developed on GitHub</a>, and a <a href="https://github.com/Swisstransplant/swt/blob/main/manual/swt.pdf">package manual</a> is available.</p>
 </section>
 <section id="r-cookbook" class="level2">
-<h2 class="anchored" data-anchor-id="r-cookbook">R cookbook</h2>
-<p>The <a href="https://swisstransplant.github.io/rcookbook/">R cookbook</a> demonstrates the usage of the Swisstransplant R package <code>swt</code> to make high-quality reports and publication-ready graphics in our in-house style.</p>
+<h2 class="anchored" data-anchor-id="r-cookbook">R Cookbook</h2>
+<p>The <a href="https://swisstransplant.github.io/rcookbook/">R Cookbook</a> shows how to use the Swisstransplant R package <code>swt</code> to make high-quality reports and publication-ready graphics in our in-house style.</p>
 
 
 </section>
