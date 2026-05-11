@@ -6,9 +6,7 @@ Below is a list of research software available for download that enables state-o
 
 ## Basic statistics software
 
-The basic statistics software enables statistical reporting for research projects and national statistics about organ donation and transplantation. They also allow the development of statistical tools at Swisstransplant, such as data pipelines or Shiny applications.
-
-The core statistical software supports statistical reporting for research projects and national organ donation and transplantation statistics. It also enables the development of analytical tools at Swisstransplant, including dashboards applications.
+The basic statistics software supports statistical reporting for research projects and national organ donation and transplantation statistics. It also enables the development of analytical tools at Swisstransplant, including dashboards applications.
 
 -   The R Project for Statistical Computing <https://stat.ethz.ch/CRAN/>
 -   RStudio Desktop <https://posit.co/download/rstudio-desktop/>
@@ -29,25 +27,22 @@ Software for additonal tasks is listed below, for example, for updating this web
 
 ![](../images/hex-swt.png){height="2in" style="float:right; padding:0px"}
 
-The Swisstransplant R package `swt` is the Swiss army knife for data analysis at Swisstransplant. It is under constant development. It can be installed in R as follows:
+The Swisstransplant R package `swt` is the Swiss army knife for data analysis at Swisstransplant. It can be installed in R as follows:
 
 ``` r
 remotes::install_github("Swisstransplant/swt")
 ```
 
-Statistical reporting:
+The package is under constant development and includes the following features:
 
 -   A Swisstransplant Quarto project template for documents and presentations
 -   The Swisstransplant color scheme `swt_colors()` and a ggplot2 style `swt_style()`
 -   Tidy helper functions for descriptive statistics, missing data, regression models, and format *p*-values
-
-Research:
-
--   HLA mismatch calculator designed for the antigens format as found in SOAS
 -   Calculators for KIDMO, eGFR, US and UK KDRI
 -   Tools to read and process data from the LifePort kidney transporter
+-   HLA mismatch calculator designed for the antigens format as found in SOAS
 
-The [source code is developed on GitHub](https://github.com/Swisstransplant/swt), and a [package manual](https://github.com/Swisstransplant/swt/blob/main/manual/swt.pdf) is available.
+The [source code is developed on GitHub](https://github.com/Swisstransplant/swt). There is a   [package manual](https://github.com/Swisstransplant/swt/blob/main/manual/swt.pdf).
 
 ## R Cookbook
 
