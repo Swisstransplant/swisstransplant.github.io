@@ -6,6 +6,8 @@
 $font-family-sans-serif: "Segoe UI", Arial, "Helvetica Neue", Helvetica, sans-serif !default;
 $font-family-monospace: Consolas, "Courier New", monospace !default;
 
+$font-size-root: 16px !default;
+
 // Base document colors / dahsboard
 $navbar-bg: #E6EEF0;
 $navbar-fg: #003764;
@@ -26,10 +28,6 @@ $footer-bg: #E6EEF0;
 h1, h2, h3, h4, h5, h6 {
   color: #003764;
   font-weight: bold;
-}
-
-body {
-  font-size: 18px;
 }
 
 /* table font size */
