@@ -27,7 +27,7 @@ KIDMO was developed by Swisstransplant and the [Swiss Transplant Cohort Study (S
 ## Risk calculator
 
 ```{=html}
-<iframe id="KIDMO" src="https://swisstransplant.shinyapps.io/KIDMO/" style="border: none; width: 100%; height: 570px" frameborder="0"></iframe>
+<iframe id="KIDMO" src="https://019e22cf-3c6e-7204-8289-a871d8bc5db7.share.connect.posit.cloud/" style="border: none; width: 100%; height: 570px" frameborder="0"></iframe>
 ```
 
 ## Interpretation
