@@ -32,14 +32,14 @@ KIDMO was developed by Swisstransplant and the [Swiss Transplant Cohort Study (S
 
 ## Interpretation
 
-* The **KIDMO risk score** is a hazard ratio and shows the relative increase or decrease in the hazard rate of kidney graft loss for this recipient compared to the median hazard rate in the reference population from 2008 to 2021. So, an HR > 1 indicates a higher graft loss rate, and an HR < 1 indicates lower rate and a more favorable outcome, as we observed on average. A recipient with a score of 1.0 corresponds to the median hazard rate in the Swiss reference population of kidney transplant recipients.
+* The **KIDMO risk score** is a hazard ratio and shows the relative increase or decrease in the hazard rate of kidney graft loss for this recipient compared to the median hazard rate in the reference population from 2008 to 2021. So, a score > 1 indicates a higher graft loss rate, and an score < 1 indicates lower rate and a more favorable outcome, as we observed on average. A recipient with a score of 1.0 corresponds to the median hazard rate in the Swiss reference population of kidney transplant recipients.
 
-* The **Rank** is the percentile of the recipients' calculated hazard ratio and is interpreted as the percentage of recipients in the reference population with a lower or equal hazard rate compared to the new recipient. The rank has a range from 0% to 100%, and the lower the score, the more favorable the outcome.
+* The **Rank** is the percentile of the recipients' risk score in the reference population and is interpreted as the percentage of recipients with a lower or equal graft loss rate compared to the new recipient. The rank has a range from 0% to 100%, and the lower the score, the more favorable the outcome.
 
 * The **2-year risk and 5-year risk** are the cumulative incidences, i.e., the probability of graft loss at 2 and 5 years after transplant, respectively.
 
 ::: {.callout-tip title="Example" collapse=false}
-* An **KIDMO risk score** of 0.51 means the recipient may have a graft loss rate that is 0.51 times that of a recipient with the median hazard rate. In other words, the graft loss rate is reduced by 49%.
+* An **KIDMO risk score** of 0.51 means the recipient may have a graft loss rate that is 0.51 times that of the median graft loss rate. In other words, the graft loss rate is reduced by 49%.
 
 * A recipient's **Rank** of 10% indicates that 10% of recipients had an equal or lower graft loss rate in the Swiss population, while 90% had a higher rate.
 
