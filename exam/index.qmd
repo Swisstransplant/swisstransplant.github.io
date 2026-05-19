@@ -24,7 +24,7 @@ EXAM was developed by [Swisstransplant](https://www.swisstransplant.org/)---the 
 
 ## Dashboard
 
-Here is the link to the [EXAM dashboard](https://swisstransplant.shinyapps.io/EXAM/). The EXAM source code is maintained on [GitHub](https://github.com/Swisstransplant/EXAM).
+Here is the link to the [EXAM dashboard](https://019e3f03-c151-983c-9bdc-9685586ac67a.share.connect.posit.cloud/). The EXAM source code is maintained on [GitHub](https://github.com/Swisstransplant/EXAM).
 
 ## Research and data analysis
 
