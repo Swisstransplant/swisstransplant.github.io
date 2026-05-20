@@ -189,6 +189,13 @@
     "text": "Swisstransplant Data\nSwisstransplant Data stellt aktuelle Daten, Statistiken und interaktive Analyse-Tools zur Verfügung und unterstützt so die Forschung und Qualitätssicherung im Bereich Organspende und Transplantation.\n\n\n\n\n\n\nInformieren\n\nWir publizieren transparente und aktuelle Kennzahlen zur Organspende und Transplantation.\n\n\n\n\n\n\nUnterstützen\n\nWir unterstützen medizinisches Fachpersonal und Forschende mit Daten und massgefertigten Analyse-Tools.\n\n\n\n\n\n\nVerbessern\n\nWir publizieren Fachartikel und stärken gemeinsam Qualität und Evidenz in der Transplantationsmedizin.\n\n\n\n\nUm mehr über Swisstransplant zu erfahren, besuchen Sie bitte unsere Webseite www.swisstransplant.org."
   },
   {
+    "objectID": "exam-dashboard/index.html",
+    "href": "exam-dashboard/index.html",
+    "title": "EXAM Dashboard",
+    "section": "",
+    "text": "Redirecting to Posit Connect Cloud.."
+  },
+  {
     "objectID": "about/index.html",
     "href": "about/index.html",
     "title": "Über uns",
@@ -200,14 +207,14 @@
     "href": "exam/index.html",
     "title": "EXAM—Ex-vivo allograft monitoring",
     "section": "",
-    "text": "EXAM (ex-vivo allograft monitoring) is a dashboard for analyzing hypothermic machine perfusion data from the ORS LifePort Kidney Transporter. EXAM is free software written in the R programming language."
+    "text": "EXAM (ex-vivo allograft monitoring) is a dashboard for analyzing hypothermic machine perfusion data from the ORS LifePort Kidney Transporter. EXAM is free software written in the R programming language. The EXAM source code is maintained on GitHub."
   },
   {
     "objectID": "exam/index.html#what-is-exam",
     "href": "exam/index.html#what-is-exam",
     "title": "EXAM—Ex-vivo allograft monitoring",
     "section": "",
-    "text": "EXAM (ex-vivo allograft monitoring) is a dashboard for analyzing hypothermic machine perfusion data from the ORS LifePort Kidney Transporter. EXAM is free software written in the R programming language."
+    "text": "EXAM (ex-vivo allograft monitoring) is a dashboard for analyzing hypothermic machine perfusion data from the ORS LifePort Kidney Transporter. EXAM is free software written in the R programming language. The EXAM source code is maintained on GitHub."
   },
   {
     "objectID": "exam/index.html#why-is-exam-useful",
@@ -228,7 +235,7 @@
     "href": "exam/index.html#dashboard",
     "title": "EXAM—Ex-vivo allograft monitoring",
     "section": "Dashboard",
-    "text": "Dashboard\nHere is the link to the EXAM dashboard. The EXAM source code is maintained on GitHub."
+    "text": "Dashboard\n\n\n\n\n\n\nThe link to the EXAM dashboard is https://data.swisstransplant.org/exam-dashboard/."
   },
   {
     "objectID": "exam/index.html#research-and-data-analysis",

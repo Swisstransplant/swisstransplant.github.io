@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Swisstransplant">
-<meta name="dcterms.date" content="2024-12-19">
 
-<title>EXAM—Ex-vivo allograft monitoring – Swisstransplant Data</title>
+<title>EXAM Dashboard – Swisstransplant Data</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -44,17 +42,17 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap-aad745c21a9663b33e6d28562a17a46b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
   }
 }</script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-NJH1JBVDQV"></script>
@@ -68,9 +66,8 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
 </script>
 
 
-<meta property="og:title" content="EXAM—Ex-vivo allograft monitoring – Swisstransplant Data">
-<meta property="og:description" content="Analysis of machine perfusion data from the LifePort Kidney Transporter.">
-<meta property="og:image" content="https://data.swisstransplant.org/exam/lifeport.jpg">
+<meta property="og:title" content="EXAM Dashboard – Swisstransplant Data">
+<meta property="og:description" content="Online-Plattform mit aktuellen Statistiken und Analysetools im Bereich Organspende und Transplantation.">
 <meta property="og:site_name" content="Swisstransplant Data">
 </head>
 
@@ -82,11 +79,11 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/SWT_2955_2021.png" alt="Logo Swisstransplant" class="navbar-logo light-content">
-    <img src="../images/SWT_2955_2021.png" alt="Logo Swisstransplant" class="navbar-logo dark-content">
+    <img src="../images/SWT_2955_2021.png" alt="Swisstransplant logo" class="navbar-logo light-content">
+    <img src="../images/SWT_2955_2021.png" alt="Swisstransplant logo" class="navbar-logo dark-content">
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -97,13 +94,13 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../posts.html"> 
-<span class="menu-text">Rapports statistiques</span></a>
+<span class="menu-text">Statistiken</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-recherche" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Recherche</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-forschung" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Forschung</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-recherche">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-forschung">    
         <li>
     <a class="dropdown-item" href="../exam/index.html">
  <span class="dropdown-text">EXAM</span></a>
@@ -114,7 +111,7 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
   </li>  
         <li>
     <a class="dropdown-item" href="../publications/index.html">
- <span class="dropdown-text">Publications</span></a>
+ <span class="dropdown-text">Publikationen</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../tools/index.html">
@@ -124,13 +121,13 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
   </li>
   <li class="nav-item">
     <a class="nav-link" href="../about/index.html"> 
-<span class="menu-text">Qui sommes-nous?</span></a>
+<span class="menu-text">Über uns</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../.."> 
-<span class="menu-text">DE</span></a>
+    <a class="nav-link" href=".././fr"> 
+<span class="menu-text">FR</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -143,55 +140,23 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#what-is-exam" id="toc-what-is-exam" class="nav-link active" data-scroll-target="#what-is-exam">What is EXAM?</a></li>
-  <li><a href="#why-is-exam-useful" id="toc-why-is-exam-useful" class="nav-link" data-scroll-target="#why-is-exam-useful">Why is EXAM useful?</a></li>
-  <li><a href="#who-created-exam" id="toc-who-created-exam" class="nav-link" data-scroll-target="#who-created-exam">Who created EXAM?</a></li>
-  <li><a href="#dashboard" id="toc-dashboard" class="nav-link" data-scroll-target="#dashboard">Dashboard</a></li>
-  <li><a href="#research-and-data-analysis" id="toc-research-and-data-analysis" class="nav-link" data-scroll-target="#research-and-data-analysis">Research and data analysis</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
-  <li><a href="#terms-of-use" id="toc-terms-of-use" class="nav-link" data-scroll-target="#terms-of-use">Terms of use</a></li>
-  <li><a href="#acknowledgments" id="toc-acknowledgments" class="nav-link" data-scroll-target="#acknowledgments">Acknowledgments</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">EXAM—Ex-vivo allograft monitoring</h1>
-<p class="subtitle lead">Analysis of machine perfusion data from the LifePort Kidney Transporter.</p>
+<h1 class="title">EXAM Dashboard</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Swisstransplant </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">December 19, 2024</p>
-    </div>
-  </div>
   
-    <div>
-    <div class="quarto-title-meta-heading">Modified</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date-modified">May 20, 2026</p>
-    </div>
-  </div>
     
   </div>
   
@@ -200,77 +165,12 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
 </header>
 
 
-<section id="what-is-exam" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-exam">What is EXAM?</h2>
-<p>EXAM (ex-vivo allograft monitoring) is a dashboard for analyzing hypothermic machine perfusion data from the <a href="https://www.organ-recovery.com/lifeport-kidney-transporter/">ORS LifePort Kidney Transporter</a>. EXAM is free software written in the R programming language. The EXAM source code is maintained on <a href="https://github.com/Swisstransplant/EXAM">GitHub</a>.</p>
-</section>
-<section id="why-is-exam-useful" class="level2">
-<h2 class="anchored" data-anchor-id="why-is-exam-useful">Why is EXAM useful?</h2>
-<p>EXAM will enable transplant organizations to analyze their data, perform statistics, and conduct quality checks, allowing them to identify potential issues and optimize machine perfusion processes, ultimately benefiting kidney recipients.</p>
-</section>
-<section id="who-created-exam" class="level2">
-<h2 class="anchored" data-anchor-id="who-created-exam">Who created EXAM?</h2>
-<p>EXAM was developed by <a href="https://www.swisstransplant.org/">Swisstransplant</a>—the Swiss national foundation for organ donation and transplantation, in collaboration with three Swiss transplant centers.</p>
-</section>
-<section id="dashboard" class="level2">
-<h2 class="anchored" data-anchor-id="dashboard">Dashboard</h2>
-<div class="callout callout-style-simple callout-tip">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>The link to the EXAM dashboard is <a href="https://data.swisstransplant.org/exam-dashboard/" class="uri">https://data.swisstransplant.org/exam-dashboard/</a>.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="research-and-data-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="research-and-data-analysis">Research and data analysis</h2>
-<p>For research purposes, LifePort data can be loaded and analyzed using the Swisstransplant R package <a href="https://github.com/Swisstransplant/swt"><code>swt</code></a>. A showcase is provided here <a href="https://data.swisstransplant.org/lifeport/" class="uri">https://data.swisstransplant.org/lifeport/</a>.</p>
-</section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Please cite the following work when using EXAM or the Swisstransplant R package <code>swt</code> for LifePort machine perfusion data analysis.</p>
-</div>
-</div>
-</div>
-<p>Schwab S, Steck H, Binet I, Elmer A, Ender W, Franscini N, Haidar F, Kuhn C, Sidler D, Storni F, Krügel N, Immer F. EXAM: Ex-vivo allograft monitoring dashboard for the analysis of hypothermic machine perfusion data in deceased-donor kidney transplantation. <em>PLOS Digit Health</em>. 2024;3(12):e0000691. <a href="https://doi.org/10.1371/journal.pdig.0000691">doi:10.1371/journal.pdig.0000691</a></p>
-</section>
-<section id="terms-of-use" class="level2">
-<h2 class="anchored" data-anchor-id="terms-of-use">Terms of use</h2>
-<p>By accessing or using this program, you agree to the terms of the <a href="https://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License</a> and the following supplements to its sections 15 and 16:</p>
-<ul>
-<li>The program is provided “as is” without warranty or any obligation from Swisstransplant;</li>
-<li>Swisstransplant excludes liability for damages, losses, or claims arising from program use, to the extent permitted by law; and</li>
-<li>You are solely responsible for evaluating the program’s functionality, suitability, and safety before use.</li>
-</ul>
-<div class="callout callout-style-simple callout-important">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>Hypothermic machine perfusion data should not be used as a basis for discarding a kidney allograft.</p>
-<p>Please refrain from uploading personal, sensitive, or patient-identifiable data. All uploaded data is temporary and will be automatically deleted at the end of the session. The developers assume no liability for any misuse of the application or the data provided by users.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="acknowledgments" class="level2">
-<h2 class="anchored" data-anchor-id="acknowledgments">Acknowledgments</h2>
-<p>EXAM was developed by Swisstransplant in collaboration with three Swiss transplant centers.</p>
-<p><img src="../images/SWT_2955_2021.png" style="float:left; padding:16px" height="80"></p>
-<p><img src="../images/HUG.png" style="float:left; padding:16px" height="80"> <img src="../images/Insel.png" style="float:left; padding:16px" height="80"> <img src="../images/KSSG.png" style="float:left; padding:16px" height="80"></p>
+<p>Redirecting to Posit Connect Cloud..</p>
+<script>
+window.location.replace("https://019e3f03-c151-983c-9bdc-9685586ac67a.share.connect.posit.cloud/");
+</script>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -298,12 +198,12 @@ gtag('config', 'G-NJH1JBVDQV', { 'anonymize_ip': true});
       // flash "checked"
       button.classList.add('code-copy-button-checked');
       var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
+      button.setAttribute("title", "Kopiert");
       let tooltip;
       if (window.bootstrap) {
         button.setAttribute("data-bs-toggle", "tooltip");
         button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
+        button.setAttribute("data-bs-title", "Kopiert");
         tooltip = new bootstrap.Tooltip(button, 
           { trigger: "manual", 
             customClass: "code-copy-button-tooltip",
