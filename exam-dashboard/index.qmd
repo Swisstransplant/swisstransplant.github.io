@@ -1,5 +1,5 @@
 ---
-title: "EXAM Dashboard"
+title: "EXAM dashboard"
 ---
 
 Redirecting to Posit Connect Cloud..

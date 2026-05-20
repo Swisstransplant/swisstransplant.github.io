@@ -28,7 +28,7 @@ EXAM was developed by [Swisstransplant](https://www.swisstransplant.org/)---the 
 The link to the EXAM dashboard is <https://data.swisstransplant.org/exam-dashboard/>.
 :::
 
-![Screenshot of Swisstransplant EXAM dashbord.](dashboard.png){width=600}
+![Screenshot of the Swisstransplant EXAM dashboard.](dashboard.png){width=600}
 
 ## Research and data analysis
 
