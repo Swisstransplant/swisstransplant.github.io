@@ -28,6 +28,8 @@ EXAM was developed by [Swisstransplant](https://www.swisstransplant.org/)---the 
 The link to the EXAM dashboard is <https://data.swisstransplant.org/exam-dashboard/>.
 :::
 
+![Screenshot of Swisstransplant EXAM dashbord.](dashboard.png){width=600}
+
 ## Research and data analysis
 
 For research purposes, LifePort data can be loaded and analyzed using the Swisstransplant R package [`swt`](https://github.com/Swisstransplant/swt). A showcase is provided here <https://data.swisstransplant.org/lifeport/>.
