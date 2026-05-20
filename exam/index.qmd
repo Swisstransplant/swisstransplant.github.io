@@ -1,6 +1,6 @@
 ---
 title: "EXAM---Ex-vivo allograft monitoring"
-subtitle: "Analysis of machine perfusion data in kidney transplantation."
+subtitle: "Analysis of machine perfusion data from the LifePort Kidney Transporter."
 author: Swisstransplant
 date: "2024-12-19"
 date-modified: last-modified
