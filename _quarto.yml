@@ -6,4 +6,8 @@ project:
 
 profile:
   default: deutsch
-  group: [deutsch, francais, english]
+  group: [deutsch, francais]
+  
+website:
+  plausible-analytics:
+    path: _plausible.html

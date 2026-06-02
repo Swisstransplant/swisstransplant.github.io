@@ -35,9 +35,6 @@ website:
         
   page-footer:
     left: '© 2023--2026 Swisstransplant'
-  google-analytics:
-    tracking-id: "G-NJH1JBVDQV"
-    anonymize-ip: true
 
 lang: fr
 
