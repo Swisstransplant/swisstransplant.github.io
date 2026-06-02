@@ -10,4 +10,4 @@ profile:
   
 website:
   plausible-analytics:
-    path: _plausible.html
+    path: _header.html
