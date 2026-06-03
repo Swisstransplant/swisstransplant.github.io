@@ -1,10 +1,19 @@
 ---
 title: "Publikationen"
-bibliography: europepmc_swt_20260319-paperpile.bib
+bibliography: europepmc_swt_20260603-paperpile.bib
 csl: american-medical-association-no-et-al.csl
 nocite: |
   @*
 ---
+
+<!-- How to update the list of publication
+
+1. Press link and download from https://europepmc.org/ using "export citatons", select BibTex
+2. Import bib file in Paperpile (don't skip duplicate entries with my existing library), check total papers
+3. Select all and perform "auto update"
+4. Sort by Date published , select all, and press More -> export (BibTeX). Do not click on folder to export, this will not keep the order
+5. Update YAML header above with new filename
+-->
 
 ::: {.content-visible when-profile="de"}
 Nachfolgend finden Sie eine Liste der Forschungsarbeiten, an denen Swisstransplant beteiligt war. Die neuesten Veröffentlichungen finden Sie direkt auf [Europe PMC](https://europepmc.org/search?query=%28AFF%3A%22Swisstransplant%22%29%20OR%20%28EXT_ID%3A%2824935288%29%29&page=1&sortBy=FIRST_PDATE_D%2Bdesc).
