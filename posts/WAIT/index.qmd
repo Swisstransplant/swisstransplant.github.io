@@ -29,7 +29,7 @@ Swisstransplant beobachtet die Entwicklung der nationalen Warteliste für ein Sp
 ::: {.callout-tip appearance="simple"}
 ## Beobachtungszeitraum
 
-Die hier angegebenen Wartezeiten basieren auf den Daten aller zwischen 1. Juli 2016 und 31. Juni 2026 in der Schweiz neu gelisteten Personen.
+Die hier angegebenen Wartezeiten basieren auf den Daten aller zwischen 1. Juli 2016 und 30. Juni 2026 in der Schweiz neu gelisteten Personen.
 :::
 
 ## 1. Wahrscheinlichkeit der Transplantation
@@ -50,7 +50,7 @@ Als einzelner Kennwert lässt sich die mediane Wartezeit bis zur Transplantation
 | Niere                |          2.81 | 2.41--3.23 |
 | Pankreas/Inselzellen |          1.55 | 0.92--1.86 |
 
-: Mediane Wartezeit bis zur Transplantation (MTT) und 95 %-Konfidenzintervall (KI) aller neu gelisteten Personen zwischen 2016–2025. {#tbl-1 .striped .hover}
+: Mediane Wartezeit bis zur Transplantation (MTT) und 95 %-Konfidenzintervall (KI) aller neu gelisteten Personen zwischen 2016–2026. {#tbl-1 .striped .hover}
 
 ## 3. Veränderung der Wartezeit über die Zeit
 
@@ -212,7 +212,7 @@ Swisstransplant suit l'évolution de la liste d'attente nationale pour les organ
 ::: {.callout-tip appearance="simple"}
 ## Période d'observation
 
-Les temps d'attente indiqués ici sont calculés à partir des données relatives à toutes les personnes nouvellement inscrites en Suisse entre le 1er juillet 2016 et le 31 juin 2026.
+Les temps d'attente indiqués ici sont calculés à partir des données relatives à toutes les personnes nouvellement inscrites en Suisse entre le 1er juillet 2016 et le 30 juin 2026.
 :::
 
 ## 1. Probabilité de la transplantation
@@ -233,7 +233,7 @@ La valeur médiane du temps d'attente jusqu'à la transplantation (MTT) peut êt
 | Rein                         |          2.81 | 2.41--3.23 |
 | Pancréas/îlots de Langerhans |          1.55 | 0.92--1.86 |
 
-: Temps d'attente médian jusqu'à la transplantation (MTT) et intervalle de confiance (IC) à 95 % pour toutes les personnes nouvellement inscrites 2016–2025. {#tbl-1 .striped .hover}
+: Temps d'attente médian jusqu'à la transplantation (MTT) et intervalle de confiance (IC) à 95 % pour toutes les personnes nouvellement inscrites 2016–2026. {#tbl-1 .striped .hover}
 
 ## 3. Évolution du temps d'attente au fil du temps
 
@@ -244,7 +244,7 @@ Pour évaluer l'évolution dans le temps du délai d'attente, on se base sur le 
 ::: {.callout-note appearance="simple"}
 ## Qu'est-ce qu'un taux de risque instantané ?
 
-Dans les statistiques médicales, le **taux de risque instantané** décrit le taux à aquel un événement tel qu'une transplantation survient dans un court intervalle de temps, à condition qu'il ne se soit pas encore produit jusqu'à ce moment-là. Le taux de risque instantané peut être compris comme l'**intensité instantanée** de l'événement.
+Dans les statistiques médicales, le **taux de risque instantané** décrit le taux auquel un événement tel qu'une transplantation survient dans un court intervalle de temps, à condition qu'il ne se soit pas encore produit jusqu'à ce moment-là. Le taux de risque instantané peut être compris comme l'**intensité instantanée** de l'événement.
 
 Le taux de risque instantané n'est pas une probabilité, mais un taux qui indique la fréquence à laquelle l'événement est attendu par unité de temps, un peu comme lorsque l'on observe la vitesse d'une voiture. Il s'agit donc de la vitesse à laquelle quelque chose se produit à un moment donné. Si nous considérons les patients en attente d'une transplantation cardiaque, le taux de risque instantané décrit la fréquence à laquelle une personne reçoit un organe de donneur à ce moment précis, à condition qu'elle soit toujours en attente.
 :::
