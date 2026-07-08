@@ -228,31 +228,32 @@ La valeur médiane du temps d'attente jusqu'à la transplantation (MTT) peut êt
 |                              | MTT en années | IC de 95 % |
 |:-----------------------------|--------------:|:-----------|
 | Cœur                         |          0.80 | 0.60--0.94 |
-| Poumons                      |          0.57 | 0.32--0.88 |
+| Poumon                       |          0.57 | 0.32--0.88 |
 | Foie                         |          1.38 | 0.95--1.60 |
-| Reins                        |          2.81 | 2.41--3.23 |
+| Rein                         |          2.81 | 2.41--3.23 |
 | Pancréas/îlots de Langerhans |          1.55 | 0.92--1.86 |
 
 : Temps d'attente médian jusqu'à la transplantation (MTT) et intervalle de confiance (IC) à 95 % pour toutes les personnes nouvellement inscrites 2016–2025. {#tbl-1 .striped .hover}
 
 ## 3. Évolution du temps d'attente au fil du temps
 
-Pour évaluer l'évolution dans le temps du délai d'attente, on se base sur le taux de transplantation (taux de défaillance, voir encadré) ([fig. @fig-2]). Celui-ci fait apparaître des tendances différentes selon les organes : pour le cœur, les poumons, les reins et le pancréas/les îlots pancréatiques, on observe une augmentation du taux de transplantation ; en ce qui concerne le foie, on a constaté une baisse ces dernières années, qui semble désormais se stabiliser.
+Pour évaluer l'évolution dans le temps du délai d'attente, on se base sur le taux de transplantation (taux de risque instantané, voir encadré) ([fig. @fig-2]). Celui-ci fait apparaître des tendances différentes selon les organes : pour le cœur, les poumons, les reins et le pancréas/les îlots pancréatiques, on observe une augmentation du taux de transplantation ; en ce qui concerne le foie, on a constaté une baisse ces dernières années, qui semble désormais se stabiliser.
 
 ![Évolution du taux de transplantation au cours des dernières années (avec un intervalle de confiance à 95 %). On observe une augmentation du taux de transplantation pour le cœur, les poumons, les reins et le pancréas/les îlots pancréatiques, ce qui a un effet positif sur les temps d'attente.](WAIT-regdate-tpx-fr.png){#fig-2 width="90%"}
 
 ::: {.callout-note appearance="simple"}
-## Qu'est-ce qu'un taux de défaillance ?
+## Qu'est-ce qu'un taux de risque instantané ?
 
-Dans les statistiques médicales, le **taux de défaillance** décrit la taux à laquelle un événement tel qu'une transplantation survient dans un court intervalle de temps, à condition qu'il ne se soit pas encore produit jusqu'à ce moment-là. Le taux de défaillance peut être compris comme l'**intensité instantanée** de l'événement.
+Dans les statistiques médicales, le **taux de risque instantané** décrit le taux à aquel un événement tel qu'une transplantation survient dans un court intervalle de temps, à condition qu'il ne se soit pas encore produit jusqu'à ce moment-là. Le taux de risque instantané peut être compris comme l'**intensité instantanée** de l'événement.
 
-Le taux de défaillance n'est pas une probabilité, mais un taux qui indique la fréquence à laquelle l'événement est attendu par unité de temps, un peu comme lorsque l'on observe la vitesse d'une voiture. Il s'agit donc de la vitesse à laquelle quelque chose se produit à un moment donné. Si nous considérons les patients en attente d'une transplantation cardiaque, le taux de défaillance décrit la fréquence à laquelle une personne reçoit un organe de donneur à ce moment précis, à condition qu'elle soit toujours en attente.
+Le taux de risque instantané n'est pas une probabilité, mais un taux qui indique la fréquence à laquelle l'événement est attendu par unité de temps, un peu comme lorsque l'on observe la vitesse d'une voiture. Il s'agit donc de la vitesse à laquelle quelque chose se produit à un moment donné. Si nous considérons les patients en attente d'une transplantation cardiaque, le taux de risque instantané décrit la fréquence à laquelle une personne reçoit un organe de donneur à ce moment précis, à condition qu'elle soit toujours en attente.
 :::
 
 ## 4. Probabilité des différents événements
+
 La transplantation est l'événement le plus fréquent, mais il peut également arriver que des personnes inscrites sur la liste d'attente décèdent ou soient retirées de la liste (delisting). Pour ces trois événements, il est possible de créer des courbes à partir desquelles les probabilités peuvent être lues. [Tab. @tbl-2] à [-@tbl-6] indiquent les valeurs pour les 5 premières années suivant l'inscription sur la liste.
 
-### Liste d'attente de cœurs
+### Liste d'attente cardiaque
 
 |                 | 1 an   | 2 ans   | 3 ans   | 4 ans   | 5 ans   |
 |:----------------|:-------|:--------|:--------|:--------|:--------|
@@ -263,7 +264,7 @@ La transplantation est l'événement le plus fréquent, mais il peut également 
 
 : Probabilités d'événements sur la liste d'attente cardiaque. La probabilité d'être transplanté au cours de la première année est de 56 %, tandis que le risque de décès est de 8 %. {#tbl-2 .striped .hover}
 
-### Liste d'attente pour les poumons
+### Liste d'attente pulmonaire
 
 |                 | 1 an   | 2 ans   | 3 ans   | 4 ans   | 5 ans   |
 |:----------------|:-------|:--------|:--------|:--------|:--------|
@@ -274,7 +275,7 @@ La transplantation est l'événement le plus fréquent, mais il peut également 
 
 : Probabilités d'événements sur la liste d'attente pulmonaire. {#tbl-3 .striped .hover}
 
-### Liste d'attente de foie
+### Liste d'attente hépatique
 
 |                 | 1 an   | 2 ans   | 3 ans   | 4 ans   | 5 ans   |
 |:----------------|:-------|:--------|:--------|:--------|:--------|
@@ -283,9 +284,9 @@ La transplantation est l'événement le plus fréquent, mais il peut également 
 | Delisting       | 0.04   | 0.09    | 0.11    | 0.12    | 0.13    |
 | Attendre        | 0.45   | 0.17    | 0.08    | 0.04    | 0.03    |
 
-: Probabilités d'événements sur la liste d'attente de foie. {#tbl-4 .striped .hover}
+: Probabilités d'événements sur la liste d'attente hépatique. {#tbl-4 .striped .hover}
 
-### Liste d'attente pour les reins
+### Liste d'attente rénale
 
 |                 | 1 an   | 2 ans   | 3 ans   | 4 ans   | 5 ans   |
 |:----------------|:-------|:--------|:--------|:--------|:--------|
@@ -294,9 +295,9 @@ La transplantation est l'événement le plus fréquent, mais il peut également 
 | Delisting       | 0.01   | 0.03    | 0.05    | 0.06    | 0.07    |
 | Attendre        | 0.74   | 0.55    | 0.38    | 0.27    | 0.15    |
 
-: Probabilités d'événements sur la liste d'attente de rein. {#tbl-5 .striped .hover}
+: Probabilités d'événements sur la liste d'attente rénale. {#tbl-5 .striped .hover}
 
-### Liste d'attente de Pancréas/îlots de Langerhans
+### Liste d'attente pancréatique et d'îlots de Langerhans
 
 |                 | 1 an   | 2 ans   | 3 ans   | 4 ans   | 5 ans   |
 |:----------------|:-------|:--------|:--------|:--------|:--------|
@@ -305,7 +306,7 @@ La transplantation est l'événement le plus fréquent, mais il peut également 
 | Delisting       | 0.01   | 0.04    | 0.05    | 0.07    | 0.11    |
 | Attendre        | 0.56   | 0.33    | 0.23    | 0.18    | 0.09    |
 
-: Probabilités d'événements sur la liste d'attente de pancréas/d'îlots de Langerhans. {#tbl-6 .striped .hover}
+: Probabilités d'événements sur la liste d'attente pancréatique et d'îlots de Langerhans. {#tbl-6 .striped .hover}
 
 ## 5. Taux de transplantation au cours des 12 derniers mois
 
@@ -330,7 +331,7 @@ En ce qui concerne le cœur, le taux de transplantation pour les personnes inscr
 ::: {.callout-note appearance="simple"}
 ## Qu'est-ce qu'un hazard ratio ?
 
-Le hazard ratio est le rapport entre les taux de défaillance de deux groupes et indique dans quelle mesure le risque d'un événement (par exemple une transplantation) est plus élevé ou plus faible dans un groupe par rapport à l'autre. L'exemple de la vitesse est ici aussi utile : si une voiture roule deux fois plus vite qu'une autre sur un trajet donné, le rapport entre les vitesses est de 2.
+Le hazard ratio est le rapport entre les taux de risque instantané de deux groupes et indique dans quelle mesure le risque d'un événement (par exemple une transplantation) est plus élevé ou plus faible dans un groupe par rapport à l'autre. L'exemple de la vitesse est ici aussi utile : si une voiture roule deux fois plus vite qu'une autre sur un trajet donné, le rapport entre les vitesses est de 2.
 
 Exemple : supposons que le  hazard ratio pour les personnes inscrites sur la liste à la mi-2025 soit de 1.5 par rapport à la mi-2024. Cela signifie que leur taux de transplantation est supérieur de 50 % à celui de l'année précédente.
 :::
