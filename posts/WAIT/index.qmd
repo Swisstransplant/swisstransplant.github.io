@@ -165,6 +165,20 @@ Schwab S, Elmer A, Sidler D, Straumann L, Stürzinger U, Immer F. Selection bias
 
 Das Thema Warteliste ist vielschichtig. Daher beantworten wir die häufig gestellten Fragen.
 
+### Wie ist die mediane Wartezeit bis zur Transplantation (MTT) genau zu interpretieren?
+
+Die MTT entspricht der Wartezeit, nach der die Wahrscheinlichkeit einer Transplantation 50 % beträgt. Bei der Niere ist die MTT knapp 3 Jahre; es kann also davon ausgegangen werden, dass nach ca. 3 Jahren 50 von 100 Personen eine Niere erhalten.
+
+Im Prinzip ist die MTT die mittlere Wartezeit für eine Person, über die wir kaum etwas wissen – ausser dass sie für eine Organtransplantation gelistet wurde. Wir wissen nicht, ob es sich um ein Kind oder einen Erwachsenen handelt, welches Geschlecht die Person hat, ob eine hohe medizinische Dringlichkeit besteht, welche Blutgruppe vorliegt, oder ob die Person inaktive Wartezeit haben wird. All diese Faktoren beeinflussen die individuelle Wartezeit erheblich, sodass diese in der Realität deutlich kürzer oder länger als die MTT sein kann.
+
+### Können auch individuelle Wartezeiten abgeschätzt werden?
+
+Eine individuelle Abschätzung, die Faktoren wie Blutgruppe, Alter oder Gewicht berücksichtigt, wird in Zukunft mit erweiterten Modellen möglich sein. Die Faktoren, welche die Wartezeit beeinflussen, können von Organ zu Organ unterschiedlich sein.
+
+### Wie lang wäre die mediane Wartezeit bis zur Transplantation (MTT) für Personen, die heute neu gelistet werden?
+
+Das ist eine schwierige Frage, da sie einen Blick in die Zukunft erfordert. Wir beobachten die Transplantationsraten im Laufe der Zeit und studieren deren Entwicklung. In der Regel verbessern sich die Wartezeiten für die meisten Organe, das heisst, sie werden kürzer. Swisstransplant arbeitet daran, mit erweiterten Methoden in Zukunft solche Abschätzungen machen zu können.
+
 ### Warum ist die Warteliste und ihre Analyse nicht ganz einfach zu verstehen?
 
 Die Warteliste ist nie abgeschlossen, da ständig neue Personen hinzukommen. Wir kennen für jede Person das Listungsdatum, aber es gibt keinen Zeitpunkt, an dem alle Personen abschliessend beobachtet werden können. Für einige wissen wir, wann die Transplantation eingetreten ist, für andere nur, dass es bis zu einem bestimmten Zeitpunkt noch nicht passiert ist. Dies nennt man rechtszensierte Daten. Das bedeutet, dass der genaue Zeitpunkt des Ereignisses (z. B. einer Transplantation) für manche Personen noch unbekannt ist.
@@ -177,23 +191,9 @@ Es wäre problematisch, die Patientengruppe anhand des Ergebnisses auszuwählen.
 
 Deshalb wählen wir die Studienpopulation nicht nach dem späteren Outcome, sondern anhand des Zeitpunkts der Listung.
 
-### Wie ist die mediane Wartezeit bis zur Transplantation (MTT) genau zu interpretieren?
-
-Die MTT entspricht der Wartezeit, nach der die Wahrscheinlichkeit einer Transplantation 50 % beträgt. Bei der Niere ist die MTT knapp 3 Jahre; es kann also davon ausgegangen werden, dass nach ca. 3 Jahren 50 von 100 Personen eine Niere erhalten.
-
-Im Prinzip ist die MTT die mittlere Wartezeit für eine Person, über die wir kaum etwas wissen – ausser dass sie für eine Organtransplantation gelistet wurde. Wir wissen nicht, ob es sich um ein Kind oder einen Erwachsenen handelt, welches Geschlecht die Person hat, ob eine hohe medizinische Dringlichkeit besteht, welche Blutgruppe vorliegt, oder ob die Person inaktive Wartezeit haben wird. All diese Faktoren beeinflussen die individuelle Wartezeit erheblich, sodass diese in der Realität deutlich kürzer oder länger als die MTT sein kann.
-
-### Können auch individuelle Wartezeiten abgeschätzt werden?
-
-Eine individuelle Abschätzung, die Faktoren wie Blutgruppe, Alter oder Gewicht berücksichtigt, wird in Zukunft mit erweiterten Modellen möglich sein. Die Faktoren, welche die Wartezeit beeinflussen, können von Organ zu Organ unterschiedlich sein.
-
 ### Warum wird die inaktive Zeit bei der Berechnung der medianen Wartezeit bis zur Transplantation (MTT) ignoriert?
 
 Personen auf der Warteliste können aus medizinischen Gründen, z.B. einer Infektion, vorübergehend inaktiv werden und werden in dieser Zeit nicht transplantiert. Bei der Analyse der nur aktiven Zeit würden die Wartezeiten zu optimistisch ausfallen. Viele Patientinnen und Patienten erleben inaktive Phasen. Diese zu ignorieren würde eine unrealistische Annahme schaffen. Daher wird für die inaktive Zeit nicht korrigiert.
-
-### Wie lang wäre die mediane Wartezeit bis zur Transplantation (MTT) für Personen, die heute neu gelistet werden?
-
-Das ist eine schwierige Frage, da sie einen Blick in die Zukunft erfordert. Wir beobachten die Transplantationsraten im Laufe der Zeit und studieren deren Entwicklung. In der Regel verbessern sich die Wartezeiten für die meisten Organe, das heisst, sie werden kürzer. Swisstransplant arbeitet daran, mit erweiterten Methoden in Zukunft solche Abschätzungen machen zu können.
 ::::::
 
 :::::: {.content-visible when-profile="fr"}
@@ -251,8 +251,6 @@ Le taux de défaillance n'est pas une probabilité, mais un taux qui indique la 
 
 ## 4. Probabilité des différents événements
 La transplantation est l'événement le plus fréquent, mais il peut également arriver que des personnes inscrites sur la liste d'attente décèdent ou soient retirées de la liste (delisting). Pour ces trois événements, il est possible de créer des courbes à partir desquelles les probabilités peuvent être lues. [Tab. @tbl-2] à [-@tbl-6] indiquent les valeurs pour les 5 premières années suivant l'inscription sur la liste.
-
-Les probabilités d'événements indiquées sont basées sur les données de toutes les personnes nouvellement inscrites entre 2016–2025. Les probabilités pour les personnes récemment inscrites peuvent être plus favorables, car les processus de don et d'attribution sont optimisés en permanence.
 
 ### Liste d'attente de cœurs
 
@@ -349,6 +347,20 @@ Schwab S, Elmer A, Sidler D, Straumann L, Stürzinger U, Immer F. Selection bias
 
 La question de la liste d'attente est complexe. C'est pourquoi nous répondons ici aux questions les plus fréquentes.
 
+### Comment interpréter exactement le temps d'attente médian jusqu'à la transplantation (MTT) ?
+
+Le MTT correspond au temps d'attente après lequel la probabilité d'une transplantation est de 50 %. Pour les reins, le MTT est d'un peu moins de 3 ans ; on peut donc supposer qu'après environ 3 ans, 50 personnes sur 100 recevront un rein.
+
+En principe, le MTT est le temps d'attente moyen pour une personne dont nous ne savons pratiquement rien, si ce n'est qu'elle a été inscrite sur la liste d'attente pour une transplantation d'organe. Nous ne savons pas s'il s'agit d'un enfant ou d'un adulte, quel est le sexe de la personne, s'il y a une urgence médicale élevée, quel est son groupe sanguin ou si la personne aura un temps d'attente inactif. Tous ces facteurs influencent considérablement le temps d'attente individuel, qui peut donc être nettement plus court ou plus long que le MTT dans la réalité.
+
+### Les temps d'attente individuels peuvent-ils également être estimés ?
+
+Une estimation individuelle tenant compte de facteurs tels que le groupe sanguin, l'âge ou le poids sera possible à l'avenir grâce à des modèles améliorés. Les facteurs qui influencent le temps d'attente peuvent varier d'un organe à l'autre.
+
+### Quel serait le temps d'attente médian jusqu'à la transplantation (MTT) pour les personnes nouvellement inscrites aujourd'hui ?
+
+C'est une question difficile, car elle nécessite de se projeter dans l'avenir. Nous observons les taux de transplantation au fil du temps et étudions leur évolution. En règle générale, les temps d'attente pour la plupart des organes s'améliorent, c'est-à-dire qu'ils raccourcissent. Swisstransplant s'efforce de mettre au point des méthodes avancées pour pouvoir effectuer de telles estimations à l'avenir.
+
 ### Pourquoi la liste d'attente et son analyse ne sont-elles pas faciles à comprendre ?
 
 La liste d'attente n'est jamais complète, car de nouvelles personnes s'y ajoutent constamment. Nous connaissons la date d'inscription de chaque personne, mais il n'y a pas de moment où toutes les personnes peuvent être observées de manière définitive. Pour certaines, nous savons quand la transplantation a eu lieu, pour d'autres, nous savons seulement qu'elle n'a pas encore eu lieu à une date donnée. C'est ce qu'on appelle des données censurées à droite. Cela signifie que la date exacte de l'événement (par exemple une transplantation) est encore inconnue pour certaines personnes.
@@ -361,21 +373,7 @@ Il serait problématique de sélectionner le groupe de patients en fonction du r
 
 C'est pourquoi nous ne sélectionnons pas la population étudiée en fonction du résultat ultérieur, mais en fonction de la date d'inscription sur la liste.
 
-### Comment interpréter exactement le temps d'attente médian jusqu'à la transplantation (MTT) ?
-
-Le MTT correspond au temps d'attente après lequel la probabilité d'une transplantation est de 50 %. Pour les reins, le MTT est d'un peu moins de 3 ans ; on peut donc supposer qu'après environ 3 ans, 50 personnes sur 100 recevront un rein.
-
-En principe, le MTT est le temps d'attente moyen pour une personne dont nous ne savons pratiquement rien, si ce n'est qu'elle a été inscrite sur la liste d'attente pour une transplantation d'organe. Nous ne savons pas s'il s'agit d'un enfant ou d'un adulte, quel est le sexe de la personne, s'il y a une urgence médicale élevée, quel est son groupe sanguin ou si la personne aura un temps d'attente inactif. Tous ces facteurs influencent considérablement le temps d'attente individuel, qui peut donc être nettement plus court ou plus long que le MTT dans la réalité.
-
-### Les temps d'attente individuels peuvent-ils également être estimés ?
-
-Une estimation individuelle tenant compte de facteurs tels que le groupe sanguin, l'âge ou le poids sera possible à l'avenir grâce à des modèles améliorés. Les facteurs qui influencent le temps d'attente peuvent varier d'un organe à l'autre.
-
 ### Pourquoi le temps d'inactivité est-il ignoré dans le calcul du temps d'attente médian jusqu'à la transplantation (MTT) ?
 
 Les personnes inscrites sur la liste d'attente peuvent devenir temporairement inactives pour des raisons médicales, par exemple en cas d'infection, et ne sont pas transplantées pendant cette période. Si l'on analysait uniquement le temps d'activité, les temps d'attente seraient trop optimistes. De nombreux patients connaissent des phases d'inactivité, et les ignorer reviendrait à faire une hypothèse irréaliste. C'est pourquoi aucune correction n'est apportée pour le temps d'inactivité.
-
-### Quel serait le temps d'attente médian jusqu'à la transplantation (MTT) pour les personnes nouvellement inscrites aujourd'hui ?
-
-C'est une question difficile, car elle nécessite de se projeter dans l'avenir. Nous observons les taux de transplantation au fil du temps et étudions leur évolution. En règle générale, les temps d'attente pour la plupart des organes s'améliorent, c'est-à-dire qu'ils raccourcissent. Swisstransplant s'efforce de mettre au point des méthodes avancées pour pouvoir effectuer de telles estimations à l'avenir.
 ::::::
