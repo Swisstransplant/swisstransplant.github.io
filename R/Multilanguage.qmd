@@ -229,20 +229,6 @@ writeLines(page, con=file)
 ```
 
 ```{r}
-file = "../docs/fr/posts/2025-WL/index.html"
-page = readLines(file, warn = FALSE)
-
-page = gsub(x = page,
-            pattern = "<title>Wie lange wartet man auf ein Spendeorgan\\? – Swisstransplant Data</title>", 
-            replace = "<title>Combien de temps faut-il attendre pour recevoir un organe ? – Swisstransplant Data</title>")
-page = gsub(x = page,
-            pattern = "<h1 class=\"title\">Wie lange wartet man auf ein Spendeorgan\\?</h1>", 
-            replace = "<h1 class=\"title\">Combien de temps faut-il attendre pour recevoir un organe ?</h1>")
-
-writeLines(page, con=file)
-```
-
-```{r}
 file = "../docs/fr/posts/WAIT/index.html"
 page = readLines(file, warn = FALSE)
 

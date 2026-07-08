@@ -200,19 +200,19 @@ Personen auf der Warteliste können aus medizinischen Gründen, z.B. einer Infek
 ::: {.callout-note appearance="simple"}
 ## L'essentiel en bref
 
-- En Suisse, le temps d'attente médian pour une greffe de rein chez une personne inscrite sur la liste d'attente entre 2016 et 2026 était d'un peu moins de 3 ans. Pour les autres organes, les délais d'attente étaient plus courts et se situaient entre 0.6 et 1.6 an.
+- En Suisse, le temps d'attente médian pour une greffe de rein chez une personne inscrite sur la liste d'attente entre 2016 et 2026 était d'un peu moins de 3 ans. Pour les autres organes, les temps d'attente étaient plus courts et se situaient entre 0.6 et 1.6 an.
 
 - La liste d'attente pour les greffes cardiaques affiche la tendance la plus favorable, ce qui s'explique principalement par les systèmes de perfusion modernes, qui augmentent considérablement la disponibilité des cœurs de donneurs.
 
 - De nombreux facteurs peuvent influencer le temps d'attente pour un organe, tels que la disponibilité des organes, l'urgence médicale ou le groupe sanguin.
 :::
 
-Swisstransplant suit l'évolution de la liste d'attente nationale pour les organes provenant de donneurs décédés et calcule les délais d'attente jusqu'à la transplantation. Cependant, chaque patient est différent. Le délai d’attente individuel peut être nettement plus court ou plus long. Il dépend de la disponibilité des organes, de l’urgence médicale, du groupe sanguin et, selon l’organe, d’autres facteurs tels que l’âge ou le poids. Les délais d’attente des personnes récemment inscrites sur la liste peuvent être plus courts, car les processus de don et d’attribution sont optimisés en permanence.
+Swisstransplant suit l'évolution de la liste d'attente nationale pour les organes provenant de donneurs décédés et calcule les temps d'attente jusqu'à la transplantation. Cependant, chaque patient est différent. Le délai d’attente individuel peut être nettement plus court ou plus long. Il dépend de la disponibilité des organes, de l’urgence médicale, du groupe sanguin et, selon l’organe, d’autres facteurs tels que l’âge ou le poids. Les temps d’attente des personnes récemment inscrites sur la liste peuvent être plus courts, car les processus de don et d’attribution sont optimisés en permanence.
 
 ::: {.callout-tip appearance="simple"}
 ## Période d'observation
 
-Les délais d'attente indiqués ici sont calculés à partir des données relatives à toutes les personnes nouvellement inscrites en Suisse entre le 1er juillet 2016 et le 31 juin 2026.
+Les temps d'attente indiqués ici sont calculés à partir des données relatives à toutes les personnes nouvellement inscrites en Suisse entre le 1er juillet 2016 et le 31 juin 2026.
 :::
 
 ## 1. Probabilité de la transplantation
@@ -239,7 +239,7 @@ La valeur médiane du temps d'attente jusqu'à la transplantation (MTT) peut êt
 
 Pour évaluer l'évolution dans le temps du délai d'attente, on se base sur le taux de transplantation (taux de défaillance, voir encadré) ([fig. @fig-2]). Celui-ci fait apparaître des tendances différentes selon les organes : pour le cœur, les poumons, les reins et le pancréas/les îlots pancréatiques, on observe une augmentation du taux de transplantation ; en ce qui concerne le foie, on a constaté une baisse ces dernières années, qui semble désormais se stabiliser.
 
-![Évolution du taux de transplantation au cours des dernières années (avec un intervalle de confiance à 95 %). On observe une augmentation du taux de transplantation pour le cœur, les poumons, les reins et le pancréas/les îlots pancréatiques, ce qui a un effet positif sur les délais d'attente.](WAIT-regdate-tpx-fr.png){#fig-2 width="90%"}
+![Évolution du taux de transplantation au cours des dernières années (avec un intervalle de confiance à 95 %). On observe une augmentation du taux de transplantation pour le cœur, les poumons, les reins et le pancréas/les îlots pancréatiques, ce qui a un effet positif sur les temps d'attente.](WAIT-regdate-tpx-fr.png){#fig-2 width="90%"}
 
 ::: {.callout-note appearance="simple"}
 ## Qu'est-ce qu'un taux de défaillance ?
