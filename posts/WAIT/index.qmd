@@ -133,7 +133,7 @@ Die Transplantationsraten können für unterschiedliche Zeitpunkte der Wartelist
 Den Unterschied zwischen den Anfang 2025 und den Anfang 2026 gelisteten Personen bestimmen wir mit dem Hazard Ratio (siehe Box "Was ist ein Hazard Ratio?").
 :::
 
-Bei Herzen stieg die Transplantationsrate für Anfang 2026 gelistete Personen um den Faktor 1.33, was einer Zunahme von 33 % entspricht. Bei der Lunge und Nieren gibt es nur schwache Hinweise auf eine Verbesserung, während die Lebertransplantationsrate unverändert blieb. Für Pankreas- und Inselzelltransplantationen ist die Unsicherheit aufgrund der geringen Fallzahlen zu gross, um eine Aussage zu machen ([Tab. @tbl-7]).
+Bei Herzen stieg die Transplantationsrate für Anfang 2026 gelistete Personen um den Faktor 1.33, was einer Zunahme von 33 % entspricht. Bei Lungen- und Nierentransplantationen gibt es nur schwache Hinweise auf eine Verbesserung, während die Lebertransplantationsrate unverändert blieb. Für Pankreas- und Inselzelltransplantationen ist die Unsicherheit aufgrund der geringen Fallzahlen zu gross, um eine Aussage zu machen ([Tab. @tbl-7]).
 
 | Organ                | Differenz      | Hazard Ratio | 95 %-KI    |
 |:---------------------|:---------------|:-------------|:-----------|
@@ -155,7 +155,7 @@ Beispiel: Angenommen, das Hazard Ratio für Personen, die Mitte 2025 gelistet wu
 
 ## Methodik
 
-Swisstransplant wertet regelmässig die Daten aller neu gelisteten Personen aus. Die Analyse erfolgt über einen Beobachtungszeitraum von 10 Jahren. Der für diese Auswertung relevante Beobachtungszeitraum ist oben im Dokument angegeben (siehe Box ") Beobachtungszeitraum“). Für die Ergebnisse in den Kapiteln 1, 2 und 4 wurden Mehrstadienmodelle mit dem Aalen-Johansen-Schätzer verwendet. Für die Ergebnisse in den Kapiteln 3 und 5 wurden ereignisspezifische Hazard-Modelle angepasst, wobei das Listungsdatum als erklärende Variable diente.
+Swisstransplant wertet regelmässig die Daten aller neu gelisteten Personen aus. Die Analyse erfolgt über einen Beobachtungszeitraum von 10 Jahren. Der für diese Auswertung relevante Beobachtungszeitraum ist oben im Dokument angegeben (siehe Box "Beobachtungszeitraum"). Für die Ergebnisse in den Kapiteln 1, 2 und 4 wurden Mehrstadienmodelle mit dem Aalen-Johansen-Schätzer verwendet. Für die Ergebnisse in den Kapiteln 3 und 5 wurden ereignisspezifische Hazard-Modelle angepasst, wobei das Listungsdatum als erklärende Variable diente.
 
 ## Literatur
 
@@ -169,7 +169,7 @@ Das Thema Warteliste ist vielschichtig. Daher beantworten wir die häufig gestel
 
 Die MTT entspricht der Wartezeit, nach der die Wahrscheinlichkeit einer Transplantation 50 % beträgt. Bei der Niere ist die MTT knapp 3 Jahre; es kann also davon ausgegangen werden, dass nach ca. 3 Jahren 50 von 100 Personen eine Niere erhalten.
 
-Im Prinzip ist die MTT die mittlere Wartezeit für eine Person, über die wir kaum etwas wissen – ausser dass sie für eine Organtransplantation gelistet wurde. Wir wissen nicht, ob es sich um ein Kind oder einen Erwachsenen handelt, welches Geschlecht die Person hat, ob eine hohe medizinische Dringlichkeit besteht, welche Blutgruppe vorliegt, oder ob die Person inaktive Wartezeit haben wird. All diese Faktoren beeinflussen die individuelle Wartezeit erheblich, sodass diese in der Realität deutlich kürzer oder länger als die MTT sein kann.
+Im Prinzip ist die MTT die typische Wartezeit für eine Person, über die wir kaum etwas wissen – ausser dass sie für eine Organtransplantation gelistet wurde. Wir wissen nicht, ob es sich um ein Kind oder einen Erwachsenen handelt, welches Geschlecht die Person hat, ob eine hohe medizinische Dringlichkeit besteht, welche Blutgruppe vorliegt, oder ob die Person inaktive Wartezeit haben wird. All diese Faktoren beeinflussen die individuelle Wartezeit erheblich, sodass diese in der Realität deutlich kürzer oder länger als die MTT sein kann.
 
 ### Können auch individuelle Wartezeiten abgeschätzt werden?
 
@@ -197,10 +197,11 @@ Personen auf der Warteliste können aus medizinischen Gründen, z.B. einer Infek
 ::::::
 
 :::::: {.content-visible when-profile="fr"}
+
 ::: {.callout-note appearance="simple"}
 ## L'essentiel en bref
 
-- En Suisse, le temps d'attente médian pour une greffe de rein chez une personne inscrite sur la liste d'attente entre 2016 et 2026 était d'un peu moins de 3 ans. Pour les autres organes, les temps d'attente étaient plus courts et se situaient entre 0.6 et 1.6 an.
+- En Suisse, le temps d'attente médian pour une greffe de rein chez une personne inscrite sur la liste d'attente entre 2016 et 2026 était d'un peu moins de 3 ans. Pour les autres organes, les temps d'attente étaient plus courts et se situaient entre 0.6 et 1.6 année.
 
 - La liste d'attente pour les greffes cardiaques affiche la tendance la plus favorable, ce qui s'explique principalement par les systèmes de perfusion modernes, qui augmentent considérablement la disponibilité des cœurs de donneurs.
 
@@ -313,7 +314,7 @@ La transplantation est l'événement le plus fréquent, mais il peut également 
 On peut comparer les taux de transplantation pour différentes dates d'inscription sur la liste d'attente.
 
 ::: {.callout-tip appearance="simple"}
-Nous déterminons la différence entre les personnes répertoriées début 2025 et celles répertoriées début 2026 à l'aide du rapport de risque (voir l'encadré « Qu'est-ce qu'un hazard ratio ? »).
+Nous déterminons la différence entre les personnes inscrites sur la liste d’attente au début de 2025 et celles inscrites au début de 2026 à l'aide du rapport de risque (voir l'encadré "Qu'est-ce qu'un hazard ratio ?").
 :::
 
 En ce qui concerne le cœur, le taux de transplantation pour les personnes inscrites sur la liste début 2026 a été multiplié par 1,33, ce qui correspond à une augmentation de 33 %. En ce qui concerne les poumons et les reins, on n'observe que de faibles signes d'amélioration, tandis que le taux de transplantation hépatique est resté inchangé. Pour les transplantations pancréatiques et de cellules des îlots pancréatiques, l'incertitude est trop grande, en raison du faible nombre de cas, pour pouvoir tirer des conclusions ([tab. @tbl-7]).
@@ -338,7 +339,7 @@ Exemple : supposons que le  hazard ratio pour les personnes inscrites sur la lis
 
 ## Méthodologie
 
-Swisstransplant analyse régulièrement les données de toutes les personnes nouvellement inscrites sur la liste d'attente. L'analyse porte sur une période d'observation de 10 ans. La période d'observation prise en compte pour cette analyse est indiquée en haut du document (voir l'encadré « Période d'observation »). Pour les résultats présentés dans les chapitres 1, 2 et 4, des modèles à plusieurs stades utilisant l'estimateur d'Aalen-Johansen ont été utilisés. Pour les résultats présentés dans les chapitres 3 et 5, des modèles de risque spécifiques à l'événement ont été ajustés, la date d'inscription sur la liste servant de variable explicative.
+Swisstransplant analyse régulièrement les données de toutes les personnes nouvellement inscrites sur la liste d'attente. L'analyse porte sur une période d'observation de 10 ans. La période d'observation prise en compte pour cette analyse est indiquée en haut du document (voir l'encadré "Période d'observation"). Pour les résultats présentés dans les chapitres 1, 2 et 4, des modèles à plusieurs stades utilisant l'estimateur d'Aalen-Johansen ont été utilisés. Pour les résultats présentés dans les chapitres 3 et 5, des modèles de risque spécifiques à l'événement ont été ajustés, la date d'inscription sur la liste servant de variable explicative.
 
 ## Littérature
 
@@ -352,7 +353,7 @@ La question de la liste d'attente est complexe. C'est pourquoi nous répondons i
 
 Le MTT correspond au temps d'attente après lequel la probabilité d'une transplantation est de 50 %. Pour les reins, le MTT est d'un peu moins de 3 ans ; on peut donc supposer qu'après environ 3 ans, 50 personnes sur 100 recevront un rein.
 
-En principe, le MTT est le temps d'attente moyen pour une personne dont nous ne savons pratiquement rien, si ce n'est qu'elle a été inscrite sur la liste d'attente pour une transplantation d'organe. Nous ne savons pas s'il s'agit d'un enfant ou d'un adulte, quel est le sexe de la personne, s'il y a une urgence médicale élevée, quel est son groupe sanguin ou si la personne aura un temps d'attente inactif. Tous ces facteurs influencent considérablement le temps d'attente individuel, qui peut donc être nettement plus court ou plus long que le MTT dans la réalité.
+En principe, le MTT est le temps d'attente typique pour une personne dont nous ne savons pratiquement rien, si ce n'est qu'elle a été inscrite sur la liste d'attente pour une transplantation d'organe. Nous ne savons pas s'il s'agit d'un enfant ou d'un adulte, quel est le sexe de la personne, s'il y a une urgence médicale élevée, quel est son groupe sanguin ou si la personne aura un temps d'attente inactif. Tous ces facteurs influencent considérablement le temps d'attente individuel, qui peut donc être nettement plus court ou plus long que le MTT dans la réalité.
 
 ### Les temps d'attente individuels peuvent-ils également être estimés ?
 
@@ -366,11 +367,11 @@ C'est une question difficile, car elle nécessite de se projeter dans l'avenir. 
 
 La liste d'attente n'est jamais complète, car de nouvelles personnes s'y ajoutent constamment. Nous connaissons la date d'inscription de chaque personne, mais il n'y a pas de moment où toutes les personnes peuvent être observées de manière définitive. Pour certaines, nous savons quand la transplantation a eu lieu, pour d'autres, nous savons seulement qu'elle n'a pas encore eu lieu à une date donnée. C'est ce qu'on appelle des données censurées à droite. Cela signifie que la date exacte de l'événement (par exemple une transplantation) est encore inconnue pour certaines personnes.
 
-Ces données nécessitent des méthodes biostatistiques spéciales, notamment issues de l'analyse des durées de survie. De plus, il existe des risques dits « concurrents » sur la liste d'attente : lorsqu'une personne est retirée de la liste ou décède, la transplantation ne peut plus avoir lieu. Cet aspect doit également être pris en compte dans l'analyse en utilisant des méthodes avancées d'analyse de la durée de survie avec risques concurrents, qui permettent plusieurs événements possibles.
+Ces données nécessitent des méthodes biostatistiques spéciales, notamment issues de l'analyse des durées de survie. De plus, il existe des risques dits "concurrents" sur la liste d'attente : lorsqu'une personne est retirée de la liste ou décède, la transplantation ne peut plus avoir lieu. Cet aspect doit également être pris en compte dans l'analyse en utilisant des méthodes avancées d'analyse de la durée de survie avec risques concurrents, qui permettent plusieurs événements possibles.
 
 ### Pourquoi ne peut-on pas sélectionner toutes les personnes transplantées au cours d'une année donnée et calculer rétrospectivement leur temps d'attente ?
 
-Il serait problématique de sélectionner le groupe de patients en fonction du résultat. Cela ne prendrait en compte que les personnes transplantées, tandis que toutes celles qui attendent encore un organe, qui ont été retirées de la liste ou qui sont décédées seraient exclues. Un tel « biais de sélection » fausserait les résultats, généralement en faveur d'une estimation trop optimiste des temps d'attente.
+Il serait problématique de sélectionner le groupe de patients en fonction du résultat. Cela ne prendrait en compte que les personnes transplantées, tandis que toutes celles qui attendent encore un organe, qui ont été retirées de la liste ou qui sont décédées seraient exclues. Un tel "biais de sélection" fausserait les résultats, généralement en faveur d'une estimation trop optimiste des temps d'attente.
 
 C'est pourquoi nous ne sélectionnons pas la population étudiée en fonction du résultat ultérieur, mais en fonction de la date d'inscription sur la liste.
 
