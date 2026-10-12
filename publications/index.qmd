@@ -1,6 +1,6 @@
 ---
 title: "Publikationen"
-bibliography: europepmc_swt_20261012.bib
+bibliography: europepmc_swt_20261012-paperpile.bib
 csl: american-medical-association-no-et-al.csl
 nocite: |
   @*
