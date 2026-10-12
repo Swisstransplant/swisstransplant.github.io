@@ -24,7 +24,7 @@ execute:
 - Es gibt viele Faktoren, welche die Wartezeit auf ein Organ beeinflussen können, wie z.B. die Organverfügbarkeit, die medizinische Dringlichkeit oder die Blutgruppe.
 :::
 
-Swisstransplant beobachtet die Entwicklung der nationalen Warteliste für ein Spendeorgan von spendenden verstorbenen Personen und berechnet die Wartezeiten bis zur Transplantation. Jede Patientin, jeder Patient ist jedoch anders. Die individuelle Wartezeit kann deutlich kürzer oder länger sein. Sie hängt von der Organverfügbarkeit, der medizinischen Dringlichkeit, der Blutgruppe und je nach Organ von weiteren Faktoren wie Alter oder Gewicht ab. Die Wahrscheinlichkeiten von kürzlich gelisteten Personen können kürzer sein, da Spende- und Allokationsprozesse kontinuierlich optimiert werden.
+Swisstransplant beobachtet die Entwicklung der nationalen Warteliste für ein Spendeorgan von spendenden verstorbenen Personen und berechnet die Wartezeiten bis zur Transplantation. Jede Patientin, jeder Patient ist jedoch anders. Die individuelle Wartezeit kann deutlich kürzer oder länger sein. Sie hängt von der Organverfügbarkeit, der medizinischen Dringlichkeit, der Blutgruppe und je nach Organ von weiteren Faktoren wie Alter oder Gewicht ab. Die Wartezeiten von kürzlich gelisteten Personen können kürzer sein, da Spende- und Allokationsprozesse kontinuierlich optimiert werden.
 
 ::: {.callout-tip appearance="simple"}
 ## Beobachtungszeitraum
@@ -148,7 +148,7 @@ Bei Herzen stieg die Transplantationsrate für Anfang 2026 gelistete Personen um
 ::: {.callout-note appearance="simple"}
 ## Was ist ein Hazard Ratio?
 
-Das Hazard Ratio ist das Verhältnis der Hazard-Raten zwischen zwei Gruppen und gibt an, wie viel höher oder niedriger das Risiko für ein Ereignis (z. B. eine Transplantation) in der einen Gruppe im Vergleich zur anderen ist. Auch hier hilft das Beispiel der Geschwindigkeit: Wenn ein Auto auf einer Strecke doppelt so schnell fährt wie ein anderes, dann ist das Verhältnis der Geschwindigkeiten 2.
+Das Hazard Ratio ist das Verhältnis der Hazard-Raten zwischen zwei Gruppen und gibt an, wie viel höher oder niedriger "das Risiko" für ein Ereignis (in unserem Fall z. B. eine Transplantation) in der einen Gruppe im Vergleich zur anderen ist. Auch hier hilft das Beispiel der Geschwindigkeit: Wenn ein Auto auf einer Strecke doppelt so schnell fährt wie ein anderes, dann ist das Verhältnis der Geschwindigkeiten 2.
 
 Beispiel: Angenommen, das Hazard Ratio für Personen, die Mitte 2025 gelistet wurden, beträgt gegenüber Mitte 2024 den Wert 1.5. Das bedeutet, dass ihre Transplantationsrate um 50 % höher ist als im Vorjahr.
 :::
@@ -191,9 +191,9 @@ Es wäre problematisch, die Patientengruppe anhand des Ergebnisses auszuwählen.
 
 Deshalb wählen wir die Studienpopulation nicht nach dem späteren Outcome, sondern anhand des Zeitpunkts der Listung.
 
-### Warum wird die inaktive Zeit bei der Berechnung der medianen Wartezeit bis zur Transplantation (MTT) ignoriert?
+### Wird die inaktive Zeit bei der Berechnung der medianen Wartezeit bis zur Transplantation (MTT) mitgezählt?
 
-Personen auf der Warteliste können aus medizinischen Gründen, z.B. einer Infektion, vorübergehend inaktiv werden und werden in dieser Zeit nicht transplantiert. Bei der Analyse der nur aktiven Zeit würden die Wartezeiten zu optimistisch ausfallen. Viele Patientinnen und Patienten erleben inaktive Phasen. Diese zu ignorieren würde eine unrealistische Annahme schaffen. Daher wird für die inaktive Zeit nicht korrigiert.
+Personen auf der Warteliste können aus medizinischen Gründen, beispielsweise einer Infektion, vorübergehend inaktiv sein. In diesen Phasen erhalten sie keine Organangebote. Bei der Berechnung der MTT zählen wir sowohl die aktive als auch die inaktive Wartezeit. Würden wir nur die aktive Zeit analysieren, würden die Wartezeiten zu optimistisch ausfallen. Viele Patientinnen und Patienten erleben inaktive Phasen. Diese zu ignorieren, wäre eine unrealistische Annahme.
 ::::::
 
 :::::: {.content-visible when-profile="fr"}
@@ -332,7 +332,7 @@ En ce qui concerne le cœur, le taux de transplantation pour les personnes inscr
 ::: {.callout-note appearance="simple"}
 ## Qu'est-ce qu'un hazard ratio ?
 
-Le hazard ratio est le rapport entre les taux de risque instantané de deux groupes et indique dans quelle mesure le risque d'un événement (par exemple une transplantation) est plus élevé ou plus faible dans un groupe par rapport à l'autre. L'exemple de la vitesse est ici aussi utile : si une voiture roule deux fois plus vite qu'une autre sur un trajet donné, le rapport entre les vitesses est de 2.
+Le hazard ratio est le rapport entre les taux de risque instantané de deux groupes et indique dans quelle mesure le risque d'un événement (par exemple, dans notre cas, une transplantation) est plus élevé ou plus faible dans un groupe par rapport à l'autre. L'exemple de la vitesse est ici aussi utile : si une voiture roule deux fois plus vite qu'une autre sur un trajet donné, le rapport entre les vitesses est de 2.
 
 Exemple : supposons que le  hazard ratio pour les personnes inscrites sur la liste à la mi-2025 soit de 1.5 par rapport à la mi-2024. Cela signifie que leur taux de transplantation est supérieur de 50 % à celui de l'année précédente.
 :::
@@ -375,7 +375,7 @@ Il serait problématique de sélectionner le groupe de patients en fonction du r
 
 C'est pourquoi nous ne sélectionnons pas la population étudiée en fonction du résultat ultérieur, mais en fonction de la date d'inscription sur la liste.
 
-### Pourquoi le temps d'inactivité est-il ignoré dans le calcul du temps d'attente médian jusqu'à la transplantation (MTT) ?
+### La période d'inactivité est-elle prise en compte dans le calcul du temps d’attente médian jusqu’à la transplantation (MTT) ?
 
-Les personnes inscrites sur la liste d'attente peuvent devenir temporairement inactives pour des raisons médicales, par exemple en cas d'infection, et ne sont pas transplantées pendant cette période. Si l'on analysait uniquement le temps d'activité, les temps d'attente seraient trop optimistes. De nombreux patients connaissent des phases d'inactivité, et les ignorer reviendrait à faire une hypothèse irréaliste. C'est pourquoi aucune correction n'est apportée pour le temps d'inactivité.
+Les personnes inscrites sur la liste d’attente peuvent être temporairement inactives pour des raisons médicales, par exemple en cas d’infection. Pendant ces étapes, elles ne reçoivent aucune proposition de donneur. Dans le calcul du MTT, nous prenons en compte à la fois le temps d’attente actif et le temps d’attente inactif. Si nous ne tenions compte que du temps d’attente actif, les temps d’attente seraient trop optimistes. De nombreux patients connaissent des étapes d’inactivité. Les ignorer reviendrait à faire une hypothèse irréaliste.
 ::::::

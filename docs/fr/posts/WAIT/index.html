@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -37,10 +40,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-613ced0442d59d24a9a409d96140cce0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0a5b84378f574bfe731a1ecf67ccd286.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-aad745c21a9663b33e6d28562a17a46b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-8fa742c997d487dd6f1db887d60e4a57.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "Pas de résultats",
@@ -169,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Modifié</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">9 juillet 2026</p>
+        <p class="date-modified">22 septembre 2026</p>
       </div>
     </div>
       
@@ -205,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#quel-serait-le-temps-dattente-médian-jusquà-la-transplantation-mtt-pour-les-personnes-nouvellement-inscrites-aujourdhui" id="toc-quel-serait-le-temps-dattente-médian-jusquà-la-transplantation-mtt-pour-les-personnes-nouvellement-inscrites-aujourdhui" class="nav-link" data-scroll-target="#quel-serait-le-temps-dattente-médian-jusquà-la-transplantation-mtt-pour-les-personnes-nouvellement-inscrites-aujourdhui">Quel serait le temps d’attente médian jusqu’à la transplantation (MTT) pour les personnes nouvellement inscrites aujourd’hui ?</a></li>
   <li><a href="#pourquoi-la-liste-dattente-et-son-analyse-ne-sont-elles-pas-faciles-à-comprendre" id="toc-pourquoi-la-liste-dattente-et-son-analyse-ne-sont-elles-pas-faciles-à-comprendre" class="nav-link" data-scroll-target="#pourquoi-la-liste-dattente-et-son-analyse-ne-sont-elles-pas-faciles-à-comprendre">Pourquoi la liste d’attente et son analyse ne sont-elles pas faciles à comprendre ?</a></li>
   <li><a href="#pourquoi-ne-peut-on-pas-sélectionner-toutes-les-personnes-transplantées-au-cours-dune-année-donnée-et-calculer-rétrospectivement-leur-temps-dattente" id="toc-pourquoi-ne-peut-on-pas-sélectionner-toutes-les-personnes-transplantées-au-cours-dune-année-donnée-et-calculer-rétrospectivement-leur-temps-dattente" class="nav-link" data-scroll-target="#pourquoi-ne-peut-on-pas-sélectionner-toutes-les-personnes-transplantées-au-cours-dune-année-donnée-et-calculer-rétrospectivement-leur-temps-dattente">Pourquoi ne peut-on pas sélectionner toutes les personnes transplantées au cours d’une année donnée et calculer rétrospectivement leur temps d’attente ?</a></li>
-  <li><a href="#pourquoi-le-temps-dinactivité-est-il-ignoré-dans-le-calcul-du-temps-dattente-médian-jusquà-la-transplantation-mtt" id="toc-pourquoi-le-temps-dinactivité-est-il-ignoré-dans-le-calcul-du-temps-dattente-médian-jusquà-la-transplantation-mtt" class="nav-link" data-scroll-target="#pourquoi-le-temps-dinactivité-est-il-ignoré-dans-le-calcul-du-temps-dattente-médian-jusquà-la-transplantation-mtt">Pourquoi le temps d’inactivité est-il ignoré dans le calcul du temps d’attente médian jusqu’à la transplantation (MTT) ?</a></li>
+  <li><a href="#la-période-dinactivité-est-elle-prise-en-compte-dans-le-calcul-du-temps-dattente-médian-jusquà-la-transplantation-mtt" id="toc-la-période-dinactivité-est-elle-prise-en-compte-dans-le-calcul-du-temps-dattente-médian-jusquà-la-transplantation-mtt" class="nav-link" data-scroll-target="#la-période-dinactivité-est-elle-prise-en-compte-dans-le-calcul-du-temps-dattente-médian-jusquà-la-transplantation-mtt">La période d’inactivité est-elle prise en compte dans le calcul du temps d’attente médian jusqu’à la transplantation (MTT) ?</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -714,7 +717,7 @@ Table&nbsp;7: Le hazard ratio compare le taux de transplantation sur une périod
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Le hazard ratio est le rapport entre les taux de risque instantané de deux groupes et indique dans quelle mesure le risque d’un événement (par exemple une transplantation) est plus élevé ou plus faible dans un groupe par rapport à l’autre. L’exemple de la vitesse est ici aussi utile : si une voiture roule deux fois plus vite qu’une autre sur un trajet donné, le rapport entre les vitesses est de 2.</p>
+<p>Le hazard ratio est le rapport entre les taux de risque instantané de deux groupes et indique dans quelle mesure le risque d’un événement (par exemple, dans notre cas, une transplantation) est plus élevé ou plus faible dans un groupe par rapport à l’autre. L’exemple de la vitesse est ici aussi utile : si une voiture roule deux fois plus vite qu’une autre sur un trajet donné, le rapport entre les vitesses est de 2.</p>
 <p>Exemple : supposons que le hazard ratio pour les personnes inscrites sur la liste à la mi-2025 soit de 1.5 par rapport à la mi-2024. Cela signifie que leur taux de transplantation est supérieur de 50&nbsp;% à celui de l’année précédente.</p>
 </div>
 </div>
@@ -753,9 +756,9 @@ Table&nbsp;7: Le hazard ratio compare le taux de transplantation sur une périod
 <p>Il serait problématique de sélectionner le groupe de patients en fonction du résultat. Cela ne prendrait en compte que les personnes transplantées, tandis que toutes celles qui attendent encore un organe, qui ont été retirées de la liste ou qui sont décédées seraient exclues. Un tel “biais de sélection” fausserait les résultats, généralement en faveur d’une estimation trop optimiste des temps d’attente.</p>
 <p>C’est pourquoi nous ne sélectionnons pas la population étudiée en fonction du résultat ultérieur, mais en fonction de la date d’inscription sur la liste.</p>
 </section>
-<section id="pourquoi-le-temps-dinactivité-est-il-ignoré-dans-le-calcul-du-temps-dattente-médian-jusquà-la-transplantation-mtt" class="level3">
-<h3 class="anchored" data-anchor-id="pourquoi-le-temps-dinactivité-est-il-ignoré-dans-le-calcul-du-temps-dattente-médian-jusquà-la-transplantation-mtt">Pourquoi le temps d’inactivité est-il ignoré dans le calcul du temps d’attente médian jusqu’à la transplantation (MTT) ?</h3>
-<p>Les personnes inscrites sur la liste d’attente peuvent devenir temporairement inactives pour des raisons médicales, par exemple en cas d’infection, et ne sont pas transplantées pendant cette période. Si l’on analysait uniquement le temps d’activité, les temps d’attente seraient trop optimistes. De nombreux patients connaissent des phases d’inactivité, et les ignorer reviendrait à faire une hypothèse irréaliste. C’est pourquoi aucune correction n’est apportée pour le temps d’inactivité.</p>
+<section id="la-période-dinactivité-est-elle-prise-en-compte-dans-le-calcul-du-temps-dattente-médian-jusquà-la-transplantation-mtt" class="level3">
+<h3 class="anchored" data-anchor-id="la-période-dinactivité-est-elle-prise-en-compte-dans-le-calcul-du-temps-dattente-médian-jusquà-la-transplantation-mtt">La période d’inactivité est-elle prise en compte dans le calcul du temps d’attente médian jusqu’à la transplantation (MTT) ?</h3>
+<p>Les personnes inscrites sur la liste d’attente peuvent être temporairement inactives pour des raisons médicales, par exemple en cas d’infection. Pendant ces étapes, elles ne reçoivent aucune proposition de donneur. Dans le calcul du MTT, nous prenons en compte à la fois le temps d’attente actif et le temps d’attente inactif. Si nous ne tenions compte que du temps d’attente actif, les temps d’attente seraient trop optimistes. De nombreux patients connaissent des étapes d’inactivité. Les ignorer reviendrait à faire une hypothèse irréaliste.</p>
 
 
 </section>

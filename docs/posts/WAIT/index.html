@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -37,10 +40,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-613ced0442d59d24a9a409d96140cce0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0a5b84378f574bfe731a1ecf67ccd286.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-aad745c21a9663b33e6d28562a17a46b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-8fa742c997d487dd6f1db887d60e4a57.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "Keine Treffer",
@@ -169,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Geändert</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">9. Juli 2026</p>
+        <p class="date-modified">22. September 2026</p>
       </div>
     </div>
       
@@ -205,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#wie-lang-wäre-die-mediane-wartezeit-bis-zur-transplantation-mtt-für-personen-die-heute-neu-gelistet-werden" id="toc-wie-lang-wäre-die-mediane-wartezeit-bis-zur-transplantation-mtt-für-personen-die-heute-neu-gelistet-werden" class="nav-link" data-scroll-target="#wie-lang-wäre-die-mediane-wartezeit-bis-zur-transplantation-mtt-für-personen-die-heute-neu-gelistet-werden">Wie lang wäre die mediane Wartezeit bis zur Transplantation (MTT) für Personen, die heute neu gelistet werden?</a></li>
   <li><a href="#warum-ist-die-warteliste-und-ihre-analyse-nicht-ganz-einfach-zu-verstehen" id="toc-warum-ist-die-warteliste-und-ihre-analyse-nicht-ganz-einfach-zu-verstehen" class="nav-link" data-scroll-target="#warum-ist-die-warteliste-und-ihre-analyse-nicht-ganz-einfach-zu-verstehen">Warum ist die Warteliste und ihre Analyse nicht ganz einfach zu verstehen?</a></li>
   <li><a href="#warum-kann-man-nicht-alle-in-einem-bestimmten-jahr-transplantierten-personen-auswählen-und-rückwirkend-deren-wartezeit-berechnen" id="toc-warum-kann-man-nicht-alle-in-einem-bestimmten-jahr-transplantierten-personen-auswählen-und-rückwirkend-deren-wartezeit-berechnen" class="nav-link" data-scroll-target="#warum-kann-man-nicht-alle-in-einem-bestimmten-jahr-transplantierten-personen-auswählen-und-rückwirkend-deren-wartezeit-berechnen">Warum kann man nicht alle in einem bestimmten Jahr transplantierten Personen auswählen und rückwirkend deren Wartezeit berechnen?</a></li>
-  <li><a href="#warum-wird-die-inaktive-zeit-bei-der-berechnung-der-medianen-wartezeit-bis-zur-transplantation-mtt-ignoriert" id="toc-warum-wird-die-inaktive-zeit-bei-der-berechnung-der-medianen-wartezeit-bis-zur-transplantation-mtt-ignoriert" class="nav-link" data-scroll-target="#warum-wird-die-inaktive-zeit-bei-der-berechnung-der-medianen-wartezeit-bis-zur-transplantation-mtt-ignoriert">Warum wird die inaktive Zeit bei der Berechnung der medianen Wartezeit bis zur Transplantation (MTT) ignoriert?</a></li>
+  <li><a href="#wird-die-inaktive-zeit-bei-der-berechnung-der-medianen-wartezeit-bis-zur-transplantation-mtt-mitgezählt" id="toc-wird-die-inaktive-zeit-bei-der-berechnung-der-medianen-wartezeit-bis-zur-transplantation-mtt-mitgezählt" class="nav-link" data-scroll-target="#wird-die-inaktive-zeit-bei-der-berechnung-der-medianen-wartezeit-bis-zur-transplantation-mtt-mitgezählt">Wird die inaktive Zeit bei der Berechnung der medianen Wartezeit bis zur Transplantation (MTT) mitgezählt?</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -234,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </div>
 </div>
-<p>Swisstransplant beobachtet die Entwicklung der nationalen Warteliste für ein Spendeorgan von spendenden verstorbenen Personen und berechnet die Wartezeiten bis zur Transplantation. Jede Patientin, jeder Patient ist jedoch anders. Die individuelle Wartezeit kann deutlich kürzer oder länger sein. Sie hängt von der Organverfügbarkeit, der medizinischen Dringlichkeit, der Blutgruppe und je nach Organ von weiteren Faktoren wie Alter oder Gewicht ab. Die Wahrscheinlichkeiten von kürzlich gelisteten Personen können kürzer sein, da Spende- und Allokationsprozesse kontinuierlich optimiert werden.</p>
+<p>Swisstransplant beobachtet die Entwicklung der nationalen Warteliste für ein Spendeorgan von spendenden verstorbenen Personen und berechnet die Wartezeiten bis zur Transplantation. Jede Patientin, jeder Patient ist jedoch anders. Die individuelle Wartezeit kann deutlich kürzer oder länger sein. Sie hängt von der Organverfügbarkeit, der medizinischen Dringlichkeit, der Blutgruppe und je nach Organ von weiteren Faktoren wie Alter oder Gewicht ab. Die Wartezeiten von kürzlich gelisteten Personen können kürzer sein, da Spende- und Allokationsprozesse kontinuierlich optimiert werden.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -708,7 +711,7 @@ Tabelle&nbsp;7: Das Hazard Ratio vergleicht die Transplantationsrate über einen
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Das Hazard Ratio ist das Verhältnis der Hazard-Raten zwischen zwei Gruppen und gibt an, wie viel höher oder niedriger das Risiko für ein Ereignis (z. B. eine Transplantation) in der einen Gruppe im Vergleich zur anderen ist. Auch hier hilft das Beispiel der Geschwindigkeit: Wenn ein Auto auf einer Strecke doppelt so schnell fährt wie ein anderes, dann ist das Verhältnis der Geschwindigkeiten 2.</p>
+<p>Das Hazard Ratio ist das Verhältnis der Hazard-Raten zwischen zwei Gruppen und gibt an, wie viel höher oder niedriger “das Risiko” für ein Ereignis (in unserem Fall z. B. eine Transplantation) in der einen Gruppe im Vergleich zur anderen ist. Auch hier hilft das Beispiel der Geschwindigkeit: Wenn ein Auto auf einer Strecke doppelt so schnell fährt wie ein anderes, dann ist das Verhältnis der Geschwindigkeiten 2.</p>
 <p>Beispiel: Angenommen, das Hazard Ratio für Personen, die Mitte 2025 gelistet wurden, beträgt gegenüber Mitte 2024 den Wert 1.5. Das bedeutet, dass ihre Transplantationsrate um 50&nbsp;% höher ist als im Vorjahr.</p>
 </div>
 </div>
@@ -747,9 +750,9 @@ Tabelle&nbsp;7: Das Hazard Ratio vergleicht die Transplantationsrate über einen
 <p>Es wäre problematisch, die Patientengruppe anhand des Ergebnisses auszuwählen. Dadurch werden nur transplantierte Personen berücksichtigt, während alle, die noch auf ein Organ warten, von der Liste genommen wurden oder verstorben sind, ausgeschlossen blieben. Ein solcher “Selektionsbias” würde die Ergebnisse verfälschen – meist in Richtung einer zu optimistischen Einschätzung der Wartezeiten.</p>
 <p>Deshalb wählen wir die Studienpopulation nicht nach dem späteren Outcome, sondern anhand des Zeitpunkts der Listung.</p>
 </section>
-<section id="warum-wird-die-inaktive-zeit-bei-der-berechnung-der-medianen-wartezeit-bis-zur-transplantation-mtt-ignoriert" class="level3">
-<h3 class="anchored" data-anchor-id="warum-wird-die-inaktive-zeit-bei-der-berechnung-der-medianen-wartezeit-bis-zur-transplantation-mtt-ignoriert">Warum wird die inaktive Zeit bei der Berechnung der medianen Wartezeit bis zur Transplantation (MTT) ignoriert?</h3>
-<p>Personen auf der Warteliste können aus medizinischen Gründen, z.B. einer Infektion, vorübergehend inaktiv werden und werden in dieser Zeit nicht transplantiert. Bei der Analyse der nur aktiven Zeit würden die Wartezeiten zu optimistisch ausfallen. Viele Patientinnen und Patienten erleben inaktive Phasen. Diese zu ignorieren würde eine unrealistische Annahme schaffen. Daher wird für die inaktive Zeit nicht korrigiert.</p>
+<section id="wird-die-inaktive-zeit-bei-der-berechnung-der-medianen-wartezeit-bis-zur-transplantation-mtt-mitgezählt" class="level3">
+<h3 class="anchored" data-anchor-id="wird-die-inaktive-zeit-bei-der-berechnung-der-medianen-wartezeit-bis-zur-transplantation-mtt-mitgezählt">Wird die inaktive Zeit bei der Berechnung der medianen Wartezeit bis zur Transplantation (MTT) mitgezählt?</h3>
+<p>Personen auf der Warteliste können aus medizinischen Gründen, beispielsweise einer Infektion, vorübergehend inaktiv sein. In diesen Phasen erhalten sie keine Organangebote. Bei der Berechnung der MTT zählen wir sowohl die aktive als auch die inaktive Wartezeit. Würden wir nur die aktive Zeit analysieren, würden die Wartezeiten zu optimistisch ausfallen. Viele Patientinnen und Patienten erleben inaktive Phasen. Diese zu ignorieren, wäre eine unrealistische Annahme.</p>
 
 
 </section>
