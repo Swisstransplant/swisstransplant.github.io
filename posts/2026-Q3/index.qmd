@@ -19,7 +19,7 @@ Gleich viele spendende verstorbene Personen, aber mehr Personen in der Schweiz e
 :::
 
 ::: {.content-visible when-profile="fr"}
-Le nombre de personnes décédées est resté stable, mais davantage de personnes ont reçu un organe en Suisse. Le nombre de personnes inscrites sur la liste d’attente continue de baisser, mais le nombre de décès parmi les personnes inscrites sur cette liste a augmenté.
+Le nombre de donneurs décédés est resté stable, mais davantage de personnes ont reçu un organe en Suisse. Le nombre de personnes inscrites sur la liste d’attente continue de baisser, mais le nombre de décès parmi les personnes inscrites sur la liste a augmenté.
 
 :::
 
