@@ -16,7 +16,7 @@ KIDMO (Kidney prediction model) is a clinical risk prediction tool designed to e
 
 ## Why is KIDMO useful?
 
-KIDMO supports clinical decision-making at the moment an organ is offered by providing transparent, personalized risk estimates of graft loss. This helps transplant teams and patients weigh the benefits and risks of accepting a specific kidney, enabling more informed and shared decisions. By focusing on absolute risk rather than relative scores, and by separating graft loss from mortality, KIDMO offers improved clinical utility compared to existing tools, potentially leading to better organ utilization and patient outcomes.
+KIDMO provides individualized estimates of post-transplant graft-loss risk that may inform organ acceptance discussions. This helps transplant teams and patients weigh the benefits and risks of accepting a specific kidney, enabling more informed and shared decisions. By focusing on absolute risk rather than relative scores, and by separating graft loss from mortality, KIDMO offers improved clinical utility compared to existing tools.
 
 More details about the KIDMO study can be found in the published [study protocol](https://doi.org/10.1186/s41512-022-00139-5).
 
@@ -27,12 +27,12 @@ KIDMO was developed by Swisstransplant and the [Swiss Transplant Cohort Study (S
 ## Risk calculator
 
 ```{=html}
-<iframe id="KIDMO" src="https://swisstransplant-kidmo-app.share.connect.posit.cloud" style="border: none; width: 100%; height: 570px" frameborder="0"></iframe>
+<iframe id="KIDMO" src="https://swisstransplant-kidmo-app.share.connect.posit.cloud" style="border: none; width: 100%; height: 510px" frameborder="0"></iframe>
 ```
 
 ## Interpretation
 
-* The **KIDMO risk score** is a hazard ratio and shows the relative increase or decrease in the hazard rate of kidney graft loss for this recipient compared to the median hazard rate in the reference population from 2008 to 2021. So, a score > 1 indicates a higher graft loss rate, and an score < 1 indicates lower rate and a more favorable outcome, as we observed on average. A recipient with a score of 1.0 corresponds to the median hazard rate in the Swiss reference population of kidney transplant recipients.
+* The **KIDMO risk score** is a ratio of the recipient's relative rate of graft loss compared with the median recipient in the Swiss reference population from 2008 to 2021. So, a score > 1 indicates a higher graft loss rate, and an score < 1 indicates lower rate and a more favorable outcome, as we observed on average. A recipient with a score of 1.0 corresponds to the median graft loss rate in the Swiss reference population of kidney transplant recipients.
 
 * The **Rank** is the percentile of the recipients' risk score in the reference population and is interpreted as the percentage of recipients with a lower or equal graft loss rate compared to the new recipient. The rank has a range from 0% to 100%, and the lower the score, the more favorable the outcome.
 
@@ -47,7 +47,7 @@ KIDMO was developed by Swisstransplant and the [Swiss Transplant Cohort Study (S
 :::
 
 ::: {.callout-note appearance="simple" collapse=false}
-The **hazard rate** is the frequency at which kidney transplants fail over time. The **reference population** included all deceased-donor kidney recipients at Swiss transplant centers between 2008 and 2021. The **median risk** scenario is the median of all kidney transplants between 2008 and 2021 and is defined by a donor age of 65 and a transplant year of 2015, with all other variables set to their reference levels. By default, the risk calculator is initialized with the reference values, except for the transplant year, which is set to the current year.
+The **graft loss rate** or **hazard rate** is the frequency at which kidney transplants fail over time. The **reference population** included all deceased-donor kidney recipients at Swiss transplant centers between 2008 and 2021. The **median risk** scenario is the median of all kidney transplants between 2008 and 2021 and is defined by a donor age of 65 and a transplant year of 2015, with all other variables set to their reference levels. By default, the risk calculator is initialized with the reference values, except for the transplant year, which is set to the current year.
 :::
 
 ## References
@@ -71,7 +71,7 @@ KIDMO was developed by Swisstransplant in collaboration with all six Swiss trans
 
 ![](../images/HUG.png){height=80 style="float:left; padding:16px"}
 ![](../images/Insel.png){height=80 style="float:left; padding:16px"}
-![](../images/KSSG.png){height=80 style="float:left; padding:16px"}
+![](../images/hoch.png){height=80 style="float:left; padding:16px"}
 
 ![](../images/USB.png){height=64 style="float:left; padding:16px"}
 ![](../images/USZ.png){height=64 style="padding:16px"}
