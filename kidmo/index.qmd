@@ -39,16 +39,20 @@ KIDMO was developed by Swisstransplant and the [Swiss Transplant Cohort Study (S
 * The **2-year risk and 5-year risk** are the cumulative incidences, i.e., the probability of graft loss at 2 and 5 years after transplant, respectively.
 
 ::: {.callout-tip title="Example" collapse=false}
-* An **KIDMO risk score** of 0.51 means the recipient may have a graft loss rate that is 0.51 times that of the median graft loss rate. In other words, the graft loss rate is reduced by 49%.
+* An **KIDMO risk score** of 0.50 means the recipient may have a graft loss rate that is 0.50 times that of the median graft loss rate. In other words, the graft loss rate is reduced by 50%.
 
-* A recipient's **Rank** of 10% indicates that 10% of recipients had an equal or lower graft loss rate in the Swiss population, while 90% had a higher rate.
+* A recipient's **Rank** of 9% indicates that 9% of recipients had an equal or lower graft loss rate in the Swiss population, while 91% had a higher rate.
 
 * A **2-year risk** of 0.02 and a **5-year risk** of 0.04 correspond to a 2% and 4% probability of graft loss within two and five years after transplantation, respectively. In other words, approximately 2 out of 100 recipients and 4 out of 100 recipients with similar clinical characteristics may experience kidney graft loss within the first two and five years, respectively.
 :::
 
 ::: {.callout-note appearance="simple" collapse=false}
-The **graft loss rate** or **hazard rate** is the frequency at which kidney transplants fail over time. The **reference population** included all deceased-donor kidney recipients at Swiss transplant centers between 2008 and 2021. The **median risk** scenario is the median of all kidney transplants between 2008 and 2021 and is defined by a donor age of 65 and a transplant year of 2015, with all other variables set to their reference levels. By default, the risk calculator is initialized with the reference values, except for the transplant year, which is set to the current year.
+The **graft loss rate** or **hazard rate** is the frequency at which kidney transplants fail over time. The **reference population** included all deceased-donor kidney recipients at Swiss transplant centers between 2008 and 2021. The **median risk** scenario is the median of all kidney transplants between 2008 and 2021 and is defined, for example, by a donor age of 66 and a transplant year of 2016, with all other variables set to their reference levels. By default, the risk calculator is initialized with the reference values, except for the transplant year, which is set to the current year.
 :::
+
+## Research applications
+
+The KIDMO risk calculator is part of the [Swisstransplant R package `swt`](https://data.swisstransplant.org/tools/#swisstransplant-r-package), which supports research and risk estimation in large transplant data sets.
 
 ## References
 
