@@ -190,10 +190,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#basic-statistics-software" id="toc-basic-statistics-software" class="nav-link active" data-scroll-target="#basic-statistics-software">Basic statistics software</a>
-  <ul class="collapse">
-  <li><a href="#additional-software" id="toc-additional-software" class="nav-link" data-scroll-target="#additional-software">Additional software</a></li>
-  </ul></li>
+  <li><a href="#statistics-software" id="toc-statistics-software" class="nav-link active" data-scroll-target="#statistics-software">Statistics software</a></li>
+  <li><a href="#development-software" id="toc-development-software" class="nav-link" data-scroll-target="#development-software">Development software</a></li>
   <li><a href="#swisstransplant-r-package" id="toc-swisstransplant-r-package" class="nav-link" data-scroll-target="#swisstransplant-r-package">Swisstransplant R package</a></li>
   <li><a href="#r-cookbook" id="toc-r-cookbook" class="nav-link" data-scroll-target="#r-cookbook">R Cookbook</a></li>
   </ul>
@@ -221,14 +219,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Below is a list of research software available for download that enables state-of-the-art data analysis at Swisstransplant.</p>
-<section id="basic-statistics-software" class="level2">
-<h2 class="anchored" data-anchor-id="basic-statistics-software">Basic statistics software</h2>
-<p>The basic statistics software supports statistical reporting for research projects and national organ donation and transplantation statistics. It also enables the development of analytical tools at Swisstransplant, including dashboards applications.</p>
+<p>Below is a list of software tools available for download to support data analysis and research activities at Swisstransplant.</p>
+<section id="statistics-software" class="level2">
+<h2 class="anchored" data-anchor-id="statistics-software">Statistics software</h2>
+<p>The statistics software supports statistical reporting for research projects and national organ donation and transplantation statistics. It also supports the development of analytical tools at Swisstransplant, including dashboard applications.</p>
 <ul>
 <li>The R Project for Statistical Computing <a href="https://stat.ethz.ch/CRAN/" class="uri">https://stat.ethz.ch/CRAN/</a></li>
-<li>RStudio Desktop <a href="https://posit.co/download/rstudio-desktop/" class="uri">https://posit.co/download/rstudio-desktop/</a></li>
 <li>Quarto <a href="https://quarto.org/docs/download/" class="uri">https://quarto.org/docs/download/</a></li>
+<li>RStudio Desktop <a href="https://docs.posit.co/ide/user/download.html" class="uri">https://docs.posit.co/ide/user/download.html</a></li>
 </ul>
 <div class="callout callout-style-simple callout-tip">
 <div class="callout-body d-flex">
@@ -236,38 +234,38 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <i class="callout-icon"></i>
 </div>
 <div class="callout-body-container">
-<p>The RStudio desktop installer for Windows 10 requires administrator rights. However, it is possible to download a zip bundle from the download page, unpack the files into a folder, for example, <code>software</code>, and create a shortcut with <code>rstudio.exe</code> on the desktop or the taskbar.</p>
+<p>Older versions of RStudio Desktop for Windows 11 required administrator privileges for installation. If needed, the ZIP archive version can be used without installation.</p>
 </div>
 </div>
 </div>
-<section id="additional-software" class="level3">
-<h3 class="anchored" data-anchor-id="additional-software">Additional software</h3>
-<p>Software for additonal tasks is listed below, for example, for updating this web portal on GitHub, or for R package building.</p>
+</section>
+<section id="development-software" class="level2">
+<h2 class="anchored" data-anchor-id="development-software">Development software</h2>
+<p>Additional software used for the development of this website and the <code>swt</code> R package is listed below; these tools are only required for users contributing to the website or developing the package.</p>
 <ul>
 <li>Git version control system <a href="https://git-scm.com/downloads" class="uri">https://git-scm.com/downloads</a></li>
-<li>RTools <a href="https://cran.r-project.org/bin/windows/Rtools/" class="uri">https://cran.r-project.org/bin/windows/Rtools/</a></li>
+<li>Pandoc <a href="https://pandoc.org/installing.html" class="uri">https://pandoc.org/installing.html</a></li>
 </ul>
-</section>
 </section>
 <section id="swisstransplant-r-package" class="level2">
 <h2 class="anchored" data-anchor-id="swisstransplant-r-package">Swisstransplant R package</h2>
 <p><img src="../images/hex-swt.png" style="float:right; padding:0px;height:2in"></p>
-<p>The Swisstransplant R package <code>swt</code> is the Swiss army knife for data analysis at Swisstransplant. It can be installed in R as follows:</p>
+<p>The Swisstransplant R package <code>swt</code> is the Swiss army knife for data analysis at Swisstransplant, providing a comprehensive collection of tools for data analysis, reporting, and research. It can be installed in R as follows:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"Swisstransplant/swt"</span>)</span></code></pre></div><button title="Copier vers le presse-papier" class="code-copy-button"><i class="bi"></i></button></div>
 <p>The package is under constant development and includes the following features:</p>
 <ul>
-<li>A Swisstransplant Quarto project template for documents and presentations</li>
-<li>The Swisstransplant color scheme <code>swt_colors()</code> and a ggplot2 style <code>swt_style()</code></li>
-<li>Tidy helper functions for descriptive statistics, missing data, regression models, and format <em>p</em>-values</li>
-<li>Calculators for KIDMO, eGFR, US and UK KDRI</li>
+<li>A Swisstransplant project template for Quarto documents and presentations</li>
+<li>The Swisstransplant color scheme and <code>ggplot2</code> style</li>
+<li>Helper functions for descriptive statistics, missing data analysis, regression modeling, and formatting <em>p</em>-values</li>
+<li>Calculators for the KIDMO risk score, eGFR, the US KDRI, and the UK KDRI</li>
 <li>Tools to read and process data from the LifePort kidney transporter</li>
-<li>HLA mismatch calculator designed for the antigens format as found in SOAS</li>
+<li>An HLA mismatch calculator for antigen data in the format used by SOAS</li>
 </ul>
-<p>The <a href="https://github.com/Swisstransplant/swt">source code is developed on GitHub</a>. There is a <a href="https://github.com/Swisstransplant/swt/blob/main/manual/swt.pdf">package manual</a>.</p>
+<p>The source code is available on <a href="https://github.com/Swisstransplant/swt">GitHub</a>. There is a <a href="https://github.com/Swisstransplant/swt/blob/main/manual/swt.pdf">package manual</a>.</p>
 </section>
 <section id="r-cookbook" class="level2">
 <h2 class="anchored" data-anchor-id="r-cookbook">R Cookbook</h2>
-<p>The <a href="https://swisstransplant.github.io/rcookbook/">R Cookbook</a> shows how to use the Swisstransplant R package <code>swt</code> to make high-quality reports and publication-ready graphics in our in-house style.</p>
+<p>The <a href="https://swisstransplant.github.io/rcookbook/">R Cookbook</a> provides practical examples demonstrating how to use the <code>swt</code> package to create high-quality reports and publication-ready graphics using the Swisstransplant style.</p>
 
 
 </section>

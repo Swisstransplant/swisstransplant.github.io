@@ -4,28 +4,35 @@
     "href": "tools/index.html",
     "title": "Research Tools",
     "section": "",
-    "text": "Below is a list of research software available for download that enables state-of-the-art data analysis at Swisstransplant."
+    "text": "Below is a list of software tools available for download to support data analysis and research activities at Swisstransplant."
   },
   {
-    "objectID": "tools/index.html#basic-statistics-software",
-    "href": "tools/index.html#basic-statistics-software",
+    "objectID": "tools/index.html#statistics-software",
+    "href": "tools/index.html#statistics-software",
     "title": "Research Tools",
-    "section": "Basic statistics software",
-    "text": "Basic statistics software\nThe basic statistics software supports statistical reporting for research projects and national organ donation and transplantation statistics. It also enables the development of analytical tools at Swisstransplant, including dashboards applications.\n\nThe R Project for Statistical Computing https://stat.ethz.ch/CRAN/\nRStudio Desktop https://posit.co/download/rstudio-desktop/\nQuarto https://quarto.org/docs/download/\n\n\n\n\n\n\n\nThe RStudio desktop installer for Windows 10 requires administrator rights. However, it is possible to download a zip bundle from the download page, unpack the files into a folder, for example, software, and create a shortcut with rstudio.exe on the desktop or the taskbar.\n\n\n\n\nAdditional software\nSoftware for additonal tasks is listed below, for example, for updating this web portal on GitHub, or for R package building.\n\nGit version control system https://git-scm.com/downloads\nRTools https://cran.r-project.org/bin/windows/Rtools/"
+    "section": "Statistics software",
+    "text": "Statistics software\nThe statistics software supports statistical reporting for research projects and national organ donation and transplantation statistics. It also supports the development of analytical tools at Swisstransplant, including dashboard applications.\n\nThe R Project for Statistical Computing https://stat.ethz.ch/CRAN/\nQuarto https://quarto.org/docs/download/\nRStudio Desktop https://docs.posit.co/ide/user/download.html\n\n\n\n\n\n\n\nOlder versions of RStudio Desktop for Windows 11 required administrator privileges for installation. If needed, the ZIP archive version can be used without installation."
+  },
+  {
+    "objectID": "tools/index.html#development-software",
+    "href": "tools/index.html#development-software",
+    "title": "Research Tools",
+    "section": "Development software",
+    "text": "Development software\nAdditional software used for the development of this website and the swt R package is listed below; these tools are only required for users contributing to the website or developing the package.\n\nGit version control system https://git-scm.com/downloads\nPandoc https://pandoc.org/installing.html"
   },
   {
     "objectID": "tools/index.html#swisstransplant-r-package",
     "href": "tools/index.html#swisstransplant-r-package",
     "title": "Research Tools",
     "section": "Swisstransplant R package",
-    "text": "Swisstransplant R package\n\nThe Swisstransplant R package swt is the Swiss army knife for data analysis at Swisstransplant. It can be installed in R as follows:\nremotes::install_github(\"Swisstransplant/swt\")\nThe package is under constant development and includes the following features:\n\nA Swisstransplant Quarto project template for documents and presentations\nThe Swisstransplant color scheme swt_colors() and a ggplot2 style swt_style()\nTidy helper functions for descriptive statistics, missing data, regression models, and format p-values\nCalculators for KIDMO, eGFR, US and UK KDRI\nTools to read and process data from the LifePort kidney transporter\nHLA mismatch calculator designed for the antigens format as found in SOAS\n\nThe source code is developed on GitHub. There is a package manual."
+    "text": "Swisstransplant R package\n\nThe Swisstransplant R package swt is the Swiss army knife for data analysis at Swisstransplant, providing a comprehensive collection of tools for data analysis, reporting, and research. It can be installed in R as follows:\nremotes::install_github(\"Swisstransplant/swt\")\nThe package is under constant development and includes the following features:\n\nA Swisstransplant project template for Quarto documents and presentations\nThe Swisstransplant color scheme and ggplot2 style\nHelper functions for descriptive statistics, missing data analysis, regression modeling, and formatting p-values\nCalculators for the KIDMO risk score, eGFR, the US KDRI, and the UK KDRI\nTools to read and process data from the LifePort kidney transporter\nAn HLA mismatch calculator for antigen data in the format used by SOAS\n\nThe source code is available on GitHub. There is a package manual."
   },
   {
     "objectID": "tools/index.html#r-cookbook",
     "href": "tools/index.html#r-cookbook",
     "title": "Research Tools",
     "section": "R Cookbook",
-    "text": "R Cookbook\nThe R Cookbook shows how to use the Swisstransplant R package swt to make high-quality reports and publication-ready graphics in our in-house style."
+    "text": "R Cookbook\nThe R Cookbook provides practical examples demonstrating how to use the swt package to create high-quality reports and publication-ready graphics using the Swisstransplant style."
   },
   {
     "objectID": "posts/WAIT/index.html",
