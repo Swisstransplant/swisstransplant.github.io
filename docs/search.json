@@ -396,28 +396,21 @@
     "href": "kidmo/index.html",
     "title": "KIDMO—Kidney prediction model",
     "section": "",
-    "text": "KIDMO (Kidney prediction model) is a clinical risk prediction tool designed to estimate the risk of graft loss in deceased-donor kidney transplantation. It provides individualized absolute risk estimates at 2 and 5 years using a small set of routinely available donor and recipient characteristics. Unlike many existing scores, KIDMO specifically predicts graft loss while appropriately accounting for death as a competing risk, making its predictions more clinically relevant at the time of organ offer."
+    "text": "KIDMO (Kidney prediction model) is designed to estimate the risk of graft loss in deceased-donor kidney transplantation. It provides individualized absolute risk estimates at 2 and 5 years using a small set of routinely available donor and recipient characteristics."
   },
   {
     "objectID": "kidmo/index.html#what-is-kidmo",
     "href": "kidmo/index.html#what-is-kidmo",
     "title": "KIDMO—Kidney prediction model",
     "section": "",
-    "text": "KIDMO (Kidney prediction model) is a clinical risk prediction tool designed to estimate the risk of graft loss in deceased-donor kidney transplantation. It provides individualized absolute risk estimates at 2 and 5 years using a small set of routinely available donor and recipient characteristics. Unlike many existing scores, KIDMO specifically predicts graft loss while appropriately accounting for death as a competing risk, making its predictions more clinically relevant at the time of organ offer."
+    "text": "KIDMO (Kidney prediction model) is designed to estimate the risk of graft loss in deceased-donor kidney transplantation. It provides individualized absolute risk estimates at 2 and 5 years using a small set of routinely available donor and recipient characteristics."
   },
   {
     "objectID": "kidmo/index.html#why-is-kidmo-useful",
     "href": "kidmo/index.html#why-is-kidmo-useful",
     "title": "KIDMO—Kidney prediction model",
     "section": "Why is KIDMO useful?",
-    "text": "Why is KIDMO useful?\nKIDMO provides individualized estimates of post-transplant graft-loss risk that may inform organ acceptance discussions. This helps transplant teams and patients weigh the benefits and risks of accepting a specific kidney, enabling more informed and shared decisions. By focusing on absolute risk rather than relative scores, and by separating graft loss from mortality, KIDMO offers improved clinical utility compared to existing tools.\nMore details about the KIDMO study can be found in the published study protocol."
-  },
-  {
-    "objectID": "kidmo/index.html#who-created-kidmo",
-    "href": "kidmo/index.html#who-created-kidmo",
-    "title": "KIDMO—Kidney prediction model",
-    "section": "Who created KIDMO?",
-    "text": "Who created KIDMO?\nKIDMO was developed by Swisstransplant and the Swiss Transplant Cohort Study (STCS), with an interdisciplinary team of statisticians, researchers, patient representatives, and clinicians from all six Swiss kidney transplant centers."
+    "text": "Why is KIDMO useful?\nKIDMO provides individualized estimates of post-transplant graft-loss risk. Unlike many existing scores, KIDMO specifically predicts graft loss while appropriately accounting for death as a competing risk. This may help transplant organizations to better understand the risk associated with accepted kidney offers.\nMore details about the KIDMO study can be found in the published study protocol.\n\n\n\n\n\n\nKIDMO is not an authorized medical device and must not be used for clinical decision-making, including organ acceptance or decline decisions. The tool is currently under development and intended for research and teaching purposes only."
   },
   {
     "objectID": "kidmo/index.html#risk-calculator",
@@ -431,35 +424,35 @@
     "href": "kidmo/index.html#interpretation",
     "title": "KIDMO—Kidney prediction model",
     "section": "Interpretation",
-    "text": "Interpretation\n\nThe KIDMO risk score is a ratio of the recipient’s relative rate of graft loss compared with the median recipient in the Swiss reference population from 2008 to 2021. So, a score &gt; 1 indicates a higher graft loss rate, and an score &lt; 1 indicates lower rate and a more favorable outcome, as we observed on average. A recipient with a score of 1.0 corresponds to the median graft loss rate in the Swiss reference population of kidney transplant recipients.\nThe Rank is the percentile of the recipients’ risk score in the reference population and is interpreted as the percentage of recipients with a lower or equal graft loss rate compared to the new recipient. The rank has a range from 0% to 100%, and the lower the score, the more favorable the outcome.\nThe 2-year risk and 5-year risk are the cumulative incidences, i.e., the probability of graft loss at 2 and 5 years after transplant, respectively.\n\n\n\n\n\n\n\nTipExample\n\n\n\n\n\n\nAn KIDMO risk score of 0.50 means the recipient may have a graft loss rate that is 0.50 times that of the median graft loss rate. In other words, the graft loss rate is reduced by 50%.\nA recipient’s Rank of 9% indicates that 9% of recipients had an equal or lower graft loss rate in the Swiss population, while 91% had a higher rate.\nA 2-year risk of 0.02 and a 5-year risk of 0.04 correspond to a 2% and 4% probability of graft loss within two and five years after transplantation, respectively. In other words, approximately 2 out of 100 recipients and 4 out of 100 recipients with similar clinical characteristics may experience kidney graft loss within the first two and five years, respectively.\n\n\n\n\n\n\n\n\n\n\nThe graft loss rate or hazard rate is the frequency at which kidney transplants fail over time. The reference population included all deceased-donor kidney recipients at Swiss transplant centers between 2008 and 2021. The median risk scenario is the median of all kidney transplants between 2008 and 2021 and is defined, for example, by a donor age of 66 and a transplant year of 2016, with all other variables set to their reference levels. By default, the risk calculator is initialized with the reference values, except for the transplant year, which is set to the current year."
+    "text": "Interpretation\n\nThe KIDMO risk score is a ratio of the recipient’s relative rate of graft loss compared with the median recipient in the Swiss reference population from 2008 to 2021. So, a score &gt; 1 indicates a higher graft loss rate, and a score &lt; 1 indicates lower rate and a more favorable outcome, as we observed on average. A recipient with a score of 1.0 corresponds to the median graft loss rate in the Swiss reference population of kidney transplant recipients.\nThe Rank is the percentile of the recipients’ risk score in the reference population and is interpreted as the percentage of recipients with a lower or equal graft loss rate compared to the new recipient. The rank has a range from 0% to 100%, and the lower the score, the more favorable the outcome.\nThe 2-year risk and 5-year risk are the cumulative incidences, i.e., the probability of graft loss at 2 and 5 years after transplant, respectively.\n\n\n\n\n\n\n\nTipExample\n\n\n\n\n\n\nAn KIDMO risk score of 0.50 means the recipient may have a graft loss rate that is 0.50 times that of the median graft loss rate.\nA recipient’s Rank of 9% indicates that 9% of recipients had an equal or lower graft loss rate in the Swiss population, while 91% had a higher rate.\nA 2-year risk of 0.02 and a 5-year risk of 0.04 correspond to a 2% and 4% probability of graft loss within two and five years after transplantation, respectively. In other words, approximately 2 out of 100 recipients and 4 out of 100 recipients with similar clinical characteristics may experience kidney graft loss within the first two and five years, respectively.\n\n\n\n\n\n\n\n\n\n\nThe graft loss rate or hazard rate is the frequency at which kidney transplants fail over time. The reference population included all deceased-donor kidney recipients at Swiss transplant centers between 2008 and 2021. The median risk scenario is the median of all kidney transplants between 2008 and 2021 and is defined, for example, by a donor age of 66 and a transplant year of 2016, with all other variables set to their reference levels. By default, the risk calculator is initialized with the reference values, except for the transplant year, which is set to the current year."
   },
   {
     "objectID": "kidmo/index.html#research-applications",
     "href": "kidmo/index.html#research-applications",
     "title": "KIDMO—Kidney prediction model",
     "section": "Research applications",
-    "text": "Research applications\nThe KIDMO risk calculator is part of the Swisstransplant R package swt, which supports research and risk estimation in large transplant data sets."
+    "text": "Research applications\nThe KIDMO risk calculator is implemented in the Swisstransplant R package swt, which supports research and risk estimation in large transplant datasets."
   },
   {
     "objectID": "kidmo/index.html#references",
     "href": "kidmo/index.html#references",
     "title": "KIDMO—Kidney prediction model",
     "section": "References",
-    "text": "References\nSchwab S, Sidler D, Haidar F, et al. Clinical prediction model for prognosis in kidney transplant recipients (KIDMO): study protocol. Diagn Progn Res. 2023;7(1):6. doi:10.1186/s41512-022-00139-5"
+    "text": "References\n\n\n\n\n\n\nPlease cite the following work when using the KIDMO risk score in your research.\n\n\n\nSchwab S, Sidler D, Haidar F, et al. Clinical prediction model for prognosis in kidney transplant recipients (KIDMO): study protocol. Diagn Progn Res. 2023;7(1):6. doi:10.1186/s41512-022-00139-5"
   },
   {
     "objectID": "kidmo/index.html#terms-of-use",
     "href": "kidmo/index.html#terms-of-use",
     "title": "KIDMO—Kidney prediction model",
     "section": "Terms of use",
-    "text": "Terms of use\nKIDMO is currently under development and intended for research purposes only. It has not yet undergone peer review, and the tool should not be used for clinical decision-making.\n\n\n\n\n\n\nThe KIDMO risk calculator (hereinafter referred to as “program”) comes with ABSOLUTELY NO WARRANTY and LIMITATION OF LIABILITY. The program is currently under development and FOR RESEARCH PURPOSES ONLY; this program must not be used in clinical practice, including, but not limited to, clinical decision making. This program is provided WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose. In no event, unless required by applicable law, will any copyright holder, or any other party who uses this program, be liable for damages, including any general, special, incidental, or consequential damages arising out of the use or inability to use this program."
+    "text": "Terms of use\n\n\n\n\n\n\nThe KIDMO risk calculator (hereinafter referred to as “program”) comes with ABSOLUTELY NO WARRANTY and LIMITATION OF LIABILITY. The program is currently under development and FOR RESEARCH PURPOSES ONLY; this program must not be used in clinical practice, including, but not limited to, clinical decision making. This program is provided WITHOUT ANY WARRANTY; without even the implied warranty of merchantability or fitness for a particular purpose. In no event, unless required by applicable law, will any copyright holder, or any other party who uses this program, be liable for damages, including any general, special, incidental, or consequential damages arising out of the use or inability to use this program."
   },
   {
     "objectID": "kidmo/index.html#acknowledgments",
     "href": "kidmo/index.html#acknowledgments",
     "title": "KIDMO—Kidney prediction model",
     "section": "Acknowledgments",
-    "text": "Acknowledgments\nKIDMO was developed by Swisstransplant in collaboration with all six Swiss transplant centers. Kidney transplant recipients were involved in the development of KIDMO."
+    "text": "Acknowledgments\nKIDMO was developed by Swisstransplant in collaboration with the Swiss Transplant Cohort Study (STCS) and all six Swiss transplant centers. Patient representatives were involved in the development of KIDMO."
   },
   {
     "objectID": "posts/2024/index.html",

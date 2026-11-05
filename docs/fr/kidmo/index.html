@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="KIDMO—Kidney prediction model – Swisstransplant Data">
-<meta property="og:description" content="A risk calculator for graft loss in deceased-donor kidney transplantation in Switzerland.">
+<meta property="og:description" content="A research tool to study graft loss risk in deceased-donor kidney transplantation in Switzerland.">
 <meta property="og:image" content="https://data.swisstransplant.org/shared_decision.jpg">
 <meta property="og:site_name" content="Swisstransplant Data">
 </head>
@@ -157,7 +157,6 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#what-is-kidmo" id="toc-what-is-kidmo" class="nav-link active" data-scroll-target="#what-is-kidmo">What is KIDMO?</a></li>
   <li><a href="#why-is-kidmo-useful" id="toc-why-is-kidmo-useful" class="nav-link" data-scroll-target="#why-is-kidmo-useful">Why is KIDMO useful?</a></li>
-  <li><a href="#who-created-kidmo" id="toc-who-created-kidmo" class="nav-link" data-scroll-target="#who-created-kidmo">Who created KIDMO?</a></li>
   <li><a href="#risk-calculator" id="toc-risk-calculator" class="nav-link" data-scroll-target="#risk-calculator">Risk calculator</a></li>
   <li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation">Interpretation</a></li>
   <li><a href="#research-applications" id="toc-research-applications" class="nav-link" data-scroll-target="#research-applications">Research applications</a></li>
@@ -173,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">KIDMO—Kidney prediction model</h1>
-<p class="subtitle lead">A risk calculator for graft loss in deceased-donor kidney transplantation in Switzerland.</p>
+<p class="subtitle lead">A research tool to study graft loss risk in deceased-donor kidney transplantation in Switzerland.</p>
 </div>
 
 
@@ -197,7 +196,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">November 4, 2026</p>
+      <p class="date-modified">November 5, 2026</p>
     </div>
   </div>
     
@@ -210,16 +209,22 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="what-is-kidmo" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-kidmo">What is KIDMO?</h2>
-<p>KIDMO (Kidney prediction model) is a clinical risk prediction tool designed to estimate the risk of graft loss in deceased-donor kidney transplantation. It provides individualized absolute risk estimates at 2 and 5 years using a small set of routinely available donor and recipient characteristics. Unlike many existing scores, KIDMO specifically predicts graft loss while appropriately accounting for death as a competing risk, making its predictions more clinically relevant at the time of organ offer.</p>
+<p>KIDMO (Kidney prediction model) is designed to estimate the risk of graft loss in deceased-donor kidney transplantation. It provides individualized absolute risk estimates at 2 and 5 years using a small set of routinely available donor and recipient characteristics.</p>
 </section>
 <section id="why-is-kidmo-useful" class="level2">
 <h2 class="anchored" data-anchor-id="why-is-kidmo-useful">Why is KIDMO useful?</h2>
-<p>KIDMO provides individualized estimates of post-transplant graft-loss risk that may inform organ acceptance discussions. This helps transplant teams and patients weigh the benefits and risks of accepting a specific kidney, enabling more informed and shared decisions. By focusing on absolute risk rather than relative scores, and by separating graft loss from mortality, KIDMO offers improved clinical utility compared to existing tools.</p>
+<p>KIDMO provides individualized estimates of post-transplant graft-loss risk. Unlike many existing scores, KIDMO specifically predicts graft loss while appropriately accounting for death as a competing risk. This may help transplant organizations to better understand the risk associated with accepted kidney offers.</p>
 <p>More details about the KIDMO study can be found in the published <a href="https://doi.org/10.1186/s41512-022-00139-5">study protocol</a>.</p>
-</section>
-<section id="who-created-kidmo" class="level2">
-<h2 class="anchored" data-anchor-id="who-created-kidmo">Who created KIDMO?</h2>
-<p>KIDMO was developed by Swisstransplant and the <a href="https://www.stcs.ch/">Swiss Transplant Cohort Study (STCS)</a>, with an interdisciplinary team of statisticians, researchers, patient representatives, and clinicians from all six Swiss kidney transplant centers.</p>
+<div class="callout callout-style-simple callout-important">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>KIDMO is not an authorized medical device and must not be used for clinical decision-making, including organ acceptance or decline decisions. The tool is currently under development and intended for research and teaching purposes only.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="risk-calculator" class="level2">
 <h2 class="anchored" data-anchor-id="risk-calculator">Risk calculator</h2>
@@ -228,7 +233,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="interpretation" class="level2">
 <h2 class="anchored" data-anchor-id="interpretation">Interpretation</h2>
 <ul>
-<li><p>The <strong>KIDMO risk score</strong> is a ratio of the recipient’s relative rate of graft loss compared with the median recipient in the Swiss reference population from 2008 to 2021. So, a score &gt; 1 indicates a higher graft loss rate, and an score &lt; 1 indicates lower rate and a more favorable outcome, as we observed on average. A recipient with a score of 1.0 corresponds to the median graft loss rate in the Swiss reference population of kidney transplant recipients.</p></li>
+<li><p>The <strong>KIDMO risk score</strong> is a ratio of the recipient’s relative rate of graft loss compared with the median recipient in the Swiss reference population from 2008 to 2021. So, a score &gt; 1 indicates a higher graft loss rate, and a score &lt; 1 indicates lower rate and a more favorable outcome, as we observed on average. A recipient with a score of 1.0 corresponds to the median graft loss rate in the Swiss reference population of kidney transplant recipients.</p></li>
 <li><p>The <strong>Rank</strong> is the percentile of the recipients’ risk score in the reference population and is interpreted as the percentage of recipients with a lower or equal graft loss rate compared to the new recipient. The rank has a range from 0% to 100%, and the lower the score, the more favorable the outcome.</p></li>
 <li><p>The <strong>2-year risk and 5-year risk</strong> are the cumulative incidences, i.e., the probability of graft loss at 2 and 5 years after transplant, respectively.</p></li>
 </ul>
@@ -245,7 +250,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="callout-1" class="callout-1-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
 <ul>
-<li><p>An <strong>KIDMO risk score</strong> of 0.50 means the recipient may have a graft loss rate that is 0.50 times that of the median graft loss rate. In other words, the graft loss rate is reduced by 50%.</p></li>
+<li><p>An <strong>KIDMO risk score</strong> of 0.50 means the recipient may have a graft loss rate that is 0.50 times that of the median graft loss rate.</p></li>
 <li><p>A recipient’s <strong>Rank</strong> of 9% indicates that 9% of recipients had an equal or lower graft loss rate in the Swiss population, while 91% had a higher rate.</p></li>
 <li><p>A <strong>2-year risk</strong> of 0.02 and a <strong>5-year risk</strong> of 0.04 correspond to a 2% and 4% probability of graft loss within two and five years after transplantation, respectively. In other words, approximately 2 out of 100 recipients and 4 out of 100 recipients with similar clinical characteristics may experience kidney graft loss within the first two and five years, respectively.</p></li>
 </ul>
@@ -265,16 +270,25 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="research-applications" class="level2">
 <h2 class="anchored" data-anchor-id="research-applications">Research applications</h2>
-<p>The KIDMO risk calculator is part of the <a href="https://data.swisstransplant.org/tools/#swisstransplant-r-package">Swisstransplant R package <code>swt</code></a>, which supports research and risk estimation in large transplant data sets.</p>
+<p>The KIDMO risk calculator is implemented in the <a href="https://data.swisstransplant.org/tools/#swisstransplant-r-package">Swisstransplant R package <code>swt</code></a>, which supports research and risk estimation in large transplant datasets.</p>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Please cite the following work when using the KIDMO risk score in your research.</p>
+</div>
+</div>
+</div>
 <p>Schwab S, Sidler D, Haidar F, et al.&nbsp;Clinical prediction model for prognosis in kidney transplant recipients (KIDMO): study protocol. <em>Diagn Progn Res.</em> 2023;7(1):6. <a href="https://doi.org/10.1186/s41512-022-00139-5">doi:10.1186/s41512-022-00139-5</a></p>
 </section>
 <section id="terms-of-use" class="level2">
 <h2 class="anchored" data-anchor-id="terms-of-use">Terms of use</h2>
-<p>KIDMO is currently under development and intended for research purposes only. It has not yet undergone peer review, and the tool should not be used for clinical decision-making.</p>
-<div class="callout callout-style-simple callout-important">
+<div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -287,7 +301,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="acknowledgments" class="level2">
 <h2 class="anchored" data-anchor-id="acknowledgments">Acknowledgments</h2>
-<p>KIDMO was developed by Swisstransplant in collaboration with all six Swiss transplant centers. Kidney transplant recipients were involved in the development of KIDMO.</p>
+<p>KIDMO was developed by Swisstransplant in collaboration with the <a href="https://www.stcs.ch/">Swiss Transplant Cohort Study (STCS)</a> and all six Swiss transplant centers. Patient representatives were involved in the development of KIDMO.</p>
 <p><img src="../images/SWT_2955_2021.png" style="float:left; padding:16px" height="80"> <img src="../images/CHUV-Centre-hospitalier-universitaire-vaudois_ng_image_full.png" style="float:left; padding:16px" height="80"></p>
 <p><img src="../images/HUG.png" style="float:left; padding:16px" height="80"> <img src="../images/Insel.png" style="float:left; padding:16px" height="80"> <img src="../images/hoch.png" style="float:left; padding:16px" height="80"></p>
 <p><img src="../images/USB.png" style="float:left; padding:16px" height="64"> <img src="../images/USZ.png" style="padding:16px" height="64"></p>
