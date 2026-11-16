@@ -73,11 +73,11 @@ The KIDMO risk calculator (hereinafter referred to as "program") comes with ABSO
 KIDMO was developed by Swisstransplant in collaboration with the [Swiss Transplant Cohort Study (STCS)](https://www.stcs.ch/) and all six Swiss transplant centers. Patient representatives were involved in the development of KIDMO.
 
 ![](../images/SWT_2955_2021.png){height=80 style="float:left; padding:16px"}
-![](../images/CHUV-Centre-hospitalier-universitaire-vaudois_ng_image_full.png){height=80 style="float:left; padding:16px"}
+![](../images/chuv.png){height=80 style="float:left; padding:16px"}
 
 ![](../images/HUG.png){height=80 style="float:left; padding:16px"}
 ![](../images/Insel.png){height=80 style="float:left; padding:16px"}
-![](../images/hoch.png){height=80 style="float:left; padding:16px"}
+![](../images/hoch.png){height=64 style="float:left; padding:16px"}
 
 ![](../images/USB.png){height=64 style="float:left; padding:16px"}
 ![](../images/USZ.png){height=64 style="padding:16px"}
