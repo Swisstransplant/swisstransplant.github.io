@@ -1,38 +1,38 @@
-# Swisstransplant Data Science Website
+# Swisstransplant Data Website
 
-Landing page for Swisstransplant Data Science.
+Landing page for Swisstransplant Data.
 
-## Rendering the website with Quarto
+## 1. Render the Website in both Languages
 
 > [!TIP]
 > Before rendering, it may be a good idea to temporarily pause OneDrive synchronization. The reason is that during rendering, a lot of temporary files are being created and deleted, which can cause problems. 
 
-### 1. Rendering
-
-First, we need to render all profiles. It is important to first render the German version.
+> [!WARNING]
+> It is important to first render the German version.
 
 ```
 quarto render --profile de
 quarto render --profile fr
 ```
-    
-The preview option can also be used to render and display the page. Don't preview the website in case you have drafts because preview will render them.
+
+> [!TIP]
+> The preview option can also be used to render and display the page.
 
 ```
 quarto preview --profile de
 ```
 
-### 2. Multilanguage support
+## 2. Multilanguage support
 
-We run the post-processing script, which translates the document titles.
+We run the post-processing script, which translates the document titles for French.
 
 ```
 Multilanguage.qmd
 ```
     
-### 3. Upload the project to GitHub
+### 3. Publish the website
 
-Let's review all changes.
+First, let's review all changes.
 
 ```
 git status
