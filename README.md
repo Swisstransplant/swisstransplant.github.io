@@ -36,7 +36,10 @@ Let's review all changes.
 
 ```
 git status
-``` 
+```
+
+> [!CAUTION]
+> Always check git status to ensure no unintended or sensitive files are being committed.
 
 If all is fine, commit all changes and push a new version of the website.
 
